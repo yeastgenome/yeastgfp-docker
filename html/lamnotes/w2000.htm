@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Windows 2000 Server Install</title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Windows 2000 Server Install</u></h2></center>
+
+<i>F. Lam - 6/23/2002</i><p>
+
+<i>(Successful on PIII 1 Ghz / 640 Mb / Voodoo3 / 6 Gb HD).</i>
+
+<p>Server configuration consists of:<ul>
+	<li>Internet Information Server (IIS) 5.0
+	<li>Certificate Server 2.0 (digital certificates for SSL)
+	<li>OpenSSH (for encrypted ssh/sftp/scp remote access)
+</ul>
+<ol>
+
+<p><b><u>Windows 2000 Install</u></b>
+	<li>Boot into the (text) installer from the CD.
+	<li>Create 2 partitions of equal size.
+	<li>Install on the lower partition (eg., C:) and format as <b>NTFS</b>.
+	<li>When the installer becomes graphical and you arrive at the server components to install, check off <b>Certificate Services</b> (unchecked by default).
+	<li>Expand <b>Internet Information Services</b> and uncheck <b>SMTP</b> server since we won't be needing mail services.  You can leave the other options as is, or uncheck some unnecessary options like Games and Accessibility if you want to save some disk space.
+	<li>Licensing is <b>per seat</b>.
+	<li>Give the machine the Windows name <b>PATHCORE</b>, and it is presumably NOT on a domain.
+	<li>Wait for the installation to complete and reboot.
+	<li>Check Control Panels > System to make sure <b>Windows 2000 Service Pack 2</b> is installed.  If not, install it.
+
+
+<p><b><u>Certificate Services Setup</u></b>
+
+<li>After reboot, you should eventually arrive at a Certificate Services Setup wizard.  Configure as a <b>stand-alone root CA</b>.
+
+<li>Hit the <b>Advanced...</b> button and specify a key length of <b>2048</b>.  Leave other options (cryptographic provider, etc.) as default.
+
+<li>For the certificate authority (CA) name, specify <b>Pathology Core Facilities</b> (i used "pathcoreCA").
+
+
+<p><b><u>IIS Certificate Request</u></b><br>(Based on <a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q299525">Microsoft knowledge-base Q299525</a>)
+	<li>Start > Programs > Administrative Tools > Internet Service Manager (ISM).
+	<li>Expand pathcore > Default web site.  Right-click to Properties.
+	<li>On the Web Site tab, rename Default web site also to <b>pathcore</b>.
+	<li>Click the Home Directory tab, then click <b>Configuration...</b>, then click the App Debugging tab.  Under Debugging Flags, make sure all "...script debugging" options are <b>unchecked</b>.  Under Script Error Messages, select <b>Send text error message to client</b>.  OK everything and go back to pathcore Properties.
+	<li>Click the Directory Security tab, then click <b>Server Certificate</b> to start the Web Server Certificate Wizard.
+	<li>Click Next to start the wizard, and select <b>Create a new certificate</b>.
+	<li>Click Next and select <b>Prepare the request now, but send it later</b>.
+	<li>Click Next and give your certificate a name (you may want to match it with the name of the Web site).
+	<li>Select a bit length, at least <b>2048 bits</b>.  The higher the bit length, the stronger the certificate encryption.  (Select Server Gated Cryptography if your users may be coming from countries with encryption restrictions.)
+	<li>Click Next and for Organizational Unit type <b>Dept. of Pathology</b>, and for Organization type <b>Harvard Medical School</b>.
+	<li>Click Next and for common name, type <b>pathcore.med.harvard.edu</b> (i used "pathcore" for my home test machine).  This common name must match the fully qualified domain name of the server as listed in DNS.  For example, if the URL is https://www.mydomain.com/securedir, then the common name must be www.mydomain.com.
+	<li>Click Next and type your country, state, and city or locality.  Type the full name of your state here; do not abbreviate.
+	<li>Click Next and select a location and file name to save your request to (default C: is fine).
+	<li>Click Next twice, and then click Finish to close the wizard.
+
+	
+<p><b><u>Generate Self-Signed Digital Certificate</u></b>
+	<li>Start > Programs > Administrative Tools > Certification Authority.
+	<li>Right-click on Pathology Core Facilities or pathcoreCA (whatever you called the CA) and select Properties.
+	<li>Under the <b>Policy Module</b> tab, hit <b>Configure...</b>, and select <b>always issue the certificate</b>.
+	<li>Apply changes, and quit Certification Authority.
+	<li>Open IE, browse to <b>http://pathcore(.med.harvard.edu)/CertSrv</b>, and select <b>Request a certificate</b>.  NOTE: Do not use "localhost" as the server name.  If you browse from the Certificate Server computer, use the computer name instead.
+	<li>Click Next and select <b>Advanced request</b>.
+	<li>Click Next and select <b>Submit a certificate request using a base64 encoded PKCS #10 file or a renewal request using a base64 encoded PKCS #7 file</b>.  Click Next.
+	<li>Open the request file that you saved from the Web Certificate Wizard in <b>Notepad</b> (file probably at C:\certreq.txt).  Copy and paste the entire text of the file, including the BEGIN and END lines, into the <b>Base64 Encoded Certificate Request</b> text box.
+	<li>Click Submit.  Because we set the CA to automatically issue certificates, you should be presented with a download screen.
+	<li>Select <b>DER encoded</b> and then click <b>Download CA Certificate</b> link (NOT Download CA Certificate Path).  Save the certificate file to the Web server's Desktop, and close your Web browser.
+	<li>For security purposes, turn off Certification Authority <b>(stop button)</b> now that we have our certificate.
+	<li>Furthermore, disable automatic startup of Certification Authority on boot: Start > Programs > Administrative Tools > Services.  Right-click on <b>Certificate Services</b> and select Properties.  Under the <b>General</b> tab, select Startup type to be <b>Manual</b>.
+
+
+<p><b><u>Enable SSL In IIS</u></b>
+	<li>Go back to ISM.  Select the pathcore web site in the expanded pathcore tree, and stop and restart the web server.
+	<li>Right-click the pathcore web site and select Properties.
+	<li>Click the Directory Security tab, then click <b>Server Certificate</b>.
+	<li>Click Next and select <b>Process the pending request and install the certificate</b>.
+	<li>Click Next and enter the path and file name of the certificate that you saved in the last section on the Desktop.<br>(I had a problem where the wizard didn't accept the certificate.  Saving it on the Desktop and/or having renamed the web site to "pathcore" seemed to fix the problem).
+	<li>Click Next twice, and then click Finish to complete the wizard.
+	<li>Click the Web Site tab, and make sure that the SSL Port text box is populated with the port you would like SSL to run on. The default (and recommended) port is 443.
+	<li>Click OK to close the Web site Properties dialog box.
+	<li>Restart the web server for safe measure.
+	<li>SSL should now be enabled.  Test the setup by connecting to the Web site's home page by using <b>https://</b> instead of http.  You have a valid connection if the page comes up and a small lock appears in the status bar in the lower right-hand corner of the browser. 
+
+
+<p><b><u>sftp Install</u></b>
+	<li>Get the latest OpenSSH for Windows package from <a href="http://www.networksimplicity.com/openssh/">Network Simplicity</a>.  Keep in mind that this software is all command line based.  There will be no graphical programs accessible via the Windows desktop.
+	<li>Unzip and run <b>setup.exe</b> to install both the client and server components.  Accept all defaults.
+	<li>Start > Programs > Accessories > Command Prompt.
+	<li>Set up your passwd file for local user "administrator".  This user must already be a Windows user and have a Windows profile since OpenSSH authenticates with the Windows password.
+<pre><font size=+1>
+cd \program files\networksimplicity\ssh
+	(or to whatever you chose as your install directory)
+mkpasswd -l -u administrator >> ..\etc\passwd
+mkgroup -l >> ..\etc\group
+</pre></font>
+	<li>Reboot the server.
+	<li>The <b>sshd.exe</b> service should start automatically.  You can check that it is running by looking under Processes in the Task Manager.
+	<li>Test the secure connection from another machine with an ssh/sftp client:
+<pre><font size=+1>
+sftp administrator@pathcore.med.harvard.edu
+</pre></font>
+</ol>
+
+
+<b><u>Notes</u>:</b>
+<ul>
+<li>To get to the web server directory from sftp:
+<pre><font size=+1>
+cd /inetpub/wwwroot
+</pre></font>
+<li>To get to another Windows drive with sftp or scp, you have to use cygdrive notation:
+<pre><font size=+1>
+cd "/cygdrive/d/pathology cores database"
+</pre></font>
+
+</ul>
+</body>
+</html>

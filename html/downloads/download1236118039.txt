@@ -1,0 +1,2 @@
+yORF	gene name	GFP tagged?	GFP visualized?	
+YDL126C	CDC48	tagged	visualized	

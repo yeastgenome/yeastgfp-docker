@@ -1,0 +1,66 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>ipchains config</u></h2></center>
+
+<i>L. Gerke - 1/2003</i><p>
+
+<i>(Successful with Red Hat 7.3).</i><br>
+<i>This file is called /etc/sysconfig/ipchains</i>
+<p><u>One used on pho (secureish)</u>:
+
+<pre><font size=+1>
+# Firewall configuration written by lokkit
+# Manual customization of this file is not recommended.
+# Note: ifup-post will punch the current nameservers through the
+#       firewall; such entries will *not* be listed here.
+:input ACCEPT
+:forward ACCEPT
+:output ACCEPT
+-A input -s 0/0 -d 0/0 443 -p tcp -y -j ACCEPT # ssl
+#ntp added -- LCG
+-A input -s 0/0 -d 0/0 123 -p udp -j ACCEPT
+-A input -s 0/0 -d 0/0 80 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 21 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 22 -p tcp -y -j ACCEPT
+#added these for vnc -- LCG
+-A input -s 0/0 -d 0/0 5901 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 5902 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 5903 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 5904 -p tcp -y -j ACCEPT
+#end VNC LCG
+-A input -s 0/0 -d 0/0 -i lo -j ACCEPT
+-A input -s 128.218.254.10 53 -d 0/0 -p udp -j ACCEPT
+-A input -s 128.218.254.40 53 -d 0/0 -p udp -j ACCEPT
+-A input -s 0/0 -d 0/0 -p tcp -y -j REJECT
+-A input -s 0/0 -d 0/0 -p udp -j REJECT
+</pre></font>
+
+
+<p><u>One used on lcgerke</u>:
+
+<pre><font size=+1>
+# Firewall configuration written by lokkit
+# Manual customization of this file is not recommended.
+# Note: ifup-post will punch the current nameservers through the
+#       firewall; such entries will *not* be listed here.
+:input ACCEPT
+:forward ACCEPT
+:output ACCEPT
+-A input -s 0/0 -d 0/0 25 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 80 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 22 -p tcp -y -j ACCEPT
+-A input -s 0/0 -d 0/0 -i lo -j ACCEPT
+-A input -s 0/0 -d 0/0 -i eth0 -j ACCEPT
+-A input -s 128.218.254.10 53 -d 0/0 -p udp -j ACCEPT
+-A input -s 128.218.254.40 53 -d 0/0 -p udp -j ACCEPT
+-A input -s 0/0 -d 0/0 -p tcp -y -j REJECT
+-A input -s 0/0 -d 0/0 -p udp -j REJECT
+</pre></font>
+
+
+
+</body>
+</html>

@@ -1,0 +1,4156 @@
+orfid	yORF	gene name	GFP tagged?	GFP visualized?	abundance	error	
+6067	YOR332W	VMA4	tagged	visualized	16100	NA	
+415	YOR335C	ALA1	tagged	visualized	33800	5740.0	
+1998	YOL069W	NUF2	tagged	visualized	1550	NA	
+1688	YGL119W	ABC1	tagged	visualized	952	NA	
+2065	YOL059W	GPD2	tagged	visualized	8970	NA	
+5245	YIL173W	VTH1	tagged	visualized	319	NA	
+2370	YPR025C	CCL1	tagged	visualized	8700	1500.0	
+3935	YDR248C		tagged	visualized	504	NA	
+285	YJR091C	JSN1	tagged	visualized	784	NA	
+1883	YKL145W	RPT1	tagged	visualized	105	NA	
+3037	YDR288W		tagged	visualized	2540	NA	
+2762	YPL031C	PHO85	tagged	visualized	6160	NA	
+905	YIL108W		tagged	visualized	195	NA	
+5792	YOR212W	STE4	tagged	visualized	2050	NA	
+481	YDR006C	SOK1	tagged	visualized	not visualized	NA	
+1558	YGL122C	NAB2	tagged	visualized	9670	2200.0	
+6132	YLR292C	SEC72	tagged	visualized	5290	NA	
+1393	YLR134W	PDC5	tagged	visualized	471000	NA	
+3713	YGL135W	RPL1B	tagged	visualized	265000	NA	
+2571	YKR077W		tagged	visualized	861	NA	
+5024	YKL102C		tagged	visualized	not visualized	NA	
+1458	YMR171C		tagged	visualized	656	NA	
+6194	YLR110C	CCW12	tagged	visualized	158000	NA	
+5336	YCR017C	CWH43	tagged	visualized	not visualized	NA	
+2907	YLR439W	MRPL4	tagged	visualized	7700	NA	
+5841	YJR161C	COS5	tagged	visualized	815	NA	
+4414	YKL167C	MRP49	tagged	visualized	not visualized	NA	
+350	YHR082C	KSP1	tagged	visualized	1270	NA	
+547	YLR001C		tagged	visualized	206	NA	
+5515	YHL040C	ARN1	tagged	visualized	technical problem	NA	
+1573	YHR216W	IMD2	tagged	visualized	7870	NA	
+3514	YGR267C	FOL2	tagged	visualized	2840	NA	
+2586	YDL055C	PSA1	tagged	visualized	97100	NA	
+1183	YPL184C		tagged	visualized	7950	NA	
+1132	YDR228C	PCF11	tagged	visualized	2800	753.0	
+1507	YFR006W		tagged	visualized	not visualized	NA	
+1346	YOL027C	MDM38	tagged	visualized	7390	NA	
+3398	YIL064W		tagged	visualized	1620	NA	
+5106	YPR182W	SMX3	tagged	visualized	2570	NA	
+1738	YPL219W	PCL8	tagged	visualized	396	NA	
+823	YBL097W	BRN1	tagged	visualized	704	NA	
+5459	YGL145W	TIP20	tagged	visualized	6020	NA	
+2358	YBL013W	FMT1	tagged	visualized	1070	NA	
+204	YPL226W	NEW1	tagged	visualized	37600	NA	
+5872	YBR105C	VID24	tagged	visualized	6650	NA	
+3675	YDR226W	ADK1	tagged	visualized	123000	NA	
+4004	YGR102C		tagged	visualized	172	NA	
+3920	YPR037C	ERV2	tagged	visualized	259	NA	
+2472	YOR193W		tagged	visualized	382	NA	
+2978	YHR199C		tagged	visualized	4420	NA	
+970	YMR232W	FUS2	tagged	visualized	not visualized	NA	
+1868	YJL146W	IDS2	tagged	visualized	1850	NA	
+2777	YEL017W	GTT3	tagged	visualized	1300	NA	
+2126	YDL005C	MED2	tagged	visualized	10800	NA	
+25	YKL182W	FAS1	tagged	visualized	91800	NA	
+1623	YML120C	NDI1	tagged	visualized	5240	NA	
+1818	YNL261W	ORC5	tagged	visualized	768	163.0	
+496	YBL014C	RRN6	tagged	visualized	237	36.3	
+3843	YDL135C	RDI1	tagged	visualized	1670	NA	
+3690	YPR174C		tagged	visualized	3420	NA	
+4969	YBR009C	HHF1	tagged	visualized	524000	NA	
+497	YDR096W	GIS1	tagged	visualized	432	NA	
+5638	YDL180W		tagged	visualized	not visualized	NA	
+4324	YNR004W		tagged	visualized	1720	NA	
+1638	YFR039C		tagged	visualized	3170	NA	
+6052	YLR025W	SNF7	tagged	visualized	3270	NA	
+41	YBR208C	DUR1,2	tagged	visualized	952	NA	
+3237	YJL115W	ASF1	tagged	visualized	6230	NA	
+4080	YPR102C	RPL11A	tagged	visualized	39000	NA	
+710	YLR144C	ACF2	tagged	visualized	1420	NA	
+5761	YER136W	GDI1	tagged	visualized	7280	967.0	
+2533	YPL090C	RPS6A	tagged	visualized	66000	NA	
+3353	YDR471W	RPL27B	tagged	visualized	22900	NA	
+1442	YMR258C		tagged	visualized	3080	NA	
+3368	YGR207C		tagged	visualized	2400	NA	
+4170	YBR244W	GPX2	tagged	visualized	2010	NA	
+2342	YLR453C	RIF2	tagged	visualized	589	NA	
+5807	YNL064C	YDJ1	tagged	visualized	119000	NA	
+431	YDR356W	SPC110	tagged	visualized	279	NA	
+155	YLR398C	SKI2	tagged	visualized	5770	NA	
+530	YDR186C		tagged	visualized	195	NA	
+2228	YMR253C		tagged	visualized	not visualized	NA	
+1392	YLR044C	PDC1	tagged	visualized	8970	NA	
+3093	YDR054C	CDC34	tagged	visualized	8170	NA	
+3744	YHR147C	MRPL6	tagged	visualized	5680	NA	
+1703	YFR010W	UBP6	tagged	visualized	6770	NA	
+269	YOR109W	INP53	tagged	visualized	1520	NA	
+677	YOL076W	MDM20	tagged	visualized	5800	NA	
+790	YOR299W	BUD7	tagged	visualized	2070	NA	
+1523	YDL020C	RPN4	tagged	visualized	low signal	NA	
+3859	YMR073C		tagged	visualized	450	NA	
+6161	YIR022W	SEC11	tagged	visualized	3150	NA	
+612	YIL107C	PFK26	tagged	visualized	1710	NA	
+1753	YDL238C		tagged	visualized	279	NA	
+2664	YGL001C	ERG26	tagged	visualized	2580	NA	
+3138	YDL129W		tagged	visualized	450	NA	
+5271	YDR407C	TRS120	tagged	visualized	259	NA	
+5350	YLR148W	PEP3	tagged	visualized	2020	NA	
+4381	YBR167C	POP7	tagged	visualized	low signal	NA	
+1281	YMR291W		tagged	visualized	10200	NA	
+3559	YJL063C	MRPL8	tagged	visualized	3030	NA	
+4871	YGR269W		tagged	visualized	279	NA	
+1803	YKL028W	TFA1	tagged	visualized	35900	4110.0	
+2993	YJR083C	ACF4	tagged	visualized	1140	NA	
+4019	YDR441C	APT2	tagged	visualized	937	NA	
+2619	YJL131C		tagged	visualized	319	NA	
+1148	YAL047C	SPC72	tagged	visualized	639	NA	
+3790	YPL178W	CBC2	tagged	visualized	6200	NA	
+3337	YDL043C	PRP11	tagged	visualized	3460	NA	
+1673	YML032C	RAD52	tagged	visualized	1080	NA	
+3645	YPR043W	RPL43A	tagged	visualized	44600	NA	
+5394	YMR089C	YTA12	tagged	visualized	11500	NA	
+139	YFL036W	RPO41	tagged	visualized	not visualized	NA	
+2892	YNR034W	SOL1	tagged	visualized	1970	NA	
+595	YOR018W	ROD1	tagged	visualized	386	NA	
+808	YIL078W	THS1	tagged	visualized	42600	4750.0	
+2701	YGR180C	RNR4	tagged	visualized	88900	NA	
+2256	YNL152W		tagged	visualized	technical problem	NA	
+1018	YLR299W	ECM38	tagged	visualized	672	NA	
+1102	YDR477W	SNF1	tagged	visualized	589	NA	
+4626	YJL169W		tagged	visualized	not visualized	NA	
+2647	YNL007C	SIS1	tagged	visualized	20300	NA	
+5180	YLR388W	RPS29A	tagged	visualized	6490	NA	
+2289	YGR214W	RPS0A	tagged	visualized	93700	NA	
+5887	YBR159W		tagged	visualized	41900	NA	
+1167	YNL061W	NOP2	tagged	visualized	18700	2460.0	
+3154	YLR132C		tagged	visualized	486	NA	
+220	YFR031C	SMC2	tagged	visualized	3290	NA	
+1783	YHR030C	SLT2	tagged	visualized	3230	NA	
+366	YDR379W	RGA2	tagged	visualized	254	NA	
+5091	YDR363W-A	SEM1	tagged	visualized	5590	NA	
+3498	YBR107C	IML3	tagged	visualized	125	NA	
+2864	YJR070C		tagged	visualized	39900	NA	
+2795	YBR046C	ZTA1	tagged	visualized	not visualized	NA	
+5215	YLL040C	VPS13	tagged	visualized	125	NA	
+4446	YDR511W	ACN9	tagged	visualized	195	NA	
+171	YDR293C	SSD1	tagged	visualized	1100	NA	
+2175	YDR528W	HLR1	tagged	visualized	259	NA	
+123	YJL042W	MHP1	tagged	visualized	279	NA	
+1344	YGR088W	CTT1	tagged	visualized	319	NA	
+3483	YKL152C	GPM1	tagged	visualized	172000	NA	
+318	YDR310C	SUM1	tagged	visualized	149	NA	
+2945	YNL063W		tagged	visualized	13200	NA	
+4340	YCL056C		tagged	visualized	not visualized	NA	
+2734	YDR411C		tagged	visualized	technical problem	NA	
+2028	YBR279W	PAF1	tagged	visualized	1040	NA	
+3760	YML053C		tagged	visualized	656	NA	
+1214	YML057W	CMP2	tagged	visualized	7110	NA	
+2211	YLR423C	APG17	tagged	visualized	358	NA	
+937	YLR117C	CLF1	tagged	visualized	2140	204.0	
+1963	YDR364C	CDC40	tagged	visualized	1630	NA	
+1362	YKL127W	PGM1	tagged	visualized	9820	NA	
+1279	YGR068C		tagged	visualized	1970	NA	
+6102	YLR268W	SEC22	tagged	visualized	396	NA	
+2516	YDL134C	PPH21	tagged	visualized	5620	NA	
+3414	YGR248W	SOL4	tagged	visualized	4320	NA	
+4034	YBR137W		tagged	visualized	1200	NA	
+2325	YHR201C	PPX1	tagged	visualized	3170	NA	
+2939	YML073C	RPL6A	tagged	visualized	37100	NA	
+5980	YPR139C	VPS66	tagged	visualized	6630	NA	
+5735	YPL259C	APM1	tagged	visualized	4420	NA	
+5930	YDR033W	MRH1	tagged	visualized	182000	NA	
+3428	YLR194C		tagged	visualized	688	NA	
+1719	YDR132C		tagged	visualized	172	NA	
+757	YMR179W	SPT21	tagged	visualized	low signal	NA	
+693	YGR200C	ELP2	tagged	visualized	6090	NA	
+5562	YBR015C	MNN2	tagged	visualized	6730	NA	
+5914	YMR060C	TOM37	tagged	visualized	1580	NA	
+514	YOR058C	ASE1	tagged	visualized	556	NA	
+448	YPR135W	CTF4	tagged	visualized	3280	NA	
+57	YOR341W	RPA190	tagged	visualized	2840	NA	
+5150	YHR143W-A	RPC10	tagged	visualized	907	NA	
+3253	YKL023W		tagged	visualized	1730	NA	
+5669	YHR007C	ERG11	tagged	visualized	73200	NA	
+1083	YIL046W	MET30	tagged	visualized	217	NA	
+3774	YBR067C	TIP1	tagged	visualized	35600	NA	
+5995	YPL232W	SSO1	tagged	visualized	450	NA	
+3298	YIL069C	RPS24B	tagged	visualized	6160	NA	
+579	YMR031C		tagged	visualized	5570	NA	
+2440	YCL016C	DCC1	tagged	visualized	1660	NA	
+1002	YDR194C	MSS116	tagged	visualized	10300	NA	
+3069	YNL156C	YIG2	tagged	visualized	3390	NA	
+3973	YER112W	LSM4	tagged	visualized	3440	NA	
+4137	YML098W	TAF13	tagged	visualized	2080	NA	
+5163	YJL012C-A		tagged	visualized	8710	NA	
+449	YDR069C	DOA4	tagged	visualized	428	NA	
+873	YKR090W	PXL1	tagged	visualized	1310	NA	
+383	YOR346W	REV1	tagged	visualized	521	NA	
+3630	YOL102C	TPT1	tagged	visualized	672	NA	
+5228	YLR342W	FKS1	tagged	visualized	technical problem	NA	
+1654	YIL104C	SHQ1	tagged	visualized	7060	NA	
+5074	YBR233W-A	DAD3	tagged	visualized	468	NA	
+3706	YER063W	THO1	tagged	visualized	6580	NA	
+236	YER013W	PRP22	tagged	visualized	907	NA	
+2402	YNL001W	DOM34	tagged	visualized	1720	NA	
+5489	YIL037C	PRM2	tagged	visualized	not visualized	NA	
+3835	YER128W		tagged	visualized	967	NA	
+301	YER033C	ZRG8	tagged	visualized	not visualized	NA	
+2082	YBR236C	ABD1	tagged	visualized	not visualized	NA	
+3108	YDR184C	ATC1	tagged	visualized	846	NA	
+1197	YLR401C	DUS3	tagged	visualized	3630	NA	
+1607	YDL159W	STE7	tagged	visualized	672	NA	
+463	YKR021W		tagged	visualized	414	NA	
+3659	YDR067C		tagged	visualized	low signal	NA	
+4292	YER044C	ERG28	tagged	visualized	377	NA	
+3614	YBR111C	YSA1	tagged	visualized	7330	NA	
+1542	YER025W	GCD11	tagged	visualized	20800	2840.0	
+743	YHR197W	RIX1	tagged	visualized	7820	NA	
+398	YIR023W	DAL81	tagged	visualized	704	NA	
+5776	YLR360W	VPS38	tagged	visualized	1070	NA	
+188	YCR033W	SNT1	tagged	visualized	396	NA	
+1672	YLR197W	SIK1	tagged	visualized	13500	5780.0	
+4050	YJR025C	BNA1	tagged	visualized	2330	NA	
+106	YAL024C	LTE1	tagged	visualized	304	NA	
+3951	YNL067W	RPL9B	tagged	visualized	76000	NA	
+2158	YMR113W	FOL3	tagged	visualized	2340	NA	
+5301	YOR098C	NUP1	tagged	visualized	468	NA	
+2014	YLR300W	EXG1	tagged	visualized	4280	NA	
+1899	YPR178W	PRP4	tagged	visualized	1770	271.0	
+1037	YDR389W	SAC7	tagged	visualized	1420	NA	
+5255	YOR291W		tagged	visualized	technical problem	NA	
+3874	YPR172W		tagged	visualized	358	NA	
+2310	YHR179W	OYE2	tagged	visualized	15100	NA	
+6086	YJL024C	APS3	tagged	visualized	1240	NA	
+1262	YIL172C		tagged	visualized	166	NA	
+1492	YBL080C	PET112	tagged	visualized	1390	NA	
+5964	YBR085W	AAC3	tagged	visualized	1080	NA	
+5337	YMR266W	RSN1	tagged	visualized	low signal	NA	
+5719	YBR283C	SSH1	tagged	visualized	704	NA	
+2809	YGR192C	TDH3	tagged	visualized	169000	NA	
+6021	YGR120C	COG2	tagged	visualized	3270	NA	
+4952	YDR281C	PHM6	tagged	visualized	not visualized	NA	
+1233	YKL032C	IXR1	tagged	visualized	low signal	NA	
+628	YOR322C		tagged	visualized	295	NA	
+1848	YLR034C	SMF3	tagged	visualized	low signal	NA	
+822	YPR141C	KAR3	tagged	visualized	3250	NA	
+563	YDL040C	NAT1	tagged	visualized	7600	NA	
+1933	YGL130W	CEG1	tagged	visualized	279	NA	
+1589	YER073W	ALD5	tagged	visualized	23300	NA	
+2570	YKL042W	SPC42	tagged	visualized	not visualized	NA	
+2748	YHR156C	LIN1	tagged	visualized	799	NA	
+2455	YDL188C	PPH22	tagged	visualized	4110	NA	
+9	YLR454W		tagged	visualized	1360	NA	
+2179	YOL126C	MDH2	tagged	visualized	5260	NA	
+660	YGL083W	SCY1	tagged	visualized	1480	NA	
+253	YER176W	ECM32	tagged	visualized	736	NA	
+6066	YLL060C	GTT2	tagged	visualized	low signal	NA	
+2501	YIL094C	LYS12	tagged	visualized	19100	NA	
+5825	YJR075W	HOC1	tagged	visualized	7160	NA	
+3529	YBR090C		tagged	visualized	not visualized	NA	
+5899	YDR265W	PEX10	tagged	visualized	not visualized	NA	
+1834	YGR117C		tagged	visualized	1280	NA	
+1913	YDL036C		tagged	visualized	639	NA	
+3224	YBL010C		tagged	visualized	1320	NA	
+840	YMR192W	APP2	tagged	visualized	2010	NA	
+2878	YOL094C	RFC4	tagged	visualized	2760	NA	
+2288	YNR021W		tagged	visualized	34900	NA	
+986	YLR427W	MAG2	tagged	visualized	922	NA	
+3123	YLR091W		tagged	visualized	low signal	NA	
+725	YLR131C	ACE2	tagged	visualized	538	NA	
+3022	YDR280W	RRP45	tagged	visualized	4800	NA	
+5443	YDL116W	NUP84	tagged	visualized	8580	NA	
+3821	YKR035W-A	DID2	tagged	visualized	2440	NA	
+2832	YDR044W	HEM13	tagged	visualized	22000	3430.0	
+2066	YDR527W		tagged	visualized	688	NA	
+351	YLR187W		tagged	visualized	low signal	NA	
+1817	YGR255C	COQ6	tagged	visualized	2940	NA	
+1869	YLR058C	SHM2	tagged	visualized	67600	NA	
+414	YGL227W	VID30	tagged	visualized	1500	NA	
+5286	YKR082W	NUP133	tagged	visualized	3060	NA	
+2906	YIR011C	STS1	tagged	visualized	2120	NA	
+1624	YML128C	MSC1	tagged	visualized	1070	NA	
+5321	YHR027C	RPN1	tagged	visualized	306000	NA	
+6009	YPL094C	SEC62	tagged	visualized	16500	NA	
+4066	YDR469W	SDC1	tagged	visualized	937	NA	
+2572	YLR141W	RRN5	tagged	visualized	low signal	NA	
+203	YAR009C		tagged	visualized	2220	NA	
+482	YPL150W		tagged	visualized	low signal	NA	
+1506	YBR103W	SIF2	tagged	visualized	1620	NA	
+1052	YML082W		tagged	visualized	2810	NA	
+6193	YDR519W	FPR2	tagged	visualized	5400	NA	
+2369	YNR048W		tagged	visualized	4510	NA	
+594	YLL034C		tagged	visualized	4490	NA	
+140	YLR384C	IKI3	tagged	visualized	10500	NA	
+3515	YHR049W	FSH1	tagged	visualized	14600	NA	
+4413	YKL049C	CSE4	tagged	visualized	not visualized	NA	
+1932	YPL139C	UME1	tagged	visualized	3040	NA	
+3728	YPL233W	NSL1	tagged	visualized	3710	NA	
+1687	YBR056W		tagged	visualized	1960	NA	
+5349	YGL008C	PMA1	tagged	visualized	1260000	NA	
+2646	YKR070W		tagged	visualized	3870	NA	
+284	YDL215C	GDH2	tagged	visualized	7400	NA	
+1999	YOR221C	MCT1	tagged	visualized	1360	NA	
+3285	YDR099W	BMH2	tagged	visualized	47600	NA	
+1184	YPL194W	DDC1	tagged	visualized	238	NA	
+2587	YFR046C		tagged	visualized	1300	NA	
+5504	YHR117W	TOM71	tagged	visualized	4110	NA	
+2357	YPL112C	PEX25	tagged	visualized	2420	NA	
+4366	YLR245C	CDD1	tagged	visualized	3120	NA	
+548	YMR165C	SMP2	tagged	visualized	3910	NA	
+3806	YPL229W		tagged	visualized	922	NA	
+2717	YLR375W	STP3	tagged	visualized	1240	NA	
+921	YPR175W	DPB2	tagged	visualized	3110	251.0	
+1296	YOL115W	TRF4	tagged	visualized	7550	NA	
+6221	YGR105W	VMA21	tagged	visualized	1480	NA	
+969	YMR104C	YPK2	tagged	visualized	1310	NA	
+1347	YPR137W	RRP9	tagged	visualized	5130	NA	
+1572	YHR086W	NAM8	tagged	visualized	1480	NA	
+2776	YDR392W	SPT3	tagged	visualized	1710	NA	
+1443	YBR030W		tagged	visualized	7880	NA	
+4169	YBR120C	CBP6	tagged	visualized	2130	NA	
+3399	YJL043W		tagged	visualized	not visualized	NA	
+5581	YGL186C	TPN1	tagged	visualized	not visualized	NA	
+26	YJL207C		tagged	visualized	300	NA	
+5132	YOR304C-A		tagged	visualized	656	NA	
+154	YOR296W		tagged	visualized	300	NA	
+3206	YGL240W	DOC1	tagged	visualized	1360	NA	
+498	YLR382C	NAM2	tagged	visualized	2120	NA	
+2849	YBR048W	RPS11B	tagged	visualized	1200	NA	
+4765	YHR138C		tagged	visualized	319	NA	
+5107	YBR085C-A		tagged	visualized	not visualized	NA	
+1328	YIR010W	DSN1	tagged	visualized	1310	NA	
+5460	YIL005W	EPS1	tagged	visualized	6020	NA	
+661	YBR058C	UBP14	tagged	visualized	3040	NA	
+3036	YBR231C	AOR1	tagged	visualized	1680	NA	
+1609	YJL013C	MAD3	tagged	visualized	3170	NA	
+709	YGL009C	LEU1	tagged	visualized	96300	NA	
+5842	YML008C	ERG6	tagged	visualized	53800	NA	
+1019	YML056C	IMD4	tagged	visualized	2970	NA	
+5762	YBR110W	ALG1	tagged	visualized	1890	NA	
+3183	YMR043W	MCM1	tagged	visualized	8970	NA	
+3743	YHR105W	YPT35	tagged	visualized	not visualized	NA	
+1131	YKL125W	RRN3	tagged	visualized	138	29.5	
+5705	YEL036C	ANP1	tagged	visualized	not visualized	NA	
+270	YGR094W	VAS1	tagged	visualized	358	NA	
+4258	YEL048C		tagged	visualized	8660	NA	
+4079	YHR193C	EGD2	tagged	visualized	38000	NA	
+3558	YHR013C	ARD1	tagged	visualized	3310	NA	
+2534	YDR322W	MRPL35	tagged	visualized	7700	NA	
+6118	YJR073C	OPI3	tagged	visualized	5890	NA	
+5653	YMR011W	HXT2	tagged	visualized	technical problem	NA	
+872	YJR134C	SGM1	tagged	visualized	300	NA	
+531	YML034W	SRC1	tagged	visualized	2100	NA	
+6179	YNL052W	COX5A	tagged	visualized	3670	NA	
+5244	YLL015W	BPT1	tagged	visualized	technical problem	NA	
+3238	YJR116W		tagged	visualized	technical problem	NA	
+611	YBR133C	HSL7	tagged	visualized	1180	NA	
+1103	YHR114W	BZZ1	tagged	visualized	5440	NA	
+3354	YIL093C	RSM25	tagged	visualized	1920	NA	
+4994	YGR063C	SPT4	tagged	visualized	4490	NA	
+3499	YGL250W		tagged	visualized	1820	NA	
+6020	YIR014W		tagged	visualized	low signal	NA	
+2227	YGR159C	NSR1	tagged	visualized	77400	NA	
+1391	YGR087C	PDC6	tagged	visualized	1520	NA	
+3905	YMR295C		tagged	visualized	10800	NA	
+1522	YMR297W	PRC1	tagged	visualized	44000	NA	
+3008	YKR075C		tagged	visualized	1960	NA	
+4153	YPL135W	ISU1	tagged	visualized	10800	NA	
+40	YPL082C	MOT1	tagged	visualized	6560	NA	
+4325	YOR224C	RPB8	tagged	visualized	6210	NA	
+1459	YBR158W	AMN1	tagged	visualized	2020	NA	
+3092	YDL173W		tagged	visualized	1140	NA	
+1702	YFL018C	LPD1	tagged	visualized	24600	NA	
+791	YCL039W	GID7	tagged	visualized	1200	NA	
+5488	YOR273C	TPO4	tagged	visualized	21400	NA	
+3255	YOL088C	MPD2	tagged	visualized	1520	NA	
+5090	YOL159C-A		tagged	visualized	125	NA	
+2663	YLR426W		tagged	visualized	2130	NA	
+3314	YGR220C	MRPL9	tagged	visualized	3190	NA	
+952	YLR403W	SFP1	tagged	visualized	259	NA	
+221	YKL038W	RGT1	tagged	visualized	195	NA	
+1247	YCR088W	ABP1	tagged	visualized	606	NA	
+6162	YMR071C	TVP18	tagged	visualized	technical problem	NA	
+1068	YER049W		tagged	visualized	8910	NA	
+3858	YML079W		tagged	visualized	low signal	NA	
+5857	YLR332W	MID2	tagged	visualized	low signal	NA	
+4627	YJL173C	RFA3	tagged	visualized	4280	NA	
+1639	YJR015W		tagged	visualized	639	NA	
+1802	YJL162C		tagged	visualized	184	NA	
+3791	YPR107C	YTH1	tagged	visualized	3690	NA	
+3691	YBL093C	ROX3	tagged	visualized	6120	NA	
+5514	YHL008C		tagged	visualized	low signal	NA	
+3936	YGL211W		tagged	visualized	low signal	NA	
+2550	YDR065W		tagged	visualized	1670	NA	
+367	YKL173W	SNU114	tagged	visualized	300	NA	
+3055	YPL079W	RPL21B	tagged	visualized	66400	NA	
+1557	YDL197C	ASF2	tagged	visualized	1910	NA	
+3077	YCL031C	RRP7	tagged	visualized	2610	NA	
+2891	YLR257W		tagged	visualized	18600	NA	
+1884	YOR229W	WTM2	tagged	visualized	3750	NA	
+430	YIL075C	RPN2	tagged	visualized	4750	NA	
+4380	YOR252W		tagged	visualized	5350	NA	
+2761	YOR061W	CKA2	tagged	visualized	4540	NA	
+2702	YIL145C	PAN6	tagged	visualized	2400	NA	
+5270	YKL209C	STE6	tagged	visualized	technical problem	NA	
+1147	YFL049W		tagged	visualized	3180	NA	
+1782	YDL089W		tagged	visualized	606	NA	
+5393	YKL176C	LST4	tagged	visualized	low signal	NA	
+3484	YLL038C	ENT4	tagged	visualized	1960	NA	
+2992	YHR187W	IKI1	tagged	visualized	3870	NA	
+3124	YOL001W	PHO80	tagged	visualized	technical problem	NA	
+4035	YDR185C		tagged	visualized	672	NA	
+5216	YBR140C	IRA1	tagged	visualized	not visualized	NA	
+5377	YJL041W	NSP1	tagged	visualized	2400	NA	
+758	YPL158C		tagged	visualized	238	NA	
+2605	YJR147W	HMS2	tagged	visualized	2050	NA	
+1408	YDL106C	PHO2	tagged	visualized	6420	NA	
+2176	YJL036W	SNX4	tagged	visualized	450	NA	
+4708	YDR031W		tagged	visualized	not visualized	NA	
+124	YBR115C	LYS2	tagged	visualized	7430	NA	
+1964	YLR195C	NMT1	tagged	visualized	not visualized	NA	
+1215	YOL148C	SPT20	tagged	visualized	4150	NA	
+2324	YGL213C	SKI8	tagged	visualized	1710	NA	
+2403	YBR155W	CNS1	tagged	visualized	672	NA	
+2735	YGR163W	GTR2	tagged	visualized	2610	NA	
+4094	YNL046W		tagged	visualized	704	NA	
+5073	YBL029C-A		tagged	visualized	996	NA	
+3543	YOL142W	RRP40	tagged	visualized	6050	NA	
+1084	YIL056W		tagged	visualized	279	NA	
+6036	YPL246C	RBD2	tagged	visualized	7850	NA	
+4186	YOR276W	CAF20	tagged	visualized	26900	NA	
+3413	YDL136W	RPL35B	tagged	visualized	19100	NA	
+3254	YLR290C		tagged	visualized	1420	NA	
+6163	YMR292W	GOT1	tagged	visualized	not visualized	NA	
+3857	YLR179C		tagged	visualized	6230	NA	
+2794	YPR110C	RPC40	tagged	visualized	13000	2310.0	
+3644	YMR271C	URA10	tagged	visualized	815	NA	
+5913	YPR128C	ANT1	tagged	visualized	2250	NA	
+4051	YML011C		tagged	visualized	1080	NA	
+2273	YOL054W	PSH1	tagged	visualized	6490	NA	
+627	YJR059W	PTK2	tagged	visualized	1420	NA	
+855	YGR128C	UTP8	tagged	visualized	16800	NA	
+5424	YBL011W	SCT1	tagged	visualized	1050	NA	
+2679	YGL157W		tagged	visualized	2950	NA	
+694	YLR319C	BUD6	tagged	visualized	2610	NA	
+5996	YDR284C	DPP1	tagged	visualized	3040	NA	
+1478	YPL256C	CLN2	tagged	visualized	1270	NA	
+5609	YGL077C	HNM1	tagged	visualized	technical problem	NA	
+3385	YLR323C	CWC24	tagged	visualized	996	NA	
+5365	YJL198W	PHO90	tagged	visualized	3430	NA	
+4602	YDR493W		tagged	visualized	279	NA	
+5981	YBR291C	CTP1	tagged	visualized	not visualized	NA	
+5873	YDR414C	ERD1	tagged	visualized	not visualized	NA	
+3139	YDR130C	FIN1	tagged	visualized	not visualized	NA	
+1849	YLR212C	TUB4	tagged	visualized	7200	1040.0	
+1770	YBL103C	RTG3	tagged	visualized	1050	NA	
+1003	YML020W		tagged	visualized	377	NA	
+936	YER022W	SRB4	tagged	visualized	3650	95.5	
+3070	YPR066W	UBA3	tagged	visualized	752	NA	
+3707	YGL079W		tagged	visualized	1630	NA	
+237	YDR507C	GIN4	tagged	visualized	736	NA	
+4396	YNR022C	MRPL50	tagged	visualized	not visualized	NA	
+3629	YLR168C	MSF1'	tagged	visualized	2910	NA	
+1655	YML043C	RRN11	tagged	visualized	476	66.2	
+56	YML059C		tagged	visualized	521	NA	
+2210	YKR048C	NAP1	tagged	visualized	8070	NA	
+1718	YBR126C	TPS1	tagged	visualized	10900	NA	
+464	YGL049C	TIF4632	tagged	visualized	3390	NA	
+2159	YAR003W	SWD1	tagged	visualized	907	NA	
+2810	YHL025W	SNF6	tagged	visualized	2900	NA	
+107	YDR464W	SPP41	tagged	visualized	not visualized	NA	
+3107	YDL076C	RXT3	tagged	visualized	3060	NA	
+3444	YGR118W	RPS23A	tagged	visualized	10600	NA	
+5254	YGR281W	YOR1	tagged	visualized	3610	NA	
+2962	YHR144C	DCD1	tagged	visualized	1510	NA	
+5775	YDR329C	PEX3	tagged	visualized	1400	NA	
+4430	YDL012C		tagged	visualized	2250	NA	
+6087	YAR002C-A	ERP1	tagged	visualized	20700	NA	
+187	YPL012W	RRP12	tagged	visualized	8170	NA	
+1833	YGR002C	GOD1	tagged	visualized	2230	NA	
+3660	YDR476C		tagged	visualized	2120	NA	
+73	YOR326W	MYO2	tagged	visualized	4340	NA	
+2125	YOL097C	WRS1	tagged	visualized	12100	2170.0	
+985	YER088C	DOT6	tagged	visualized	2120	NA	
+1588	YER006W	NUG1	tagged	visualized	7130	NA	
+2877	YNL025C	SSN8	tagged	visualized	technical problem	NA	
+3952	YML094W	GIM5	tagged	visualized	2900	NA	
+1541	YBR274W	CHK1	tagged	visualized	2530	NA	
+1234	YDR144C	MKC7	tagged	visualized	538	NA	
+5302	YDL185W	TFP1	tagged	visualized	200000	NA	
+3269	YDR272W	GLO2	tagged	visualized	13700	NA	
+1900	YER038C	KRE29	tagged	visualized	low signal	NA	
+5338	YGL167C	PMR1	tagged	visualized	6900	NA	
+809	YKL168C	KKQ8	tagged	visualized	981	NA	
+5945	YMR241W	YHM2	tagged	visualized	2930	NA	
+1348	YGR092W	DBF2	tagged	visualized	3500	NA	
+300	YOL145C	CTR9	tagged	visualized	12900	NA	
+2924	YMR310C		tagged	visualized	2540	NA	
+3400	YOR060C		tagged	visualized	1690	NA	
+2500	YLR048W	RPS0B	tagged	visualized	60900	NA	
+776	YKL187C		tagged	visualized	not visualized	NA	
+1948	YDL189W	RBS1	tagged	visualized	892	NA	
+5546	YDR091C	RLI1	tagged	visualized	6280	NA	
+578	YIL143C	SSL2	tagged	visualized	825	246.0	
+5626	YNL219C	ALG9	tagged	visualized	technical problem	NA	
+742	YLR114C	EFR4	tagged	visualized	7500	NA	
+3467	YDL202W	MRPL11	tagged	visualized	6070	NA	
+397	YMR288W	HSH155	tagged	visualized	521	NA	
+1671	YHR159W		tagged	visualized	504	NA	
+3873	YPL239W	YAR1	tagged	visualized	13100	NA	
+2630	YDL100C	ARR4	tagged	visualized	17300	NA	
+1036	YPR179C	PLO1	tagged	visualized	1100	NA	
+5563	YBR132C	AGP2	tagged	visualized	not visualized	NA	
+5965	YDL119C		tagged	visualized	1550	NA	
+5720	YIL088C	AVT7	tagged	visualized	195	NA	
+1278	YDL227C	HO	tagged	visualized	low signal	NA	
+1360	YDR120C	TRM1	tagged	visualized	15500	NA	
+5826	YPL050C	MNN9	tagged	visualized	1630	NA	
+334	YKL197C	PEX1	tagged	visualized	2100	NA	
+5929	YBR265W	TSC10	tagged	visualized	7700	NA	
+724	YKL134C	OCT1	tagged	visualized	2690	NA	
+3530	YDR196C		tagged	visualized	1660	NA	
+170	YML081W		tagged	visualized	672	NA	
+3021	YBL087C	RPL23A	tagged	visualized	not visualized	NA	
+90	YGL150C	INO80	tagged	visualized	6280	NA	
+839	YLR335W	NUP2	tagged	visualized	2960	NA	
+564	YDR369C	XRS2	tagged	visualized	358	NA	
+3822	YLR016C		tagged	visualized	1470	NA	
+2142	YNR029C		tagged	visualized	1560	NA	
+5684	YBR127C	VMA2	tagged	visualized	131000	NA	
+1053	YLR098C	CHA4	tagged	visualized	396	NA	
+2180	YOL140W	ARG8	tagged	visualized	2300	NA	
+906	YLR035C	MLH2	tagged	visualized	71.6	NA	
+6192	YGL226C-A	OST5	tagged	visualized	1010	NA	
+2441	YDR354W	TRP4	tagged	visualized	1760	NA	
+2420	YDR309C	GIC2	tagged	visualized	1130	NA	
+645	YDR485C	VPS72	tagged	visualized	358	NA	
+972	YOL023W	IFM1	tagged	visualized	1400	NA	
+1870	YBL056W	PTC3	tagged	visualized	19700	NA	
+886	YGL249W	ZIP2	tagged	visualized	not visualized	NA	
+3469	YLR435W	TSR2	tagged	visualized	13400	NA	
+2421	YJL125C	GCD14	tagged	visualized	7220	22.8	
+4217	YPL037C	EGD1	tagged	visualized	18000	NA	
+3715	YLR051C		tagged	visualized	not visualized	NA	
+6146	YDL137W	ARF2	tagged	visualized	25000	NA	
+2909	YML025C		tagged	visualized	1180	NA	
+1525	YDL178W	DLD2	tagged	visualized	11400	NA	
+6065	YGR167W	CLC1	tagged	visualized	3490	NA	
+1560	YML096W		tagged	visualized	3750	NA	
+2829	YBR129C	OPY1	tagged	visualized	1560	NA	
+2703	YPR086W	SUA7	tagged	visualized	6750	NA	
+5461	YJR005W	APL1	tagged	visualized	1670	NA	
+157	YDL019C	OSH2	tagged	visualized	1070	NA	
+1686	YPL026C	SKS1	tagged	visualized	2810	NA	
+2372	YKL077W		tagged	visualized	606	NA	
+283	YOL034W	SMC5	tagged	visualized	892	NA	
+4168	YBR077C		tagged	visualized	3490	NA	
+2197	YNL066W	SUN4	tagged	visualized	24700	NA	
+4107	YFR011C		tagged	visualized	3550	NA	
+4477	YMR112C	MED11	tagged	visualized	396	NA	
+27	YGR271W	SLH1	tagged	visualized	486	NA	
+5352	YLR309C	IMH1	tagged	visualized	2350	NA	
+3382	YCL010C	SGF29	tagged	visualized	1750	NA	
+3035	YPR147C		tagged	visualized	2010	NA	
+2980	YKL091C		tagged	visualized	2870	NA	
+1912	YKL143W	LTV1	tagged	visualized	589	NA	
+4367	YMR269W		tagged	visualized	technical problem	NA	
+643	YBR049C	REB1	tagged	visualized	7510	531.0	
+3170	YOR362C	PRE10	tagged	visualized	12000	NA	
+3396	YBL036C		tagged	visualized	4890	NA	
+6224	YOL077W-A	ATP19	tagged	visualized	1320	NA	
+499	YPL249C	GYP5	tagged	visualized	1940	NA	
+4021	YLR065C		tagged	visualized	not visualized	NA	
+206	YAL001C	TFC3	tagged	visualized	125	NA	
+1283	YBR163W	DEM1	tagged	visualized	1420	NA	
+3688	YMR077C	VPS20	tagged	visualized	937	NA	
+2360	YBR267W		tagged	visualized	830	NA	
+88	YPL242C	IQG1	tagged	visualized	279	NA	
+364	YPL183C		tagged	visualized	3450	NA	
+3918	YML028W	TSA1	tagged	visualized	378000	NA	
+2270	YGR179C	OKP1	tagged	visualized	2690	NA	
+2063	YGL164C	YRB30	tagged	visualized	3670	NA	
+5283	YPL006W	NCR1	tagged	visualized	521	NA	
+1610	YMR285C	NGL2	tagged	visualized	3570	NA	
+2775	YBR141C		tagged	visualized	623	NA	
+2160	YGL169W	SUA5	tagged	visualized	538	NA	
+1230	YPL243W	SRP68	tagged	visualized	6280	1170.0	
+5410	YMR212C	EFR3	tagged	visualized	1670	NA	
+6196	YPL192C	PRM3	tagged	visualized	low signal	NA	
+5578	YLL061W	MMP1	tagged	visualized	low signal	NA	
+5503	YBL042C	FUI1	tagged	visualized	low signal	NA	
+2894	YDL082W	RPL13A	tagged	visualized	133000	NA	
+1996	YML097C	VPS9	tagged	visualized	4280	NA	
+2649	YBR145W	ADH5	tagged	visualized	1310	NA	
+5334	YGL137W	SEC27	tagged	visualized	129000	NA	
+3152	YGR205W		tagged	visualized	4280	NA	
+5108	YDL181W	INH1	tagged	visualized	981	NA	
+3597	YNL100W		tagged	visualized	5460	NA	
+1069	YGL124C	MON1	tagged	visualized	low signal	NA	
+955	YBR117C	TKL2	tagged	visualized	149	NA	
+2226	YDR432W	NPL3	tagged	visualized	78700	NA	
+1130	YIL055C		tagged	visualized	low signal	NA	
+6115	YOR016C	ERP4	tagged	visualized	2710	NA	
+271	YKL092C	BUD2	tagged	visualized	1230	NA	
+2083	YBR273C		tagged	visualized	2190	NA	
+1736	YOL112W	MSB4	tagged	visualized	1730	NA	
+5706	YNL169C	PSD1	tagged	visualized	1080	NA	
+2405	YFL030W	AGX1	tagged	visualized	339	NA	
+2531	YNR032W	PPG1	tagged	visualized	1960	NA	
+777	YOR208W	PTP2	tagged	visualized	149	NA	
+2470	YNL134C		tagged	visualized	3490	NA	
+1885	YPL083C	SEN54	tagged	visualized	531	130.0	
+549	YNL068C	FKH2	tagged	visualized	656	NA	
+418	YGR140W	CBF2	tagged	visualized	1350	205.0	
+1390	YCR054C	CTR86	tagged	visualized	8970	NA	
+1575	YLR432W	IMD3	tagged	visualized	26300	NA	
+6159	YGR174C	CBP4	tagged	visualized	704	NA	
+3872	YOR367W	SCP1	tagged	visualized	1580	NA	
+5763	YER020W	GPA2	tagged	visualized	4570	NA	
+4067	YGL222C	EDC1	tagged	visualized	not visualized	NA	
+2617	YPL015C	HST2	tagged	visualized	5260	NA	
+3643	YMR090W		tagged	visualized	704	NA	
+2666	YMR315W		tagged	visualized	9600	NA	
+4461	YLR385C		tagged	visualized	4240	NA	
+5396	YJL029C	VPS53	tagged	visualized	low signal	NA	
+1265	YOR027W	STI1	tagged	visualized	67600	NA	
+2844	YIL063C	YRB2	tagged	visualized	3620	542.0	
+3933	YCL026C-B		tagged	visualized	low signal	NA	
+691	YOR035C	SHE4	tagged	visualized	3410	NA	
+3516	YHR127W	HSN1	tagged	visualized	2140	NA	
+4102	YKL013C	ARC19	tagged	visualized	9020	NA	
+104	YDR326C		tagged	visualized	low signal	NA	
+2807	YBR189W	RPS9B	tagged	visualized	63300	NA	
+4795	YLR390W	ECM19	tagged	visualized	1890	NA	
+4982	YNL030W	HHF2	tagged	visualized	681000	NA	
+3091	YNL246W	VPS75	tagged	visualized	3120	NA	
+5513	YEL065W	SIT1	tagged	visualized	not visualized	NA	
+593	YAL021C	CCR4	tagged	visualized	2780	NA	
+137	YAL017W	PSK1	tagged	visualized	967	NA	
+1104	YIL092W		tagged	visualized	105	NA	
+5805	YBR036C	CSG2	tagged	visualized	technical problem	NA	
+3557	YDL059C	RAD59	tagged	visualized	468	NA	
+3313	YDR025W	RPS11A	tagged	visualized	technical problem	NA	
+6035	YGR106C		tagged	visualized	12800	NA	
+1299	YKL012W	PRP40	tagged	visualized	low signal	NA	
+532	YNR011C	PRP2	tagged	visualized	172	NA	
+4241	YJR104C	SOD1	tagged	visualized	519000	NA	
+2486	YNR075W	COS10	tagged	visualized	2370	NA	
+3209	YJR111C		tagged	visualized	1890	NA	
+434	YML076C	WAR1	tagged	visualized	907	NA	
+39	YHL030W	ECM29	tagged	visualized	2950	NA	
+1701	YDR348C		tagged	visualized	1480	NA	
+3792	YLR185W	RPL37A	tagged	visualized	21800	NA	
+2344	YOR057W	SGT1	tagged	visualized	1340	NA	
+5487	YNL279W	PRM1	tagged	visualized	low signal	NA	
+2254	YDR423C	CAD1	tagged	visualized	623	NA	
+348	YGR258C	RAD2	tagged	visualized	846	NA	
+1640	YML114C	TAF8	tagged	visualized	4680	522.0	
+4326	YPL225W		tagged	visualized	37500	NA	
+854	YCR084C	TUP1	tagged	visualized	5840	NA	
+190	YFL008W	SMC1	tagged	visualized	5710	NA	
+2736	YGR283C		tagged	visualized	2820	NA	
+2209	YIL160C	POT1	tagged	visualized	technical problem	NA	
+1085	YJL127C	SPT10	tagged	visualized	1500	NA	
+576	YBR202W	CDC47	tagged	visualized	166	NA	
+5152	YOR210W	RPB10	tagged	visualized	5300	NA	
+5721	YNR045W	PET494	tagged	visualized	450	NA	
+1472	YER168C	CCA1	tagged	visualized	13500	2310.0	
+5299	YKL020C	SPT23	tagged	visualized	432	NA	
+2303	YPR023C	EAF3	tagged	visualized	1890	NA	
+4036	YDR540C		tagged	visualized	172	NA	
+2862	YJL017W		tagged	visualized	172	NA	
+3967	YMR255W	GFD1	tagged	visualized	2730	NA	
+3746	YOR078W	BUD21	tagged	visualized	2120	NA	
+1407	YPR072W	NOT5	tagged	visualized	5110	NA	
+5629	YNR030W	ECM39	tagged	visualized	3550	NA	
+316	YKL157W	APE2	tagged	visualized	2910	NA	
+5076	YER048W-A		tagged	visualized	2440	NA	
+1313	YBL039C	URA7	tagged	visualized	57600	NA	
+4294	YER150W	SPI1	tagged	visualized	not visualized	NA	
+3052	YPR061C		tagged	visualized	414	NA	
+2453	YHR112C		tagged	visualized	1360	NA	
+401	YMR125W	STO1	tagged	visualized	11300	NA	
+759	YOR014W	RTS1	tagged	visualized	300	NA	
+1901	YER089C	PTC2	tagged	visualized	12600	NA	
+939	YMR108W	ILV2	tagged	visualized	31900	NA	
+626	YGL229C	SAP4	tagged	visualized	279	NA	
+3416	YML063W	RPS1B	tagged	visualized	107000	NA	
+2991	YGR208W	SER2	tagged	visualized	13800	NA	
+2602	YKL060C	FBA1	tagged	visualized	1020000	358000.0	
+2793	YPL069C	BTS1	tagged	visualized	2840	NA	
+3226	YHR067W	RMD12	tagged	visualized	799	NA	
+2682	YLR100W	ERG27	tagged	visualized	low signal	NA	
+565	YLR127C	APC2	tagged	visualized	432	NA	
+2099	YDL097C	RPN6	tagged	visualized	16800	NA	
+1591	YMR014W	BUD22	tagged	visualized	3250	NA	
+676	YHR204W	MNL1	tagged	visualized	656	NA	
+5821	YBR042C		tagged	visualized	2010	NA	
+2030	YGL059W		tagged	visualized	450	NA	
+3949	YLR011W	LOT6	tagged	visualized	1270	NA	
+5165	YLR262C-A		tagged	visualized	3100	NA	
+6080	YGL210W	YPT32	tagged	visualized	4300	NA	
+919	YMR224C	MRE11	tagged	visualized	432	NA	
+745	YOR361C	PRT1	tagged	visualized	47500	5600.0	
+5932	YCR069W	CPR4	tagged	visualized	low signal	NA	
+4521	YBR016W		tagged	visualized	1760	NA	
+1475	YPR033C	HTS1	tagged	visualized	26800	8150.0	
+4603	YEL003W	GIM4	tagged	visualized	1660	NA	
+5982	YLR018C	POM34	tagged	visualized	not visualized	NA	
+2404	YDR532C	KRE28	tagged	visualized	377	NA	
+3351	YLR192C	HCR1	tagged	visualized	17900	NA	
+4093	YJR097W		tagged	visualized	2010	NA	
+2128	YGL025C	PGD1	tagged	visualized	556	NA	
+954	YJL034W	KAR2	tagged	visualized	337000	NA	
+4200	YBL018C	POP8	tagged	visualized	4870	NA	
+3975	YHR121W		tagged	visualized	8320	NA	
+2927	YPR013C		tagged	visualized	195	NA	
+6100	YKL119C	VPH2	tagged	visualized	2030	NA	
+3006	YHL013C		tagged	visualized	172	NA	
+451	YDR081C	PDC2	tagged	visualized	572	81.1	
+711	YLR277C	YSH1	tagged	visualized	17400	1900.0	
+577	YPL084W	BRO1	tagged	visualized	10200	NA	
+1656	YDL160C	DHH1	tagged	visualized	42900	NA	
+6176	YGL187C	COX4	tagged	visualized	9410	NA	
+4815	YIR009W	MSL1	tagged	visualized	504	NA	
+238	YER129W	PAK1	tagged	visualized	752	NA	
+1641	YMR300C	ADE4	tagged	visualized	18700	NA	
+3485	YOR087W	YVC1	tagged	visualized	1310	NA	
+5774	YMR243C	ZRC1	tagged	visualized	8200	NA	
+400	YMR287C	MSU1	tagged	visualized	1070	NA	
+6050	YPL078C	ATP4	tagged	visualized	12900	NA	
+5368	YLR240W	VPS34	tagged	visualized	1080	NA	
+1670	YGL035C	MIG1	tagged	visualized	830	NA	
+5560	YLR237W	THI7	tagged	visualized	3120	NA	
+3833	YDR041W	RSM10	tagged	visualized	8480	NA	
+1509	YML115C	VAN1	tagged	visualized	4750	NA	
+2633	YNL229C	URE2	tagged	visualized	7060	NA	
+299	YDR291W		tagged	visualized	259	NA	
+5901	YKR088C	TVP38	tagged	visualized	11300	NA	
+3106	YPL241C	CIN2	tagged	visualized	1630	NA	
+5737	YBR003W	COQ1	tagged	visualized	1560	NA	
+3704	YOR064C	YNG1	tagged	visualized	861	NA	
+2181	YBR195C	MSI1	tagged	visualized	149	NA	
+1836	YLR142W	PUT1	tagged	visualized	184	NA	
+810	YEL053C	MAK10	tagged	visualized	1970	NA	
+988	YKL029C	MAE1	tagged	visualized	10500	NA	
+2286	YLR107W	REX3	tagged	visualized	low signal	NA	
+3612	YOR077W	RTS2	tagged	visualized	4590	NA	
+1544	YGL056C	SDS23	tagged	visualized	21200	NA	
+3991	YOR215C		tagged	visualized	2870	NA	
+903	YLR452C	SST2	tagged	visualized	5980	NA	
+466	YOR113W	AZF1	tagged	visualized	556	NA	
+5253	YIR006C	PAN1	tagged	visualized	technical problem	NA	
+642	YLR176C	RFX1	tagged	visualized	377	NA	
+1425	YJL153C	INO1	tagged	visualized	low signal	NA	
+2880	YCR002C	CDC10	tagged	visualized	14100	NA	
+1330	YLR196W	PWP1	tagged	visualized	43800	NA	
+1359	YDR026C		tagged	visualized	432	NA	
+4831	YDR382W	RPP2B	tagged	visualized	602000	NA	
+1056	YDR014W	RAD61	tagged	visualized	721	NA	
+1625	YMR093W	UTP15	tagged	visualized	358	NA	
+72	YNR031C	SSK2	tagged	visualized	217	NA	
+727	YLL054C		tagged	visualized	339	NA	
+4052	YMR042W	ARG80	tagged	visualized	not visualized	NA	
+483	YBR225W		tagged	visualized	623	NA	
+2442	YGL126W	SCS3	tagged	visualized	538	NA	
+2759	YJR129C		tagged	visualized	1550	NA	
+2514	YPR035W	GLN1	tagged	visualized	346000	110000.0	
+2941	YHR061C	GIC1	tagged	visualized	1100	NA	
+3186	YDR098C	GRX3	tagged	visualized	11000	NA	
+1931	YOR272W	YTM1	tagged	visualized	6670	NA	
+3902	YJR069C	HAM1	tagged	visualized	3490	NA	
+2947	YGR282C	BGL2	tagged	visualized	45000	NA	
+3020	YPL177C	CUP9	tagged	visualized	521	NA	
+1410	YGL244W	RTF1	tagged	visualized	6510	NA	
+5426	YNL272C	SEC2	tagged	visualized	13200	1310.0	
+3336	YPR132W	RPS23B	tagged	visualized	3340	NA	
+4538	YKL086W		tagged	visualized	538	NA	
+11	YHR165C	PRP8	tagged	visualized	468	NA	
+1785	YKL211C	TRP3	tagged	visualized	13400	NA	
+2143	YOR209C	NPT1	tagged	visualized	32100	NA	
+4277	YMR159C	APG16	tagged	visualized	573	NA	
+1349	YGR124W	ASN2	tagged	visualized	58200	NA	
+3270	YDR319C		tagged	visualized	low signal	NA	
+6084	YOR185C	GSP2	tagged	visualized	2460	NA	
+4429	YPL250C	ICY2	tagged	visualized	450	NA	
+820	YLR149C		tagged	visualized	low signal	NA	
+1751	YMR070W	MOT3	tagged	visualized	1690	NA	
+89	YDR180W	SCC2	tagged	visualized	3310	NA	
+3470	YMR038C	LYS7	tagged	visualized	12000	NA	
+5462	YBL061C	SKT5	tagged	visualized	2580	NA	
+2704	YPR127W		tagged	visualized	2190	NA	
+5351	YMR273C	ZDS1	tagged	visualized	279	NA	
+608	YJL157C	FAR1	tagged	visualized	238	NA	
+223	YLR032W	RAD5	tagged	visualized	1520	NA	
+726	YPR091C		tagged	visualized	861	NA	
+1997	YMR220W	ERG8	tagged	visualized	79.7	10.0	
+1752	YNL022C		tagged	visualized	922	NA	
+3596	YMR314W	PRE5	tagged	visualized	7210	NA	
+1819	YNR001C	CIT1	tagged	visualized	not visualized	NA	
+5856	YGL255W	ZRT1	tagged	visualized	technical problem	NA	
+6145	YOR094W	ARF3	tagged	visualized	1240	NA	
+659	YGL216W	KIP3	tagged	visualized	736	NA	
+5268	YGR014W	MSB2	tagged	visualized	1320	NA	
+2198	YOL058W	ARG1	tagged	visualized	1870	NA	
+5753	YMR238W	DFG5	tagged	visualized	2950	NA	
+887	YMR037C	MSN2	tagged	visualized	125	NA	
+2064	YHR111W	UBA4	tagged	visualized	2620	NA	
+3674	YCR051W		tagged	visualized	784	NA	
+2774	YPR056W	TFB4	tagged	visualized	4630	173.0	
+3287	YLR064W		tagged	visualized	2240	NA	
+1524	YDL030W	PRP9	tagged	visualized	3920	429.0	
+3856	YLR145W		tagged	visualized	556	NA	
+6133	YNL090W	RHO2	tagged	visualized	3870	NA	
+38	YLR024C	UBR2	tagged	visualized	49.2	NA	
+28	YNL271C	BNI1	tagged	visualized	166	NA	
+3777	YDR003W		tagged	visualized	1230	NA	
+1164	YNL104C	LEU4	tagged	visualized	6630	NA	
+3446	YDR318W	MCM21	tagged	visualized	952	NA	
+5242	YER166W	DNF1	tagged	visualized	low signal	NA	
+1105	YNL293W	MSB3	tagged	visualized	178	NA	
+3383	YEL012W	UBC8	tagged	visualized	1590	NA	
+2145	YPR186C	PZF1	tagged	visualized	1380	302.0	
+1574	YLR324W		tagged	visualized	4570	NA	
+2981	YML121W	GTR1	tagged	visualized	907	NA	
+3257	YPR116W		tagged	visualized	2140	NA	
+4167	YCR028C-A	RIM1	tagged	visualized	3060	NA	
+1375	YDR110W	FOB1	tagged	visualized	1510	NA	
+2359	YBR125C	PTC4	tagged	visualized	149	NA	
+349	YOL089C	HAL9	tagged	visualized	238	NA	
+793	YGR003W	CUL3	tagged	visualized	172	NA	
+2893	YPL206C		tagged	visualized	3270	NA	
+2469	YMR030W		tagged	visualized	not visualized	NA	
+417	YEL043W		tagged	visualized	149	NA	
+500	YNR047W		tagged	visualized	752	NA	
+5789	YLL006W	MMM1	tagged	visualized	2490	NA	
+1737	YPL097W	MSY1	tagged	visualized	996	NA	
+4427	YNL031C	HHT2	tagged	visualized	248000	NA	
+2719	YOR352W		tagged	visualized	3510	NA	
+5109	YJL062W-A		tagged	visualized	2530	NA	
+1508	YGR177C	ATF2	tagged	visualized	3000	NA	
+2532	YPR065W	ROX1	tagged	visualized	238	NA	
+1038	YJL209W	CBP1	tagged	visualized	2180	NA	
+282	YER111C	SWI4	tagged	visualized	589	NA	
+1611	YNR051C	BRE5	tagged	visualized	11700	NA	
+5871	YHR101C	BIG1	tagged	visualized	3460	NA	
+2271	YKR092C	SRP40	tagged	visualized	12900	NA	
+6223	YML129C	COX14	tagged	visualized	6840	NA	
+2422	YAL060W	BDH1	tagged	visualized	8730	NA	
+4218	YPR168W	NUT2	tagged	visualized	1470	NA	
+5900	YGL225W	VRG4	tagged	visualized	31900	NA	
+1182	YPL070W	MUK1	tagged	visualized	not visualized	NA	
+5411	YNL212W	VID27	tagged	visualized	3500	NA	
+3808	YAL014C	SYN8	tagged	visualized	not visualized	NA	
+2908	YLR457C	NBP1	tagged	visualized	339	NA	
+1767	YJR006W	HYS2	tagged	visualized	626	95.2	
+432	YDR395W	SXM1	tagged	visualized	16300	NA	
+6018	YGR026W		tagged	visualized	technical problem	NA	
+4260	YGR272C		tagged	visualized	not visualized	NA	
+609	YNL085W	MKT1	tagged	visualized	3430	NA	
+3871	YOR182C	RPS30B	tagged	visualized	18500	NA	
+4889	YPR098C		tagged	visualized	752	NA	
+5134	YDR210W		tagged	visualized	13100	NA	
+6116	YBR171W	SEC66	tagged	visualized	7820	NA	
+5284	YBR023C	CHS3	tagged	visualized	1510	NA	
+3689	YNL036W	NCE103	tagged	visualized	2330	NA	
+1441	YLR433C	CNA1	tagged	visualized	7040	NA	
+5707	YNL142W	MEP2	tagged	visualized	technical problem	NA	
+6007	YNL055C	POR1	tagged	visualized	technical problem	NA	
+3430	YOL038W	PRE6	tagged	visualized	16800	NA	
+2406	YGR046W		tagged	visualized	195	NA	
+331	YJL084C		tagged	visualized	49.2	NA	
+1070	YPL269W	KAR9	tagged	visualized	656	NA	
+3240	YML014W	TRM9	tagged	visualized	2360	NA	
+5395	YIL140W	AXL2	tagged	visualized	396	NA	
+2208	YGL223C	COG1	tagged	visualized	2190	NA	
+205	YKR096W		tagged	visualized	195	NA	
+156	YKL215C		tagged	visualized	3180	NA	
+3137	YBR152W	SPP381	tagged	visualized	2510	NA	
+3556	YBR256C	RIB5	tagged	visualized	7300	NA	
+4629	YKL058W	TOA2	tagged	visualized	3910	NA	
+870	YGL026C	TRP5	tagged	visualized	15500	NA	
+4151	YMR022W	QRI8	tagged	visualized	2100	NA	
+550	YLR347C	KAP95	tagged	visualized	51700	1810.0	
+2808	YGR080W	TWF1	tagged	visualized	1470	NA	
+3626	YHR038W	RRF1	tagged	visualized	1440	NA	
+2485	YMR289W	ABZ2	tagged	visualized	768	NA	
+433	YJL154C	VPS35	tagged	visualized	2360	NA	
+4587	YLR295C	ATP14	tagged	visualized	6140	NA	
+2045	YER152C		tagged	visualized	1390	NA	
+1389	YBR286W	APE3	tagged	visualized	4740	NA	
+1784	YIL131C	FKH1	tagged	visualized	1720	NA	
+6160	YHR039C-A	VMA10	tagged	visualized	2280	NA	
+2845	YIL084C	SDS3	tagged	visualized	105	NA	
+4983	YOL150C		tagged	visualized	not visualized	NA	
+852	YOL017W	ESC8	tagged	visualized	432	NA	
+5597	YDR343C	HXT6	tagged	visualized	not visualized	NA	
+2049	YMR208W	ERG12	tagged	visualized	3300	281.0	
+3367	YER126C	NSA2	tagged	visualized	8660	NA	
+760	YNL161W	CBK1	tagged	visualized	450	NA	
+4101	YJL016W		tagged	visualized	3360	NA	
+1962	YDL216C	RRI1	tagged	visualized	low signal	NA	
+5092	YLR438C-A	LSM3	tagged	visualized	7060	NA	
+3334	YKL206C		tagged	visualized	2940	NA	
+4369	YNL113W	RPC19	tagged	visualized	8680	NA	
+5671	YDL088C	ASM4	tagged	visualized	2740	NA	
+2308	YGR111W		tagged	visualized	768	NA	
+1146	YDL203C		tagged	visualized	98.9	NA	
+1456	YPL260W		tagged	visualized	technical problem	NA	
+3090	YIL133C	RPL16A	tagged	visualized	43300	NA	
+778	YGL086W	MAD1	tagged	visualized	656	NA	
+1021	YER173W	RAD24	tagged	visualized	752	NA	
+692	YDL060W	TSR1	tagged	visualized	1390	NA	
+5888	YCR034W	FEN1	tagged	visualized	3510	NA	
+6034	YLL041C	SDH2	tagged	visualized	9540	NA	
+5486	YOR254C	SEC63	tagged	visualized	17700	NA	
+365	YDR495C	VPS3	tagged	visualized	2270	NA	
+138	YLR371W	ROM2	tagged	visualized	not visualized	NA	
+5151	YML009C	MRPL39	tagged	visualized	2480	NA	
+315	YML010W	SPT5	tagged	visualized	2340	NA	
+3705	YDR236C	FMN1	tagged	visualized	830	NA	
+1280	YJL186W	MNN5	tagged	visualized	11400	NA	
+2098	YPR148C		tagged	visualized	low signal	NA	
+1961	YDL091C		tagged	visualized	233	NA	
+1213	YJR046W	TAH11	tagged	visualized	2190	NA	
+5471	YBR043C	AQR2	tagged	visualized	279	NA	
+1086	YKL048C	ELM1	tagged	visualized	149	NA	
+938	YLR260W	LCB5	tagged	visualized	1760	NA	
+6033	YPR183W	DPM1	tagged	visualized	1890	NA	
+2304	YDR019C	GCV1	tagged	visualized	4090	NA	
+4276	YLR218C		tagged	visualized	907	NA	
+2990	YGL043W	DST1	tagged	visualized	6260	NA	
+1851	YDR316W		tagged	visualized	504	NA	
+3887	YGR268C	HUA1	tagged	visualized	not visualized	NA	
+3966	YBR106W	PHO88	tagged	visualized	61800	NA	
+1087	YDR266C		tagged	visualized	1910	NA	
+5820	YKL166C	TPK3	tagged	visualized	1590	NA	
+122	YGL131C	SNT2	tagged	visualized	technical problem	NA	
+575	YNL126W	SPC98	tagged	visualized	56.9	NA	
+5300	YGL016W	KAP122	tagged	visualized	9760	NA	
+450	YBL104C		tagged	visualized	184	NA	
+3415	YLR441C	RPS1A	tagged	visualized	92400	NA	
+5628	YMR319C	FET4	tagged	visualized	573	NA	
+1716	YPL100W	MAI1	tagged	visualized	6020	NA	
+2863	YJL180C	ATP12	tagged	visualized	6370	NA	
+172	YOR227W		tagged	visualized	195	NA	
+2326	YJL164C	TPK1	tagged	visualized	4320	NA	
+2029	YDL147W	RPN5	tagged	visualized	5710	NA	
+5722	YPR138C	MEP3	tagged	visualized	3820	NA	
+3541	YNL129W		tagged	visualized	1460	NA	
+5075	YDR016C	DAD1	tagged	visualized	799	NA	
+6101	YLR262C	YPT6	tagged	visualized	7720	NA	
+2515	YAL036C	FUN11	tagged	visualized	11700	NA	
+920	YOR354C	MSC6	tagged	visualized	7250	NA	
+5379	YOL130W	ALR1	tagged	visualized	low signal	NA	
+4353	YNL081C	SWS2	tagged	visualized	259	NA	
+5252	YDR011W	SNQ2	tagged	visualized	1300	NA	
+3745	YNL213C		tagged	visualized	1160	NA	
+4226	YPL071C		tagged	visualized	low signal	NA	
+3974	YGR049W	SCM4	tagged	visualized	3210	NA	
+517	YGR238C	KEL2	tagged	visualized	468	NA	
+4092	YJL124C	LSM1	tagged	visualized	3490	NA	
+54	YKR031C	SPO14	tagged	visualized	49.2	NA	
+382	YGR240C	PFK1	tagged	visualized	89800	NA	
+105	YDL112W	TRM3	tagged	visualized	861	NA	
+2926	YNR027W	BUD17	tagged	visualized	6580	NA	
+3068	YJL079C	PRY1	tagged	visualized	556	NA	
+3429	YNL148C	ALF1	tagged	visualized	656	NA	
+6177	YIL065C	FIS1	tagged	visualized	2410	NA	
+1406	YMR145C	NDE1	tagged	visualized	4930	NA	
+3950	YMR138W	CIN4	tagged	visualized	468	NA	
+332	YLR249W	YEF3	tagged	visualized	871000	NA	
+1977	YHR066W	SSF1	tagged	visualized	8150	NA	
+1642	YEL052W	AFG1	tagged	visualized	3570	NA	
+3642	YLR118C		tagged	visualized	1480	NA	
+5202	YER053C-A		tagged	visualized	2360	NA	
+3352	YOR220W		tagged	visualized	967	NA	
+5166	YGR271C-A		tagged	visualized	2840	NA	
+1946	YPR080W	TEF1	tagged	visualized	377	NA	
+853	YAL054C	ACS1	tagged	visualized	2890	NA	
+2603	YML021C	UNG1	tagged	visualized	4820	NA	
+4343	YIR015W	RPR2	tagged	visualized	2070	NA	
+1005	YDR137W	RGP1	tagged	visualized	589	NA	
+2287	YMR214W	SCJ1	tagged	visualized	8260	NA	
+1543	YER052C	HOM3	tagged	visualized	48100	NA	
+399	YNL118C	DCP2	tagged	visualized	8530	NA	
+1669	YNL241C	ZWF1	tagged	visualized	15000	NA	
+5427	YAL023C	PMT2	tagged	visualized	6510	NA	
+4662	YHL018W		tagged	visualized	752	NA	
+3903	YKR065C		tagged	visualized	3000	NA	
+4184	YLR050C		tagged	visualized	358	NA	
+1089	YLL024C	SSA2	tagged	visualized	364000	NA	
+2498	YIL035C	CKA1	tagged	visualized	7180	NA	
+5773	YML038C	YMD8	tagged	visualized	technical problem	NA	
+6049	YKL154W	SRP102	tagged	visualized	8250	NA	
+1835	YLR116W	MSL5	tagged	visualized	4380	203.0	
+4037	YEL066W	HPA3	tagged	visualized	1160	NA	
+2452	YDR400W	URH1	tagged	visualized	technical problem	NA	
+4201	YGR030C	POP6	tagged	visualized	3180	NA	
+4848	YFL014W	HSP12	tagged	visualized	4490	NA	
+2127	YDL090C	RAM1	tagged	visualized	3910	NA	
+3729	YER007C-A		tagged	visualized	4220	NA	
+2013	YKR003W	OSH6	tagged	visualized	2550	NA	
+744	YNL311C		tagged	visualized	432	NA	
+5367	YNL049C	SFB2	tagged	visualized	1720	NA	
+2182	YDL150W	RPC53	tagged	visualized	998	157.0	
+12	YIL129C	TAO3	tagged	visualized	206	NA	
+904	YPL116W	HOS3	tagged	visualized	4420	NA	
+3105	YOR083W	WHI5	tagged	visualized	1440	NA	
+2758	YGR086C	PIL1	tagged	visualized	115000	NA	
+5738	YGL012W	ERG4	tagged	visualized	1640	NA	
+3990	YOR148C	SPP2	tagged	visualized	752	NA	
+5686	YDR323C	PEP7	tagged	visualized	768	NA	
+6085	YPR113W	PIS1	tagged	visualized	3810	NA	
+1331	YNL073W	MSK1	tagged	visualized	2280	NA	
+3658	YDR007W	TRP1	tagged	visualized	1850	NA	
+2948	YKL094W	YJU3	tagged	visualized	2140	NA	
+2569	YIR021W	MRS1	tagged	visualized	5240	NA	
+5446	YPR159W	KRE6	tagged	visualized	4760	NA	
+1626	YMR283C	RIT1	tagged	visualized	259	NA	
+71	YJR138W	IML1	tagged	visualized	279	NA	
+819	YER040W	GLN3	tagged	visualized	589	NA	
+298	YHR119W	SET1	tagged	visualized	172	NA	
+5947	YML125C		tagged	visualized	29000	NA	
+1493	YHR006W	STP2	tagged	visualized	6490	NA	
+1350	YHR064C	SSZ1	tagged	visualized	73600	NA	
+467	YDR213W	UPC2	tagged	visualized	752	NA	
+3271	YDR429C	TIF35	tagged	visualized	not visualized	NA	
+1196	YDL080C	THI3	tagged	visualized	2140	NA	
+3335	YMR226C		tagged	visualized	3210	NA	
+1426	YLR343W		tagged	visualized	not visualized	NA	
+3185	YOR281C	PLP2	tagged	visualized	7700	NA	
+2199	YBR271W		tagged	visualized	217	NA	
+1930	YLR210W	CLB4	tagged	visualized	98.9	NA	
+5319	YDR270W	CCC2	tagged	visualized	not visualized	NA	
+1358	YOR128C	ADE2	tagged	visualized	5410	NA	
+3019	YOR238W		tagged	visualized	892	NA	
+2942	YKL216W	URA1	tagged	visualized	264000	NA	
+2161	YLR321C	SFH1	tagged	visualized	3940	537.0	
+2144	YPR108W	RPN7	tagged	visualized	51900	NA	
+837	YIL091C		tagged	visualized	172	NA	
+256	YOR304W	ISW2	tagged	visualized	1520	NA	
+5059	YBR089C-A	NHP6B	tagged	visualized	4590	NA	
+607	YDR251W	PAM1	tagged	visualized	300	NA	
+2354	YJR080C		tagged	visualized	2290	NA	
+2689	YGR101W	PCP1	tagged	visualized	technical problem	NA	
+3380	YPL163C	SVS1	tagged	visualized	688	NA	
+1562	YOR377W	ATF1	tagged	visualized	1990	NA	
+4084	YDL208W	NHP2	tagged	visualized	not visualized	NA	
+6048	YER120W	SCS2	tagged	visualized	3500	NA	
+3532	YGR136W	LSB1	tagged	visualized	not visualized	NA	
+3158	YOR385W		tagged	visualized	504	NA	
+1627	YPL122C	TFB2	tagged	visualized	8900	1880.0	
+1397	YKR072C	SIS2	tagged	visualized	3750	NA	
+6218	YER087C-B	SBH1	tagged	visualized	217	NA	
+1106	YOR181W	LAS17	tagged	visualized	8580	NA	
+3679	YOL135C	MED7	tagged	visualized	7600	NA	
+2017	YDR515W	SLF1	tagged	visualized	861	NA	
+2957	YDL236W	PHO13	tagged	visualized	2980	NA	
+2575	YPL096W	PNG1	tagged	visualized	4850	NA	
+5501	YDR484W	SAC2	tagged	visualized	3130	NA	
+5845	YPL057C	SUR1	tagged	visualized	technical problem	NA	
+501	YOR129C		tagged	visualized	768	NA	
+5324	YLR138W	NHA1	tagged	visualized	1480	NA	
+3288	YLR150W	STM1	tagged	visualized	46800	NA	
+859	YLR006C	SSK1	tagged	visualized	1200	NA	
+5780	YIR004W	DJP1	tagged	visualized	8970	NA	
+5634	YJR131W	MNS1	tagged	visualized	8260	NA	
+2827	YOR142W	LSC1	tagged	visualized	18400	NA	
+706	YLR397C	AFG2	tagged	visualized	799	NA	
+989	YMR032W	HOF1	tagged	visualized	195	NA	
+3778	YER079W		tagged	visualized	1890	NA	
+1041	YOR147W	MDM32	tagged	visualized	10400	NA	
+232	YDR128W		tagged	visualized	556	NA	
+2651	YIL122W	POG1	tagged	visualized	736	NA	
+771	YLL008W	DRS1	tagged	visualized	not visualized	NA	
+4061	YBR047W		tagged	visualized	2160	NA	
+1734	YGR256W	GND2	tagged	visualized	556	NA	
+4875	YLL014W		tagged	visualized	low signal	NA	
+2888	YDR460W	TFB3	tagged	visualized	3050	NA	
+4158	YJR055W	HIT1	tagged	visualized	2730	NA	
+1952	YDR363W	ESC2	tagged	visualized	1890	NA	
+2842	YDL205C	HEM3	tagged	visualized	8480	1080.0	
+371	YAL035W	FUN12	tagged	visualized	13400	NA	
+3440	YGL011C	SCL1	tagged	visualized	15200	NA	
+2268	YNL181W		tagged	visualized	13900	NA	
+974	YPL089C	RLM1	tagged	visualized	736	NA	
+3258	YNL162W	RPL42A	tagged	visualized	13600	NA	
+1462	YKL089W	MIF2	tagged	visualized	465	38.1	
+3717	YOR258W	HNT3	tagged	visualized	396	NA	
+167	YMR128W	ECM16	tagged	visualized	2000	NA	
+2338	YJL138C	TIF2	tagged	visualized	technical problem	NA	
+3364	YBL064C	PRX1	tagged	visualized	4510	NA	
+1612	YCR053W	THR4	tagged	visualized	26000	NA	
+420	YJR089W	BIR1	tagged	visualized	not visualized	NA	
+5233	YJL039C	NUP192	tagged	visualized	2520	NA	
+6128	YNL214W	PEX17	tagged	visualized	656	NA	
+3931	YDL064W	UBC9	tagged	visualized	2600	NA	
+3664	YMR095C	SNO1	tagged	visualized	low signal	NA	
+2382	YDR197W	CBS2	tagged	visualized	2140	NA	
+1228	YJL201W	ECM25	tagged	visualized	1750	NA	
+2146	YDL066W	IDP1	tagged	visualized	not visualized	NA	
+5176	YHR072W-A	NOP10	tagged	visualized	not visualized	NA	
+1480	YBR223C	TDP1	tagged	visualized	2130	NA	
+2623	YBL074C	AAR2	tagged	visualized	7330	500.0	
+5485	YDR508C	GNP1	tagged	visualized	10600	NA	
+4516	YNL153C	GIM3	tagged	visualized	7470	NA	
+876	YPL155C	KIP2	tagged	visualized	656	NA	
+1381	YBR263W	SHM1	tagged	visualized	17700	NA	
+5795	YLR130C	ZRT2	tagged	visualized	technical problem	NA	
+3586	YDR275W	BSC2	tagged	visualized	922	NA	
+5715	YGR121C	MEP1	tagged	visualized	technical problem	NA	
+3916	YJL178C	ETF1	tagged	visualized	8970	NA	
+2414	YGL067W	NPY1	tagged	visualized	846	NA	
+4031	YBR082C	UBC4	tagged	visualized	13500	NA	
+2790	YLR354C	TAL1	tagged	visualized	53000	NA	
+4312	YNL147W	LSM7	tagged	visualized	3070	NA	
+6157	YKL016C	ATP7	tagged	visualized	6820	NA	
+5289	YBL022C	PIM1	tagged	visualized	14500	NA	
+6017	YBR185C	MBA1	tagged	visualized	2720	NA	
+592	YML029W	USA1	tagged	visualized	1890	NA	
+3494	YNL024C		tagged	visualized	1760	NA	
+2668	YPR129W	SCD6	tagged	visualized	1280	NA	
+786	YOR076C	SKI7	tagged	visualized	233	NA	
+2305	YER095W	RAD51	tagged	visualized	6960	NA	
+4377	YJR067C	YAE1	tagged	visualized	1500	NA	
+2720	YIL106W	MOB1	tagged	visualized	5020	NA	
+2207	YGL004C	RPN14	tagged	visualized	2210	NA	
+1293	YML013W	SEL1	tagged	visualized	12600	NA	
+2553	YIL083C		tagged	visualized	3170	NA	
+5381	YBR179C	FZO1	tagged	visualized	1010	NA	
+5102	YLR327C		tagged	visualized	504	NA	
+102	YMR190C	SGS1	tagged	visualized	not visualized	NA	
+3211	YOR234C	RPL33B	tagged	visualized	65600	NA	
+6006	YDR472W	TRS31	tagged	visualized	8350	NA	
+37	YPL231W	FAS2	tagged	visualized	17000	NA	
+4623	YGL070C	RPB9	tagged	visualized	2440	NA	
+1179	YMR098C		tagged	visualized	2430	NA	
+3394	YOR095C	RKI1	tagged	visualized	5680	NA	
+5527	YNL121C	TOM70	tagged	visualized	45300	NA	
+5371	YLR166C	SEC10	tagged	visualized	2340	NA	
+5128	YFL017W-A	SMX2	tagged	visualized	1400	NA	
+2130	YIR012W	SQT1	tagged	visualized	19700	5170.0	
+4834	YGR215W	RSM27	tagged	visualized	not visualized	NA	
+2997	YNL312W	RFA2	tagged	visualized	6080	NA	
+3058	YLR093C	NYV1	tagged	visualized	1890	NA	
+355	YKL210W	UBA1	tagged	visualized	17700	NA	
+1022	YHR015W	MIP6	tagged	visualized	98.9	NA	
+3111	YHL034C	SBP1	tagged	visualized	12800	NA	
+689	YNL183C	NPR1	tagged	visualized	284	NA	
+1715	YOL061W	PRS5	tagged	visualized	3310	NA	
+2085	YLL002W	RTT109	tagged	visualized	1140	NA	
+534	YNL221C	POP1	tagged	visualized	846	NA	
+265	YER110C	KAP123	tagged	visualized	38300	NA	
+3602	YJL148W	RPA34	tagged	visualized	3360	NA	
+6113	YML001W	YPT7	tagged	visualized	5530	NA	
+436	YLR129W	DIP2	tagged	visualized	9620	NA	
+183	YJL074C	SMC3	tagged	visualized	2660	NA	
+1527	YKR023W		tagged	visualized	1710	NA	
+1780	YFR053C	HXK1	tagged	visualized	40800	NA	
+1145	YBR215W	HPC2	tagged	visualized	238	NA	
+4328	YBL025W	RRN10	tagged	visualized	low signal	NA	
+2398	YOR084W		tagged	visualized	2350	NA	
+1895	YHL021C		tagged	visualized	5800	NA	
+2052	YDR370C		tagged	visualized	1040	NA	
+1446	YPR144C	NOC4	tagged	visualized	1630	NA	
+2492	YMR276W	DSK2	tagged	visualized	3930	NA	
+3763	YOL111C		tagged	visualized	6510	NA	
+1128	YER080W		tagged	visualized	8200	NA	
+551	YOR217W	RFC1	tagged	visualized	2360	130.0	
+5085	YPR052C	NHP6A	tagged	visualized	3870	NA	
+6156	YGL010W		tagged	visualized	486	NA	
+4134	YKL122C	SRP21	tagged	visualized	3400	NA	
+574	YAL056W	GPB2	tagged	visualized	low signal	NA	
+1577	YOR359W	VTS1	tagged	visualized	3200	NA	
+5160	YOR167C	RPS28A	tagged	visualized	94500	NA	
+3410	YNR040W		tagged	visualized	1140	NA	
+1967	YOL072W	THP1	tagged	visualized	1140	NA	
+5005	YNL086W		tagged	visualized	195	NA	
+5999	YBR002C	RER2	tagged	visualized	8970	NA	
+1088	YJR130C	STR2	tagged	visualized	2070	NA	
+1880	YEL040W	UTR2	tagged	visualized	technical problem	NA	
+3633	YFL034C-A	RPL22B	tagged	visualized	74700	NA	
+2223	YPL048W	CAM1	tagged	visualized	60900	NA	
+2431	YGL082W		tagged	visualized	7620	NA	
+891	YDR221W		tagged	visualized	9760	NA	
+3961	YHR175W	CTR2	tagged	visualized	technical problem	NA	
+1658	YDR168W	CDC37	tagged	visualized	10200	NA	
+3228	YJL203W	PRP21	tagged	visualized	2490	NA	
+1496	YPL214C	THI6	tagged	visualized	technical problem	NA	
+3710	YOR131C		tagged	visualized	396	NA	
+1258	YNL227C		tagged	visualized	2310	NA	
+704	YGR250C		tagged	visualized	1910	NA	
+118	YJR031C	GEA1	tagged	visualized	2940	NA	
+5811	YBR205W	KTR3	tagged	visualized	704	NA	
+5665	YHL017W		tagged	visualized	14600	NA	
+5211	YDL184C	RPL41A	tagged	visualized	11900	NA	
+6174	YJL143W	TIM17	tagged	visualized	1210	NA	
+338	YKL033W		tagged	visualized	721	NA	
+739	YDL028C	MPS1	tagged	visualized	low signal	NA	
+1340	YJR053W	BFA1	tagged	visualized	1380	NA	
+4296	YGR203W		tagged	visualized	2310	NA	
+2806	YPL111W	CAR1	tagged	visualized	42800	NA	
+5305	YDR122W	KIN1	tagged	visualized	279	NA	
+5470	YMR301C	ATM1	tagged	visualized	3250	483.0	
+5541	YCR048W	ARE1	tagged	visualized	technical problem	NA	
+2301	YOR091W		tagged	visualized	4220	NA	
+3809	YDR056C		tagged	visualized	1600	NA	
+1366	YMR105C	PGM2	tagged	visualized	3790	NA	
+2459	YBL029W		tagged	visualized	low signal	NA	
+468	YER151C	UBP3	tagged	visualized	2210	NA	
+3969	YOR179C		tagged	visualized	1430	NA	
+4908	YBL028C		tagged	visualized	6210	NA	
+1917	YLR163C	MAS1	tagged	visualized	1360	108.0	
+200	YPR010C	RPA135	tagged	visualized	14100	NA	
+5934	YPL087W	YDC1	tagged	visualized	not visualized	NA	
+3127	YPR069C	SPE3	tagged	visualized	not visualized	NA	
+2684	YNL141W	AAH1	tagged	visualized	20700	NA	
+2874	YGR007W	MUQ1	tagged	visualized	4700	NA	
+2669	YBR034C	HMT1	tagged	visualized	37600	NA	
+804	YPR090W		tagged	visualized	3690	NA	
+3900	YGL247W	BRR6	tagged	visualized	125	NA	
+674	YER169W	RPH1	tagged	visualized	2230	NA	
+1700	YPL061W	ALD6	tagged	visualized	135000	NA	
+1937	YOL041C	NOP12	tagged	visualized	5910	NA	
+388	YLR442C	SIR3	tagged	visualized	1400	NA	
+53	YDR141C	DOP1	tagged	visualized	2700	NA	
+289	YJR035W	RAD26	tagged	visualized	low signal	NA	
+4030	YMR242C	RPL20A	tagged	visualized	54300	NA	
+518	YJL078C	PRY3	tagged	visualized	not visualized	NA	
+639	YDR258C	HSP78	tagged	visualized	2990	NA	
+3464	YLR052W	IES3	tagged	visualized	2280	NA	
+1380	YPR070W	MED1	tagged	visualized	4670	NA	
+2722	YGL040C	HEM2	tagged	visualized	11600	1210.0	
+2860	YFL034C-B	MOB2	tagged	visualized	2250	NA	
+5484	YDR189W	SLY1	tagged	visualized	5780	1600.0	
+567	YER167W	BCK2	tagged	visualized	not visualized	NA	
+1090	YAL011W	SWC1	tagged	visualized	1380	NA	
+3579	YJR056C		tagged	visualized	1890	NA	
+1071	YDR398W	UTP5	tagged	visualized	33100	NA	
+1006	YDR458C		tagged	visualized	1250	NA	
+3327	YPR134W	MSS18	tagged	visualized	861	NA	
+6098	YEL024W	RIP1	tagged	visualized	not visualized	NA	
+1511	YDR299W	BFR2	tagged	visualized	15400	NA	
+6078	YER031C	YPT31	tagged	visualized	5960	NA	
+4564	YER092W	IES5	tagged	visualized	2280	NA	
+1416	YFR037C	RSC8	tagged	visualized	3380	341.0	
+4713	YJR146W		tagged	visualized	952	NA	
+272	YMR218C	TRS130	tagged	visualized	432	NA	
+3188	YIL050W	PCL7	tagged	visualized	3390	NA	
+2337	YGR010W	NMA2	tagged	visualized	1430	NA	
+3363	YAL027W		tagged	visualized	1170	NA	
+3310	YNL108C		tagged	visualized	1950	NA	
+2053	YER061C	CEM1	tagged	visualized	1660	NA	
+5428	YBR080C	SEC18	tagged	visualized	5920	1230.0	
+70	YDR127W	ARO1	tagged	visualized	6420	NA	
+3525	YPL065W	VPS28	tagged	visualized	1420	NA	
+5558	YKR093W	PTR2	tagged	visualized	technical problem	NA	
+5746	YBR207W	FTH1	tagged	visualized	486	NA	
+1323	YER165W	PAB1	tagged	visualized	198000	48500.0	
+5623	YOL105C	WSC3	tagged	visualized	technical problem	NA	
+3793	YFL046W		tagged	visualized	low signal	NA	
+1844	YPR047W	MSF1	tagged	visualized	1800	NA	
+5948	YOL101C		tagged	visualized	technical problem	NA	
+3272	YER116C	SLX8	tagged	visualized	technical problem	NA	
+3985	YNR024W		tagged	visualized	1350	NA	
+1799	YDR524C	AGE1	tagged	visualized	396	NA	
+13	YFR019W	FAB1	tagged	visualized	149	NA	
+6064	YKR014C	YPT52	tagged	visualized	9380	NA	
+485	YBR055C	PRP6	tagged	visualized	2250	295.0	
+4141	YEL044W	IES6	tagged	visualized	1720	NA	
+5829	YIL136W	OM45	tagged	visualized	6490	NA	
+5903	YNL326C		tagged	visualized	2130	NA	
+5701	YNL283C	WSC2	tagged	visualized	low signal	NA	
+4279	YOR052C		tagged	visualized	9520	NA	
+3098	YHR058C	MED6	tagged	visualized	4820	NA	
+2921	YDR352W		tagged	visualized	6350	NA	
+909	YIL009W	FAA3	tagged	visualized	6440	NA	
+249	YML104C	MDM1	tagged	visualized	784	NA	
+215	YPR049C	CVT9	tagged	visualized	85.5	NA	
+6082	YNR017W	MAS6	tagged	visualized	1440	NA	
+5232	YDL058W	USO1	tagged	visualized	2330	NA	
+135	YGR061C	ADE6	tagged	visualized	40800	NA	
+990	YNL008C	ASI3	tagged	visualized	low signal	NA	
+2284	YJR149W		tagged	visualized	172	NA	
+3441	YJL066C	MPM1	tagged	visualized	3390	NA	
+3010	YNL072W	RNH35	tagged	visualized	623	NA	
+403	YBR112C	CYC8	tagged	visualized	3890	NA	
+5341	YNL287W	SEC21	tagged	visualized	77900	NA	
+6189	YPR017C	DSS4	tagged	visualized	1500	NA	
+1921	YDR247W	VHS1	tagged	visualized	784	NA	
+4638	YBR253W	SRB6	tagged	visualized	2180	NA	
+5146	YDR320C-A	DAD4	tagged	visualized	967	NA	
+2436	YPL014W		tagged	visualized	technical problem	NA	
+3479	YDL139C	SCM3	tagged	visualized	556	NA	
+1546	YKL074C	MUD2	tagged	visualized	4170	NA	
+4656	YGL029W	CGR1	tagged	visualized	2340	NA	
+1749	YDR523C	SPS1	tagged	visualized	not visualized	NA	
+4046	YML055W	SPC2	tagged	visualized	4890	NA	
+1684	YLR094C	GIS3	tagged	visualized	1050	NA	
+306	YPR097W		tagged	visualized	3080	NA	
+2757	YGR084C	MRP13	tagged	visualized	16000	NA	
+6143	YGR082W	TOM20	tagged	visualized	5680	NA	
+2200	YBL055C		tagged	visualized	1460	NA	
+3531	YEL038W	UTR4	tagged	visualized	2850	NA	
+5052	YOR248W	TOS11	tagged	visualized	not visualized	NA	
+2635	YBR181C	RPS6B	tagged	visualized	38800	NA	
+3947	YGL147C	RPL9A	tagged	visualized	52400	NA	
+1275	YNL218W	MGS1	tagged	visualized	1180	NA	
+2590	YKR066C	CCP1	tagged	visualized	6730	NA	
+2018	YKL027W		tagged	visualized	1170	NA	
+4484	YBR269C		tagged	visualized	not visualized	NA	
+30	YLR422W		tagged	visualized	238	NA	
+3171	YPL117C	IDI1	tagged	visualized	25500	NA	
+3932	YCL026C-A	FRM2	tagged	visualized	not visualized	NA	
+736	YKL072W	STB6	tagged	visualized	211	NA	
+3779	YGR081C		tagged	visualized	3670	NA	
+657	YMR049C	ERB1	tagged	visualized	2680	NA	
+5577	YDR497C	ITR1	tagged	visualized	technical problem	NA	
+5779	YPR173C	VPS4	tagged	visualized	5350	NA	
+2147	YDL182W	LYS20	tagged	visualized	28100	NA	
+4531	YCR083W	TRX3	tagged	visualized	1010	NA	
+85	YBL034C	STU1	tagged	visualized	521	NA	
+1526	YJR049C	UTR1	tagged	visualized	5040	NA	
+5846	YNL336W	COS1	tagged	visualized	1730	NA	
+2650	YDL107W	MSS2	tagged	visualized	736	NA	
+1613	YJL025W	RRN7	tagged	visualized	398	110.0	
+288	YMR196W		tagged	visualized	2220	NA	
+3040	YNL006W	LST8	tagged	visualized	589	NA	
+2690	YIL019W		tagged	visualized	not visualized	NA	
+2070	YBR143C	SUP45	tagged	visualized	13100	NA	
+4157	YIL057C		tagged	visualized	5530	NA	
+3716	YNL306W	MRPS18	tagged	visualized	5300	NA	
+4083	YDL046W	NPC2	tagged	visualized	2840	NA	
+3601	YHR008C	SOD2	tagged	visualized	10900	NA	
+1229	YPL169C	MEX67	tagged	visualized	2830	408.0	
+4673	YNL111C	CYB5	tagged	visualized	5390	NA	
+3159	YJL177W	RPL17B	tagged	visualized	21100	NA	
+1107	YPL161C	BEM4	tagged	visualized	6330	NA	
+166	YKL129C	MYO3	tagged	visualized	155	NA	
+3381	YAL009W	SPO7	tagged	visualized	861	NA	
+6047	YML064C	TEM1	tagged	visualized	573	NA	
+925	YDR332W		tagged	visualized	172	NA	
+2772	YOR261C	RPN8	tagged	visualized	19800	NA	
+4224	YOR226C	ISU2	tagged	visualized	3420	NA	
+973	YOR243C	PUS7	tagged	visualized	4150	NA	
+2887	YDR347W	MRP1	tagged	visualized	2840	NA	
+6205	YEL039C	CYC7	tagged	visualized	1310	NA	
+2843	YHR104W	GRE3	tagged	visualized	12900	NA	
+5248	YDR135C	YCF1	tagged	visualized	396	NA	
+772	YDR001C	NTH1	tagged	visualized	1840	NA	
+5969	YKR026C	GCN3	tagged	visualized	8970	NA	
+1040	YPR190C	RPC82	tagged	visualized	2520	278.0	
+5622	YPL120W	VPS30	tagged	visualized	2490	NA	
+606	YBL052C	SAS3	tagged	visualized	low signal	NA	
+5397	YPL270W	MDL2	tagged	visualized	3390	NA	
+3495	YNL200C		tagged	visualized	1380	NA	
+372	YPL040C	ISM1	tagged	visualized	1270	NA	
+3096	YFR047C	BNA6	tagged	visualized	2660	NA	
+2206	YER027C	GAL83	tagged	visualized	3590	NA	
+3854	YJR112W	NNF1	tagged	visualized	2070	NA	
+705	YBR001C	NTH2	tagged	visualized	2500	NA	
+3395	YPL127C	HHO1	tagged	visualized	6560	NA	
+5325	YDR238C	SEC26	tagged	visualized	26000	NA	
+1865	YDR473C	PRP3	tagged	visualized	432	NA	
+5021	YGR206W		tagged	visualized	752	NA	
+1951	YMR209C		tagged	visualized	981	NA	
+5794	YJL183W	MNN11	tagged	visualized	3480	NA	
+1479	YML124C	TUB3	tagged	visualized	12300	NA	
+2269	YDR076W	RAD55	tagged	visualized	1050	NA	
+6127	YDR084C	TVP23	tagged	visualized	1040	NA	
+1735	YNL124W	NAF1	tagged	visualized	1810	NA	
+5069	YDR322C-A	TIM11	tagged	visualized	4590	NA	
+5649	YIL121W	QDR2	tagged	visualized	not visualized	NA	
+3869	YLR073C		tagged	visualized	377	NA	
+4118	YOL143C	RIB4	tagged	visualized	3260	NA	
+2554	YJL021C		tagged	visualized	2610	NA	
+304	YFL034W		tagged	visualized	1110	NA	
+4770	YLR200W	YKE2	tagged	visualized	784	NA	
+1643	YLR345W		tagged	visualized	3380	NA	
+2415	YHR129C	ARP1	tagged	visualized	1580	NA	
+5103	YMR286W	MRPL33	tagged	visualized	1200	NA	
+3695	YLR221C	RSA3	tagged	visualized	2940	NA	
+2738	YKL164C	PIR1	tagged	visualized	1170	NA	
+753	YBL084C	CDC27	tagged	visualized	593	88.0	
+3210	YKR046C	PET10	tagged	visualized	2160	NA	
+6032	YOR115C	TRS33	tagged	visualized	not visualized	NA	
+2996	YNL177C	MRPL22	tagged	visualized	1810	NA	
+3365	YDL087C	LUC7	tagged	visualized	2270	NA	
+2381	YMR024W	MRPL3	tagged	visualized	300	NA	
+6158	YPR149W	NCE102	tagged	visualized	technical problem	NA	
+103	YJR137C	ECM17	tagged	visualized	2900	NA	
+2084	YIL135C	VHS2	tagged	visualized	2180	NA	
+2624	YDR173C	ARG82	tagged	visualized	2720	NA	
+787	YDL234C	GYP7	tagged	visualized	2460	NA	
+1698	YFR021W	AUT10	tagged	visualized	1560	NA	
+805	YGR186W	TFG1	tagged	visualized	1920	NA	
+5177	YOR298C-A	MBF1	tagged	visualized	47300	NA	
+956	YKL126W	YPK1	tagged	visualized	2950	NA	
+5370	YOR329C	SCD5	tagged	visualized	704	NA	
+1447	YBR200W	BEM1	tagged	visualized	6490	NA	
+591	YKR079C		tagged	visualized	2710	NA	
+2667	YNL084C	END3	tagged	visualized	2610	NA	
+1576	YMR029C	FAR8	tagged	visualized	4010	NA	
+3762	YNR014W		tagged	visualized	2360	NA	
+4515	YNL149C		tagged	visualized	not visualized	NA	
+4311	YMR225C	MRPL44	tagged	visualized	1560	NA	
+5307	YCR011C	ADP1	tagged	visualized	339	NA	
+3511	YJR024C		tagged	visualized	952	NA	
+5606	YDR481C	PHO8	tagged	visualized	3060	NA	
+3825	YMR052W	FAR3	tagged	visualized	1540	NA	
+182	YFR016C		tagged	visualized	704	NA	
+2129	YHR169W	DBP8	tagged	visualized	3500	NA	
+535	YOR038C	HIR2	tagged	visualized	922	NA	
+3059	YLR146C	SPE4	tagged	visualized	3870	NA	
+339	YPL009C		tagged	visualized	7700	NA	
+5006	YNL300W	TOS6	tagged	visualized	1480	NA	
+5084	YPL183W-A	GON5	tagged	visualized	538	NA	
+3648	YML106W	URA5	tagged	visualized	39300	NA	
+3332	YER177W	BMH1	tagged	visualized	158000	NA	
+2399	YDL168W	SFA1	tagged	visualized	8370	NA	
+5917	YOR271C		tagged	visualized	9290	NA	
+1023	YKR036C	CAF4	tagged	visualized	589	NA	
+3273	YFR052W	RPN12	tagged	visualized	9890	NA	
+1813	YBR272C	HSM3	tagged	visualized	468	NA	
+1025	YPL104W	MSD1	tagged	visualized	1550	NA	
+2051	YCR079W		tagged	visualized	432	NA	
+552	YPL008W	CHL1	tagged	visualized	98.9	NA	
+858	YDR211W	GCD6	tagged	visualized	33800	6700.0	
+4498	YNL143C		tagged	visualized	238	NA	
+266	YBL063W	KIP1	tagged	visualized	56.9	NA	
+2323	YPL028W	ERG10	tagged	visualized	60900	5910.0	
+1968	YPL146C		tagged	visualized	1600	NA	
+6000	YDR313C	PIB1	tagged	visualized	195	NA	
+1896	YHR146W	CRP1	tagged	visualized	2990	NA	
+877	YBL035C	POL12	tagged	visualized	11200	1700.0	
+1243	YDR101C	ARX1	tagged	visualized	45100	NA	
+1127	YLR177W		tagged	visualized	1550	NA	
+2491	YIR034C	LYS1	tagged	visualized	112000	NA	
+1310	YBR170C	NPL4	tagged	visualized	1050	NA	
+3227	YHR163W	SOL3	tagged	visualized	3420	NA	
+5542	YBR068C	BAP2	tagged	visualized	8660	NA	
+469	YGL141W	HUL5	tagged	visualized	3120	NA	
+940	YIL105C	LIT2	tagged	visualized	5190	NA	
+5159	YLR264W	RPS28B	tagged	visualized	8600	NA	
+1495	YKR016W		tagged	visualized	5730	NA	
+5731	YJL054W	TIM54	tagged	visualized	not visualized	NA	
+3885	YDR478W	SNM1	tagged	visualized	172	NA	
+4190	YER030W		tagged	visualized	623	NA	
+2538	YLR405W	DUS4	tagged	visualized	3390	NA	
+5118	YLR038C	COX12	tagged	visualized	1390	NA	
+738	YKR027W		tagged	visualized	2540	NA	
+1659	YMR169C	ALD3	tagged	visualized	172	NA	
+3711	YDR500C	RPL37B	tagged	visualized	19700	NA	
+2805	YNL265C	IST1	tagged	visualized	4760	NA	
+825	YLR219W	MSC3	tagged	visualized	131	NA	
+1714	YEL071W	DLD3	tagged	visualized	13000	NA	
+4329	YER035W	EDC2	tagged	visualized	538	NA	
+2432	YGR295C	COS6	tagged	visualized	not visualized	NA	
+5918	YPR011C		tagged	visualized	not visualized	NA	
+119	YCR042C	TAF2	tagged	visualized	1160	NA	
+2352	YHL004W	MRP4	tagged	visualized	6890	NA	
+1987	YGL194C	HOS2	tagged	visualized	4890	NA	
+690	YJL200C		tagged	visualized	4670	NA	
+5212	YOR302W		tagged	visualized	not visualized	NA	
+1916	YKL194C	MST1	tagged	visualized	1240	NA	
+2100	YDR448W	ADA2	tagged	visualized	1720	NA	
+5145	YDR079C-A		tagged	visualized	technical problem	NA	
+1664	YPL181W	CTI6	tagged	visualized	1590	NA	
+5306	YML075C	HMG1	tagged	visualized	low signal	NA	
+2046	YER178W	PDA1	tagged	visualized	100000	NA	
+5877	YCR044C	PER1	tagged	visualized	3050	NA	
+3025	YNL096C	RPS7B	tagged	visualized	43500	NA	
+136	YDR301W	CFT1	tagged	visualized	639	NA	
+568	YOR373W	NUD1	tagged	visualized	892	NA	
+2458	YOL047C		tagged	visualized	155	NA	
+199	YPR122W	AXL1	tagged	visualized	623	NA	
+1699	YGL202W	ARO8	tagged	visualized	1770	NA	
+5483	YLR083C	EMP70	tagged	visualized	technical problem	NA	
+3143	YLR003C		tagged	visualized	1200	NA	
+1143	YOR171C	LCB4	tagged	visualized	2840	NA	
+3810	YDR231C	COX20	tagged	visualized	low signal	NA	
+1365	YLR253W		tagged	visualized	1600	NA	
+1091	YDL070W	BDF2	tagged	visualized	2930	NA	
+233	YGR097W	ASK10	tagged	visualized	low signal	NA	
+452	YER032W	FIR1	tagged	visualized	low signal	NA	
+5448	YGL022W	STT3	tagged	visualized	3000	NA	
+5353	YGL233W	SEC15	tagged	visualized	4280	NA	
+1379	YOR023C	AHC1	tagged	visualized	339	NA	
+3463	YLR022C		tagged	visualized	5060	NA	
+3350	YLR102C	APC9	tagged	visualized	low signal	NA	
+2723	YGR031W		tagged	visualized	7400	NA	
+5469	YLR396C	VPS33	tagged	visualized	830	NA	
+1829	YDL103C	QRI1	tagged	visualized	5480	NA	
+2475	YDL193W		tagged	visualized	not visualized	NA	
+1257	YMR227C	TAF7	tagged	visualized	1050	NA	
+5716	YIL090W		tagged	visualized	606	NA	
+675	YFL023W	BUD27	tagged	visualized	1300	NA	
+4232	YGL031C	RPL24A	tagged	visualized	247000	NA	
+3747	YBR005W		tagged	visualized	not visualized	NA	
+5933	YIL117C	PRM5	tagged	visualized	not visualized	NA	
+1510	YDR147W	EKI1	tagged	visualized	3420	NA	
+1983	YNL016W	PUB1	tagged	visualized	49600	NA	
+486	YLR336C	SGD1	tagged	visualized	3060	NA	
+1766	YER133W	GLC7	tagged	visualized	14600	NA	
+1798	YDR388W	RVS167	tagged	visualized	14600	NA	
+2521	YOR136W	IDH2	tagged	visualized	43100	NA	
+5747	YBR199W	KTR4	tagged	visualized	5240	NA	
+910	YMR246W	FAA4	tagged	visualized	31200	NA	
+3097	YHR046C	INM1	tagged	visualized	2440	NA	
+2437	YPL193W	RSA1	tagged	visualized	259	NA	
+5429	YLL001W	DNM1	tagged	visualized	9620	NA	
+14	YNR016C	ACC1	tagged	visualized	20200	NA	
+4376	YIL027C	KRE27	tagged	visualized	5240	NA	
+322	YLR039C	RIC1	tagged	visualized	78.6	NA	
+5500	YNR019W	ARE2	tagged	visualized	279	NA	
+250	YHR077C	NMD2	tagged	visualized	1280	NA	
+6188	YKL006C-A	SFT1	tagged	visualized	low signal	NA	
+2054	YFL001W	DEG1	tagged	visualized	5860	NA	
+5511	YER005W	YND1	tagged	visualized	450	NA	
+4000	YOL129W	VPS68	tagged	visualized	1900	NA	
+3187	YDR116C	MRPL1	tagged	visualized	7010	NA	
+2936	YCR073W-A	SOL2	tagged	visualized	1160	NA	
+5830	YML018C		tagged	visualized	2010	NA	
+1592	YOR374W	ALD4	tagged	visualized	22200	NA	
+519	YKL073W	LHS1	tagged	visualized	137	NA	
+2873	YDR480W	DIG2	tagged	visualized	1310	NA	
+2705	YBR149W	ARA1	tagged	visualized	30200	NA	
+1211	YDR200C	VPS64	tagged	visualized	377	NA	
+6063	YJL192C	SOP4	tagged	visualized	11700	NA	
+5700	YKL175W	ZRT3	tagged	visualized	not visualized	NA	
+305	YJL050W	MTR4	tagged	visualized	12500	NA	
+4639	YDL152W		tagged	visualized	not visualized	NA	
+5949	YOR069W	VPS5	tagged	visualized	6120	NA	
+4409	YDR156W	RPA14	tagged	visualized	3100	NA	
+1845	YDR105C	TMS1	tagged	visualized	low signal	NA	
+3009	YML110C	COQ5	tagged	visualized	8100	NA	
+4694	YDL157C		tagged	visualized	752	NA	
+1194	YLR248W	RCK2	tagged	visualized	1790	NA	
+6234	YDL232W	OST4	tagged	visualized	2430	NA	
+1683	YLR033W	RSC58	tagged	visualized	4460	NA	
+1936	YNL309W	STB1	tagged	visualized	319	NA	
+216	YLR272C	YCS4	tagged	visualized	2540	NA	
+2222	YOL082W	CVT19	tagged	visualized	1250	NA	
+52	YOR290C	SNF2	tagged	visualized	217	NA	
+5953	YJR077C	MIR1	tagged	visualized	not visualized	NA	
+4047	YAL044C	GCV3	tagged	visualized	3510	NA	
+1750	YHR113W		tagged	visualized	172	NA	
+5810	YPR124W	CTR1	tagged	visualized	1180	NA	
+3526	YMR230W	RPS10B	tagged	visualized	7650	NA	
+3901	YIL157C		tagged	visualized	1680	NA	
+2353	YIL042C		tagged	visualized	4220	NA	
+5275	YKR103W		tagged	visualized	low signal	NA	
+624	YJL102W	MEF2	tagged	visualized	1730	NA	
+2003	YKL075C		tagged	visualized	98.9	NA	
+2591	YCL064C	CHA1	tagged	visualized	36600	NA	
+3080	YIL124W	AYR1	tagged	visualized	3670	NA	
+3480	YGL061C	DUO1	tagged	visualized	996	NA	
+641	YKR099W	BAS1	tagged	visualized	861	NA	
+3242	YPL129W	TAF14	tagged	visualized	3120	NA	
+2958	YDR368W	YPR1	tagged	visualized	14100	NA	
+3948	YKR045C		tagged	visualized	low signal	NA	
+1274	YNL094W	APP1	tagged	visualized	2290	NA	
+389	YBL005W	PDR3	tagged	visualized	166	NA	
+6142	YBR164C	ARL1	tagged	visualized	5190	NA	
+69	YNL242W	APG2	tagged	visualized	876	NA	
+2163	YNL234W		tagged	visualized	195	NA	
+892	YOR033C	EXO1	tagged	visualized	672	NA	
+2771	YMR127C	SAS2	tagged	visualized	low signal	NA	
+369	YOR048C	RAT1	tagged	visualized	623	NA	
+1614	YKL103C	LAP4	tagged	visualized	5730	NA	
+5287	YIL048W	NEO1	tagged	visualized	technical problem	NA	
+287	YMR308C	PSE1	tagged	visualized	15500	NA	
+991	YBL051C	PIN4	tagged	visualized	4630	NA	
+907	YOL141W	PPM2	tagged	visualized	830	NA	
+993	YGL113W	SLD3	tagged	visualized	125	NA	
+5414	YDR119W		tagged	visualized	not visualized	NA	
+4473	YKL003C	MRP17	tagged	visualized	not visualized	NA	
+3213	YHR090C	YNG2	tagged	visualized	low signal	NA	
+2959	YEL029C	BUD16	tagged	visualized	low signal	NA	
+857	YCL057W	PRD1	tagged	visualized	8910	NA	
+2653	YNL164C	IBD2	tagged	visualized	not visualized	NA	
+5843	YML067C	ERV41	tagged	visualized	3000	NA	
+1057	YIL101C	XBP1	tagged	visualized	195	NA	
+6130	YLR356W		tagged	visualized	low signal	NA	
+6046	YGL098W	USE1	tagged	visualized	937	NA	
+670	YBR198C	TAF5	tagged	visualized	14800	203.0	
+352	YBL037W	APL3	tagged	visualized	1590	NA	
+2250	YGR193C	PDX1	tagged	visualized	414	NA	
+4298	YIR005W	IST3	tagged	visualized	922	NA	
+4002	YCR003W	MRPL32	tagged	visualized	1690	NA	
+4221	YLR421C	RPN13	tagged	visualized	12200	NA	
+3039	YFR031C-A	RPL2A	tagged	visualized	technical problem	NA	
+1108	YDR049W		tagged	visualized	3930	NA	
+6220	YDR086C	SSS1	tagged	visualized	not visualized	NA	
+1732	YDR240C	SNU56	tagged	visualized	361	58.1	
+503	YNL233W	BNI4	tagged	visualized	low signal	NA	
+605	YPR029C	APL4	tagged	visualized	4850	NA	
+2015	YNL166C	BNI5	tagged	visualized	not visualized	NA	
+4082	YAL033W	POP5	tagged	visualized	2230	NA	
+1847	YIL039W		tagged	visualized	1070	NA	
+5342	YPL195W	APL5	tagged	visualized	13500	NA	
+5574	YLL028W	TPO1	tagged	visualized	1470	NA	
+536	YCR030C	SYP1	tagged	visualized	4280	NA	
+1226	YGR194C	XKS1	tagged	visualized	3460	NA	
+149	YPL016W	SWI1	tagged	visualized	92.3	NA	
+5400	YNL238W	KEX2	tagged	visualized	low signal	NA	
+2756	YDL209C	CWC2	tagged	visualized	2650	NA	
+3294	YDR262W		tagged	visualized	4850	NA	
+4172	YDR179C	CSN9	tagged	visualized	358	NA	
+2000	YPL151C	PRP46	tagged	visualized	1770	NA	
+1950	YJR062C	NTA1	tagged	visualized	1640	NA	
+5322	YDR080W	VPS41	tagged	visualized	1170	NA	
+2416	YMR272C	SCS7	tagged	visualized	3290	NA	
+3662	YJL096W	MRPL49	tagged	visualized	1840	NA	
+3929	YDR328C	SKP1	tagged	visualized	not visualized	NA	
+1866	YER081W	SER3	tagged	visualized	7670	NA	
+3095	YFR041C		tagged	visualized	not visualized	NA	
+3041	YOL056W	GPM3	tagged	visualized	3730	NA	
+922	YIL144W	TID3	tagged	visualized	1160	NA	
+2974	YBR061C	TRM7	tagged	visualized	4110	NA	
+2573	YOL042W	NGL1	tagged	visualized	3480	NA	
+2148	YDR300C	PRO1	tagged	visualized	10400	NA	
+2319	YMR201C	RAD14	tagged	visualized	1030	NA	
+773	YGR264C	MES1	tagged	visualized	85000	26800.0	
+842	YMR172W	HOT1	tagged	visualized	149	NA	
+2905	YDR353W	TRR1	tagged	visualized	292000	NA	
+2205	YDL033C		tagged	visualized	1510	NA	
+1482	YOR002W	ALG6	tagged	visualized	not visualized	NA	
+153	YDR159W	SAC3	tagged	visualized	339	NA	
+202	YLR189C	UGT51	tagged	visualized	396	NA	
+1295	YNL076W	MKS1	tagged	visualized	not visualized	NA	
+454	YDL220C	CDC13	tagged	visualized	319	31.0	
+368	YOR127W	RGA1	tagged	visualized	396	NA	
+3056	YGR044C	RME1	tagged	visualized	not visualized	NA	
+2266	YMR235C	RNA1	tagged	visualized	52200	11200.0	
+1579	YCL043C	PDI1	tagged	visualized	low signal	NA	
+553	YPR105C	COG4	tagged	visualized	1620	NA	
+1177	YLR206W	ENT2	tagged	visualized	1970	NA	
+4245	YCR087C-A		tagged	visualized	3430	NA	
+5905	YPL215W	CBP3	tagged	visualized	14200	NA	
+1644	YBR139W		tagged	visualized	1420	NA	
+3647	YER139C		tagged	visualized	5480	NA	
+2890	YHR198C		tagged	visualized	1350	NA	
+2132	YDL001W	RMD1	tagged	visualized	952	NA	
+2621	YPR040W	TIP41	tagged	visualized	5710	NA	
+5540	YNL268W	LYP1	tagged	visualized	2580	NA	
+353	YDR060W	MAK21	tagged	visualized	15000	NA	
+2340	YLR226W	BUR2	tagged	visualized	2910	NA	
+3496	YOL032W		tagged	visualized	1910	NA	
+1444	YBR248C	HIS7	tagged	visualized	11800	NA	
+5104	YNL211C		tagged	visualized	low signal	NA	
+3174	YDL083C	RPS16B	tagged	visualized	not visualized	NA	
+5652	YGR119C	NUP57	tagged	visualized	9310	1120.0	
+303	YPR042C	PUF2	tagged	visualized	377	NA	
+1965	YMR135C	GID8	tagged	visualized	639	NA	
+5936	YDR492W		tagged	visualized	technical problem	NA	
+5824	YJL171C		tagged	visualized	5530	NA	
+84	YDR334W	SWR1	tagged	visualized	656	NA	
+806	YKL078W	DHR2	tagged	visualized	721	NA	
+1832	YPR034W	ARP7	tagged	visualized	1360	NA	
+1191	YER036C	KRE30	tagged	visualized	17600	NA	
+5636	YNL048W	ALG11	tagged	visualized	3140	NA	
+4408	YBL059C-A		tagged	visualized	279	NA	
+6031	YHL026C		tagged	visualized	830	NA	
+5733	YJL002C	OST1	tagged	visualized	11900	NA	
+2087	YMR240C	CUS1	tagged	visualized	1830	60.9	
+422	YGR162W	TIF4631	tagged	visualized	9760	NA	
+5087	YDR250C		tagged	visualized	low signal	NA	
+2490	YFR024C	YSC85	tagged	visualized	18000	NA	
+3914	YGR251W		tagged	visualized	1460	NA	
+3412	YPR060C	ARO7	tagged	visualized	low signal	NA	
+438	YML109W	ZDS2	tagged	visualized	105	NA	
+3348	YGL237C	HAP2	tagged	visualized	low signal	NA	
+943	YDR172W	SUP35	tagged	visualized	78900	9520.0	
+5525	YOR175C		tagged	visualized	technical problem	NA	
+3274	YGL085W		tagged	visualized	704	NA	
+590	YNL041C	COG6	tagged	visualized	1720	NA	
+1207	YPL005W		tagged	visualized	1760	NA	
+2551	YDR158W	HOM2	tagged	visualized	18400	NA	
+788	YJL099W	CHS6	tagged	visualized	1180	NA	
+1311	YMR282C	AEP2	tagged	visualized	2680	NA	
+1697	YDR516C	EMI2	tagged	visualized	10600	NA	
+1778	YPR001W	CIT3	tagged	visualized	not visualized	NA	
+3749	YIL132C	CSM2	tagged	visualized	414	NA	
+1126	YKL155C	RSM22	tagged	visualized	1900	NA	
+218	YJL092W	HPR5	tagged	visualized	5190	NA	
+4282	YDR063W		tagged	visualized	3040	NA	
+3512	YLR301W		tagged	visualized	15400	NA	
+267	YNL163C	RIA1	tagged	visualized	7770	NA	
+1043	YGR083C	GCD2	tagged	visualized	10300	1000.0	
+1801	YHR024C	MAS2	tagged	visualized	31400	2460.0	
+1026	YGL066W	SGF73	tagged	visualized	486	NA	
+3692	YBR066C	NRG2	tagged	visualized	704	NA	
+6111	YCR027C	RHB1	tagged	visualized	1600	NA	
+2185	YDR005C	MAF1	tagged	visualized	1720	NA	
+2400	YGR279C	SCW4	tagged	visualized	6190	NA	
+1529	YBR239C		tagged	visualized	85.5	NA	
+4963	YMR244C-A		tagged	visualized	721	NA	
+2067	YGR252W	GCN5	tagged	visualized	1180	NA	
+5778	YNL280C	ERG24	tagged	visualized	1600	NA	
+5732	YPR036W	VMA13	tagged	visualized	22500	NA	
+3561	YLR390W-A	CCW14	tagged	visualized	42000	NA	
+1781	YLR108C		tagged	visualized	189	NA	
+3071	YBR160W	CDC28	tagged	visualized	6670	NA	
+470	YKR089C		tagged	visualized	195	NA	
+4517	YOL134C		tagged	visualized	not visualized	NA	
+5667	YLL055W		tagged	visualized	not visualized	NA	
+3971	YDR454C	GUK1	tagged	visualized	20500	NA	
+958	YPR074C	TKL1	tagged	visualized	40300	NA	
+1595	YKL116C	PRR1	tagged	visualized	1510	NA	
+2221	YNL248C	RPA49	tagged	visualized	low signal	NA	
+3409	YLL045C	RPL8B	tagged	visualized	80200	NA	
+1429	YBR196C	PGI1	tagged	visualized	91600	34200.0	
+169	YJL197W	UBP12	tagged	visualized	7110	NA	
+3632	YLR406C	RPL31B	tagged	visualized	57500	NA	
+5373	YGR157W	CHO2	tagged	visualized	1810	NA	
+2606	YPL152W	RRD2	tagged	visualized	2430	NA	
+1915	YGR004W		tagged	visualized	238	NA	
+2804	YMR142C	RPL13B	tagged	visualized	54200	NA	
+5874	YGR028W	MSP1	tagged	visualized	3530	NA	
+5161	YBR162W-A	YSY6	tagged	visualized	846	NA	
+3481	YGR034W	RPL26B	tagged	visualized	33200	NA	
+1342	YER124C	DSE1	tagged	visualized	3080	NA	
+1142	YMR119W	ASI1	tagged	visualized	not visualized	NA	
+6172	YIL016W	SNL1	tagged	visualized	3350	NA	
+68	YNL139C	RLR1	tagged	visualized	521	NA	
+5119	YBL071W-A	KTI11	tagged	visualized	8400	NA	
+5717	YOL062C	APM4	tagged	visualized	3410	NA	
+2518	YGR052W		tagged	visualized	339	NA	
+6076	YKL041W	VPS24	tagged	visualized	1890	NA	
+1364	YLR120C	YPS1	tagged	visualized	5440	NA	
+2116	YNL220W	ADE12	tagged	visualized	56800	NA	
+1663	YPL140C	MKK2	tagged	visualized	1950	NA	
+3190	YLR312W-A	MRPL15	tagged	visualized	6490	NA	
+2724	YHR106W	TRR2	tagged	visualized	414	NA	
+4930	YDR115W		tagged	visualized	195	NA	
+4204	YNL185C	MRPL19	tagged	visualized	3190	NA	
+2937	YGR231C	PHB2	tagged	visualized	2850	NA	
+3884	YDR032C	PST2	tagged	visualized	2330	NA	
+3125	YOL093W	TRM10	tagged	visualized	4090	NA	
+320	YJL098W	SAP185	tagged	visualized	11200	NA	
+3826	YMR121C	RPL15B	tagged	visualized	721	NA	
+3426	YIR035C		tagged	visualized	2370	NA	
+405	YBR079C	RPG1	tagged	visualized	52700	4350.0	
+1763	YPL254W	HFI1	tagged	visualized	7950	NA	
+2202	YOR245C	DGA1	tagged	visualized	907	NA	
+4566	YJR063W	RPA12	tagged	visualized	8450	NA	
+2535	YDR531W		tagged	visualized	6190	NA	
+2457	YLR105C	SEN2	tagged	visualized	319	53.5	
+1897	YNL317W	PFS2	tagged	visualized	7810	965.0	
+6001	YMR149W	SWP1	tagged	visualized	8450	NA	
+1027	YLR369W	SSQ1	tagged	visualized	5550	NA	
+116	YLR086W	SMC4	tagged	visualized	573	NA	
+3140	YDR450W	RPS18A	tagged	visualized	48100	NA	
+1260	YDR294C	DPL1	tagged	visualized	13100	NA	
+1008	YLR002C	NOC3	tagged	visualized	11700	NA	
+1980	YKL108W	SLD2	tagged	visualized	656	NA	
+3325	YOR062C		tagged	visualized	2010	NA	
+5539	YCR023C		tagged	visualized	low signal	NA	
+875	YNL021W	HDA1	tagged	visualized	3050	NA	
+637	YLR095C	IOC2	tagged	visualized	7520	NA	
+3963	YLR254C		tagged	visualized	1540	NA	
+3708	YJR074W	MOG1	tagged	visualized	2840	NA	
+3898	YDL166C	FAP7	tagged	visualized	8350	NA	
+3693	YIL007C	NAS2	tagged	visualized	846	NA	
+4852	YJL179W	PFD1	tagged	visualized	721	NA	
+15	YLR430W	SEN1	tagged	visualized	125	NA	
+5430	YPR003C		tagged	visualized	low signal	NA	
+5510	YDR456W	NHX1	tagged	visualized	521	NA	
+3024	YJR013W		tagged	visualized	low signal	NA	
+4534	YGL127C	SOH1	tagged	visualized	468	NA	
+1325	YGR278W	CWC22	tagged	visualized	3260	NA	
+2923	YMR048W	CSM3	tagged	visualized	358	NA	
+2706	YDL175C	AIR2	tagged	visualized	1800	NA	
+335	YNL327W	EGT2	tagged	visualized	not visualized	NA	
+5449	YJL112W	MDV1	tagged	visualized	3730	NA	
+4120	YPR063C		tagged	visualized	2140	NA	
+1414	YEL058W	PCM1	tagged	visualized	14700	NA	
+6096	YAL007C	ERP2	tagged	visualized	26300	NA	
+1345	YLL012W		tagged	visualized	7770	NA	
+3466	YPR143W		tagged	visualized	6200	NA	
+4440	YOL012C	HTZ1	tagged	visualized	2840	NA	
+2671	YKR071C	DRE2	tagged	visualized	1050	NA	
+5793	YOR266W	PNT1	tagged	visualized	1460	NA	
+2438	YPR140W		tagged	visualized	1340	NA	
+186	YHR155W		tagged	visualized	1170	NA	
+688	YDR034C	LYS14	tagged	visualized	450	NA	
+976	YDR295C	PLO2	tagged	visualized	1500	NA	
+386	YBL085W	BOI1	tagged	visualized	1040	NA	
+487	YML093W	UTP14	tagged	visualized	1470	NA	
+520	YOR141C	ARP8	tagged	visualized	1010	NA	
+2299	YLR328W	NMA1	tagged	visualized	5130	NA	
+1092	YNL020C	ARK1	tagged	visualized	1550	NA	
+1548	YGL190C	CDC55	tagged	visualized	8600	NA	
+3243	YIL052C	RPL34B	tagged	visualized	21000	NA	
+3361	YGL046W		tagged	visualized	3040	NA	
+1682	YKR063C	LAS1	tagged	visualized	647	47.0	
+3734	YDR177W	UBC1	tagged	visualized	8940	NA	
+3616	YDR043C	NRG1	tagged	visualized	556	NA	
+1073	YAL005C	SSA1	tagged	visualized	269000	NA	
+741	YJL090C	DPB11	tagged	visualized	540	55.4	
+5954	YDL015C	TSC13	tagged	visualized	23600	NA	
+51	YMR229C	RRP5	tagged	visualized	8860	NA	
+3987	YER034W		tagged	visualized	1100	NA	
+1395	YDR261C	EXG2	tagged	visualized	2410	NA	
+3677	YGR038W	ORM1	tagged	visualized	2800	NA	
+2588	YGR048W	UFD1	tagged	visualized	3530	NA	
+5499	YNL095C		tagged	visualized	low signal	NA	
+1277	YOR308C	SNU66	tagged	visualized	low signal	NA	
+6191	YGR183C	QCR9	tagged	visualized	4550	NA	
+3079	YGR017W		tagged	visualized	2840	NA	
+1747	YFR024C-A	LSB3	tagged	visualized	3670	NA	
+4315	YBR282W	MRPL27	tagged	visualized	2250	NA	
+1498	YDR145W	TAF12	tagged	visualized	930	45.0	
+889	YAR014C	BUD14	tagged	visualized	538	NA	
+1666	YLR015W	BRE2	tagged	visualized	1310	NA	
+4551	YER071C		tagged	visualized	799	NA	
+5274	YIL147C	SLN1	tagged	visualized	656	NA	
+1645	YLR121C	YPS3	tagged	visualized	low signal	NA	
+5257	YBR097W	VPS15	tagged	visualized	279	NA	
+2876	YJL006C	CTK2	tagged	visualized	1590	NA	
+723	YJL033W	HCA4	tagged	visualized	7900	NA	
+2417	YNR015W	SMM1	tagged	visualized	2650	NA	
+5809	YLR380W	CSR1	tagged	visualized	9600	NA	
+2503	YNL005C	MRP7	tagged	visualized	2290	NA	
+5575	YNL065W	AQR1	tagged	visualized	not visualized	NA	
+5303	YCR067C	SED4	tagged	visualized	low signal	NA	
+5148	YNL162W-A		tagged	visualized	396	NA	
+5230	YFL007W	BLM3	tagged	visualized	2600	NA	
+4048	YBL090W	MRP21	tagged	visualized	1270	NA	
+2164	YBR130C	SHE3	tagged	visualized	1010	NA	
+133	YIL126W	STH1	tagged	visualized	1990	NA	
+623	YPL153C	RAD53	tagged	visualized	6900	1160.0	
+4675	YOL005C	RPB11	tagged	visualized	4280	NA	
+1935	YLR090W	XDJ1	tagged	visualized	1210	NA	
+4803	YCR060W		tagged	visualized	1660	NA	
+3308	YBL095W		tagged	visualized	704	NA	
+5950	YBR039W	ATP3	tagged	visualized	28100	NA	
+908	YBR255W		tagged	visualized	396	NA	
+671	YPL045W	VPS16	tagged	visualized	1300	NA	
+5777	YOR316C	COT1	tagged	visualized	2070	NA	
+2960	YFR034C	PHO4	tagged	visualized	not visualized	NA	
+4222	YMR002W		tagged	visualized	6960	NA	
+1176	YDL229W	SSB1	tagged	visualized	170000	NA	
+5086	YKL096W-A	CWP2	tagged	visualized	1590000	NA	
+286	YPL160W	CDC60	tagged	visualized	158000	NA	
+1563	YBR138C	HDR1	tagged	visualized	195	NA	
+1227	YGL125W	MET13	tagged	visualized	8600	NA	
+2068	YLR085C	ARP6	tagged	visualized	238	NA	
+201	YML091C	RPM2	tagged	visualized	1160	NA	
+5246	YJL222W	VTH2	tagged	visualized	279	NA	
+4391	YPR100W	MRPL51	tagged	visualized	3390	NA	
+437	YMR124W		tagged	visualized	166	NA	
+2320	YEL037C	RAD23	tagged	visualized	10900	NA	
+4549	YEL008W		tagged	visualized	low signal	NA	
+1058	YNL167C	SKO1	tagged	visualized	504	NA	
+5498	YLR139C	SLS1	tagged	visualized	3430	NA	
+1192	YGL116W	CDC20	tagged	visualized	not visualized	NA	
+5635	YBR008C	FLR1	tagged	visualized	not visualized	NA	
+3600	YGR235C		tagged	visualized	5220	NA	
+1394	YDL042C	SIR2	tagged	visualized	3350	NA	
+4001	YJR094W-A	RPL43B	tagged	visualized	45500	NA	
+504	YLR357W	RSC2	tagged	visualized	2330	NA	
+168	YGL133W	ITC1	tagged	visualized	2610	NA	
+3733	YCR020C	PET18	tagged	visualized	195	NA	
+1481	YDR235W	PRP42	tagged	visualized	1730	80.3	
+707	YDR208W	MSS4	tagged	visualized	not visualized	NA	
+5399	YDL095W	PMT1	tagged	visualized	41500	NA	
+150	YNL250W	RAD50	tagged	visualized	830	NA	
+3293	YIL148W	RPL40A	tagged	visualized	11800	NA	
+2652	YJR060W	CBF1	tagged	visualized	6890	NA	
+455	YCR057C	PWP2	tagged	visualized	16700	3090.0	
+2267	YNL078W	NIS1	tagged	visualized	504	NA	
+824	YJR119C		tagged	visualized	290	NA	
+3173	YBR011C	IPP1	tagged	visualized	68400	NA	
+6207	YJR086W	STE18	tagged	visualized	5550	NA	
+3094	YDR233C	RTN1	tagged	visualized	37100	NA	
+537	YDR089W		tagged	visualized	172	NA	
+3718	YPL220W	RPL1A	tagged	visualized	116000	NA	
+774	YKR029C	SET3	tagged	visualized	623	NA	
+4297	YHR136C	SPL2	tagged	visualized	2180	NA	
+5323	YOL084W	PHM7	tagged	visualized	not visualized	NA	
+3513	YHR041C	SRB2	tagged	visualized	1720	NA	
+841	YDL167C	NRP1	tagged	visualized	3570	NA	
+1867	YIL074C	SER33	tagged	visualized	2010	NA	
+6219	YBR058C-A	TSC3	tagged	visualized	not visualized	NA	
+3930	YGL068W		tagged	visualized	6940	NA	
+923	YDL141W	BPL1	tagged	visualized	1970	NA	
+4474	YKL138C	MRPL31	tagged	visualized	2120	NA	
+1294	YML070W	DAK1	tagged	visualized	23600	NA	
+2975	YDR068W	DOS2	tagged	visualized	3270	NA	
+370	YGL241W	KAP114	tagged	visualized	2940	NA	
+2977	YGL161C	YIP5	tagged	visualized	937	NA	
+4818	YLR204W	QRI5	tagged	visualized	not visualized	NA	
+2637	YDR451C	YHP1	tagged	visualized	low signal	NA	
+4171	YDR155C	CPR1	tagged	visualized	86000	NA	
+5844	YOL044W	PEX15	tagged	visualized	1070	NA	
+5288	YLR096W	KIN2	tagged	visualized	not visualized	NA	
+3212	YEL005C	VAB2	tagged	visualized	low signal	NA	
+1009	YNR053C	NOG2	tagged	visualized	67700	NA	
+807	YHR149C		tagged	visualized	1550	NA	
+6030	YAL039C	CYC3	tagged	visualized	3870	NA	
+1966	YNL206C	RTT106	tagged	visualized	11100	NA	
+16	YNL262W	POL2	tagged	visualized	1970	NA	
+4911	YBR262C		tagged	visualized	2550	NA	
+3764	YBR071W		tagged	visualized	1200	NA	
+3330	YEL019C	MMS21	tagged	visualized	2800	NA	
+1125	YDR365C		tagged	visualized	656	NA	
+2149	YDR394W	RPT3	tagged	visualized	not visualized	NA	
+2033	YOR244W	ESA1	tagged	visualized	1170	NA	
+5651	YML116W	ATR1	tagged	visualized	1720	NA	
+554	YGR071C		tagged	visualized	1050	NA	
+1178	YNL209W	SSB2	tagged	visualized	104000	NA	
+2339	YKR059W	TIF1	tagged	visualized	106000	NA	
+2740	YOL007C	CSI2	tagged	visualized	not visualized	NA	
+3230	YML041C	VPS71	tagged	visualized	technical problem	NA	
+354	YGR047C	TFC4	tagged	visualized	876	NA	
+83	YKL101W	HSL1	tagged	visualized	low signal	NA	
+1378	YNR023W	SNF12	tagged	visualized	not visualized	NA	
+268	YBR059C	AKL1	tagged	visualized	3000	NA	
+5971	YKR052C	MRS4	tagged	visualized	1340	NA	
+4945	YBL001C	ECM15	tagged	visualized	1900	NA	
+3110	YER117W	RPL23B	tagged	visualized	not visualized	NA	
+5482	YLL043W	FPS1	tagged	visualized	907	NA	
+2086	YLR203C	MSS51	tagged	visualized	4800	NA	
+2383	YGR112W	SHY1	tagged	visualized	623	NA	
+4081	YDL219W	DTD1	tagged	visualized	4610	NA	
+4567	YKL192C	ACP1	tagged	visualized	60500	NA	
+3867	YFL031W	HAC1	tagged	visualized	8970	NA	
+4407	YBL026W	LSM2	tagged	visualized	2210	NA	
+3393	YOR039W	CKB2	tagged	visualized	7160	NA	
+421	YNL127W	FAR11	tagged	visualized	1080	NA	
+101	YGR116W	SPT6	tagged	visualized	8890	NA	
+5986	YLR348C	DIC1	tagged	visualized	3390	NA	
+3411	YOR152C		tagged	visualized	1890	NA	
+4281	YDL121C		tagged	visualized	3260	NA	
+2186	YBL091C	MAP2	tagged	visualized	1080	NA	
+2385	YNL035C		tagged	visualized	3970	NA	
+3497	YLR211C		tagged	visualized	technical problem	NA	
+5179	YDL061C	RPS29B	tagged	visualized	5410	NA	
+5749	YPL172C	COX10	tagged	visualized	not visualized	NA	
+589	YKL022C	CDC16	tagged	visualized	2750	651.0	
+1528	YLR313C	SPH1	tagged	visualized	672	NA	
+1445	YML069W	POB3	tagged	visualized	22400	9560.0	
+3646	YDR296W	MHR1	tagged	visualized	2610	NA	
+2904	YDR175C	RSM24	tagged	visualized	3150	NA	
+1779	YML085C	TUB1	tagged	visualized	5590	NA	
+2685	YOR262W		tagged	visualized	9230	NA	
+2826	YKR013W	PRY2	tagged	visualized	not visualized	NA	
+1042	YDR118W	APC4	tagged	visualized	1330	85.3	
+4962	YML058W	SML1	tagged	visualized	18800	NA	
+2204	YCL044C		tagged	visualized	3410	NA	
+2622	YBL068W	PRS4	tagged	visualized	5280	NA	
+3057	YIL061C	SNP1	tagged	visualized	736	NA	
+2803	YGR043C		tagged	visualized	1920	NA	
+3560	YJL121C	RPE1	tagged	visualized	3310	NA	
+1578	YPL247C		tagged	visualized	799	NA	
+3709	YLR363C	NMD4	tagged	visualized	6090	NA	
+219	YJR041C		tagged	visualized	1660	NA	
+2249	YGR142W	BTN2	tagged	visualized	technical problem	NA	
+942	YLR399C	BDF1	tagged	visualized	8100	NA	
+184	YMR304W	UBP15	tagged	visualized	2810	NA	
+3915	YJL030W	MAD2	tagged	visualized	1110	NA	
+1882	YHR215W	PHO12	tagged	visualized	3290	NA	
+2889	YER037W	PHM8	tagged	visualized	195	NA	
+235	YLR410W	VIP1	tagged	visualized	8810	NA	
+1981	YLR231C	BNA5	tagged	visualized	3060	NA	
+2165	YGR156W	PTI1	tagged	visualized	937	NA	
+5920	YKL120W	OAC1	tagged	visualized	5350	NA	
+3631	YOR283W		tagged	visualized	8300	NA	
+2048	YKR044W	UIP5	tagged	visualized	319	NA	
+2938	YPL157W	TGS1	tagged	visualized	not visualized	NA	
+2859	YDR530C	APA2	tagged	visualized	1770	NA	
+1259	YOR073W		tagged	visualized	low signal	NA	
+5875	YIL076W	SEC28	tagged	visualized	23100	NA	
+117	YMR176W	ECM5	tagged	visualized	259	NA	
+1985	YBR166C	TYR1	tagged	visualized	2180	NA	
+1914	YDR023W	SES1	tagged	visualized	not visualized	NA	
+2607	YBR084C-A	RPL19A	tagged	visualized	97700	NA	
+2686	YPR180W	AOS1	tagged	visualized	7430	NA	
+5718	YOR320C	GNT1	tagged	visualized	238	NA	
+337	YEL061C	CIN8	tagged	visualized	238	NA	
+319	YNL278W	CAF120	tagged	visualized	1380	NA	
+2283	YHL020C	OPI1	tagged	visualized	1280	NA	
+4138	YBR230C		tagged	visualized	4750	NA	
+5467	YHR042W	NCP1	tagged	visualized	46600	NA	
+1662	YOR347C	PYK2	tagged	visualized	2130	NA	
+4929	YBR268W	MRPL37	tagged	visualized	1100	NA	
+4096	YPL252C	YAH1	tagged	visualized	14800	NA	
+2203	YAL061W		tagged	visualized	3090	NA	
+2536	YKL114C	APN1	tagged	visualized	7250	NA	
+3126	YPL068C		tagged	visualized	technical problem	NA	
+3482	YJR113C	RSM7	tagged	visualized	1340	NA	
+3827	YNL190W		tagged	visualized	1380	NA	
+3189	YLR136C	TIS11	tagged	visualized	not visualized	NA	
+4033	YPL249C-A	RPL36B	tagged	visualized	5370	NA	
+756	YMR164C	MSS11	tagged	visualized	low signal	NA	
+1430	YDR479C	PEX29	tagged	visualized	5040	NA	
+1512	YDR434W	GPI17	tagged	visualized	7520	NA	
+3324	YKL007W	CAP1	tagged	visualized	4380	NA	
+673	YCR077C	PAT1	tagged	visualized	656	NA	
+2401	YML107C		tagged	visualized	2210	NA	
+1594	YHR170W	NMD3	tagged	visualized	11900	3930.0	
+2220	YJR076C	CDC11	tagged	visualized	9280	NA	
+1764	YPL262W	FUM1	tagged	visualized	6920	NA	
+6097	YBL102W	SFT2	tagged	visualized	279	NA	
+2670	YGL039W		tagged	visualized	2340	NA	
+5734	YMR153W	NUP53	tagged	visualized	2060	NA	
+1377	YLR417W	VPS36	tagged	visualized	2470	NA	
+5355	YIL047C	SYG1	tagged	visualized	1160	NA	
+5256	YIL115C	NUP159	tagged	visualized	1230	NA	
+570	YBR237W	PRP5	tagged	visualized	358	NA	
+3545	YPL199C		tagged	visualized	2130	NA	
+2384	YMR305C	SCW10	tagged	visualized	10500	NA	
+3694	YLR199C		tagged	visualized	1350	NA	
+1898	YPR152C		tagged	visualized	1310	NA	
+5431	YOR321W	PMT3	tagged	visualized	2720	NA	
+5071	YDL045W-A	MRP10	tagged	visualized	259	NA	
+1209	YGR103W	NOP7	tagged	visualized	4530	NA	
+2788	YGR058W		tagged	visualized	1630	NA	
+3261	YLR344W	RPL26A	tagged	visualized	technical problem	NA	
+638	YMR309C	NIP1	tagged	visualized	78900	6150.0	
+5304	YPR055W	SEC8	tagged	visualized	not visualized	NA	
+588	YJL204C	RCY1	tagged	visualized	2700	NA	
+336	YER114C	BOI2	tagged	visualized	688	NA	
+5229	YKR095W	MLP1	tagged	visualized	2710	NA	
+3023	YGR277C		tagged	visualized	3610	NA	
+5557	YKR039W	GAP1	tagged	visualized	not visualized	NA	
+1160	YGR013W	SNU71	tagged	visualized	782	266.0	
+3615	YDL010W		tagged	visualized	1640	NA	
+5904	YEL006W		tagged	visualized	1630	NA	
+252	YGR134W	CAF130	tagged	visualized	1320	NA	
+6002	YNL003C	PET8	tagged	visualized	521	NA	
+924	YGL071W	RCS1	tagged	visualized	2730	NA	
+1800	YGL097W	SRM1	tagged	visualized	12100	1400.0	
+2976	YDR090C		tagged	visualized	low signal	NA	
+2502	YLR216C	CPR6	tagged	visualized	18600	NA	
+6190	YGL054C	ERV14	tagged	visualized	7110	NA	
+1326	YER086W	ILV1	tagged	visualized	11900	NA	
+1748	YDL048C	STP4	tagged	visualized	623	NA	
+1547	YBL015W	ACH1	tagged	visualized	4890	NA	
+722	YKR010C	TOF2	tagged	visualized	339	NA	
+2439	YBR026C	ETR1	tagged	visualized	1560	NA	
+5340	YBR086C	IST2	tagged	visualized	technical problem	NA	
+387	YKL015W	PUT3	tagged	visualized	736	NA	
+975	YBR216C	YBP1	tagged	visualized	3060	NA	
+5273	YJL080C	SCP160	tagged	visualized	technical problem	NA	
+2300	YNL254C		tagged	visualized	799	NA	
+5702	YAL058W	CNE1	tagged	visualized	4760	NA	
+4280	YPL059W	GRX5	tagged	visualized	6260	NA	
+4205	YPR062W	FCY1	tagged	visualized	5180	NA	
+2237	YDR465C	RMT2	tagged	visualized	1600	NA	
+185	YNL257C	SIP3	tagged	visualized	432	NA	
+4188	YPR073C	LTP1	tagged	visualized	3500	NA	
+740	YIR007W		tagged	visualized	1070	NA	
+151	YDR217C	RAD9	tagged	visualized	400	NA	
+5828	YDR245W	MNN10	tagged	visualized	6280	NA	
+1934	YGL219C	MDM34	tagged	visualized	377	NA	
+6144	YGR133W	PEX4	tagged	visualized	low signal	NA	
+134	YDR227W	SIR4	tagged	visualized	technical problem	NA	
+5576	YNR055C	HOL1	tagged	visualized	technical problem	NA	
+3986	YDL053C		tagged	visualized	1560	NA	
+6081	YMR202W	ERG2	tagged	visualized	2640	NA	
+5682	YEL042W	GDA1	tagged	visualized	8680	NA	
+2691	YIL154C	IMP2'	tagged	visualized	5110	NA	
+3442	YLR186W	EMG1	tagged	visualized	not visualized	NA	
+1665	YGR229C	SMI1	tagged	visualized	5680	NA	
+1093	YHR161C	YAP1801	tagged	visualized	623	NA	
+2636	YBL016W	FUS3	tagged	visualized	8480	NA	
+3379	YLR201C		tagged	visualized	3420	NA	
+1276	YOR154W		tagged	visualized	3250	NA	
+3465	YML092C	PRE8	tagged	visualized	7060	NA	
+2875	YHR010W	RPL27A	tagged	visualized	7380	NA	
+50	YDL140C	RPO21	tagged	visualized	technical problem	NA	
+5955	YGR284C	ERV29	tagged	visualized	technical problem	NA	
+4658	YGL220W		tagged	visualized	2050	NA	
+1413	YDR358W	GGA1	tagged	visualized	656	NA	
+890	YDR176W	NGG1	tagged	visualized	2470	NA	
+6061	YAR028W		tagged	visualized	1840	NA	
+622	YOR195W	SLK19	tagged	visualized	314	NA	
+471	YGL036W	MTC2	tagged	visualized	486	NA	
+3307	YKL006W	RPL14A	tagged	visualized	45300	NA	
+2456	YIL110W		tagged	visualized	not visualized	NA	
+1497	YDR061W		tagged	visualized	1580	NA	
+5344	YHR098C	SFB3	tagged	visualized	12200	NA	
+928	YER077C		tagged	visualized	432	NA	
+2394	YHR068W	DYS1	tagged	visualized	7600	NA	
+5922	YLR220W	CCC1	tagged	visualized	2840	NA	
+3797	YDL130W	RPP1B	tagged	visualized	22400	NA	
+6202	YOR327C	SNC2	tagged	visualized	300	NA	
+3490	YGR195W	SKI6	tagged	visualized	5150	NA	
+5619	YMR307W	GAS1	tagged	visualized	12400	NA	
+5987	YLR208W	SEC13	tagged	visualized	21400	NA	
+2578	YCR095C		tagged	visualized	5370	NA	
+863	YDR146C	SWI5	tagged	visualized	688	NA	
+1175	YMR092C	AIP1	tagged	visualized	11100	NA	
+3215	YKR025W	RPC37	tagged	visualized	1590	NA	
+1419	YDR131C		tagged	visualized	not visualized	NA	
+3176	YGR132C	PHB1	tagged	visualized	9690	NA	
+1730	YNL119W		tagged	visualized	2860	NA	
+5834	YGL075C	MPS2	tagged	visualized	not visualized	NA	
+3276	YJL191W	RPS14B	tagged	visualized	3370	NA	
+2655	YHR203C	RPS4B	tagged	visualized	102000	NA	
+4455	YDR193W		tagged	visualized	not visualized	NA	
+603	YFL024C	EPL1	tagged	visualized	1110	NA	
+82	YHR164C	DNA2	tagged	visualized	low signal	NA	
+1045	YPL263C	KEL3	tagged	visualized	4010	NA	
+5864	YPR191W	QCR2	tagged	visualized	35700	NA	
+995	YML088W	UFO1	tagged	visualized	639	NA	
+2134	YER101C	AST2	tagged	visualized	937	NA	
+733	YNL224C		tagged	visualized	1440	NA	
+375	YHR073W	OSH3	tagged	visualized	589	NA	
+3162	YFL028C	CAF16	tagged	visualized	1620	NA	
+212	YBR218C	PYC2	tagged	visualized	17000	NA	
+5497	YNL115C		tagged	visualized	not visualized	NA	
+2769	YKL193C	SDS22	tagged	visualized	3870	254.0	
+5066	YLL018C-A	COX19	tagged	visualized	5750	NA	
+3851	YBR278W	DPB3	tagged	visualized	784	NA	
+4511	YLR297W		tagged	visualized	922	NA	
+2280	YPR041W	TIF5	tagged	visualized	48300	13300.0	
+1110	YDR419W	RAD30	tagged	visualized	1860	NA	
+310	YKR086W	PRP16	tagged	visualized	1250	NA	
+1551	YML086C	ALO1	tagged	visualized	6190	NA	
+2871	YLL062C	MHT1	tagged	visualized	606	NA	
+718	YML006C	GIS4	tagged	visualized	222	NA	
+2317	YKL189W	HYM1	tagged	visualized	1280	NA	
+3682	YDR140W	FYV9	tagged	visualized	3390	NA	
+1696	YDR330W		tagged	visualized	6630	NA	
+2073	YGR254W	ENO1	tagged	visualized	76700	NA	
+196	YGL140C		tagged	visualized	1080	NA	
+1059	YPL093W	NOG1	tagged	visualized	28000	NA	
+1956	YOR323C	PRO2	tagged	visualized	6920	NA	
+4088	YNL133C	FYV6	tagged	visualized	468	NA	
+2021	YOR025W	HST3	tagged	visualized	319	NA	
+3552	YJR135C	MCM22	tagged	visualized	1030	NA	
+5450	YJL061W	NUP82	tagged	visualized	9470	2180.0	
+5358	YLR373C	VID22	tagged	visualized	2950	NA	
+5972	YOR074C	CDC21	tagged	visualized	not visualized	NA	
+1124	YOR239W	ABP140	tagged	visualized	17000	NA	
+5799	YCL052C	PBN1	tagged	visualized	4930	NA	
+5758	YDR375C	BCS1	tagged	visualized	1990	NA	
+6186	YJR058C	APS2	tagged	visualized	1390	NA	
+783	YLR135W	SLX4	tagged	visualized	274	NA	
+456	YER024W	YAT2	tagged	visualized	319	NA	
+3406	YKL040C	NFU1	tagged	visualized	11300	NA	
+1254	YNL308C	KRI1	tagged	visualized	1780	NA	
+1354	YPR145W	ASN1	tagged	visualized	not visualized	NA	
+538	YIL066C	RNR3	tagged	visualized	1360	NA	
+3721	YBL059W		tagged	visualized	623	NA	
+3506	YPR016C	TIF6	tagged	visualized	18600	NA	
+865	YLR440C		tagged	visualized	1840	NA	
+1289	YKR078W		tagged	visualized	1270	NA	
+2899	YIL077C		tagged	visualized	922	NA	
+6029	YOL009C	MDM12	tagged	visualized	1070	NA	
+5432	YPR024W	YME1	tagged	visualized	20100	NA	
+2496	YDL211C		tagged	visualized	3360	NA	
+5328	YNL243W	SLA2	tagged	visualized	40600	NA	
+4211	YIL087C		tagged	visualized	not visualized	NA	
+1581	YNL116W		tagged	visualized	1750	NA	
+3866	YER102W	RPS8B	tagged	visualized	14400	NA	
+5712	YNL083W		tagged	visualized	1170	NA	
+3566	YDR533C		tagged	visualized	358	NA	
+555	YAR044W	OSH1	tagged	visualized	846	NA	
+3047	YOR228C		tagged	visualized	not visualized	NA	
+3812	YHR057C	CPR2	tagged	visualized	339	NA	
+5124	YMR175W	SIP18	tagged	visualized	2300	NA	
+1010	YOR350C	MNE1	tagged	visualized	861	NA	
+359	YGL201C	MCM6	tagged	visualized	13400	NA	
+4300	YMR059W	SEN15	tagged	visualized	not visualized	NA	
+98	YOR116C	RPO31	tagged	visualized	6020	NA	
+17	YJL130C	URA2	tagged	visualized	11000	NA	
+2986	YOR312C	RPL20B	tagged	visualized	technical problem	NA	
+815	YMR277W	FCP1	tagged	visualized	6550	586.0	
+3606	YBL038W	MRPL16	tagged	visualized	2880	NA	
+3132	YKL052C	ASK1	tagged	visualized	2840	NA	
+3346	YDR152W	GIR2	tagged	visualized	10300	NA	
+5693	YMR004W	MVP1	tagged	visualized	2210	NA	
+505	YER070W	RNR1	tagged	visualized	293000	NA	
+2802	YER161C	SPT2	tagged	visualized	1240	NA	
+2856	YNL217W		tagged	visualized	low signal	NA	
+5784	YEL002C	WBP1	tagged	visualized	14900	NA	
+3422	YER011W	TIR1	tagged	visualized	623	NA	
+1616	YPR169W	JIP5	tagged	visualized	7750	NA	
+5081	YDR070C		tagged	visualized	937	NA	
+2741	YOR026W	BUB3	tagged	visualized	1430	NA	
+3767	YFL010C	WWM1	tagged	visualized	6020	NA	
+2296	YGR122W		tagged	visualized	technical problem	NA	
+2540	YOL010W	RCL1	tagged	visualized	10000	598.0	
+2562	YLR420W	URA4	tagged	visualized	12700	NA	
+945	YLR143W		tagged	visualized	2270	NA	
+1971	YPL245W		tagged	visualized	1130	NA	
+5237	YML103C	NUP188	tagged	visualized	11700	NA	
+3927	YKR057W	RPS21A	tagged	visualized	27400	NA	
+1449	YEL015W	EDC3	tagged	visualized	2340	NA	
+6109	YNR049C	MSO1	tagged	visualized	1380	NA	
+2036	YDR165W	TRM82	tagged	visualized	5910	NA	
+5907	YCR021C	HSP30	tagged	visualized	7800	NA	
+4113	YDR073W	SNF11	tagged	visualized	1030	NA	
+2333	YNL042W	BOP3	tagged	visualized	not visualized	NA	
+4073	YDL120W	YFH1	tagged	visualized	1560	NA	
+880	YMR001C	CDC5	tagged	visualized	1480	310.0	
+1795	YLR175W	CBF5	tagged	visualized	33600	2870.0	
+3590	YIL161W		tagged	visualized	1230	NA	
+5016	YDR510W	SMT3	tagged	visualized	2940	NA	
+5416	YDR264C	AKR1	tagged	visualized	4070	NA	
+440	YLR409C	UTP21	tagged	visualized	2020	NA	
+2687	YJR145C	RPS4A	tagged	visualized	573	NA	
+1597	YMR064W	AEP1	tagged	visualized	504	NA	
+635	YDL132W	CDC53	tagged	visualized	377	NA	
+6170	YEL027W	CUP5	tagged	visualized	8450	NA	
+342	YPL075W	GCR1	tagged	visualized	259	NA	
+3583	YOR214C		tagged	visualized	technical problem	NA	
+5662	YGR260W	TNA1	tagged	visualized	technical problem	NA	
+5865	YER118C	SHO1	tagged	visualized	2330	NA	
+2349	YER028C	MIG3	tagged	visualized	not visualized	NA	
+1	YLR106C	MDN1	tagged	visualized	538	NA	
+5156	YML058W-A	HUG1	tagged	visualized	technical problem	NA	
+4130	YJL065C		tagged	visualized	3390	NA	
+913	YDR234W	LYS4	tagged	visualized	7350	NA	
+1761	YNL053W	MSG5	tagged	visualized	538	NA	
+6074	YPR028W	YOP1	tagged	visualized	1760	NA	
+3637	YMR311C	GLC8	tagged	visualized	3440	NA	
+5891	YLR372W	SUR4	tagged	visualized	technical problem	NA	
+3030	YLR448W	RPL6B	tagged	visualized	38400	NA	
+1876	YAR071W	PHO11	tagged	visualized	1460	NA	
+3521	YGR075C	PRP38	tagged	visualized	2380	NA	
+3928	YDL098C	SNU23	tagged	visualized	907	NA	
+5466	YKL146W	AVT3	tagged	visualized	not visualized	NA	
+245	YKL105C		tagged	visualized	538	NA	
+2839	YBR119W	MUD1	tagged	visualized	2950	NA	
+2089	YPR163C	TIF3	tagged	visualized	24000	NA	
+1810	YDR181C	SAS4	tagged	visualized	768	NA	
+1791	YBR247C	ENP1	tagged	visualized	21600	2960.0	
+407	YOL090W	MSH2	tagged	visualized	1230	NA	
+1826	YNL062C	GCD10	tagged	visualized	2580	56.0	
+2427	YLR180W	SAM1	tagged	visualized	103000	NA	
+962	YIR003W		tagged	visualized	450	NA	
+2480	YNL307C	MCK1	tagged	visualized	396	NA	
+163	YLR436C	ECM30	tagged	visualized	1080	NA	
+1891	YDR219C		tagged	visualized	1360	NA	
+1661	YNL223W	AUT2	tagged	visualized	3300	NA	
+4267	YHR116W		tagged	visualized	1360	NA	
+3943	YDR071C		tagged	visualized	8680	NA	
+5309	YLR450W	HMG2	tagged	visualized	149	NA	
+1990	YJL155C	FBP26	tagged	visualized	1680	NA	
+2557	YMR270C	RRN9	tagged	visualized	low signal	NA	
+489	YGL163C	RAD54	tagged	visualized	low signal	NA	
+2726	YLR265C	NEJ1	tagged	visualized	377	NA	
+6060	YGL020C	MDM39	tagged	visualized	2250	NA	
+424	YGR100W	MDR1	tagged	visualized	768	NA	
+3621	YLR298C	YHC1	tagged	visualized	2140	NA	
+4058	YLR109W	AHP1	tagged	visualized	16200	NA	
+2595	YMR318C	ADH6	tagged	visualized	21700	NA	
+2787	YFR025C	HIS2	tagged	visualized	4280	NA	
+5236	YMR162C	DNF3	tagged	visualized	low signal	NA	
+3323	YHR200W	RPN10	tagged	visualized	17200	NA	
+114	YDR443C	SSN2	tagged	visualized	low signal	NA	
+6125	YNL044W	YIP3	tagged	visualized	5500	NA	
+1941	YDL233W		tagged	visualized	1010	NA	
+1029	YPR161C	SGV1	tagged	visualized	2070	NA	
+895	YBL111C		tagged	visualized	279	NA	
+2166	YIL103W		tagged	visualized	2530	NA	
+1466	YDR232W	HEM1	tagged	visualized	22600	2660.0	
+2969	YDL021W	GPM2	tagged	visualized	2020	NA	
+5727	YPL175W	SPT14	tagged	visualized	1480	NA	
+751	YOR267C	HRK1	tagged	visualized	300	NA	
+1925	YBL098W	BNA4	tagged	visualized	556	NA	
+1745	YOL049W	GSH2	tagged	visualized	3430	NA	
+5849	YBR302C	COS2	tagged	visualized	low signal	NA	
+2410	YLL022C	HIF1	tagged	visualized	4550	NA	
+5880	YKL051W	SFK1	tagged	visualized	technical problem	NA	
+5113	YGR008C	STF2	tagged	visualized	5330	NA	
+3535	YPL024W	NCE4	tagged	visualized	1500	NA	
+2639	YJR068W	RFC2	tagged	visualized	4610	262.0	
+587	YHR131C		tagged	visualized	172	NA	
+3781	YML095C	RAD10	tagged	visualized	not visualized	NA	
+2463	YGL155W	CDC43	tagged	visualized	3940	75.5	
+2297	YKL162C		tagged	visualized	1100	NA	
+131	YOR336W	KRE5	tagged	visualized	815	NA	
+2366	YIL153W	RRD1	tagged	visualized	4590	NA	
+5537	YDR244W	PEX5	tagged	visualized	2070	NA	
+5573	YPL274W	SAM3	tagged	visualized	1300	NA	
+1140	YGL110C	CUE3	tagged	visualized	6300	NA	
+4235	YKR074W		tagged	visualized	1230	NA	
+1094	YOR070C	GYP1	tagged	visualized	206	NA	
+1647	YOR231W	MKK1	tagged	visualized	1040	NA	
+3146	YOL077C	BRX1	tagged	visualized	13200	NA	
+700	YGR237C		tagged	visualized	1050	NA	
+3192	YLR404W		tagged	visualized	846	NA	
+848	YOR022C		tagged	visualized	736	NA	
+4332	YIL051C	MMF1	tagged	visualized	168000	NA	
+66	YOR191W	RIS1	tagged	visualized	low signal	NA	
+5263	YMR129W	POM152	tagged	visualized	3410	NA	
+392	YAR019C	CDC15	tagged	visualized	238	NA	
+2118	YNR052C	POP2	tagged	visualized	1520	NA	
+228	YBL105C	PKC1	tagged	visualized	not visualized	NA	
+1860	YMR027W	HRT2	tagged	visualized	6190	NA	
+3912	YDR453C	TSA2	tagged	visualized	4820	NA	
+3698	YDR302W	GPI11	tagged	visualized	technical problem	NA	
+2507	YDR191W	HST4	tagged	visualized	377	NA	
+3882	YAL008W	FUN14	tagged	visualized	1920	NA	
+4042	YDR059C	UBC5	tagged	visualized	981	NA	
+2823	YHR083W		tagged	visualized	1470	NA	
+3475	YOR213C	SAS5	tagged	visualized	1800	NA	
+327	YJR132W	NMD5	tagged	visualized	13500	NA	
+5952	YJL117W	PHO86	tagged	visualized	not visualized	NA	
+49	YNL172W	APC1	tagged	visualized	178	NA	
+2753	YNL290W	RFC3	tagged	visualized	3140	261.0	
+4438	YMR252C		tagged	visualized	172	NA	
+2692	YJR154W		tagged	visualized	1600	NA	
+5697	YER064C		tagged	visualized	1730	NA	
+6139	YCL001W	RER1	tagged	visualized	2840	NA	
+5938	YGR062C	COX18	tagged	visualized	468	NA	
+472	YLL026W	HSP104	tagged	visualized	32800	NA	
+3460	YJL035C	TAD2	tagged	visualized	830	NA	
+2248	YPR118W		tagged	visualized	922	NA	
+3245	YDR087C	RRP1	tagged	visualized	6960	NA	
+1500	YIL045W	PIG2	tagged	visualized	996	NA	
+897	YOR317W	FAA1	tagged	visualized	7470	NA	
+5554	YOR370C	MRS6	tagged	visualized	23800	4960.0	
+5386	YOR270C	VPH1	tagged	visualized	55700	NA	
+2931	YKL019W	RAM2	tagged	visualized	396	NA	
+2446	YOL043C	NTG2	tagged	visualized	125	NA	
+3736	YGR129W	SYF2	tagged	visualized	2460	NA	
+148	YJR092W	BUD4	tagged	visualized	1600	NA	
+3306	YHL001W	RPL14B	tagged	visualized	35100	NA	
+765	YNL258C	DSL1	tagged	visualized	8970	NA	
+1712	YJR122W	CAF17	tagged	visualized	2960	NA	
+2057	YMR062C	ECM40	tagged	visualized	not visualized	NA	
+686	YBR172C	SMY2	tagged	visualized	486	NA	
+1075	YCR038C	BUD5	tagged	visualized	2110	NA	
+1856	YMR239C	RNT1	tagged	visualized	4970	124.0	
+522	YJL056C	ZAP1	tagged	visualized	low signal	NA	
+830	YNR044W	AGA1	tagged	visualized	not visualized	NA	
+5956	YJL196C	ELO1	tagged	visualized	937	NA	
+4252	YNL255C	GIS2	tagged	visualized	96700	NA	
+5815	YML048W	GSF2	tagged	visualized	21400	NA	
+3453	YKR094C	RPL40B	tagged	visualized	28200	NA	
+2236	YPL060W	LPE10	tagged	visualized	396	NA	
+2708	YER016W	BIM1	tagged	visualized	3630	NA	
+1401	YEL020C		tagged	visualized	not visualized	NA	
+2953	YOR006C		tagged	visualized	3610	NA	
+992	YDR320C	SWA2	tagged	visualized	768	NA	
+2579	YDR012W	RPL4B	tagged	visualized	151000	NA	
+3214	YJR096W		tagged	visualized	6960	NA	
+799	YKL054C	DEF1	tagged	visualized	3380	NA	
+213	YGL062W	PYC1	tagged	visualized	12500	NA	
+3491	YHR043C	DOG2	tagged	visualized	2400	NA	
+1483	YPL212C	PUS1	tagged	visualized	8130	NA	
+32	YBR275C	RIF1	tagged	visualized	low signal	NA	
+4389	YLR275W	SMD2	tagged	visualized	799	NA	
+1111	YKL204W	EAP1	tagged	visualized	3240	NA	
+2709	YHR034C		tagged	visualized	2610	NA	
+5988	YNL305C		tagged	visualized	not visualized	NA	
+1306	YML127W	RSC9	tagged	visualized	2610	NA	
+5017	YEL014C		tagged	visualized	not visualized	NA	
+881	YMR163C		tagged	visualized	736	NA	
+4317	YCR071C	IMG2	tagged	visualized	1710	NA	
+2933	YNR054C		tagged	visualized	12800	NA	
+994	YJL128C	PBS2	tagged	visualized	2160	NA	
+3377	YGR253C	PUP2	tagged	visualized	17100	NA	
+309	YIL156W	UBP7	tagged	visualized	606	NA	
+1565	YMR215W	GAS3	tagged	visualized	16400	NA	
+1972	YPR125W		tagged	visualized	11300	NA	
+3344	YCR009C	RVS161	tagged	visualized	7390	NA	
+1420	YER140W		tagged	visualized	not visualized	NA	
+1731	YCR024C	PMP1	tagged	visualized	784	NA	
+3683	YDR399W	HPT1	tagged	visualized	36500	NA	
+81	YGL173C	KEM1	tagged	visualized	11700	NA	
+3957	YHR189W	PTH1	tagged	visualized	339	NA	
+5278	YDL145C	COP1	tagged	visualized	15200	NA	
+5973	YDL052C	SLC1	tagged	visualized	technical problem	NA	
+669	YPL180W	BIT89	tagged	visualized	243	NA	
+376	YOR363C	PIP2	tagged	visualized	low signal	NA	
+5480	YNL125C	ESBP6	tagged	visualized	not visualized	NA	
+1550	YHR207C	SET5	tagged	visualized	5000	NA	
+262	YOL087C		tagged	visualized	589	NA	
+4683	YGL189C	RPS26A	tagged	visualized	16300	NA	
+1955	YNL040W		tagged	visualized	1470	NA	
+1400	YGL064C	MRH4	tagged	visualized	736	NA	
+4028	YJL161W		tagged	visualized	low signal	NA	
+2188	YGL090W	LIF1	tagged	visualized	876	NA	
+4594	YBR194W	SOY1	tagged	visualized	low signal	NA	
+2883	YKR022C		tagged	visualized	892	NA	
+862	YOR206W	NOC2	tagged	visualized	29000	5930.0	
+132	YML049C	RSE1	tagged	visualized	not visualized	NA	
+1632	YDR371W	CTS2	tagged	visualized	3050	NA	
+3175	YGL057C		tagged	visualized	low signal	NA	
+2263	YIL119C	RPI1	tagged	visualized	1340	NA	
+195	YLR084C	RAX2	tagged	visualized	3670	NA	
+2462	YGL148W	ARO2	tagged	visualized	2310	NA	
+931	YHR084W	STE12	tagged	visualized	1920	NA	
+539	YBL023C	MCM2	tagged	visualized	1690	261.0	
+4456	YDR225W	HTA1	tagged	visualized	not visualized	NA	
+2784	YCL055W	KAR4	tagged	visualized	1690	NA	
+3551	YGR247W	CPD1	tagged	visualized	1520	NA	
+784	YPR031W	NTO1	tagged	visualized	172	NA	
+4236	YLR281C		tagged	visualized	technical problem	NA	
+2525	YFL029C	CAK1	tagged	visualized	technical problem	NA	
+5065	YHR001W-A	QCR10	tagged	visualized	5590	NA	
+1695	YDR036C	EHD3	tagged	visualized	3950	NA	
+6028	YJL210W	PEX2	tagged	visualized	339	NA	
+5759	YJR117W	STE24	tagged	visualized	19600	NA	
+6095	YLR350W	ORM2	tagged	visualized	5240	NA	
+2395	YJL107C		tagged	visualized	1480	NA	
+5329	YLR067C	PET309	tagged	visualized	1160	NA	
+2265	YLR225C		tagged	visualized	3990	NA	
+556	YDR416W	SYF1	tagged	visualized	2170	NA	
+5125	YCR020W-B	HTL1	tagged	visualized	3550	NA	
+1467	YER054C	GIP2	tagged	visualized	125	NA	
+5646	YBR222C	PCS60	tagged	visualized	8770	NA	
+2987	YCL009C	ILV6	tagged	visualized	15800	NA	
+3651	YDL213C	NOP6	tagged	visualized	8970	NA	
+4212	YJR047C	ANB1	tagged	visualized	14200	NA	
+3407	YKL071W		tagged	visualized	not visualized	NA	
+1580	YDL156W		tagged	visualized	3810	NA	
+3813	YHR089C	GAR1	tagged	visualized	5730	NA	
+506	YGL014W	PUF4	tagged	visualized	721	NA	
+3232	YML026C	RPS18B	tagged	visualized	112000	NA	
+1777	YOR043W	WHI2	tagged	visualized	1800	NA	
+5692	YJR121W	ATP2	tagged	visualized	164000	NA	
+18	YPL085W	SEC16	tagged	visualized	358	NA	
+162	YPL137C		tagged	visualized	656	NA	
+5506	YMR058W	FET3	tagged	visualized	1050	NA	
+5496	YHR039C	MSC7	tagged	visualized	2500	NA	
+2596	YNL037C	IDH1	tagged	visualized	10500	NA	
+293	YPR115W		tagged	visualized	300	NA	
+2563	YPL081W	RPS9A	tagged	visualized	106000	NA	
+1384	YOR386W	PHR1	tagged	visualized	688	NA	
+2898	YHL011C	PRS3	tagged	visualized	not visualized	NA	
+3277	YKR060W	UTP30	tagged	visualized	3060	NA	
+4895	YEL073C		tagged	visualized	not visualized	NA	
+99	YEL022W	GEA2	tagged	visualized	7700	NA	
+3063	YGR001C		tagged	visualized	3060	NA	
+3913	YER029C	SMB1	tagged	visualized	861	NA	
+2625	YLR287C	RPS30A	tagged	visualized	9100	NA	
+3668	YBR193C	MED8	tagged	visualized	937	NA	
+2151	YOR274W	MOD5	tagged	visualized	2020	NA	
+4283	YDR252W	BTT1	tagged	visualized	1820	NA	
+5402	YIL068C	SEC6	tagged	visualized	1080	NA	
+360	YLL031C	GPI13	tagged	visualized	300	NA	
+1794	YDR514C		tagged	visualized	125	NA	
+6043	YER100W	UBC6	tagged	visualized	1900	NA	
+2332	YJL048C		tagged	visualized	1340	NA	
+2541	YPL209C	IPL1	tagged	visualized	149	NA	
+6110	YOR089C	VPS21	tagged	visualized	8760	NA	
+5384	YHR103W	SBE22	tagged	visualized	low signal	NA	
+3712	YBR197C		tagged	visualized	1360	NA	
+179	YNL273W	TOF1	tagged	visualized	952	NA	
+2105	YOR117W	RPT5	tagged	visualized	not visualized	NA	
+1450	YFR028C	CDC14	tagged	visualized	8550	NA	
+1660	YMR170C	ALD2	tagged	visualized	2070	NA	
+2035	YDR055W	PST1	tagged	visualized	11700	NA	
+3345	YDL111C	RRP42	tagged	visualized	7110	NA	
+3565	YPL213W	LEA1	tagged	visualized	3630	NA	
+2688	YCL032W	STE50	tagged	visualized	1670	NA	
+5602	YDR345C	HXT3	tagged	visualized	37200	NA	
+5294	YMR047C	NUP116	tagged	visualized	not visualized	NA	
+636	YLR228C	ECM22	tagged	visualized	78.6	NA	
+1044	YLR429W	CRN1	tagged	visualized	2900	NA	
+2478	YGR286C	BIO2	tagged	visualized	504	NA	
+4195	YFL017C	GNA1	tagged	visualized	2550	NA	
+3000	YGL232W		tagged	visualized	2630	NA	
+2377	YDL022W	GPD1	tagged	visualized	807	NA	
+2801	YDL108W	KIN28	tagged	visualized	4400	NA	
+439	YHL007C	STE20	tagged	visualized	259	NA	
+3421	YMR194W	RPL36A	tagged	visualized	31600	NA	
+5906	YPL227C	ALG5	tagged	visualized	5800	NA	
+276	YPL022W	RAD1	tagged	visualized	1400	NA	
+1369	YKR002W	PAP1	tagged	visualized	17100	3380.0	
+4350	YDR100W	TVP15	tagged	visualized	4540	NA	
+246	YAL019W	FUN30	tagged	visualized	6800	NA	
+896	YDL074C	BRE1	tagged	visualized	2980	NA	
+2479	YMR083W	ADH3	tagged	visualized	11600	NA	
+5890	YOR075W	UFE1	tagged	visualized	not visualized	NA	
+3996	YGL018C	JAC1	tagged	visualized	2010	NA	
+3636	YLR407W		tagged	visualized	3140	NA	
+1270	YDL174C	DLD1	tagged	visualized	10800	NA	
+2433	YHL048W	COS8	tagged	visualized	3070	NA	
+3459	YIR001C	SGN1	tagged	visualized	6490	NA	
+1514	YKL191W	DPH2	tagged	visualized	3490	NA	
+3766	YER183C	FAU1	tagged	visualized	468	NA	
+914	YLR072W		tagged	visualized	672	NA	
+1790	YOR216C	RUD3	tagged	visualized	7620	NA	
+959	YDR129C	SAC6	tagged	visualized	3510	NA	
+2742	YPL004C	LSP1	tagged	visualized	104000	NA	
+572	YPL105C		tagged	visualized	830	NA	
+5524	YBR069C	TAT1	tagged	visualized	504	NA	
+4131	YKL026C	GPX1	tagged	visualized	low signal	NA	
+2	YKR054C	DYN1	tagged	visualized	195	NA	
+2428	YOL116W	MSN1	tagged	visualized	491	NA	
+5401	YGR261C	APL6	tagged	visualized	3570	NA	
+5866	YGR257C	MTM1	tagged	visualized	538	NA	
+2857	YOR340C	RPA43	tagged	visualized	4070	178.0	
+1320	YML017W	PSP2	tagged	visualized	2190	NA	
+3897	YPL067C		tagged	visualized	1470	NA	
+2167	YNL136W		tagged	visualized	300	NA	
+3452	YPR131C	NAT3	tagged	visualized	639	NA	
+4959	YJL144W		tagged	visualized	149	NA	
+1809	YDR381W	YRA1	tagged	visualized	not visualized	NA	
+6059	YAR027W	UIP3	tagged	visualized	1690	NA	
+406	YIL130W	GIN1	tagged	visualized	396	NA	
+2970	YDL047W	SIT4	tagged	visualized	3970	NA	
+2840	YNL302C	RPS19B	tagged	visualized	3440	NA	
+65	YGR098C	ESP1	tagged	visualized	low signal	NA	
+1206	YFL002C	SPB4	tagged	visualized	5740	NA	
+3029	YJR007W	SUI2	tagged	visualized	17100	NA	
+2348	YCR035C	RRP43	tagged	visualized	3180	NA	
+2117	YNL330C	RPD3	tagged	visualized	3850	NA	
+115	YMR259C		tagged	visualized	7110	NA	
+1596	YLR392C		tagged	visualized	736	NA	
+3944	YDR253C	MET32	tagged	visualized	technical problem	NA	
+5155	YDL085C-A		tagged	visualized	876	NA	
+4178	YDR024W	FYV1	tagged	visualized	not visualized	NA	
+2786	YDR204W	COQ4	tagged	visualized	not visualized	NA	
+961	YHL029C		tagged	visualized	12500	NA	
+6230	YDR276C	PMP3	tagged	visualized	technical problem	NA	
+3620	YHR122W		tagged	visualized	1800	NA	
+3652	YDR304C	CPR5	tagged	visualized	not visualized	NA	
+557	YLR115W	CFT2	tagged	visualized	3060	239.0	
+490	YMR066W	SOV1	tagged	visualized	396	NA	
+5538	YOL103W	ITR2	tagged	visualized	468	NA	
+4405	YKL170W	MRPL38	tagged	visualized	2460	NA	
+1877	YBR092C	PHO3	tagged	visualized	952	NA	
+423	YDR421W	ARO80	tagged	visualized	319	NA	
+1727	YER122C	GLO3	tagged	visualized	1510	NA	
+343	YGL207W	SPT16	tagged	visualized	18500	NA	
+1991	YNL074C	MLF3	tagged	visualized	not visualized	NA	
+4853	YJR048W	CYC1	tagged	visualized	7330	NA	
+292	YIL112W	HOS4	tagged	visualized	low signal	NA	
+2916	YOR288C	MPD1	tagged	visualized	830	NA	
+1337	YNL251C	NRD1	tagged	visualized	19600	2250.0	
+326	YDR017C	KCS1	tagged	visualized	1940	NA	
+620	YHR172W	SPC97	tagged	visualized	2230	371.0	
+4913	YDL081C	RPP1A	tagged	visualized	not visualized	NA	
+699	YAL043C	PTA1	tagged	visualized	3730	NA	
+5235	YLL048C	YBT1	tagged	visualized	3000	NA	
+48	YER132C	PMD1	tagged	visualized	815	NA	
+3101	YKR037C	SPC34	tagged	visualized	technical problem	NA	
+4790	YBR100W		tagged	visualized	low signal	NA	
+2932	YNL058C		tagged	visualized	low signal	NA	
+3782	YOR247W	SRL1	tagged	visualized	low signal	NA	
+5937	YGL212W	VAM7	tagged	visualized	2360	NA	
+523	YLR386W	VAC14	tagged	visualized	12400	NA	
+1158	YDL063C		tagged	visualized	2600	NA	
+5172	YDL067C	COX9	tagged	visualized	35500	NA	
+1436	YMR036C	MIH1	tagged	visualized	low signal	NA	
+4880	YLR333C	RPS25B	tagged	visualized	162000	NA	
+2411	YML027W	YOX1	tagged	visualized	861	NA	
+5262	YAL026C	DRS2	tagged	visualized	606	NA	
+5452	YLL051C	FRE6	tagged	visualized	low signal	NA	
+5114	YMR122W-A		tagged	visualized	49500	NA	
+1648	YDL017W	CDC7	tagged	visualized	1600	816.0	
+5850	YFL062W	COS4	tagged	visualized	technical problem	NA	
+4333	YKL160W	ELF1	tagged	visualized	5860	NA	
+847	YKL213C	DOA1	tagged	visualized	6800	NA	
+5957	YPL134C	ODC1	tagged	visualized	2840	NA	
+3263	YCR047C	BUD23	tagged	visualized	1620	NA	
+1746	YPR119W	CLB2	tagged	visualized	339	NA	
+2218	YDR222W		tagged	visualized	1010	NA	
+1861	YOR198C	BFR1	tagged	visualized	33400	NA	
+3246	YGL019W	CKB1	tagged	visualized	8120	NA	
+3522	YLR376C	PSY3	tagged	visualized	876	NA	
+2075	YHR174W	ENO2	tagged	visualized	2610	NA	
+2824	YJL208C	NUC1	tagged	visualized	3870	NA	
+4716	YML101C	CUE4	tagged	visualized	1850	NA	
+1139	YER147C	SCC4	tagged	visualized	907	NA	
+4144	YGL087C	MMS2	tagged	visualized	2760	NA	
+3476	YPL107W		tagged	visualized	2100	NA	
+5313	YPR032W	SRO7	tagged	visualized	low signal	NA	
+2445	YJL137C	GLG2	tagged	visualized	981	NA	
+3735	YGL101W		tagged	visualized	1500	NA	
+2954	YBR176W	ECM31	tagged	visualized	1420	NA	
+2058	YCL029C	BIK1	tagged	visualized	300	NA	
+6138	YPL010W	RET3	tagged	visualized	not visualized	NA	
+977	YDR452W	PPN1	tagged	visualized	319	NA	
+5385	YMR302C	PRP12	tagged	visualized	5260	NA	
+3013	YDL045C	FAD1	tagged	visualized	technical problem	NA	
+1940	YBR118W	TEF2	tagged	visualized	450	NA	
+2247	YOR303W	CPA1	tagged	visualized	2580	NA	
+1499	YJR003C		tagged	visualized	3280	NA	
+1711	YFL027C	GYP8	tagged	visualized	573	NA	
+5661	YHR135C	YCK1	tagged	visualized	1630	NA	
+1076	YDR311W	TFB1	tagged	visualized	5150	119.0	
+473	YBR289W	SNF5	tagged	visualized	217	NA	
+3881	YKL156W	RPS27A	tagged	visualized	43300	NA	
+3147	YOR344C	TYE7	tagged	visualized	486	NA	
+4804	YDR079W	PET100	tagged	visualized	468	NA	
+3435	YHR141C	RPL42B	tagged	visualized	3890	NA	
+766	YPL074W	YTA6	tagged	visualized	259	NA	
+2007	YER043C	SAH1	tagged	visualized	not visualized	NA	
+5744	YOR334W	MRS2	tagged	visualized	768	NA	
+2654	YNL231C	PDR16	tagged	visualized	15400	NA	
+1095	YDR390C	UBA2	tagged	visualized	18800	3070.0	
+829	YKR018C		tagged	visualized	1770	NA	
+4543	YMR195W	ICY1	tagged	visualized	4050	NA	
+3534	YNL010W		tagged	visualized	12600	NA	
+4043	YER134C		tagged	visualized	6190	NA	
+1417	YLL018C	DPS1	tagged	visualized	not visualized	NA	
+4318	YDL092W	SRP14	tagged	visualized	8000	NA	
+800	YPR185W	APG13	tagged	visualized	149	NA	
+214	YGR233C	PHO81	tagged	visualized	2930	NA	
+1617	YDL101C	DUN1	tagged	visualized	3480	NA	
+31	YHR023W	MYO1	tagged	visualized	2140	NA	
+2506	YDR035W	ARO3	tagged	visualized	8970	NA	
+6216	YJR010C-A	SPC1	tagged	visualized	5550	NA	
+3343	YHR021C	RPS27B	tagged	visualized	technical problem	NA	
+601	YGL073W	HSF1	tagged	visualized	not visualized	NA	
+926	YBL067C	UBP13	tagged	visualized	125	NA	
+5479	YLR413W		tagged	visualized	4280	NA	
+4530	YCR043C		tagged	visualized	4240	NA	
+96	YNL102W	POL1	tagged	visualized	1050	NA	
+3060	YLR172C	DPH5	tagged	visualized	13500	NA	
+1047	YML007W	YAP1	tagged	visualized	1620	NA	
+5974	YML052W	SUR7	tagged	visualized	17000	NA	
+1486	YLR023C		tagged	visualized	not visualized	NA	
+1173	YPR155C	NCA2	tagged	visualized	2940	NA	
+373	YOL021C	DIS3	tagged	visualized	606	NA	
+2262	YHR107C	CDC12	tagged	visualized	1170	NA	
+2152	YCL011C	GBP2	tagged	visualized	2540	NA	
+3665	YMR161W	HLJ1	tagged	visualized	1840	NA	
+5277	YEL031W	SPF1	tagged	visualized	1870	NA	
+3160	YBR191W	RPL21A	tagged	visualized	not visualized	NA	
+1307	YNL225C	CNM67	tagged	visualized	technical problem	NA	
+1969	YDL161W	ENT1	tagged	visualized	low signal	NA	
+1759	YLR183C	TOS4	tagged	visualized	284	NA	
+3083	YPL131W	RPL5	tagged	visualized	not visualized	NA	
+1012	YDR307W		tagged	visualized	technical problem	NA	
+6092	YJL097W		tagged	visualized	technical problem	NA	
+5695	YMR177W	MMT1	tagged	visualized	6490	NA	
+4249	YKL067W	YNK1	tagged	visualized	7130	NA	
+5797	YKL008C	LAC1	tagged	visualized	2840	NA	
+861	YDR436W	PPZ2	tagged	visualized	189	NA	
+5760	YOR307C	SLY41	tagged	visualized	784	NA	
+263	YGL094C	PAN2	tagged	visualized	1510	NA	
+1061	YGL107C	RMD9	tagged	visualized	4800	NA	
+6016	YLR393W	ATP10	tagged	visualized	1890	NA	
+1256	YMR213W	CEF1	tagged	visualized	784	NA	
+2695	YOR315W		tagged	visualized	low signal	NA	
+4086	YHR152W	SPO12	tagged	visualized	937	NA	
+5387	YFR002W	NIC96	tagged	visualized	15500	NA	
+324	YMR261C	TPS3	tagged	visualized	13500	NA	
+2396	YLR244C	MAP1	tagged	visualized	19600	NA	
+3550	YGR036C	CAX4	tagged	visualized	technical problem	NA	
+5621	YMR296C	LCB1	tagged	visualized	22400	NA	
+1222	YMR284W	YKU70	tagged	visualized	892	NA	
+1399	YPL128C	TBF1	tagged	visualized	6380	1210.0	
+2658	YDR279W	RNH202	tagged	visualized	2340	NA	
+409	YMR086W		tagged	visualized	low signal	NA	
+458	YIL017C	VID28	tagged	visualized	low signal	NA	
+1694	YCL040W	GLK1	tagged	visualized	21100	NA	
+2461	YGL105W	ARC1	tagged	visualized	57700	NA	
+1356	YIL150C	MCM10	tagged	visualized	1860	202.0	
+586	YBL008W	HIR1	tagged	visualized	846	NA	
+6232	YEL017C-A	PMP2	tagged	visualized	74700	NA	
+4059	YOR253W	NAT5	tagged	visualized	2370	NA	
+666	YOR233W	KIN4	tagged	visualized	143	NA	
+3045	YKL150W	MCR1	tagged	visualized	1920	NA	
+4579	YFR036W	CDC26	tagged	visualized	low signal	NA	
+2768	YJR008W		tagged	visualized	339	NA	
+80	YPR184W	GDB1	tagged	visualized	125	NA	
+6184	YHR051W	COX6	tagged	visualized	12500	NA	
+3404	YHL033C	RPL8A	tagged	visualized	238000	NA	
+3696	YNL110C	NOP15	tagged	visualized	4280	NA	
+5126	YLR325C	RPL38	tagged	visualized	50200	NA	
+507	YJL070C		tagged	visualized	1100	NA	
+2335	YOL052C	SPE2	tagged	visualized	7060	NA	
+4302	YPL144W		tagged	visualized	2210	NA	
+442	YPR104C	FHL1	tagged	visualized	639	NA	
+720	YDR520C		tagged	visualized	937	NA	
+2494	YNL288W	CAF40	tagged	visualized	18800	NA	
+3320	YML024W	RPS17A	tagged	visualized	30900	NA	
+3359	YLR414C		tagged	visualized	1660	NA	
+5326	YDR166C	SEC5	tagged	visualized	3400	228.0	
+2278	YMR010W		tagged	visualized	937	NA	
+4269	YOL108C	INO4	tagged	visualized	521	NA	
+5909	YNL180C	RHO5	tagged	visualized	2180	NA	
+3723	YGL037C	PNC1	tagged	visualized	7720	NA	
+3650	YNL107W	YAF9	tagged	visualized	259	NA	
+5847	YPR079W	MRL1	tagged	visualized	technical problem	NA	
+5893	YBR054W	YRO2	tagged	visualized	1950	NA	
+165	YOR124C	UBP2	tagged	visualized	2420	NA	
+2641	YKR011C	TOS5	tagged	visualized	3150	NA	
+3290	YML105C	SEC65	tagged	visualized	technical problem	NA	
+2555	YLR063W		tagged	visualized	technical problem	NA	
+5989	YBR037C	SCO1	tagged	visualized	2550	NA	
+357	YGR188C	BUB1	tagged	visualized	414	NA	
+1904	YOR123C	LEO1	tagged	visualized	1110	NA	
+340	YCL024W	KCC4	tagged	visualized	538	NA	
+6042	YBL040C	ERD2	tagged	visualized	low signal	NA	
+3113	YJL145W	SFH5	tagged	visualized	6540	NA	
+2315	YGR234W	YHB1	tagged	visualized	13000	NA	
+1448	YDL225W	SHS1	tagged	visualized	5620	NA	
+2743	YPR057W	BRR1	tagged	visualized	1870	NA	
+5100	YDL130W-A	STF1	tagged	visualized	low signal	NA	
+1272	YIL015W	BAR1	tagged	visualized	672	NA	
+1679	YOL068C	HST1	tagged	visualized	1440	NA	
+3278	YLR271W		tagged	visualized	1470	NA	
+2999	YOR292C		tagged	visualized	not visualized	NA	
+6154	YBR254C	TRS20	tagged	visualized	1200	NA	
+4176	YOR357C	GRD19	tagged	visualized	low signal	NA	
+947	YPL043W	NOP4	tagged	visualized	4990	210.0	
+1464	YPL179W	PPQ1	tagged	visualized	319	NA	
+3604	YPL002C	SNF8	tagged	visualized	1040	NA	
+2189	YJR136C		tagged	visualized	1470	NA	
+5729	YGL038C	OCH1	tagged	visualized	9490	NA	
+6107	YML012W	ERV25	tagged	visualized	51700	NA	
+275	YKL205W	LOS1	tagged	visualized	3490	NA	
+5862	YNR041C	COQ2	tagged	visualized	not visualized	NA	
+1242	YNL039W	BDP1	tagged	visualized	low signal	NA	
+5782	YIL022W	TIM44	tagged	visualized	not visualized	NA	
+1204	YML071C	COG8	tagged	visualized	6440	NA	
+1812	YFR044C		tagged	visualized	22300	NA	
+3424	YFL006W		tagged	visualized	1500	NA	
+5522	YPR156C	TPO3	tagged	visualized	2760	NA	
+1893	YGL184C	STR3	tagged	visualized	low signal	NA	
+2294	YDL105W	QRI2	tagged	visualized	technical problem	NA	
+5308	YDL077C	VAM6	tagged	visualized	319	NA	
+2821	YOR246C		tagged	visualized	967	NA	
+4754	YNL122C		tagged	visualized	low signal	NA	
+4469	YDR224C	HTB1	tagged	visualized	technical problem	NA	
+5403	YER157W	COG3	tagged	visualized	4140	163.0	
+3178	YPR103W	PRE2	tagged	visualized	8530	NA	
+769	YDR138W	HPR1	tagged	visualized	1340	NA	
+3304	YKR043C		tagged	visualized	11500	NA	
+3508	YER174C	GRX4	tagged	visualized	7800	NA	
+2038	YJL060W	BNA3	tagged	visualized	1600	NA	
+2108	YPL145C	KES1	tagged	visualized	32200	NA	
+1383	YJR052W	RAD7	tagged	visualized	937	NA	
+878	YKL222C		tagged	visualized	low signal	NA	
+6141	YLR066W	SPC3	tagged	visualized	6840	NA	
+491	YER047C	SAP1	tagged	visualized	300	NA	
+5664	YNL130C	CPT1	tagged	visualized	981	NA	
+2351	YGR187C	HGH1	tagged	visualized	20800	NA	
+684	YOR353C	SOG2	tagged	visualized	892	NA	
+5590	YGR055W	MUP1	tagged	visualized	technical problem	NA	
+4132	YKL056C		tagged	visualized	27800	NA	
+3455	YOR293W	RPS10A	tagged	visualized	54100	NA	
+737	YOR140W	SFL1	tagged	visualized	1040	NA	
+3523	YOR305W		tagged	visualized	1420	NA	
+3247	YHR192W		tagged	visualized	3390	NA	
+3194	YNL286W	CUS2	tagged	visualized	1360	NA	
+2837	YKR062W	TFA2	tagged	visualized	1150	218.0	
+2539	YMR097C	MTG1	tagged	visualized	1630	NA	
+828	YOR156C	NFI1	tagged	visualized	3170	NA	
+2120	YDL029W	ARP2	tagged	visualized	6650	NA	
+2902	YNL215W	IES2	tagged	visualized	1470	NA	
+4351	YDR513W	TTR1	tagged	visualized	31400	NA	
+181	YGR090W	UTP22	tagged	visualized	3260	NA	
+5050	YNL198C		tagged	visualized	not visualized	NA	
+64	YNL297C	MON2	tagged	visualized	2410	NA	
+6005	YDL142C	CRD1	tagged	visualized	876	NA	
+1138	YEL062W	NPR2	tagged	visualized	319	NA	
+356	YEL055C	POL5	tagged	visualized	4490	NA	
+3028	YDR123C	INO2	tagged	visualized	784	NA	
+3926	YNL282W	POP3	tagged	visualized	1360	NA	
+1919	YMR111C		tagged	visualized	238	NA	
+247	YBR245C	ISW1	tagged	visualized	1500	NA	
+4738	YOR189W	IES4	tagged	visualized	538	NA	
+1517	YDR195W	REF2	tagged	visualized	7450	NA	
+2728	YMR144W		tagged	visualized	2120	NA	
+964	YKL179C	COY1	tagged	visualized	2650	NA	
+6123	YJR118C	ILM1	tagged	visualized	1160	NA	
+291	YGR218W	CRM1	tagged	visualized	7080	NA	
+1878	YBR093C	PHO5	tagged	visualized	1110	NA	
+5291	YBR235W		tagged	visualized	low signal	NA	
+802	YPL029W	SUV3	tagged	visualized	1440	NA	
+1724	YOR269W	PAC1	tagged	visualized	low signal	NA	
+5713	YAL010C	MDM10	tagged	visualized	768	NA	
+2168	YNL207W	RIO2	tagged	visualized	10300	NA	
+3012	YAR015W	ADE1	tagged	visualized	4280	NA	
+2091	YHR118C	ORC6	tagged	visualized	2970	143.0	
+3373	YLR285W	NNT1	tagged	visualized	7280	NA	
+3462	YLL027W	ISA1	tagged	visualized	125	NA	
+2785	YDL230W	PTP1	tagged	visualized	2690	NA	
+3619	YER004W		tagged	visualized	1340	NA	
+1984	YOR197W	MCA1	tagged	visualized	1400	NA	
+1584	YKL081W	TEF4	tagged	visualized	102000	NA	
+1338	YPR006C	ICL2	tagged	visualized	1080	NA	
+702	YMR016C	SOK2	tagged	visualized	314	NA	
+893	YGR266W		tagged	visualized	3230	NA	
+3581	YKL009W	MRT4	tagged	visualized	18200	NA	
+6072	YEL001C		tagged	visualized	7110	NA	
+1710	YCL017C	NFS1	tagged	visualized	504	NA	
+2522	YPL018W	CTF19	tagged	visualized	1250	NA	
+3100	YKL128C	PMU1	tagged	visualized	3250	NA	
+5813	YOR037W	CYC2	tagged	visualized	2730	NA	
+524	YML099C	ARG81	tagged	visualized	not visualized	NA	
+1797	YPL091W	GLR1	tagged	visualized	7600	NA	
+112	YNL088W	TOP2	tagged	visualized	5730	NA	
+2022	YDL084W	SUB2	tagged	visualized	51700	NA	
+230	YIL026C	IRR1	tagged	visualized	4090	NA	
+4060	YPR051W	MAK3	tagged	visualized	1940	NA	
+5831	YOR099W	KTR1	tagged	visualized	5480	NA	
+2368	YLR418C	CDC73	tagged	visualized	538	NA	
+3999	YKR007W		tagged	visualized	2740	NA	
+129	YIL159W	BNR1	tagged	visualized	259	NA	
+4233	YGR148C	RPL24B	tagged	visualized	36900	NA	
+6187	YNL328C	MDJ2	tagged	visualized	573	NA	
+619	YHR205W	SCH9	tagged	visualized	3850	NA	
+1601	YIL097W	FYV10	tagged	visualized	784	NA	
+4856	YLR364W		tagged	visualized	573	NA	
+3910	YDR066C		tagged	visualized	1050	NA	
+47	YKL014C		tagged	visualized	5890	NA	
+5958	YGR060W	ERG25	tagged	visualized	77100	NA	
+3264	YDL051W	LHP1	tagged	visualized	not visualized	NA	
+2004	YKR042W	UTH1	tagged	visualized	56900	NA	
+2592	YIL079C	AIR1	tagged	visualized	1550	NA	
+1775	YNL137C	NAM9	tagged	visualized	3270	NA	
+2246	YOR042W	CUE5	tagged	visualized	623	NA	
+3783	YIL113W	SDP1	tagged	visualized	technical problem	NA	
+2055	YBL046W		tagged	visualized	1010	NA	
+264	YLR383W	RHC18	tagged	visualized	339	NA	
+5434	YJR042W	NUP85	tagged	visualized	7920	155.0	
+2694	YOR007C	SGT2	tagged	visualized	9420	NA	
+5551	YNR039C	ZRG17	tagged	visualized	technical problem	NA	
+3144	YLR351C	NIT3	tagged	visualized	4510	NA	
+6058	YOL147C	PEX11	tagged	visualized	1630	NA	
+2217	YPL202C	AFT2	tagged	visualized	technical problem	NA	
+4334	YMR074C		tagged	visualized	2550	NA	
+2886	YCL050C	APA1	tagged	visualized	19600	NA	
+1031	YKL079W	SMY1	tagged	visualized	1920	NA	
+5568	YOL020W	TAT2	tagged	visualized	752	NA	
+1077	YER103W	SSA4	tagged	visualized	17900	NA	
+390	YMR275C	BUL1	tagged	visualized	486	NA	
+3533	YKR100C		tagged	visualized	technical problem	NA	
+2429	YBL032W	HEK2	tagged	visualized	15600	NA	
+3754	YOL139C	CDC33	tagged	visualized	14200	NA	
+2234	YGL143C	MRF1	tagged	visualized	414	NA	
+1113	YCR061W		tagged	visualized	not visualized	NA	
+4208	YCR063W	BUD31	tagged	visualized	1900	NA	
+1862	YPR045C		tagged	visualized	3360	NA	
+996	YBR121C	GRS1	tagged	visualized	98400	12100.0	
+2674	YMR303C	ADH2	tagged	visualized	1620	NA	
+5464	YLR188W	MDL1	tagged	visualized	1040	NA	
+980	YDR362C	TFC6	tagged	visualized	1130	346.0	
+3983	YGR275W	RTT102	tagged	visualized	1550	NA	
+2434	YLL039C	UBI4	tagged	visualized	not visualized	NA	
+308	YBL076C	ILS1	tagged	visualized	23300	NA	
+1939	YBL082C	RHK1	tagged	visualized	technical problem	NA	
+2412	YBR234C	ARC40	tagged	visualized	technical problem	NA	
+5261	YJR033C	RAV1	tagged	visualized	149	NA	
+474	YFR040W	SAP155	tagged	visualized	5960	NA	
+767	YBR094W		tagged	visualized	1770	NA	
+5699	YMR221C		tagged	visualized	not visualized	NA	
+1157	YDL025C		tagged	visualized	861	NA	
+1321	YOR260W	GCD1	tagged	visualized	9530	1760.0	
+4143	YLR074C	BUD20	tagged	visualized	5630	NA	
+5940	YOL096C	COQ3	tagged	visualized	259	NA	
+1273	YIL036W	CST6	tagged	visualized	1240	NA	
+2505	YBR249C	ARO4	tagged	visualized	26300	NA	
+911	YPR008W	HAA1	tagged	visualized	339	NA	
+3390	YGR135W	PRE9	tagged	visualized	17100	NA	
+1502	YMR015C	ERG5	tagged	visualized	24700	NA	
+4924	YOR265W	RBL2	tagged	visualized	1760	NA	
+1418	YPL086C	ELP3	tagged	visualized	4760	NA	
+325	YDR325W	YCG1	tagged	visualized	1920	NA	
+4387	YJR044C	VPS55	tagged	visualized	2340	NA	
+652	YOR168W	GLN4	tagged	visualized	37500	3580.0	
+374	YNL123W		tagged	visualized	3150	NA	
+927	YBR259W		tagged	visualized	low signal	NA	
+2037	YIL071C	PCI8	tagged	visualized	504	NA	
+5923	YNL098C	RAS2	tagged	visualized	19800	NA	
+5833	YKL080W	VMA5	tagged	visualized	21100	NA	
+1970	YOR375C	GDH1	tagged	visualized	77500	NA	
+1398	YLR286C	CTS1	tagged	visualized	6350	NA	
+3666	YNR018W		tagged	visualized	12000	NA	
+2998	YOR107W	RGS2	tagged	visualized	technical problem	NA	
+459	YML111W	BUL2	tagged	visualized	339	NA	
+1357	YKL088W		tagged	visualized	2940	NA	
+1693	YAL038W	CDC19	tagged	visualized	291000	24100.0	
+146	YDR216W	ADR1	tagged	visualized	low signal	NA	
+2233	YBR233W	PBP2	tagged	visualized	1590	NA	
+3896	YPL051W	ARL3	tagged	visualized	1920	NA	
+946	YOR249C	APC5	tagged	visualized	259	NA	
+4250	YLR315W	NKP2	tagged	visualized	1630	NA	
+2711	YKR081C	RPF2	tagged	visualized	32400	NA	
+1485	YJL058C	BIT61	tagged	visualized	1960	NA	
+3082	YMR099C		tagged	visualized	8580	NA	
+3161	YAL034W-A	MTW1	tagged	visualized	2610	NA	
+3800	YDR167W	TAF10	tagged	visualized	3370	NA	
+5863	YMR166C		tagged	visualized	2060	NA	
+2261	YDL104C	QRI7	tagged	visualized	1400	NA	
+6203	YPR020W	ATP20	tagged	visualized	low signal	NA	
+541	YPL141C		tagged	visualized	556	NA	
+2577	YBR031W	RPL4A	tagged	visualized	not visualized	NA	
+770	YFR009W	GCN20	tagged	visualized	14600	NA	
+3216	YOR104W	PIN2	tagged	visualized	996	NA	
+1013	YFR048W	RMD8	tagged	visualized	656	NA	
+1046	YLR103C	CDC45	tagged	visualized	1730	449.0	
+2316	YJL026W	RNR2	tagged	visualized	538	NA	
+1618	YDR169C	STB3	tagged	visualized	639	NA	
+3509	YER182W		tagged	visualized	1920	NA	
+1097	YNL176C		tagged	visualized	not visualized	NA	
+6041	YFL045C	SEC53	tagged	visualized	3500	NA	
+2696	YBL033C	RIB1	tagged	visualized	9520	NA	
+600	YDL056W	MBP1	tagged	visualized	521	NA	
+2279	YPL154C	PEP4	tagged	visualized	not visualized	NA	
+5478	YIL067C		tagged	visualized	not visualized	NA	
+5848	YPL203W	TPK2	tagged	visualized	2220	NA	
+2935	YBR175W	SWD3	tagged	visualized	technical problem	NA	
+5067	YNR034W-A		tagged	visualized	2820	NA	
+1552	YMR023C	MSS1	tagged	visualized	768	NA	
+1121	YNR038W	DBP6	tagged	visualized	12700	1700.0	
+2020	YOL016C	CMK2	tagged	visualized	7500	NA	
+5745	YKL021C	MAK11	tagged	visualized	3730	NA	
+667	YCL030C	HIS4	tagged	visualized	521	NA	
+4681	YER131W	RPS26B	tagged	visualized	503000	NA	
+2885	YNL284C	MRPL10	tagged	visualized	5350	NA	
+585	YDR505C	PSP1	tagged	visualized	259	NA	
+1156	YBR060C	ORC2	tagged	visualized	1700	82.5	
+323	YNL132W	KRE33	tagged	visualized	low signal	NA	
+4159	YKR020W	VPS67	tagged	visualized	319	NA	
+2657	YDR214W	AHA1	tagged	visualized	13900	NA	
+5359	YNR013C	PHO91	tagged	visualized	4280	NA	
+5234	YIL149C	MLP2	tagged	visualized	2770	NA	
+1255	YOL066C	RIB2	tagged	visualized	1540	NA	
+6015	YLL023C		tagged	visualized	1680	NA	
+1796	YNL239W	LAP3	tagged	visualized	521	NA	
+4454	YBL003C	HTA2	tagged	visualized	32100	NA	
+46	YJL109C	UTP10	tagged	visualized	18200	NA	
+3549	YGR033C		tagged	visualized	3770	NA	
+5260	YER105C	NUP157	tagged	visualized	4420	NA	
+1582	YOR355W	GDS1	tagged	visualized	2280	NA	
+79	YOL004W	SIN3	tagged	visualized	1660	NA	
+3177	YIL034C	CAP2	tagged	visualized	6770	NA	
+358	YDL240W	LRG1	tagged	visualized	468	NA	
+5796	YHR123W	EPT1	tagged	visualized	technical problem	NA	
+5015	YDR377W	ATP17	tagged	visualized	14600	NA	
+441	YGR089W	NNF2	tagged	visualized	996	NA	
+6185	YFR033C	QCR6	tagged	visualized	4490	NA	
+1894	YGL256W	ADH4	tagged	visualized	125	NA	
+508	YLR045C	STU2	tagged	visualized	1660	NA	
+3587	YDR412W		tagged	visualized	2950	NA	
+3279	YLR412W		tagged	visualized	6490	NA	
+2561	YIR026C	YVH1	tagged	visualized	7570	NA	
+4772	YNL135C	FPR1	tagged	visualized	43300	NA	
+2767	YJL088W	ARG3	tagged	visualized	1140	NA	
+785	YDR499W	LCD1	tagged	visualized	606	NA	
+3249	YKL095W	YJU2	tagged	visualized	2250	NA	
+2918	YBL027W	RPL19B	tagged	visualized	225000	NA	
+5292	YHR079C	IRE1	tagged	visualized	259	NA	
+1633	YER078C		tagged	visualized	5080	NA	
+3360	YDR486C	VPS60	tagged	visualized	2110	NA	
+5990	YMR183C	SSO2	tagged	visualized	1720	NA	
+4210	YGR076C	MRPL25	tagged	visualized	1550	NA	
+5781	YFL026W	STE2	tagged	visualized	technical problem	NA	
+2135	YHR132C	ECM14	tagged	visualized	468	NA	
+1903	YMR293C		tagged	visualized	486	NA	
+1188	YKR084C	HBS1	tagged	visualized	2750	NA	
+274	YOL045W	PSK2	tagged	visualized	2220	NA	
+6108	YDL212W	SHR3	tagged	visualized	6510	NA	
+2556	YML131W		tagged	visualized	low signal	NA	
+2153	YDL155W	CLB3	tagged	visualized	892	NA	
+2900	YKR080W	MTD1	tagged	visualized	16200	NA	
+5101	YKL053C-A	MDM35	tagged	visualized	3870	NA	
+719	YBR142W	MAK5	tagged	visualized	981	NA	
+3649	YMR233W	TRI1	tagged	visualized	2360	NA	
+3942	YDL165W	CDC36	tagged	visualized	2120	NA	
+1678	YLL036C	PRP19	tagged	visualized	11700	1430.0	
+4175	YOL071W	EMI5	tagged	visualized	1080	NA	
+5730	YLR378C	SEC61	tagged	visualized	24800	NA	
+4494	YJL190C	RPS22A	tagged	visualized	40400	NA	
+6026	YGR152C	RSR1	tagged	visualized	low signal	NA	
+633	YGR130C		tagged	visualized	10300	NA	
+3303	YKL208W	CBT1	tagged	visualized	low signal	NA	
+734	YNL247W		tagged	visualized	23000	NA	
+1811	YDR346C	SGI1	tagged	visualized	45200	NA	
+5127	YLR395C	COX8	tagged	visualized	672	NA	
+1760	YMR140W	SIP5	tagged	visualized	556	NA	
+3131	YJR088C		tagged	visualized	5740	NA	
+4839	YLR154C	RNH203	tagged	visualized	556	NA	
+2295	YDR083W	RRP8	tagged	visualized	2780	NA	
+860	YOL057W		tagged	visualized	3260	NA	
+2334	YNR043W	MVD1	tagged	visualized	13700	NA	
+5404	YMR257C	PET111	tagged	visualized	538	NA	
+4014	YML078W	CPR3	tagged	visualized	1960	NA	
+2855	YML004C	GLO1	tagged	visualized	2570	NA	
+3493	YKL130C	SHE2	tagged	visualized	4070	NA	
+2397	YOR063W	RPL3	tagged	visualized	450	NA	
+3423	YER153C	PET122	tagged	visualized	468	NA	
+1271	YER068W	MOT2	tagged	visualized	4280	NA	
+4470	YHR132W-A		tagged	visualized	1400	NA	
+1241	YMR198W	CIK1	tagged	visualized	98.9	NA	
+3563	YNL099C	OCA1	tagged	visualized	2310	NA	
+5694	YGL055W	OLE1	tagged	visualized	technical problem	NA	
+879	YLR258W	GSY2	tagged	visualized	14600	NA	
+2190	YKR038C	KAE1	tagged	visualized	1270	NA	
+20	YER155C	BEM2	tagged	visualized	1230	NA	
+5521	YFL041W	FET5	tagged	visualized	2840	NA	
+1290	YMR250W	GAD1	tagged	visualized	1200	NA	
+1367	YGR241C	YAP1802	tagged	visualized	6800	NA	
+341	YOL098C		tagged	visualized	8120	NA	
+1725	YPL204W	HRR25	tagged	visualized	10300	1690.0	
+4133	YKL063C		tagged	visualized	2190	NA	
+3193	YMR069W	NAT4	tagged	visualized	low signal	NA	
+827	YKL135C	APL2	tagged	visualized	2690	NA	
+768	YBR102C	EXO84	tagged	visualized	not visualized	NA	
+2610	YHR025W	THR1	tagged	visualized	92600	NA	
+1339	YJL071W	ARG2	tagged	visualized	112	NA	
+113	YCR081W	SRB8	tagged	visualized	1730	NA	
+425	YMR019W	STB4	tagged	visualized	98.9	NA	
+2477	YDR171W	HSP42	tagged	visualized	1470	NA	
+5210	YDL133C-A	RPL41B	tagged	visualized	4910	NA	
+634	YMR160W		tagged	visualized	279	NA	
+2169	YGR202C	PCT1	tagged	visualized	3050	NA	
+5589	YBR296C	PHO89	tagged	visualized	not visualized	NA	
+290	YLR223C	IFH1	tagged	visualized	1430	NA	
+1649	YDR111C		tagged	visualized	3480	NA	
+1918	YML005W		tagged	visualized	656	NA	
+6073	YER170W	ADK2	tagged	visualized	704	NA	
+2838	YLR239C	LIP2	tagged	visualized	1200	NA	
+63	YCL014W	BUD3	tagged	visualized	technical problem	NA	
+1516	YOL123W	HRP1	tagged	visualized	not visualized	NA	
+248	YPL115C	BEM3	tagged	visualized	752	NA	
+5157	YMR174C	PAI3	tagged	visualized	low signal	NA	
+5892	YLR447C	VMA6	tagged	visualized	1630	NA	
+5663	YER056C	FCY2	tagged	visualized	technical problem	NA	
+1792	YBR288C	APM3	tagged	visualized	3410	NA	
+1137	YNL299W	TRF5	tagged	visualized	2240	NA	
+3461	YKR041W		tagged	visualized	217	NA	
+1989	YHL002W	HSE1	tagged	visualized	358	NA	
+963	YKL025C	PAN3	tagged	visualized	1600	NA	
+5143	YNL259C	ATX1	tagged	visualized	not visualized	NA	
+3319	YLR059C	REX2	tagged	visualized	1730	NA	
+618	YPL032C	SVL3	tagged	visualized	2180	NA	
+2413	YDR502C	SAM2	tagged	visualized	22000	NA	
+3831	YBR014C		tagged	visualized	not visualized	NA	
+6124	YMR264W	CUE1	tagged	visualized	589	NA	
+3524	YOR358W	HAP5	tagged	visualized	450	NA	
+3374	YOR157C	PUP1	tagged	visualized	11400	NA	
+3437	YPL124W	SPC29	tagged	visualized	not visualized	NA	
+803	YBR007C		tagged	visualized	377	NA	
+4	YDR457W	TOM1	tagged	visualized	358	NA	
+4029	YKL069W		tagged	visualized	2610	NA	
+752	YOR337W	TEA1	tagged	visualized	736	NA	
+3864	YBL072C	RPS8A	tagged	visualized	15900	NA	
+2594	YLR215C	CDC123	tagged	visualized	4850	NA	
+3737	YIL010W	DOT5	tagged	visualized	1840	NA	
+2816	YDR267C		tagged	visualized	5640	NA	
+2350	YGR185C	TYS1	tagged	visualized	2710	305.0	
+2119	YOL124C		tagged	visualized	2020	NA	
+4268	YLR068W	FYV7	tagged	visualized	1460	NA	
+5327	YKL064W	MNR2	tagged	visualized	259	NA	
+701	YHR182W		tagged	visualized	1720	NA	
+4301	YMR148W		tagged	visualized	922	NA	
+5714	YDR376W	ARH1	tagged	visualized	1600	426.0	
+4957	YJL018W		tagged	visualized	4510	NA	
+197	YMR109W	MYO5	tagged	visualized	2280	NA	
+1223	YOR324C	FRT1	tagged	visualized	259	NA	
+894	YLR266C	PDR8	tagged	visualized	not visualized	NA	
+164	YDL195W	SEC31	tagged	visualized	1840	NA	
+1465	YPL228W	CET1	tagged	visualized	3900	362.0	
+492	YGL180W	APG1	tagged	visualized	1070	NA	
+3998	YKL186C	MTR2	tagged	visualized	not visualized	NA	
+2216	YMR067C		tagged	visualized	3570	NA	
+2640	YKL011C	CCE1	tagged	visualized	low signal	NA	
+2800	YCR036W	RBK1	tagged	visualized	1780	NA	
+5939	YHR142W	CHS7	tagged	visualized	not visualized	NA	
+525	YNL112W	DBP2	tagged	visualized	33100	8470.0	
+3391	YMR193W	MRPL24	tagged	visualized	4010	NA	
+5959	YMR056C	AAC1	tagged	visualized	not visualized	NA	
+1602	YKL047W		tagged	visualized	2550	NA	
+3618	YER002W	NOP16	tagged	visualized	2860	NA	
+2367	YJR032W	CPR7	tagged	visualized	3230	NA	
+475	YDR409W	SIZ1	tagged	visualized	149	NA	
+1709	YBR006W	UGA2	tagged	visualized	low signal	NA	
+1501	YLR020C		tagged	visualized	1630	NA	
+2956	YDL124W		tagged	visualized	4030	NA	
+1030	YDR496C	PUF6	tagged	visualized	21500	NA	
+3911	YDR121W	DPB4	tagged	visualized	2100	NA	
+3478	YCR004C	YCP4	tagged	visualized	14600	NA	
+231	YOR207C	RET1	tagged	visualized	1950	NA	
+2729	YNR035C	ARC35	tagged	visualized	13400	NA	
+997	YJL057C	IKS1	tagged	visualized	892	NA	
+1776	YNL277W	MET2	tagged	visualized	2240	NA	
+3784	YJR133W	XPT1	tagged	visualized	721	NA	
+5879	YMR079W	SEC14	tagged	visualized	84300	NA	
+1938	YOR056C	NOB1	tagged	visualized	4490	NA	
+559	YNL201C	PSY2	tagged	visualized	7010	NA	
+4234	YIL098C	FMC1	tagged	visualized	589	NA	
+3681	YCR018C	SRD1	tagged	visualized	2100	NA	
+845	YLR362W	STE11	tagged	visualized	736	NA	
+2435	YLR291C	GCD7	tagged	visualized	6650	951.0	
+5463	YDR338C		tagged	visualized	195	NA	
+5552	YDR046C	BAP3	tagged	visualized	low signal	NA	
+391	YBR084W	MIS1	tagged	visualized	11400	NA	
+1114	YOR356W		tagged	visualized	3320	NA	
+2460	YBR161W		tagged	visualized	195	NA	
+2245	YML074C	FPR3	tagged	visualized	9490	NA	
+3958	YJR017C	ESS1	tagged	visualized	4400	NA	
+5049	YNL146W		tagged	visualized	not visualized	NA	
+307	YGL178W	MPT5	tagged	visualized	1240	NA	
+1922	YLR005W	SSL1	tagged	visualized	2340	NA	
+3248	YKL055C	OAR1	tagged	visualized	1760	NA	
+408	YDL190C	UFD2	tagged	visualized	2600	NA	
+1322	YDR463W	STP1	tagged	visualized	1310	NA	
+3753	YMR117C	SPC24	tagged	visualized	1750	NA	
+3145	YLR367W	RPS22B	tagged	visualized	19700	NA	
+5832	YOR176W	HEM15	tagged	visualized	22700	500.0	
+2056	YKL059C	MPE1	tagged	visualized	1130	NA	
+2656	YDL065C	PEX19	tagged	visualized	5350	NA	
+4045	YLR370C	ARC18	tagged	visualized	1920	NA	
+2005	YOR059C		tagged	visualized	1210	NA	
+5812	YER145C	FTR1	tagged	visualized	8370	NA	
+912	YBR169C	SSE2	tagged	visualized	6300	NA	
+685	YBR114W	RAD16	tagged	visualized	358	NA	
+979	YBR212W	NGR1	tagged	visualized	1540	NA	
+4251	YMR260C	TIF11	tagged	visualized	35100	NA	
+6140	YIL004C	BET1	tagged	visualized	low signal	NA	
+3454	YLR061W	RPL22A	tagged	visualized	60400	NA	
+2673	YMR234W	RNH1	tagged	visualized	149	NA	
+5553	YGR191W	HIP1	tagged	visualized	688	NA	
+3848	YKL001C	MET14	tagged	visualized	2170	NA	
+1014	YMR137C	PSO2	tagged	visualized	259	NA	
+3341	YJR101W	RSM26	tagged	visualized	2060	NA	
+2138	YOR264W	DSE3	tagged	visualized	922	NA	
+1742	YLR190W	MMR1	tagged	visualized	1070	NA	
+4451	YKR083C	DAD2	tagged	visualized	279	NA	
+1049	YBR123C	TFC1	tagged	visualized	15800	1080.0	
+2260	YHR097C		tagged	visualized	technical problem	NA	
+4361	YBR258C	SHG1	tagged	visualized	1520	NA	
+2781	YIL096C		tagged	visualized	2960	NA	
+3018	YMR055C	BUB2	tagged	visualized	not visualized	NA	
+6090	YNR061C		tagged	visualized	339	NA	
+224	YHR158C	KEL1	tagged	visualized	1350	NA	
+3471	YNR009W		tagged	visualized	2880	NA	
+542	YGR150C		tagged	visualized	876	NA	
+460	YBR017C	KAP104	tagged	visualized	2130	NA	
+4386	YGL108C		tagged	visualized	2430	NA	
+257	YIL151C		tagged	visualized	504	NA	
+4166	YPR188C	MLC2	tagged	visualized	1130	NA	
+5926	YBR290W	BSD2	tagged	visualized	3070	NA	
+3203	YOR174W	MED4	tagged	visualized	1620	NA	
+6198	YDR529C	QCR7	tagged	visualized	10100	NA	
+5062	YKL018C-A		tagged	visualized	358	NA	
+1220	YHR202W		tagged	visualized	not visualized	NA	
+2468	YML060W	OGG1	tagged	visualized	3690	NA	
+3571	YMR188C	MRPS17	tagged	visualized	2810	NA	
+5991	YOR130C	ORT1	tagged	visualized	432	NA	
+3893	YMR184W		tagged	visualized	1270	NA	
+2911	YOR342C		tagged	visualized	1360	NA	
+5267	YGL092W	NUP145	tagged	visualized	4630	NA	
+5241	YBL017C	PEP1	tagged	visualized	7210	NA	
+6148	YDR178W	SDH4	tagged	visualized	7920	NA	
+3595	YLR250W	SSP120	tagged	visualized	6900	NA	
+1975	YDR229W	IVY1	tagged	visualized	2840	NA	
+3771	YOR236W	DFR1	tagged	visualized	1080	NA	
+4810	YGR151C		tagged	visualized	not visualized	NA	
+949	YMR075W	RCO1	tagged	visualized	486	NA	
+1554	YOR360C	PDE2	tagged	visualized	6510	NA	
+5911	YBR104W	YMC2	tagged	visualized	1050	NA	
+4940	YML108W		tagged	visualized	2610	NA	
+5110	YLR363W-A		tagged	visualized	6650	NA	
+94	YAL029C	MYO4	tagged	visualized	2210	NA	
+1807	YOR046C	DBP5	tagged	visualized	14900	NA	
+5184	YDR034W-B		tagged	visualized	861	NA	
+1098	YAL016W	TPD3	tagged	visualized	16900	NA	
+836	YGR178C	PBP1	tagged	visualized	2870	NA	
+2329	YOR173W	DCS2	tagged	visualized	1810	NA	
+5838	YDL248W	COS7	tagged	visualized	not visualized	NA	
+3150	YCR016W		tagged	visualized	1850	NA	
+1439	YGL076C	RPL7A	tagged	visualized	101000	NA	
+599	YMR102C		tagged	visualized	538	NA	
+2423	YDR088C	SLU7	tagged	visualized	1490	252.0	
+2529	YMR114C		tagged	visualized	low signal	NA	
+1155	YPL020C	ULP1	tagged	visualized	377	NA	
+5281	YAL002W	VPS8	tagged	visualized	736	NA	
+2061	YDR170W-A		tagged	visualized	2910	NA	
+6210	YLR043C	TRX1	tagged	visualized	8580	NA	
+2982	YMR267W	PPA2	tagged	visualized	195	NA	
+4271	YDR424C	DYN2	tagged	visualized	1310	NA	
+5332	YGL238W	CSE1	tagged	visualized	23500	1700.0	
+1285	YHL039W		tagged	visualized	5170	NA	
+3908	YBR122C	MRPL36	tagged	visualized	low signal	NA	
+330	YDL223C	HBT1	tagged	visualized	not visualized	NA	
+281	YBR150C	TBS1	tagged	visualized	573	NA	
+1374	YDL003W	MCD1	tagged	visualized	1040	106.0	
+794	YHR178W	STB5	tagged	visualized	279	NA	
+1910	YHR018C	ARG4	tagged	visualized	10200	NA	
+3033	YOR251C		tagged	visualized	5770	NA	
+2660	YLR270W	DCS1	tagged	visualized	9920	NA	
+527	YNL325C	FIG4	tagged	visualized	339	NA	
+5614	YNR056C	BIO5	tagged	visualized	not visualized	NA	
+6014	YPL076W	GPI2	tagged	visualized	low signal	NA	
+6226	YOR045W	TOM6	tagged	visualized	not visualized	NA	
+2643	YPL138C	SPP1	tagged	visualized	1680	NA	
+6105	YDR298C	ATP5	tagged	visualized	32400	NA	
+5895	YOL107W		tagged	visualized	1630	NA	
+143	YOL138C		tagged	visualized	606	NA	
+241	YOR188W	MSB1	tagged	visualized	172	NA	
+2928	YBR151W	APD1	tagged	visualized	2000	NA	
+208	YEL025C	SRI1	tagged	visualized	not visualized	NA	
+3066	YGL254W	FZF1	tagged	visualized	2120	NA	
+444	YPR019W	CDC54	tagged	visualized	8800	1110.0	
+1185	YDR350C	TCM10	tagged	visualized	not visualized	NA	
+3005	YGR104C	SRB5	tagged	visualized	1010	NA	
+4069	YJL122W		tagged	visualized	4780	NA	
+779	YLL029W		tagged	visualized	3240	NA	
+3555	YBR242W		tagged	visualized	2730	NA	
+729	YOL006C	TOP1	tagged	visualized	2970	NA	
+4100	YDR404C	RPB7	tagged	visualized	6420	NA	
+4467	YBL002W	HTB2	tagged	visualized	443000	NA	
+4858	YOR199W		tagged	visualized	low signal	NA	
+1757	YJL081C	ARP4	tagged	visualized	1070	308.0	
+4491	YHR059W	FYV4	tagged	visualized	2630	NA	
+616	YJL176C	SWI3	tagged	visualized	3150	NA	
+5689	YCL027W	FUS1	tagged	visualized	not visualized	NA	
+3302	YIL053W	RHR2	tagged	visualized	193000	NA	
+3686	YJL140W	RPB4	tagged	visualized	not visualized	NA	
+869	YLR424W		tagged	visualized	556	NA	
+1634	YJR010W	MET3	tagged	visualized	1510	NA	
+5519	YKL212W	SAC1	tagged	visualized	48000	NA	
+2154	YGR244C	LSC2	tagged	visualized	not visualized	NA	
+1960	YBR162C	TOS1	tagged	visualized	12300	NA	
+934	YBL060W		tagged	visualized	low signal	NA	
+1063	YPL210C	SRP72	tagged	visualized	11800	3500.0	
+5708	YJL091C	GWT1	tagged	visualized	low signal	NA	
+1692	YOL070C		tagged	visualized	1620	NA	
+696	YFR013W	IOC3	tagged	visualized	1770	NA	
+6040	YMR200W	ROT1	tagged	visualized	2360	NA	
+1267	YGL252C	RTG2	tagged	visualized	3260	NA	
+5095	YER019C-A	SBH2	tagged	visualized	414	NA	
+21	YER172C	BRR2	tagged	visualized	1440	NA	
+3816	YNL310C		tagged	visualized	1520	NA	
+1619	YGR123C	PPT1	tagged	visualized	6990	NA	
+2232	YBR168W		tagged	visualized	technical problem	NA	
+5819	YMR026C	PEX12	tagged	visualized	907	NA	
+1677	YGL065C	ALG2	tagged	visualized	1840	NA	
+4507	YHR162W		tagged	visualized	3410	NA	
+6025	YPL162C		tagged	visualized	1440	NA	
+3089	YML112W	CTK3	tagged	visualized	2640	NA	
+4023	YPL211W	NIP7	tagged	visualized	5170	NA	
+2819	YNL097C	PHO23	tagged	visualized	3250	NA	
+3402	YCL005W		tagged	visualized	149	NA	
+2191	YOL031C	SIL1	tagged	visualized	2420	NA	
+5642	YFR051C	RET2	tagged	visualized	18000	NA	
+5884	YOR085W	OST3	tagged	visualized	4030	NA	
+346	YIL128W	MET18	tagged	visualized	3150	NA	
+3625	YGR126W		tagged	visualized	not visualized	NA	
+3725	YIR024C	GIF1	tagged	visualized	589	NA	
+1538	YKL139W	CTK1	tagged	visualized	125	NA	
+2545	YHR040W	BCD1	tagged	visualized	2800	NA	
+2599	YDL144C		tagged	visualized	5170	NA	
+4287	YJL104W	MIA1	tagged	visualized	3180	NA	
+851	YHR074W	QNS1	tagged	visualized	172	NA	
+649	YPL207W		tagged	visualized	5410	NA	
+5346	YCR037C	PHO87	tagged	visualized	504	NA	
+2697	YDR372C	VPS74	tagged	visualized	1850	NA	
+2766	YER156C		tagged	visualized	6080	NA	
+2313	YAL015C	NTG1	tagged	visualized	technical problem	NA	
+4076	YGR085C	RPL11B	tagged	visualized	21200	NA	
+1600	YGL112C	TAF6	tagged	visualized	6510	1290.0	
+5137	YEL059C-A	SOM1	tagged	visualized	358	NA	
+3357	YIR036C		tagged	visualized	1620	NA	
+3180	YDR337W	MRPS28	tagged	visualized	6960	NA	
+3280	YMR178W		tagged	visualized	3890	NA	
+4215	YOR044W		tagged	visualized	4280	NA	
+2544	YBR221C	PDB1	tagged	visualized	9970	NA	
+2170	YGR263C		tagged	visualized	technical problem	NA	
+2834	YGL091C	NBP35	tagged	visualized	not visualized	NA	
+982	YLR330W	CHS5	tagged	visualized	172	NA	
+3740	YBL057C	PTH2	tagged	visualized	2190	NA	
+1473	YMR199W	CLN1	tagged	visualized	319	NA	
+2943	YKR087C		tagged	visualized	technical problem	NA	
+1301	YPL208W		tagged	visualized	4800	NA	
+3839	YLR036C		tagged	visualized	967	NA	
+5217	YOL081W	IRA2	tagged	visualized	technical problem	NA	
+3119	YGR222W	PET54	tagged	visualized	799	NA	
+682	YNL186W	UBP10	tagged	visualized	low signal	NA	
+1708	YPL072W	UBP16	tagged	visualized	450	NA	
+1470	YGR041W	BUD9	tagged	visualized	952	NA	
+2093	YML051W	GAL80	tagged	visualized	784	NA	
+379	YIR002C	MPH1	tagged	visualized	not visualized	NA	
+5405	YOR017W	PET127	tagged	visualized	1730	NA	
+6121	YGL200C	EMP24	tagged	visualized	26800	NA	
+314	YNL267W	PIK1	tagged	visualized	1600	NA	
+2390	YDR161W	TCI1	tagged	visualized	1630	NA	
+4605	YFR049W	YMR31	tagged	visualized	2050	NA	
+1535	YDL170W	UGA3	tagged	visualized	1200	NA	
+4054	YOL067C	RTG1	tagged	visualized	2190	NA	
+2345	YOR184W	SER1	tagged	visualized	15900	NA	
+5658	YER014W	HEM14	tagged	visualized	5350	NA	
+3371	YIL020C	HIS6	tagged	visualized	6490	NA	
+192	YOR151C	RPB2	tagged	visualized	18700	NA	
+1201	YMR168C	CEP3	tagged	visualized	1900	140.0	
+428	YIL137C		tagged	visualized	5110	NA	
+5674	YER123W	YCK3	tagged	visualized	1320	NA	
+5224	YDR170C	SEC7	tagged	visualized	3670	NA	
+2615	YNL191W		tagged	visualized	7300	NA	
+5251	YBL079W	NUP170	tagged	visualized	1560	NA	
+632	YLR337C	VRP1	tagged	visualized	low signal	NA	
+2215	YIL033C	BCY1	tagged	visualized	4280	NA	
+617	YLL032C		tagged	visualized	922	NA	
+4304	YBR252W	DUT1	tagged	visualized	4340	NA	
+1722	YDR257C	RMS1	tagged	visualized	4010	NA	
+3641	YOR295W	UAF30	tagged	visualized	639	NA	
+5419	YER001W	MNN1	tagged	visualized	1780	NA	
+1852	YGR019W	UGA1	tagged	visualized	573	NA	
+2813	YPL055C	LGE1	tagged	visualized	2060	NA	
+5566	YGR065C	VHT1	tagged	visualized	low signal	NA	
+1079	YMR313C	TGL3	tagged	visualized	3210	NA	
+5804	YHL003C	LAG1	tagged	visualized	technical problem	NA	
+1773	YGL253W	HXK2	tagged	visualized	114000	NA	
+4778	YJR082C	EAF6	tagged	visualized	504	NA	
+2627	YNL304W	YPT11	tagged	visualized	2850	NA	
+3863	YKL190W	CNB1	tagged	visualized	low signal	NA	
+1315	YHR194W	MDM31	tagged	visualized	1200	NA	
+3432	YJL001W	PRE3	tagged	visualized	7250	NA	
+2913	YIL021W	RPB3	tagged	visualized	10000	668.0	
+5869	YLR056W	ERG3	tagged	visualized	36200	NA	
+2949	YKL110C	KTI12	tagged	visualized	5260	NA	
+127	YJR127C	ZMS1	tagged	visualized	technical problem	NA	
+2276	YHL014C	YLF2	tagged	visualized	2360	NA	
+5030	YLR346C		tagged	visualized	low signal	NA	
+5203	YDR461W	MFA1	tagged	visualized	28900	NA	
+6056	YGL053W	PRM8	tagged	visualized	1250	NA	
+362	YIL125W	KGD1	tagged	visualized	14300	NA	
+3832	YDL002C	NHP10	tagged	visualized	1760	NA	
+45	YFL033C	RIM15	tagged	visualized	low signal	NA	
+5583	YGL095C	VPS45	tagged	visualized	5660	NA	
+3518	YOR284W	HUA2	tagged	visualized	1360	NA	
+5362	YDR027C	LUV1	tagged	visualized	2540	NA	
+493	YOR371C	GPB1	tagged	visualized	1640	NA	
+4091	YGL058W	RAD6	tagged	visualized	2770	NA	
+2024	YHR004C	NEM1	tagged	visualized	377	NA	
+917	YFL013C	IES1	tagged	visualized	1390	NA	
+812	YJL168C	SET2	tagged	visualized	217	NA	
+1838	YPL063W	TIM50	tagged	visualized	2400	NA	
+5960	YOR065W	CYT1	tagged	visualized	39900	NA	
+1286	YHR108W	GGA2	tagged	visualized	2270	NA	
+526	YLL013C	PUF3	tagged	visualized	846	NA	
+4402	YIL040W	APQ12	tagged	visualized	low signal	NA	
+1787	YOL030W	GAS5	tagged	visualized	11700	NA	
+3610	YER163C		tagged	visualized	1300	NA	
+297	YHR102W	KIC1	tagged	visualized	1040	NA	
+411	YHR120W	MSH1	tagged	visualized	1670	NA	
+3281	YNL155W		tagged	visualized	4280	NA	
+560	YHR047C	AAP1'	tagged	visualized	77000	NA	
+818	YKL112W	ABF1	tagged	visualized	4820	559.0	
+1585	YBL019W	APN2	tagged	visualized	414	NA	
+175	YDR097C	MSH6	tagged	visualized	5330	NA	
+3655	YGL166W	CUP2	tagged	visualized	1760	NA	
+648	YOR162C	YRR1	tagged	visualized	not visualized	NA	
+209	YOR086C		tagged	visualized	6140	NA	
+2752	YML037C		tagged	visualized	815	NA	
+2244	YGR210C		tagged	visualized	11600	NA	
+3487	YDR305C	HNT2	tagged	visualized	1920	NA	
+1388	YPR111W	DBF20	tagged	visualized	3320	NA	
+6070	YJL158C	CIS3	tagged	visualized	12500	NA	
+1487	YPL109C		tagged	visualized	2470	NA	
+5167	YHR053C	CUP1-1	tagged	visualized	31900	NA	
+3756	YOR319W	HSH49	tagged	visualized	1240	NA	
+998	YBR260C	RGD1	tagged	visualized	1500	NA	
+1136	YKR008W	RSC4	tagged	visualized	8570	955.0	
+5942	YPR114W		tagged	visualized	1920	NA	
+4183	YLR042C		tagged	visualized	not visualized	NA	
+5569	YEL063C	CAN1	tagged	visualized	technical problem	NA	
+664	YGL234W	ADE5,7	tagged	visualized	35800	NA	
+2362	YDR427W	RPN9	tagged	visualized	12400	NA	
+5549	YHL019C	APM2	tagged	visualized	2890	NA	
+4126	YNL157W		tagged	visualized	low signal	NA	
+3220	YFR027W	ECO1	tagged	visualized	not visualized	NA	
+3953	YCR086W	CSM1	tagged	visualized	1920	NA	
+5976	YNL194C		tagged	visualized	not visualized	NA	
+3540	YLR326W		tagged	visualized	1520	NA	
+2497	YDR517W	GRH1	tagged	visualized	2730	NA	
+761	YDL164C	CDC9	tagged	visualized	149	NA	
+3702	YKL142W	MRP8	tagged	visualized	1550	NA	
+1650	YER090W	TRP2	tagged	visualized	6510	NA	
+5723	YBR241C		tagged	visualized	technical problem	NA	
+1569	YER021W	RPN3	tagged	visualized	16700	NA	
+1422	YOR205C		tagged	visualized	937	NA	
+1237	YLR060W	FRS1	tagged	visualized	5440	1190.0	
+5436	YKR067W	GPT2	tagged	visualized	3100	NA	
+5788	YLL010C	PSR1	tagged	visualized	5620	NA	
+3817	YFR001W	LOC1	tagged	visualized	3650	NA	
+2078	YOR230W	WTM1	tagged	visualized	7750	NA	
+394	YOR160W	MTR10	tagged	visualized	6340	614.0	
+5631	YOL019W	TOS7	tagged	visualized	technical problem	NA	
+1332	YPR171W	BSP1	tagged	visualized	704	NA	
+901	YBR156C	SLI15	tagged	visualized	319	NA	
+583	YOR133W	EFT1	tagged	visualized	82700	NA	
+5455	YER113C		tagged	visualized	low signal	NA	
+1351	YLR259C	HSP60	tagged	visualized	not visualized	NA	
+2451	YNL230C	ELA1	tagged	visualized	815	NA	
+1115	YHL038C	CBP2	tagged	visualized	1360	NA	
+110	YPR189W	SKI3	tagged	visualized	11900	NA	
+5316	YFL025C	BST1	tagged	visualized	technical problem	NA	
+5297	YDR040C	ENA1	tagged	visualized	688	NA	
+3167	YGR147C	NAT2	tagged	visualized	1240	NA	
+543	YNL256W	FOL1	tagged	visualized	4590	708.0	
+3892	YMR003W		tagged	visualized	2820	NA	
+158	YOR330C	MIP1	tagged	visualized	377	NA	
+6013	YBR187W		tagged	visualized	2170	NA	
+5536	YOR092W	ECM3	tagged	visualized	low signal	NA	
+95	YER164W	CHD1	tagged	visualized	1620	NA	
+1909	YGL111W	NSA1	tagged	visualized	2740	NA	
+6197	YER072W	VTC1	tagged	visualized	12100	NA	
+1048	YBL075C	SSA3	tagged	visualized	6440	NA	
+3594	YIR038C	GTT1	tagged	visualized	technical problem	NA	
+3340	YIL070C	MAM33	tagged	visualized	4910	NA	
+3894	YNL158W		tagged	visualized	6940	NA	
+5266	YIL030C	SSM4	tagged	visualized	technical problem	NA	
+598	YDL126C	CDC48	tagged	visualized	78400	NA	
+2137	YMR173W	DDR48	tagged	visualized	low signal	NA	
+5333	YKL068W	NUP100	tagged	visualized	358	NA	
+5476	YOL011W	PLB3	tagged	visualized	low signal	NA	
+4024	YPR046W	MCM16	tagged	visualized	279	NA	
+258	YJR109C	CPA2	tagged	visualized	18000	NA	
+4165	YOR150W	MRPL23	tagged	visualized	6730	NA	
+2192	YDL027C		tagged	visualized	450	NA	
+3672	YMR222C	FSH2	tagged	visualized	1070	NA	
+1015	YNL197C	WHI3	tagged	visualized	5730	NA	
+1821	YPL066W		tagged	visualized	396	NA	
+6147	YDL192W	ARF1	tagged	visualized	19300	NA	
+6091	YBR264C	YPT10	tagged	visualized	1360	NA	
+3472	YOL154W	ZPS1	tagged	visualized	not visualized	NA	
+1620	YHR137W	ARO9	tagged	visualized	7700	NA	
+5992	YHR133C	YIG1	tagged	visualized	1900	NA	
+1676	YGL017W	ATE1	tagged	visualized	2030	NA	
+3265	YDR384C	ATO3	tagged	visualized	technical problem	NA	
+2259	YOL022C		tagged	visualized	125	NA	
+5925	YHR012W	VPS29	tagged	visualized	259	NA	
+885	YEL011W	GLC3	tagged	visualized	1230	NA	
+5061	YIL008W	URM1	tagged	visualized	1240	NA	
+1976	YDR312W	SSF2	tagged	visualized	1350	NA	
+835	YHR031C	RRM3	tagged	visualized	656	NA	
+1553	YNL138W	SRV2	tagged	visualized	8760	NA	
+1743	YML126C	ERG13	tagged	visualized	34800	NA	
+3687	YLR075W	RPL10	tagged	visualized	not visualized	NA	
+2780	YLR017W	MEU1	tagged	visualized	4820	NA	
+1806	YNL071W	LAT1	tagged	visualized	5440	NA	
+1635	YMR131C	RRB1	tagged	visualized	not visualized	NA	
+2243	YDR153C	ENT5	tagged	visualized	8100	NA	
+1888	YBL086C		tagged	visualized	396	NA	
+665	YPL190C	NAB3	tagged	visualized	5830	541.0	
+2424	YGL209W	MIG2	tagged	visualized	504	NA	
+2373	YLR082C	SRL2	tagged	visualized	538	NA	
+3417	YMR157C		tagged	visualized	1710	NA	
+2659	YJR043C	POL32	tagged	visualized	2410	NA	
+1995	YKL106W	AAT1	tagged	visualized	2910	NA	
+6209	YGR209C	TRX2	tagged	visualized	17200	NA	
+528	YBR281C		tagged	visualized	1940	NA	
+2983	YNR007C	AUT1	tagged	visualized	3610	NA	
+1221	YLR055C	SPT8	tagged	visualized	8430	NA	
+5388	YPL019C	VTC3	tagged	visualized	2630	NA	
+795	YKR024C	DBP7	tagged	visualized	1460	NA	
+4149	YEL054C	RPL12A	tagged	visualized	68500	NA	
+5282	YGL006W	PMC1	tagged	visualized	98.9	NA	
+3609	YDR391C		tagged	visualized	6020	NA	
+3770	YMR182C	RGM1	tagged	visualized	1230	NA	
+4385	YDR437W		tagged	visualized	752	NA	
+4434	YNR046W		tagged	visualized	4800	NA	
+5839	YDR498C	SEC20	tagged	visualized	4910	NA	
+5772	YDR483W	KRE2	tagged	visualized	13000	NA	
+2530	YNL316C	PHA2	tagged	visualized	2020	NA	
+2062	YDR449C	UTP6	tagged	visualized	7520	NA	
+935	YDR444W		tagged	visualized	2070	NA	
+4631	YLR408C		tagged	visualized	468	NA	
+207	YJL076W	NET1	tagged	visualized	1590	NA	
+363	YOR349W	CIN1	tagged	visualized	704	NA	
+5240	YLR310C	CDC25	tagged	visualized	319	NA	
+5613	YDR062W	LCB2	tagged	visualized	54500	NA	
+6225	YPL271W	ATP15	tagged	visualized	4280	NA	
+780	YOR034C	AKR2	tagged	visualized	815	NA	
+3073	YIL044C	AGE2	tagged	visualized	5350	NA	
+144	YBR081C	SPT7	tagged	visualized	2360	NA	
+3519	YDR092W	UBC13	tagged	visualized	8970	NA	
+5345	YIL109C	SEC24	tagged	visualized	not visualized	NA	
+329	YCR092C	MSH3	tagged	visualized	736	NA	
+2277	YKL149C	DBR1	tagged	visualized	1130	NA	
+1691	YNR012W	URK1	tagged	visualized	low signal	NA	
+5518	YJL085W	EXO70	tagged	visualized	4280	340.0	
+5136	YNL015W	PBI2	tagged	visualized	technical problem	NA	
+3067	YJL068C		tagged	visualized	1750	NA	
+5250	YPL058C	PDR12	tagged	visualized	752	NA	
+2214	YHR115C		tagged	visualized	2790	NA	
+1266	YDR243C	PRP28	tagged	visualized	technical problem	NA	
+77	YML072C		tagged	visualized	4280	NA	
+615	YNL216W	RAP1	tagged	visualized	4390	909.0	
+6183	YLL052C	AQY2	tagged	visualized	low signal	NA	
+5013	YDR139C	RUB1	tagged	visualized	1310	NA	
+5802	YDL128W	VCX1	tagged	visualized	7770	NA	
+4070	YLR193C		tagged	visualized	704	NA	
+6106	YHR110W	ERP5	tagged	visualized	low signal	NA	
+1454	YOL055C	THI20	tagged	visualized	195	NA	
+3924	YFR017C		tagged	visualized	639	NA	
+2600	YHR069C	RRP4	tagged	visualized	4840	388.0	
+3570	YMR134W		tagged	visualized	2950	NA	
+5709	YJR054W		tagged	visualized	538	NA	
+2853	YIL041W	GVP36	tagged	visualized	7720	NA	
+868	YFR015C	GSY1	tagged	visualized	6300	NA	
+2314	YDR021W	FAL1	tagged	visualized	3090	329.0	
+2642	YPL011C	TAF3	tagged	visualized	3300	NA	
+22	YDL171C	GLT1	tagged	visualized	18900	NA	
+2391	YEL046C	GLY1	tagged	visualized	106000	NA	
+3624	YDR183W	PLP1	tagged	visualized	2250	NA	
+3846	YGL047W		tagged	visualized	1950	NA	
+5673	YDR072C	IPT1	tagged	visualized	606	NA	
+2820	YNL301C	RPL18B	tagged	visualized	63700	NA	
+3502	YIR018W	YAP5	tagged	visualized	238	NA	
+5755	YBL045C	COR1	tagged	visualized	19300	NA	
+3004	YER083C	RMD7	tagged	visualized	not visualized	NA	
+4321	YGR243W		tagged	visualized	6750	NA	
+1758	YLL011W	SOF1	tagged	visualized	6620	1620.0	
+426	YGR204W	ADE3	tagged	visualized	35600	NA	
+5218	YBL004W	UTP20	tagged	visualized	not visualized	NA	
+2765	YDR077W	SED1	tagged	visualized	1630	NA	
+695	YDR239C		tagged	visualized	155	NA	
+2546	YKL043W	PHD1	tagged	visualized	1420	NA	
+3787	YDR487C	RIB3	tagged	visualized	5460	NA	
+3179	YDL201W	TRM8	tagged	visualized	2630	NA	
+650	YDL122W	UBP1	tagged	visualized	8970	NA	
+948	YBL024W	NCL1	tagged	visualized	16100	NA	
+3403	YGR095C	RRP46	tagged	visualized	10800	NA	
+2910	YOR143C	THI80	tagged	visualized	3320	NA	
+6039	YEL051W	VMA8	tagged	visualized	8500	NA	
+2039	YLR080W	EMP46	tagged	visualized	not visualized	NA	
+1152	YNR006W	VPS27	tagged	visualized	172	NA	
+427	YIL002C	INP51	tagged	visualized	98.9	NA	
+4606	YGL226W		tagged	visualized	1170	NA	
+5223	YJL005W	CYR1	tagged	visualized	low signal	NA	
+3818	YIL158W		tagged	visualized	not visualized	NA	
+3838	YKL214C	YRA2	tagged	visualized	1310	NA	
+2835	YGR015C		tagged	visualized	not visualized	NA	
+1853	YGR108W	CLB1	tagged	visualized	300	NA	
+313	YGR274C	TAF1	tagged	visualized	1500	NA	
+3051	YPL064C	CWC27	tagged	visualized	2360	NA	
+1707	YPL017C		tagged	visualized	6400	NA	
+2293	YNL292W	PUS4	tagged	visualized	3990	NA	
+3925	YKR085C	MRPL20	tagged	visualized	358	NA	
+5818	YKL004W	AUR1	tagged	visualized	4170	NA	
+5630	YOL013C	HRD1	tagged	visualized	2660	NA	
+380	YDR430C	CYM1	tagged	visualized	6140	NA	
+60	YGL206C	CHC1	tagged	visualized	28700	NA	
+4199	YML030W		tagged	visualized	1210	NA	
+3503	YJL055W		tagged	visualized	6440	NA	
+61	YJR140C	HIR3	tagged	visualized	922	NA	
+683	YOR144C	ELG1	tagged	visualized	low signal	NA	
+2966	YMR299C		tagged	visualized	1170	NA	
+5724	YGL129C	RSM23	tagged	visualized	1300	NA	
+5420	YJR143C	PMT4	tagged	visualized	1270	NA	
+3640	YOR232W	MGE1	tagged	visualized	not visualized	NA	
+2171	YLR438W	CAR2	tagged	visualized	72000	NA	
+631	YLR222C	UTP13	tagged	visualized	8070	NA	
+191	YDR335W	MSN5	tagged	visualized	3500	NA	
+6122	YJL004C	SYS1	tagged	visualized	238	NA	
+2601	YJR139C	HOM6	tagged	visualized	48900	NA	
+5406	YJL212C	OPT1	tagged	visualized	2870	NA	
+3739	YPR154W	PIN3	tagged	visualized	2190	NA	
+4418	YBR010W	HHT1	tagged	visualized	213000	NA	
+5168	YHR055C	CUP1-2	tagged	visualized	6680	NA	
+5803	YDR331W	GPI8	tagged	visualized	1560	NA	
+4303	YBR109C	CMD1	tagged	visualized	not visualized	NA	
+918	YML016C	PPZ1	tagged	visualized	217	NA	
+1774	YGR211W	ZPR1	tagged	visualized	39900	NA	
+4240	YIL062C	ARC15	tagged	visualized	3060	NA	
+2092	YLR113W	HOG1	tagged	visualized	6780	NA	
+1080	YGL060W	YBP2	tagged	visualized	3870	NA	
+494	YDR074W	TPS2	tagged	visualized	22700	NA	
+5657	YAR002W	NUP60	tagged	visualized	4590	NA	
+4127	YPL108W		tagged	visualized	technical problem	NA	
+3802	YIL127C		tagged	visualized	3670	NA	
+4384	YDR308C	SRB7	tagged	visualized	1390	NA	
+1249	YMR120C	ADE17	tagged	visualized	60900	NA	
+746	YLR069C	MEF1	tagged	visualized	6350	NA	
+4055	YPL038W	MET31	tagged	visualized	521	NA	
+280	YCL061C	MRC1	tagged	visualized	721	NA	
+3431	YOR004W		tagged	visualized	6960	NA	
+3195	YOR040W	GLO4	tagged	visualized	technical problem	NA	
+5740	YGL172W	NUP49	tagged	visualized	4760	445.0	
+3120	YHR062C	RPP1	tagged	visualized	6300	NA	
+4779	YKL061W		tagged	visualized	1240	NA	
+5204	YML007C-A		tagged	visualized	low signal	NA	
+242	YML117W	NAB6	tagged	visualized	1540	NA	
+6055	YBR070C		tagged	visualized	339	NA	
+813	YLR381W	CTF3	tagged	visualized	319	NA	
+2988	YDL222C		tagged	visualized	329	NA	
+712	YER171W	RAD3	tagged	visualized	14400	1300.0	
+965	YJL101C	GSH1	tagged	visualized	5130	NA	
+128	YGR270W	YTA7	tagged	visualized	172	NA	
+2023	YFR014C	CMK1	tagged	visualized	1520	NA	
+2616	YOL064C	MET22	tagged	visualized	7330	NA	
+2713	YPL118W	MRP51	tagged	visualized	656	NA	
+3976	YIR017C	MET28	tagged	visualized	low signal	NA	
+2328	YOL136C	PFK27	tagged	visualized	low signal	NA	
+5361	YMR054W	STV1	tagged	visualized	1080	NA	
+2731	YOL151W	GRE2	tagged	visualized	5460	NA	
+999	YEL007W	TOS9	tagged	visualized	1710	NA	
+5870	YMR152W	YIM1	tagged	visualized	6540	NA	
+2193	YER059W	PCL6	tagged	visualized	1240	NA	
+5456	YOL060C	MAM3	tagged	visualized	5890	NA	
+4148	YDR418W	RPL12B	tagged	visualized	50300	NA	
+1099	YDR380W	ARO10	tagged	visualized	6560	NA	
+2450	YHR063C	PAN5	tagged	visualized	2600	NA	
+3909	YDR022C	CIS1	tagged	visualized	486	NA	
+1032	YLR234W	TOP3	tagged	visualized	468	NA	
+1837	YOL125W		tagged	visualized	1230	NA	
+1387	YJR103W	URA8	tagged	visualized	5370	NA	
+1723	YGR091W	PRP31	tagged	visualized	1260	135.0	
+2011	YFR005C	SAD1	tagged	visualized	167	22.0	
+3151	YGR021W		tagged	visualized	1780	NA	
+5961	YOR101W	RAS1	tagged	visualized	2050	NA	
+1928	YER003C	PMI40	tagged	visualized	5220	516.0	
+582	YNL298W	CLA4	tagged	visualized	low signal	NA	
+762	YNL059C	ARP5	tagged	visualized	2170	NA	
+2512	YKR076W	ECM4	tagged	visualized	1670	NA	
+2374	YLR449W	FPR4	tagged	visualized	14100	NA	
+3488	YAL049C		tagged	visualized	1800	NA	
+4522	YCR082W		tagged	visualized	981	NA	
+3448	YLR126C		tagged	visualized	1510	NA	
+2361	YDL204W	RTN2	tagged	visualized	low signal	NA	
+2079	YOR259C	RPT4	tagged	visualized	not visualized	NA	
+1135	YHL027W	RIM101	tagged	visualized	1820	NA	
+6134	YOR297C	TIM18	tagged	visualized	4440	NA	
+5317	YMR231W	PEP5	tagged	visualized	1200	NA	
+884	YDR052C	DBF4	tagged	visualized	low signal	NA	
+1604	YPL198W	RPL7B	tagged	visualized	7080	NA	
+728	YMR167W	MLH1	tagged	visualized	319	NA	
+4182	YJL011C	RPC17	tagged	visualized	2930	NA	
+2513	YMR139W	RIM11	tagged	visualized	6990	NA	
+3539	YER148W	SPT15	tagged	visualized	low signal	NA	
+3219	YEL009C	GCN4	tagged	visualized	low signal	NA	
+477	YNL082W	PMS1	tagged	visualized	521	NA	
+3372	YJR011C		tagged	visualized	2560	NA	
+4921	YOL048C		tagged	visualized	low signal	NA	
+1333	YGR171C	MSM1	tagged	visualized	3120	NA	
+3703	YLR178C	TFS1	tagged	visualized	1030	NA	
+393	YNL236W	SIN4	tagged	visualized	1720	NA	
+4320	YGR074W	SMD1	tagged	visualized	2400	NA	
+2798	YKL085W	MDH1	tagged	visualized	28100	NA	
+5854	YOR008C	SLG1	tagged	visualized	664	NA	
+3968	YOR163W	DDP1	tagged	visualized	3440	NA	
+1651	YGR093W		tagged	visualized	1270	NA	
+5787	YBR287W		tagged	visualized	6440	NA	
+902	YDR108W	GSG1	tagged	visualized	8760	NA	
+817	YJL082W	IML2	tagged	visualized	4980	NA	
+4539	YKL169C		tagged	visualized	not visualized	NA	
+1908	YDR190C	RVB1	tagged	visualized	11600	NA	
+2944	YLR283W		tagged	visualized	technical problem	NA	
+5771	YHR190W	ERG9	tagged	visualized	10800	NA	
+3168	YGR239C	PEX21	tagged	visualized	not visualized	NA	
+6012	YIL114C	POR2	tagged	visualized	not visualized	NA	
+1154	YAR007C	RFA1	tagged	visualized	4100	486.0	
+2121	YGR149W		tagged	visualized	technical problem	NA	
+3282	YOL121C	RPS19A	tagged	visualized	29000	NA	
+1423	YDR474C		tagged	visualized	2130	NA	
+5298	YGL156W	AMS1	tagged	visualized	319	NA	
+3389	YCR059C	YIH1	tagged	visualized	3030	NA	
+981	YNL103W	MET4	tagged	visualized	1300	NA	
+6071	YDL018C	ERP3	tagged	visualized	3190	NA	
+174	YBL007C	SLA1	tagged	visualized	952	NA	
+5550	YHL028W	WSC4	tagged	visualized	technical problem	NA	
+3017	YKL183W	LOT5	tagged	visualized	5930	NA	
+3164	YOL080C	REX4	tagged	visualized	4280	NA	
+716	YOR165W	SEY1	tagged	visualized	2270	NA	
+3420	YKL002W	DID4	tagged	visualized	not visualized	NA	
+544	YDR422C	SIP1	tagged	visualized	623	NA	
+413	YBR073W	RDH54	tagged	visualized	1270	NA	
+3087	YER142C	MAG1	tagged	visualized	technical problem	NA	
+3788	YER104W	RTT105	tagged	visualized	259	NA	
+5533	YGR138C	TPO2	tagged	visualized	not visualized	NA	
+2177	YJR084W	CSN12	tagged	visualized	1510	NA	
+882	YMR186W	HSC82	tagged	visualized	132000	NA	
+4363	YER159C	BUR6	tagged	visualized	5130	NA	
+796	YMR216C	SKY1	tagged	visualized	2420	NA	
+3684	YER018C	SPC25	tagged	visualized	3280	NA	
+2882	YIL043C	CBR1	tagged	visualized	4820	NA	
+194	YPL110C		tagged	visualized	2300	NA	
+259	YBL101C	ECM21	tagged	visualized	799	NA	
+1238	YJL069C	UTP18	tagged	visualized	9570	NA	
+3339	YGL174W	BUD13	tagged	visualized	not visualized	NA	
+5122	YDR379C-A		tagged	visualized	861	NA	
+1051	YIL155C	GUT2	tagged	visualized	1670	NA	
+5836	YLR191W	PEX13	tagged	visualized	7900	NA	
+1120	YMR106C	YKU80	tagged	visualized	358	NA	
+4025	YPR187W	RPO26	tagged	visualized	6090	NA	
+2779	YKL151C		tagged	visualized	3870	NA	
+23	YMR207C	HFA1	tagged	visualized	396	NA	
+4111	YCR046C	IMG1	tagged	visualized	4150	NA	
+4812	YHR087W		tagged	visualized	2430	NA	
+1973	YBR095C	RXT2	tagged	visualized	1630	NA	
+2984	YOR279C	RFM1	tagged	visualized	861	NA	
+462	YGL093W	SPC105	tagged	visualized	not visualized	NA	
+932	YJR110W		tagged	visualized	1080	NA	
+1571	YHR009C		tagged	visualized	5240	NA	
+5616	YGL084C	GUP1	tagged	visualized	672	NA	
+545	YER069W	ARG5,6	tagged	visualized	1180	NA	
+2376	YCR094W	CDC50	tagged	visualized	589	NA	
+662	YLR182W	SWI6	tagged	visualized	3340	NA	
+2140	YHR003C		tagged	visualized	8430	NA	
+3205	YDR361C	BCP1	tagged	visualized	4590	NA	
+1636	YOR310C	NOP58	tagged	visualized	34700	6140.0	
+4253	YNL281W	HCH1	tagged	visualized	8530	NA	
+2869	YBR211C	AME1	tagged	visualized	1630	NA	
+5582	YEL013W	VAC8	tagged	visualized	5680	NA	
+1621	YIL001W		tagged	visualized	195	NA	
+1505	YOL033W	MSE1	tagged	visualized	2940	NA	
+4306	YDR462W	MRPL28	tagged	visualized	6280	NA	
+2526	YGR040W	KSS1	tagged	visualized	5480	NA	
+3608	YDR020C		tagged	visualized	4280	NA	
+968	YMR061W	RNA14	tagged	visualized	5350	157.0	
+3876	YGR078C	PAC10	tagged	visualized	6550	NA	
+108	YLR419W		tagged	visualized	195	NA	
+1740	YDL146W		tagged	visualized	329	NA	
+312	YGL013C	PDR1	tagged	visualized	1300	NA	
+5617	YHR045W		tagged	visualized	not visualized	NA	
+1100	YEL060C	PRB1	tagged	visualized	1600	NA	
+2466	YJR148W	BAT2	tagged	visualized	25900	NA	
+597	YIL038C	NOT3	tagged	visualized	2490	NA	
+5645	YBL099W	ATP1	tagged	visualized	41500	NA	
+781	YOR081C		tagged	visualized	358	NA	
+5079	YJL166W	QCR8	tagged	visualized	6140	NA	
+3182	YKL180W	RPL17A	tagged	visualized	not visualized	NA	
+1690	YMR115W		tagged	visualized	8970	NA	
+3355	YDR405W	MRP20	tagged	visualized	2170	NA	
+2817	YHL009C	YAP3	tagged	visualized	1680	NA	
+4489	YGL080W		tagged	visualized	396	NA	
+2662	YNL274C		tagged	visualized	3280	NA	
+5249	YOR153W	PDR5	tagged	visualized	42000	NA	
+1889	YCL037C	SRO9	tagged	visualized	8430	NA	
+2112	YGR285C	ZUO1	tagged	visualized	86400	NA	
+5993	YKR055W	RHO4	tagged	visualized	not visualized	NA	
+1992	YPL049C	DIG1	tagged	visualized	1460	NA	
+5348	YKL165C	MCD4	tagged	visualized	technical problem	NA	
+1468	YKL140W	TGL1	tagged	visualized	1470	NA	
+2699	YGL175C	SAE2	tagged	visualized	1030	NA	
+6150	YIL111W	COX5B	tagged	visualized	2250	NA	
+867	YDL176W		tagged	visualized	339	NA	
+731	YGL120C	PRP43	tagged	visualized	16900	1110.0	
+3520	YDR538W	PAD1	tagged	visualized	1750	NA	
+3568	YGR024C		tagged	visualized	1170	NA	
+5295	YDR038C	ENA5	tagged	visualized	606	NA	
+3064	YER175C	TMT1	tagged	visualized	937	NA	
+1521	YMR110C		tagged	visualized	2930	NA	
+3906	YNL056W		tagged	visualized	4530	NA	
+6103	YHR026W	PPA1	tagged	visualized	not visualized	NA	
+2392	YGL246C	RAI1	tagged	visualized	4030	NA	
+3300	YGR280C	PXR1	tagged	visualized	3850	NA	
+614	YLR263W	RED1	tagged	visualized	not visualized	NA	
+2331	YGL181W	GTS1	tagged	visualized	937	NA	
+3553	YKL096W	CWP1	tagged	visualized	2060	NA	
+4010	YCR090C		tagged	visualized	3970	NA	
+3623	YBR096W		tagged	visualized	1950	NA	
+5710	YOL137W	BSC6	tagged	visualized	414	NA	
+2597	YPL191C		tagged	visualized	2050	NA	
+2156	YKL181W	PRS1	tagged	visualized	11700	NA	
+6228	YNL070W	TOM7	tagged	visualized	3250	NA	
+296	YOL100W	PKH2	tagged	visualized	low signal	NA	
+5801	YNL323W	LEM3	tagged	visualized	2460	NA	
+3727	YKL117W	SBA1	tagged	visualized	33700	NA	
+5311	YGR125W		tagged	visualized	1420	NA	
+5691	YFL016C	MDJ1	tagged	visualized	7570	NA	
+1065	YLR289W	GUF1	tagged	visualized	1890	NA	
+5517	YBR041W	FAT1	tagged	visualized	16900	NA	
+2230	YPL188W	POS5	tagged	visualized	4650	NA	
+3003	YBR251W	MRPS5	tagged	visualized	6680	NA	
+1372	YPL030W		tagged	visualized	7720	NA	
+951	YLR153C	ACS2	tagged	visualized	225000	NA	
+2564	YPL236C		tagged	visualized	not visualized	NA	
+6180	YNL131W	TOM22	tagged	visualized	6610	NA	
+1556	YBR028C		tagged	visualized	1470	NA	
+3134	YMR039C	SUB1	tagged	visualized	7820	NA	
+429	YLL003W	SFI1	tagged	visualized	low signal	NA	
+2291	YNL051W	COG5	tagged	visualized	468	NA	
+2580	YDR047W	HEM12	tagged	visualized	9220	456.0	
+511	YLR451W	LEU3	tagged	visualized	125	NA	
+1303	YDR440W	DOT1	tagged	visualized	2160	NA	
+2095	YOR110W	TFC7	tagged	visualized	2660	359.0	
+832	YGL245W		tagged	visualized	48700	NA	
+3235	YEL018W	EAF5	tagged	visualized	937	NA	
+1216	YOR108W	LEU9	tagged	visualized	28800	NA	
+5885	YDR297W	SUR2	tagged	visualized	54300	NA	
+1771	YBR083W	TEC1	tagged	visualized	530	NA	
+5407	YPL221W	BOP1	tagged	visualized	technical problem	NA	
+4273	YDL110C		tagged	visualized	2110	NA	
+5097	YGR037C	ACB1	tagged	visualized	8500	NA	
+59	YMR219W	ESC1	tagged	visualized	not visualized	NA	
+1403	YGR166W	KRE11	tagged	visualized	1660	NA	
+3458	YGR158C	MTR3	tagged	visualized	7380	NA	
+1151	YMR278W		tagged	visualized	4960	NA	
+6054	YHR140W		tagged	visualized	technical problem	NA	
+1269	YPL007C	TFC8	tagged	visualized	2070	187.0	
+2559	YBR065C	ECM2	tagged	visualized	4260	NA	
+6119	YKL065C	YET1	tagged	visualized	7210	NA	
+850	YFL047W	RGD2	tagged	visualized	1750	NA	
+1854	YHR036W		tagged	visualized	1280	NA	
+4338	YBL021C	HAP3	tagged	visualized	2510	NA	
+2678	YGL128C	CWC23	tagged	visualized	low signal	NA	
+3921	YOR122C	PFY1	tagged	visualized	not visualized	NA	
+2967	YOR120W	GCY1	tagged	visualized	low signal	NA	
+915	YPL106C	SSE1	tagged	visualized	71700	NA	
+2425	YJL147C		tagged	visualized	981	NA	
+279	YDL102W	CDC2	tagged	visualized	not visualized	NA	
+2408	YIL116W	HIS5	tagged	visualized	not visualized	NA	
+1874	YML102W	CAC2	tagged	visualized	2130	NA	
+2172	YBL058W	SHP1	tagged	visualized	3200	NA	
+5978	YER053C		tagged	visualized	not visualized	NA	
+630	YGR198W		tagged	visualized	1640	NA	
+3995	YER042W	MXR1	tagged	visualized	3070	NA	
+1943	YJL044C	GYP6	tagged	visualized	2990	NA	
+4383	YDL123W	SNA4	tagged	visualized	6780	NA	
+6104	YAL059W	ECM1	tagged	visualized	2840	NA	
+2714	YPR004C		tagged	visualized	2950	NA	
+5867	YNL173C	MDG1	tagged	visualized	1240	NA	
+5421	YER017C	AFG3	tagged	visualized	3870	NA	
+1317	YPR083W	MDM36	tagged	visualized	414	NA	
+3048	YFL044C		tagged	visualized	2770	NA	
+5222	YGR217W	CCH1	tagged	visualized	not visualized	NA	
+7	YDR150W	NUM1	tagged	visualized	low signal	NA	
+161	YMR076C	PDS5	tagged	visualized	7720	NA	
+4448	YJL151C	SNA3	tagged	visualized	12500	NA	
+3639	YGR232W	NAS6	tagged	visualized	319	NA	
+2915	YOR158W	PET123	tagged	visualized	2010	NA	
+5547	YPL265W	DIP5	tagged	visualized	432	NA	
+3032	YMR281W	GPI12	tagged	visualized	technical problem	NA	
+3386	YNL168C		tagged	visualized	2550	NA	
+2213	YCR012W	PGK1	tagged	visualized	314000	132000.0	
+4128	YPL223C	GRE1	tagged	visualized	low signal	NA	
+243	YPR022C		tagged	visualized	238	NA	
+344	YIL031W	ULP2	tagged	visualized	450	NA	
+698	YOR172W	YRM1	tagged	visualized	125	NA	
+5586	YNL275W		tagged	visualized	195	NA	
+2026	YNR050C	LYS9	tagged	visualized	57500	NA	
+2347	YBR025C		tagged	visualized	36800	NA	
+495	YPL126W	NAN1	tagged	visualized	6560	NA	
+1252	YLR028C	ADE16	tagged	visualized	7700	NA	
+1081	YDL113C	CVT20	tagged	visualized	358	NA	
+749	YAL031C	FUN21	tagged	visualized	227	NA	
+2629	YCL034W	LSB5	tagged	visualized	low signal	NA	
+5725	YDL054C	MCH1	tagged	visualized	not visualized	NA	
+3451	YOR289W		tagged	visualized	1710	NA	
+76	YLR247C		tagged	visualized	143	NA	
+6229	YML081C-A	ATP18	tagged	visualized	6540	NA	
+1540	YBR214W	SDS24	tagged	visualized	2840	NA	
+3742	YDR408C	ADE8	tagged	visualized	3910	NA	
+2274	YCL028W	RNQ1	tagged	visualized	1140	NA	
+814	YOR001W	RRP6	tagged	visualized	2160	NA	
+1840	YMR044W	IOC4	tagged	visualized	5820	NA	
+3538	YDL115C	IWR1	tagged	visualized	1080	NA	
+1288	YJR016C	ILV3	tagged	visualized	171000	38000.0	
+763	YER098W	UBP9	tagged	visualized	98.9	NA	
+581	YJL047C	RTT101	tagged	visualized	low signal	NA	
+2194	YER149C	PEA2	tagged	visualized	7820	NA	
+5944	YJL133W	MRS3	tagged	visualized	1360	NA	
+2449	YGL185C		tagged	visualized	1430	NA	
+5392	YFL004W	VTC2	tagged	visualized	2910	NA	
+5962	YNR028W	CPR8	tagged	visualized	not visualized	NA	
+1035	YOL113W	SKM1	tagged	visualized	238	NA	
+2242	YOR201C	PET56	tagged	visualized	2760	NA	
+4147	YDR201W	SPC19	tagged	visualized	639	NA	
+3148	YER074W	RPS24A	tagged	visualized	not visualized	NA	
+1490	YNL189W	SRP1	tagged	visualized	2790	35.0	
+2811	YJL052W	TDH1	tagged	visualized	120000	NA	
+3104	YOR028C	CIN5	tagged	visualized	technical problem	NA	
+1235	YDR349C	YPS7	tagged	visualized	149	NA	
+1134	YDR425W	SNX41	tagged	visualized	1800	NA	
+1000	YJL010C		tagged	visualized	2930	NA	
+5314	YPL125W	KAP120	tagged	visualized	6300	NA	
+1927	YDR004W	RAD57	tagged	visualized	238	NA	
+4938	YJR085C		tagged	visualized	2100	NA	
+4525	YJR022W	LSM8	tagged	visualized	1440	NA	
+461	YDR103W	STE5	tagged	visualized	1900	NA	
+4040	YMR009W		tagged	visualized	not visualized	NA	
+3955	YGL231C		tagged	visualized	1320	NA	
+834	YDR333C		tagged	visualized	339	NA	
+4290	YBR173C	UMP1	tagged	visualized	2740	NA	
+2059	YDL044C	MTF2	tagged	visualized	2060	NA	
+5441	YHR072W	ERG7	tagged	visualized	2190	NA	
+478	YNL313C		tagged	visualized	8070	NA	
+3369	YGR262C	BUD32	tagged	visualized	3020	NA	
+1605	YPR002W	PDH1	tagged	visualized	2730	NA	
+3016	YFR004W	RPN11	tagged	visualized	16400	NA	
+2797	YHR085W	IPI1	tagged	visualized	4420	NA	
+4181	YIL138C	TPM2	tagged	visualized	11100	NA	
+3266	YKR006C	MRPL13	tagged	visualized	1360	NA	
+1170	YPL119C	DBP1	tagged	visualized	1480	NA	
+3222	YNL252C	MRPL17	tagged	visualized	7430	NA	
+1587	YDR009W	GAL3	tagged	visualized	721	NA	
+5438	YDR205W	MSC2	tagged	visualized	1070	NA	
+3473	YDR050C	TPI1	tagged	visualized	207000	NA	
+646	YIL095W	PRK1	tagged	visualized	1320	NA	
+1334	YHR037W	PUT2	tagged	visualized	17200	NA	
+5851	YJL053W	PEP8	tagged	visualized	not visualized	NA	
+5064	YPL047W		tagged	visualized	672	NA	
+1907	YDR148C	KGD2	tagged	visualized	7970	NA	
+5770	YFL048C	EMP47	tagged	visualized	2900	NA	
+5564	YCL025C	AGP1	tagged	visualized	21100	NA	
+5741	YHR005C	GPA1	tagged	visualized	9920	NA	
+1706	YKL035W	UGP1	tagged	visualized	17200	NA	
+5660	YDL207W	GLE1	tagged	visualized	1040	NA	
+6088	YDR246W	TRS23	tagged	visualized	3130	NA	
+91	YGL197W	MDS3	tagged	visualized	396	NA	
+1652	YGR155W	CYS4	tagged	visualized	41900	NA	
+3819	YKL024C	URA6	tagged	visualized	1500	NA	
+984	YOR138C		tagged	visualized	5930	NA	
+2364	YGR012W		tagged	visualized	4650	NA	
+2929	YCL059C	KRR1	tagged	visualized	4340	NA	
+2141	YNL004W	HRB1	tagged	visualized	1990	NA	
+3434	YER056C-A	RPL34A	tagged	visualized	23600	NA	
+2866	YPL273W	SAM4	tagged	visualized	60300	NA	
+5280	YNL087W		tagged	visualized	2630	NA	
+3489	YDR174W	HMO1	tagged	visualized	19000	NA	
+864	YHL032C	GUT1	tagged	visualized	not visualized	NA	
+3419	YDR367W		tagged	visualized	3420	NA	
+2393	YGR072W	UPF3	tagged	visualized	1250	NA	
+1050	YDL224C	WHI4	tagged	visualized	not visualized	NA	
+2465	YHR052W	CIC1	tagged	visualized	45900	NA	
+2868	YMR143W	RPS16A	tagged	visualized	33800	NA	
+160	YMR012W	CLU1	tagged	visualized	17000	NA	
+396	YMR080C	NAM7	tagged	visualized	6090	NA	
+1741	YDR182W	CDC1	tagged	visualized	583	77.4	
+715	YDR324C	UTP4	tagged	visualized	5440	NA	
+2448	YDR268W	MSW1	tagged	visualized	672	NA	
+3338	YFR050C	PRE4	tagged	visualized	16900	NA	
+6199	YGR020C	VMA7	tagged	visualized	4050	NA	
+2527	YGR173W	GIR1	tagged	visualized	6200	NA	
+1335	YHR196W	UTP9	tagged	visualized	20000	NA	
+1101	YGL023C	PIB2	tagged	visualized	not visualized	NA	
+3890	YJL217W		tagged	visualized	721	NA	
+5534	YLR088W	GAA1	tagged	visualized	low signal	NA	
+1570	YGL078C	DBP3	tagged	visualized	38900	NA	
+5296	YDR039C	ENA2	tagged	visualized	639	NA	
+4618	YDR357C		tagged	visualized	589	NA	
+797	YMR078C	CTF18	tagged	visualized	low signal	NA	
+479	YPR160W	GPH1	tagged	visualized	not visualized	NA	
+3772	YPR071W		tagged	visualized	technical problem	NA	
+950	YKL017C	HCS1	tagged	visualized	1040	NA	
+5837	YPL255W	BBP1	tagged	visualized	922	NA	
+3149	YBR101C	FES1	tagged	visualized	13100	NA	
+5912	YBL069W	AST1	tagged	visualized	not visualized	NA	
+4272	YBR135W	CKS1	tagged	visualized	8780	NA	
+2060	YDL131W	LYS21	tagged	visualized	21900	NA	
+5785	YER143W	DDI1	tagged	visualized	6510	NA	
+663	YGL139W		tagged	visualized	not visualized	NA	
+883	YBR131W	CCZ1	tagged	visualized	2870	NA	
+2139	YPL168W		tagged	visualized	technical problem	NA	
+3002	YDR075W	PPH3	tagged	visualized	2840	NA	
+1219	YLR353W	BUD8	tagged	visualized	not visualized	NA	
+3607	YBR261C		tagged	visualized	3060	NA	
+260	YNR067C	DSE4	tagged	visualized	64.3	NA	
+546	YKR064W		tagged	visualized	149	NA	
+1622	YJL194W	CDC6	tagged	visualized	not visualized	NA	
+1119	YML046W	PRP39	tagged	visualized	4460	200.0	
+93	YJL095W	BCK1	tagged	visualized	112	NA	
+24	YCR093W	CDC39	tagged	visualized	4300	NA	
+5458	YKR001C	VPS1	tagged	visualized	5960	NA	
+967	YNL027W	CRZ1	tagged	visualized	1160	NA	
+833	YMR237W		tagged	visualized	3460	NA	
+2375	YML062C	MFT1	tagged	visualized	5910	NA	
+1993	YBR177C	EHT1	tagged	visualized	2550	NA	
+4305	YDR344C		tagged	visualized	not visualized	NA	
+311	YHR154W	RTT107	tagged	visualized	1380	NA	
+1974	YDR125C	ECM18	tagged	visualized	143	NA	
+1438	YOR372C	NDD1	tagged	visualized	799	NA	
+4026	YAL055W	PEX22	tagged	visualized	259	NA	
+5644	YNL154C	YCK2	tagged	visualized	6160	NA	
+3299	YGR042W		tagged	visualized	low signal	NA	
+3907	YBL107C		tagged	visualized	768	NA	
+3356	YGR161C	RTS3	tagged	visualized	2100	NA	
+2543	YBR057C	MUM2	tagged	visualized	3400	NA	
+2661	YNL264C	PDR17	tagged	visualized	5040	NA	
+5994	YOR311C	HSD1	tagged	visualized	784	NA	
+2111	YGL134W	PCL10	tagged	visualized	217	NA	
+2275	YGL048C	RPT6	tagged	visualized	4700	NA	
+5690	YCR028C	FEN2	tagged	visualized	not visualized	NA	
+4920	YOL039W	RPP2A	tagged	visualized	428000	NA	
+3685	YFR008W	FAR7	tagged	visualized	486	NA	
+866	YPL240C	HSP82	tagged	visualized	445000	NA	
+4179	YER067W		tagged	visualized	8450	NA	
+4870	YGR027C	RPS25A	tagged	visualized	322000	NA	
+142	YLR278C		tagged	visualized	1080	NA	
+5896	YGL153W	PEX14	tagged	visualized	2570	NA	
+596	YDR207C	UME6	tagged	visualized	217	NA	
+2818	YLR181C	VTA1	tagged	visualized	4400	NA	
+613	YJL087C	TRL1	tagged	visualized	3110	56.0	
+2700	YGR165W	MRPS35	tagged	visualized	3460	NA	
+816	YBR238C		tagged	visualized	2080	NA	
+3622	YOL149W	DCP1	tagged	visualized	2880	NA	
+933	YPL222W		tagged	visualized	2430	NA	
+5423	YGL021W	ALK1	tagged	visualized	2190	NA	
+3065	YGL162W	SUT1	tagged	visualized	1100	NA	
+6149	YHR060W	VMA22	tagged	visualized	752	NA	
+1704	YHR070W	TRM5	tagged	visualized	4120	NA	
+1890	YKL184W	SPE1	tagged	visualized	688	NA	
+5123	YDR525W-A	SNA2	tagged	visualized	20400	NA	
+3135	YNL232W	CSL4	tagged	visualized	5550	NA	
+2644	YDL226C	GCS1	tagged	visualized	9560	NA	
+2881	YGL115W	SNF4	tagged	visualized	11700	NA	
+5312	YFR030W	MET10	tagged	visualized	1580	NA	
+4382	YBR188C	NTC20	tagged	visualized	1430	NA	
+3860	YMR263W	SAP30	tagged	visualized	704	NA	
+4214	YMR236W	TAF9	tagged	visualized	6580	NA	
+278	YML100W	TSL1	tagged	visualized	1960	NA	
+1066	YOL117W	RRI2	tagged	visualized	1320	NA	
+2229	YOR196C	LIP5	tagged	visualized	1630	NA	
+2598	YPR075C	OPY2	tagged	visualized	1160	NA	
+5238	YDR093W	DNF2	tagged	visualized	low signal	NA	
+1017	YOR275C	RIM20	tagged	visualized	2880	NA	
+1555	YBL054W		tagged	visualized	830	NA	
+4072	YPR101W	SNT309	tagged	visualized	721	NA	
+5883	YDR202C	RAV2	tagged	visualized	2860	NA	
+4450	YKR049C		tagged	visualized	1240	NA	
+1168	YPR081C	GRS2	tagged	visualized	2290	NA	
+6181	YPL170W	DAP1	tagged	visualized	6300	NA	
+2041	YMR268C	PRP24	tagged	visualized	672	NA	
+2912	YER099C	PRS2	tagged	visualized	8120	NA	
+1674	YDR539W		tagged	visualized	861	NA	
+3789	YMR132C		tagged	visualized	3060	NA	
+1637	YFL021W	GAT1	tagged	visualized	1180	NA	
+1452	YJL110C	GZF3	tagged	visualized	319	NA	
+295	YOL051W	GAL11	tagged	visualized	606	NA	
+5927	YHR195W	NVJ1	tagged	visualized	1900	NA	
+4009	YMR072W	ABF2	tagged	visualized	3810	NA	
+345	YMR189W	GCV2	tagged	visualized	12000	NA	
+3726	YJR057W	CDC8	tagged	visualized	2980	NA	
+1371	YOR118W		tagged	visualized	2600	NA	
+3504	YOL028C	YAP7	tagged	visualized	1690	NA	
+513	YDR303C	RSC3	tagged	visualized	1750	11.5	
+2292	YNL175C	NOP13	tagged	visualized	3830	NA	
+4288	YNR010W	CSE2	tagged	visualized	1360	NA	
+5711	YGR175C	ERG1	tagged	visualized	65400	NA	
+1539	YNL077W	APJ1	tagged	visualized	125	NA	
+2565	YLR316C	TAD3	tagged	visualized	892	NA	
+3198	YLR079W	SIC1	tagged	visualized	768	NA	
+512	YDL117W	CYK3	tagged	visualized	377	NA	
+3591	YJR050W	ISY1	tagged	visualized	1990	NA	
+5096	YGL032C	AGA2	tagged	visualized	1160	NA	
+5643	YHL036W	MUP3	tagged	visualized	not visualized	NA	
+6227	YMR256C	COX7	tagged	visualized	639	NA	
+2763	YBL031W	SHE1	tagged	visualized	264	NA	
+1756	YHR183W	GND1	tagged	visualized	101000	NA	
+730	YER091C	MET6	tagged	visualized	264000	NA	
+1823	YJL123C		tagged	visualized	2160	NA	
+1653	YGR189C	CRH1	tagged	visualized	29500	NA	
+5408	YAL053W		tagged	visualized	414	NA	
+748	YOR112W		tagged	visualized	1360	NA	
+3757	YPL166W		tagged	visualized	752	NA	
+2426	YKL113C	RAD27	tagged	visualized	6120	NA	
+1304	YLR133W	CKI1	tagged	visualized	3930	NA	
+2677	YDR439W	LRS4	tagged	visualized	1390	NA	
+1942	YDR254W	CHL4	tagged	visualized	606	NA	
+3922	YDL125C	HNT1	tagged	visualized	5410	NA	
+1772	YER141W	COX15	tagged	visualized	technical problem	NA	
+2733	YDL099W		tagged	visualized	5220	NA	
+3994	YPR067W	ISA2	tagged	visualized	1560	NA	
+1469	YOR241W	MET7	tagged	visualized	7080	NA	
+1268	YKL185W	ASH1	tagged	visualized	1800	NA	
+2796	YDR051C		tagged	visualized	3170	NA	
+58	YDR283C	GCN2	tagged	visualized	279	NA	
+3457	YER062C	HOR2	tagged	visualized	5000	NA	
+6120	YDL072C		tagged	visualized	2840	NA	
+5442	YGL203C	KEX1	tagged	visualized	8550	NA	
+2212	YMR021C	MAC1	tagged	visualized	14800	NA	
+831	YDR164C	SEC1	tagged	visualized	639	NA	
+6053	YDR410C	STE14	tagged	visualized	2690	NA	
+4777	YGR219W		tagged	visualized	not visualized	NA	
+126	YBL047C	EDE1	tagged	visualized	1380	NA	
+294	YLR071C	RGR1	tagged	visualized	319	NA	
+4398	YOR285W		tagged	visualized	7470	NA	
+580	YDR385W	EFT2	tagged	visualized	78100	NA	
+2715	YDL078C	MDH3	tagged	visualized	3300	NA	
+2952	YNL322C	KRE1	tagged	visualized	623	NA	
+2812	YJR009C	TDH2	tagged	visualized	121000	NA	
+2025	YHR011W	DIA4	tagged	visualized	405	NA	
+5153	YLL009C	COX17	tagged	visualized	not visualized	NA	
+244	YGL151W	NUT1	tagged	visualized	2490	NA	
+1150	YHR206W	SKN7	tagged	visualized	2570	NA	
+2157	YKL195W		tagged	visualized	5040	NA	
+361	YDR028C	REG1	tagged	visualized	2560	NA	
+2628	YBR087W	RFC5	tagged	visualized	5040	NA	
+5868	YER107C	GLE2	tagged	visualized	1820	136.0	
+3938	YKR068C	BET3	tagged	visualized	2370	NA	
+1001	YLL007C		tagged	visualized	486	NA	
+2094	YMR091C	NPL6	tagged	visualized	3510	NA	
+5943	YGR096W	TPC1	tagged	visualized	not visualized	NA	
+4129	YDL235C	YPD1	tagged	visualized	6330	NA	
+3181	YER023W	PRO3	tagged	visualized	43500	NA	
+1385	YCR065W	HCM1	tagged	visualized	358	NA	
+1839	YIL123W	SIM1	tagged	visualized	1800	NA	
+4651	YPL013C	MRPS16	tagged	visualized	low signal	NA	
+5490	YML031W	NDC1	tagged	visualized	3030	238.0	
+4057	YDR397C	NCB2	tagged	visualized	2950	NA	
+2914	YNL315C	ATP11	tagged	visualized	2840	NA	
+3031	YLR455W		tagged	visualized	2610	NA	
+6165	YPL234C	TFP3	tagged	visualized	538	NA	
+3773	YBR052C		tagged	visualized	7060	NA	
+445	YER075C	PTP3	tagged	visualized	768	NA	
+1082	YGL099W	LSG1	tagged	visualized	19400	NA	
+4524	YER084W		tagged	visualized	300	NA	
+3236	YGL005C	COG7	tagged	visualized	1360	NA	
+5422	YCL045C		tagged	visualized	2840	NA	
+6136	YDR373W	FRQ1	tagged	visualized	7160	NA	
+3978	YML022W	APT1	tagged	visualized	11200	NA	
+1689	YJR051W	OSM1	tagged	visualized	432	NA	
+4289	YOR286W		tagged	visualized	4220	NA	
+6069	YHR181W	SVP26	tagged	visualized	1810	NA	
+1034	YJR098C		tagged	visualized	1230	NA	
+5742	YNR026C	SEC12	tagged	visualized	6160	NA	
+1926	YCR005C	CIT2	tagged	visualized	2310	NA	
+5816	YER154W	OXA1	tagged	visualized	6550	NA	
+3741	YBR072W	HSP26	tagged	visualized	19300	NA	
+176	YNL091W	NST1	tagged	visualized	217	NA	
+2749	YJR105W	ADO1	tagged	visualized	22200	NA	
+5112	YCR018C-A		tagged	visualized	not visualized	NA	
+697	YNR033W	ABZ1	tagged	visualized	1550	NA	
+3537	YJL136C	RPS21B	tagged	visualized	15300	NA	
+5264	YER008C	SEC3	tagged	visualized	377	NA	
+4633	YMR123W	PKR1	tagged	visualized	5750	NA	
+1586	YBR227C	MCX1	tagged	visualized	10900	NA	
+4826	YCL035C	GRX1	tagged	visualized	3030	NA	
+1236	YGR246C	BRF1	tagged	visualized	4330	589.0	
+2241	YOR051C		tagged	visualized	10800	NA	
+4146	YDL008W	APC11	tagged	visualized	377	NA	
+1859	YEL047C		tagged	visualized	7620	NA	
+210	YNL106C	INP52	tagged	visualized	low signal	NA	
+5852	YML132W	COS3	tagged	visualized	639	NA	
+5963	YOL092W		tagged	visualized	1800	NA	
+75	YHR186C	KOG1	tagged	visualized	low signal	NA	
+1421	YML023C		tagged	visualized	907	NA	
+562	YAL041W	CDC24	tagged	visualized	1010	NA	
+3387	YBR088C	POL30	tagged	visualized	not visualized	NA	
+412	YMR205C	PFK2	tagged	visualized	90200	NA	
+647	YML035C	AMD1	tagged	visualized	3910	NA	
+5391	YJL062W	LAS21	tagged	visualized	259	NA	
+2409	YJR072C		tagged	visualized	15200	NA	
+1489	YGL028C	SCW11	tagged	visualized	22600	NA	
+3221	YNL032W	SIW14	tagged	visualized	4070	NA	
+6022	YDR503C	LPP1	tagged	visualized	300	NA	
+3474	YML113W	DAT1	tagged	visualized	4700	NA	
+227	YLR035C-A		tagged	visualized	217	NA	
+1133	YHR166C	CDC23	tagged	visualized	79.7	10.0	
+2123	YLR387C		tagged	visualized	2240	NA	
+2009	YKL046C	DCW1	tagged	visualized	2580	NA	
+8	YGL195W	GCN1	tagged	visualized	7330	NA	
+5632	YOR132W	VPS17	tagged	visualized	7380	NA	
+5315	YNL329C	PEX6	tagged	visualized	1630	NA	
+983	YNL045W		tagged	visualized	5590	NA	
+2346	YAL012W	CYS3	tagged	visualized	38300	NA	
+4041	YNL245C	CWC25	tagged	visualized	861	NA	
+2968	YOR164C		tagged	visualized	5350	NA	
+5063	YPL046C	ELC1	tagged	visualized	538	NA	
+916	YDR314C		tagged	visualized	78.6	NA	
+5769	YPL053C	KTR6	tagged	visualized	4380	NA	
+3166	YGL221C	NIF3	tagged	visualized	6000	NA	
+2178	YML080W	DUS1	tagged	visualized	1860	NA	
+3204	YDL191W	RPL35A	tagged	visualized	not visualized	NA	
+1788	YOL144W	NOP8	tagged	visualized	2170	NA	
+5659	YOR161C		tagged	visualized	low signal	NA	
+2447	YAL032C	PRP45	tagged	visualized	1670	201.0	
+764	YER162C	RAD4	tagged	visualized	876	NA	
+3536	YDR447C	RPS17B	tagged	visualized	30500	NA	
+5170	YOL052C-A	DDR2	tagged	visualized	784	NA	
+4163	YIR037W	HYR1	tagged	visualized	8120	NA	
+109	YMR280C	CAT8	tagged	visualized	low signal	NA	
+92	YKL010C	UFD4	tagged	visualized	7380	NA	
+4432	YDR482C	CWC21	tagged	visualized	556	NA	
+3891	YJR014W		tagged	visualized	21600	NA	
+3370	YHR167W	THP2	tagged	visualized	2840	NA	
+2195	YMR204C		tagged	visualized	639	NA	
+1855	YMR223W	UBP8	tagged	visualized	1030	NA	
+2077	YOR187W	TUF1	tagged	visualized	58500	NA	
+2363	YEL050C	RML2	tagged	visualized	1580	NA	

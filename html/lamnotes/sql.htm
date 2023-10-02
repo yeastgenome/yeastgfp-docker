@@ -1,0 +1,54 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>/etc/sudoers file </u></h2></center>
+
+<i>L. Gerke - 1/2003</i><p>
+
+<i>(Successful with Red Hat 7.3).</i><br>
+
+<pre><font size=+1>
+alter table localization add index (most_current)
+//////////////////
+
+how to reset the auto increment
+---------------------------
+first build a temp talbe (by stealing it out of the gfp dump:
+USE gfp;
+
+
+CREATE TABLE interactiontemp (
+  interactionid mediumint(9) NOT NULL auto_increment,
+  fromorfid mediumint(9) default NULL,
+  toorfid mediumint(9) default NULL,
+  interactiontypeid mediumint(9) default NULL,
+  quantitativescore mediumint(9) default NULL,
+  PRIMARY KEY  (interactionid),
+  KEY fromorfid (fromorfid),
+  KEY toorfid (toorfid)
+) TYPE=MyISAM;
+
+;
+mysql < temp.mysql;
+
+ms "insert into interactiontemp (fromorfid,toorfid,interactiontypeid,quantitativescore) select fromorfid,toorfid,interactiontypeid,quantitativescore from interaction"
+
+check to make sure the data got there.
+
+
+ms "alter table interaction auto_increment=1"
+ms "delete from interaction"
+
+copy it back:
+ms "insert into interaction (fromorfid,toorfid,interactiontypeid,quantitativescore) select fromorfid,toorfid,interactiontypeid,quantitativescore from interactiontemp"
+
+////////////////////////
+ms "ALTER TABLE subcellpairdatatype ADD quantitativescoredescription varchar(255)"
+
+   
+</pre></font>
+
+</body>
+</html>

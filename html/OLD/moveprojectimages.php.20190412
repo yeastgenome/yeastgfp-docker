@@ -1,0 +1,79 @@
+<?
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+require("$include_dir/projects_inc.php");
+
+pass($priv['Owner']);
+
+if (!$_SESSION['projectid']) {
+    $_SESSION['goback'] = $_SERVER['PHP_SELF'];
+    closedb();
+    header("Location: projectchoose.php");
+    exit;
+}
+
+if ($_POST['btnAdd'] AND !empty($_POST['addimages'])) {
+    foreach ($_POST['addimages'] as $imageid) {
+	$sql = "INSERT INTO projectsximages (projectid, imageid)
+		VALUES (".$_SESSION['projectid'] .", $imageid)";
+	dbquery($sql);
+    }
+}
+
+if ($_POST['btnRemove'] AND !empty($_POST['remimages'])) {
+    foreach ($_POST['remimages'] as $imageid) {
+	$sql = "DELETE FROM projectsximages
+			WHERE projectid=" .$_SESSION['projectid']." AND imageid=$imageid";
+	dbquery($sql);
+    }
+}
+
+/** Create temporary table to hold project images **/
+$maketable = "CREATE TEMPORARY TABLE pxi (projectid MEDIUMINT, imageid MEDIUMINT, KEY(projectid), KEY(imageid));";
+$populate = "INSERT INTO pxi SELECT * FROM projectsximages WHERE projectsximages.projectid = " .$_SESSION['projectid'];
+dbquery($maketable);
+dbquery($populate);
+
+$sqlbase = "SELECT images.imageid, images.dirpath ";
+$sqlinproject = "FROM images, pxi
+	WHERE images.imageid = pxi.imageid";
+$sqloutproject = "FROM pxi RIGHT JOIN images ON pxi.imageid = images.imageid
+	WHERE pxi.imageid IS NULL";
+
+$rsproj = dbquery($sqlbase . $sqlinproject);
+$rsarch = dbquery($sqlbase . $sqloutproject);
+
+//printheader();
+print "<form method=post action='".$_SERVER['PHP_SELF']."'>
+	<table width=100%>
+	<tr><th>Image Archive</th>
+	<th></th>
+	<th>Images In Project</th></tr>
+	<tr>";
+
+listfiles ("addimages[]", $rsarch, 30);
+
+print "</td><td valign=center align=center>
+	<input type=submit name=btnAdd value='Add &#187;'><p>
+	<input type=submit name=btnRemove value='&#171; Remove'><hr><p>
+	<input type=reset value='Clear All'></td>";
+
+listfiles ("remimages[]", $rsproj, 30);
+
+print "</td></tr></table>";
+printfooter();
+
+function listfiles ($name, $rs, $size) {
+    print "<td width=40% align=center>";
+    if (!mysql_num_rows($rs)) {
+	print "<h3>None</h3>"; }
+    else {
+	print "<SELECT name='$name' multiple size=$size>\n";
+	while ($row = mysql_fetch_assoc($rs)) {
+	    $file = basename($row["dirpath"]);
+	    print "<OPTION value=".$row['imageid'].">$file\n"; }
+	print "</SELECT>";
+    }
+}
+?>

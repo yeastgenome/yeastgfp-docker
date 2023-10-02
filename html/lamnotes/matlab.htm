@@ -1,0 +1,70 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Installing MATLAB on Linux</u></h2></center>
+<i>F. Lam - 6/5/2002</i><p>
+<i>(Successful on Red Hat 7.3 / MATLAB Release 12.1).</i>
+<ol>
+
+<li>Make sure your X Windows server is running since the installer is graphical.  Insert the Product CD.
+
+<li>As root:
+<pre><font size=+1>
+mount /dev/cdrom /mnt/cdrom
+cd /usr/local
+mkdir matlab
+cd matlab
+</pre></font>
+
+<li>Copy and paste the following text into a file named <b>license.dat</b>:
+<pre><font size=+1>
+<i>Removed by security czar<i>
+</pre></font>
+
+<li>Move license.dat into the matlab directory.  Run the install script off the CD:
+<pre><font size=+1>
+/mnt/cdrom/install &
+</pre></font>
+
+<li>Click OK to all defaults.  When you get to the create symbolic links stage, <b>check off</b> <u>Create symbolic links to MATLAB and mex scripts</u>.  For the directory to put links in, specify <b>/usr/local/bin</b>.
+
+<li>After the installer finishes, check in /etc that the following links had been created automatically: <b>lmboot_TMW12, lmdown_TMW12</b>.  If not, create them manually:
+<pre><font size=+1>
+ln -s /usr/local/matlab/etc/lmboot /etc/lmboot_TMW12
+ln -s /usr/local/matlab/etc/lmdown /etc/lmdown_TMW12
+</pre></font>
+Then copy the MATLAB boot script into the Linux init directory:<p>
+<pre><font size=+1>
+cp /usr/local/matlab/etc/rc.lm.glnx86 /etc/rc.d/init.d/flexlm
+</pre></font><p>
+
+<li>Edit <b>/etc/rc.d/init.d/flexlm</b> and change "username" in the start) code to <b>flam</b> or some non superuser (for security purposes).
+
+<li>To have MATLAB start/stop automatically:
+<pre><font size=+1>
+cd /etc/rc.d/rc3.d
+ln -s ../init.d/flexlm S90Flexlm
+cd /etc/rc.d/rc5.d
+ln -s ../init.d/flexlm S90Flexlm
+cd /etc/rc.d/rc0.d
+ln -s ../init.d/flexlm S90Flexlm
+cd /etc/rc.d/rc6.d
+ln -s ../init.d/flexlm S90Flexlm
+</pre></font>
+
+<li>Edit the file <b>MLM.opt</b> in /usr/local/matlab/etc.  Create the Flexlm group "oshea" and add users to the group.  Then grant that group full MATLAB access:
+<pre><font size=+1>
+GROUP oshea flam bmargol (etc.)
+INCLUDEALL GROUP oshea
+</pre></font>
+
+<li>Start the license manager as a user <b>other than root</b>:
+<pre><font size=+1>
+/usr/local/matlab/etc/lmstart &
+</pre></font>
+</ol>
+
+</body>
+</html>

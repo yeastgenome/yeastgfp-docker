@@ -1,0 +1,32 @@
+from adam:
+
+Order for perl scripts to populate the database:
+
+
+
+importorfs.pl (this has to be first)
+
+importoligos.pl
+
+importconditionstain.pl
+
+importcheckprimers.pl
+
+importrefimages.pl
+
+
+
+The oligos and checkprimers scripts will throw some errors for missing
+orfs, but they still run and will do their job. 
+
+
+
+The refimages script requires a folder full of pictures, from which it
+will grab the names to populate the subcell table. It should be in the
+same folder as the script when it is run (I think it\'s there now).
+
+
+
+I would definitely make a quick check of the scripts to be sure that
+they address the recent additions -- particularly for the orfs and
+strains table.

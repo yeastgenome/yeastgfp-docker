@@ -1,0 +1,85 @@
+<?php
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+
+// Script parameters
+$color1 = "white";				/** Alternating colors for set groupings **/
+$color2 = "yellow";
+
+if (!$_SESSION['projectid']) {
+	$_SESSION['goback'] = $_SERVER['PHP_SELF'];
+	closedb();
+	header("Location: projectchoose.php");
+	exit;
+}
+
+$sql = "SELECT images.imageid, images.dirpath, strains.strainname, orfs.orfnumber, orfs.orfname, condition.conditionname, stain.stainname, sets.setid 
+FROM images, projectsximages, stain, sets, condition, strains, orfs 
+WHERE images.imageid = projectsximages.imageid 
+	AND images.stainid = stain.stainid 
+	AND sets.strainid = strains.strainid 
+	AND strains.orfid = orfs.orfid 
+	AND sets.setid = images.setid 
+	AND sets.conditionid = condition.conditionid
+	AND projectsximages.projectid = ".$_SESSION['projectid'] ." 
+	ORDER BY sets.setid";
+
+$rs = dbquery($sql);
+if (mysql_num_rows($rs) == 0) { centermsg("No images associated with this project.");
+	exit; } 
+//printheader();
+print "<table border width=100%><form method=post action=view.php>\n";
+
+
+$color = "";
+$set = 0;
+$filebase = basename ($image_dir)."/";
+while ($row = mysql_fetch_assoc($rs)) {
+		/** Strip off extension from filename **/
+	$ext = substr(basename($row["dirpath"]), strrpos(basename($row["dirpath"]),"."));
+//	preg_match("/^.*\/(.*\/.*\/)(.*)(\..+)$/i", $row['dirpath'], $matchfile);
+//	$file = $matchfile[1] . $matchfile[2]. $thumbext;
+	$file = $filebase . str_replace($ext, $thumbext, $row["dirpath"]);
+/** New set... **/
+	if ($row["setid"] <> $set) {
+		if ($color == $color2) { $color = $color1; }	/** Switch color **/
+			else { $color = $color2; }
+	/** SUBSEQUENT new sets **/
+		if ($set > 0) {	print "</table></td></tr>\n<tr><td><table width=100% cellspacing=0>"; }
+	/** FIRST new set: print table headers **/
+		else { print "<tr><td>\n<table width=100% cellspacing=0><tr>
+		<th width=5%></th>
+		<th width=5%>Inc</th>
+		<th width=15%>Download</th>
+		<th width=25%>Name</th>
+		<th>Image</th>
+		<th width=25%>Strain</th>
+		<th>Stain</th>
+		<th width=10%>Growth</th></tr></table>
+		<tr><td><table width=100% cellspacing=0>\n"; }
+		print "<tr><td width=5% align=center bgcolor=$color><font size=-2>
+		<a href=view.php?setid=".$row["setid"].">View<br>Set</a></td>";	}
+/** Not new set... **/
+	else { print "\n<tr><td width=5% bgcolor=$color></td>"; }
+
+/** Common elements **/
+	print "<td align=center bgcolor=$color width=5%>
+	<input type=checkbox name=imageid".$row["imageid"]." value=".$row["imageid"]."></td>
+	<td width=15% align=center bgcolor=$color><font size=-2>&nbsp;
+	<a href=download.php?imageid=".$row["imageid"].">Original</a> | 
+	<a href=download.php?imageid=".$row["imageid"]."&type=jpeg>JPEG</a>&nbsp;</td>
+	<td width=25% align=center bgcolor=$color>".basename($row["dirpath"])."</td>
+	<td align=center bgcolor=$color><img src='$file'></td>
+	<td width=25% align=center bgcolor=$color>" .$row["strainname"] ." (" .$row["orfnumber"] ." / " .$row["orfname"] .")</td>
+	<td align=center bgcolor=$color>" .$row["stainname"] ."</td>
+	<td width=10% align=center bgcolor=$color>" .$row["conditionname"] ."</td></tr>\n";
+	$set = $row["setid"];
+}
+
+print "</table></td></tr></table>
+<p><table width=100%><tr><td align=center>
+<input type=submit value='Compare Checked'>
+</td></tr></table>";
+printfooter();
+?>

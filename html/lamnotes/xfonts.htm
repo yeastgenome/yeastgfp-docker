@@ -1,0 +1,704 @@
+<html><head>
+<!-- Created by texi2html 1.56k-cookbook from cookbook.texinfo on 9 January 2002 -->
+
+<title>The Linux Cookbook: Tips and Techniques for Everyday Use - Fonts</title></head>
+<body>
+[<a href="http://www.dsl.org/cookbook/cookbook_19.html">&lt;--</a>] [<a href="http://www.dsl.org/cookbook/">Cover</a>] [<a href="http://www.dsl.org/cookbook/cookbook_toc.html">Table of Contents</a>] [<a href="http://www.dsl.org/cookbook/cookbook_45.html">Concept Index</a>] [<a href="http://www.dsl.org/cookbook/cookbook_44.html">Program Index</a>] [<a href="http://www.dsl.org/cookbook/cookbook_21.html">--&gt;</a>]
+<p></p><hr><p>
+
+
+</p><h1><a name="SEC312" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC312">Fonts</a></h1>
+<p>
+<a name="IDX1392"></a>
+
+
+</p><p>
+A <em>font</em> is a collection of characters for displaying text, normally
+in a common typeface and with a common size, boldness, and slant.
+
+
+</p><p>
+This chapter discusses the most popular kinds of fonts used on Linux
+systems: display fonts for use in the X Window System, fonts for use in
+virtual consoles, and the "fonts" often seen in Usenet and email
+composed entirely of ASCII characters.
+
+
+</p><p>
+Omitted are reference of the use of fonts with TeX, which are the
+kind of fonts you're most likely to use when producing typeset
+output -- it is beyond the scope of this book to cover that issue with
+the space it needs. However, to print a text file with a font, see
+<a href="http://www.dsl.org/cookbook/cookbook_19.html#SEC289">Outputting Text in a Font</a>.
+
+
+</p><p>
+For more information on fonts and the tools to use them, see the
+<cite>Font HOWTO</cite> (see <a href="http://www.dsl.org/cookbook/cookbook_4.html#SEC47">Reading System Documentation and Help Files</a>).
+
+
+
+</p><ul>
+<li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC313">X Fonts</a>: Fonts in X.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC318">Console Fonts</a>: Fonts in the console.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC321">Text Fonts</a>: Fonts made of ASCII text characters.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC324">Other Fonts</a>: Other kinds of fonts.
+</li></ul>
+
+
+
+<h2><a name="SEC313" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC313">X Fonts</a></h2>
+<p>
+<a name="IDX1393"></a>
+<a name="IDX1394"></a>
+<a name="IDX1395"></a>
+
+
+</p><p>
+You can specify a font as an option to most X clients, so that any text
+in the client is written in the given font. The recipe that describes
+how to do this is in <a href="http://www.dsl.org/cookbook/cookbook_6.html#SEC81">Specifying Window Font</a>.
+
+
+</p><p>
+When you specify a font as an option, you have to give the <em>X font
+name</em>, which is the exact name used to specify a specific font in X. (An
+easy way to get the X font name is described in the first recipe in this
+section.) X font names consist of 14 fields, delimited by (and
+beginning with) a hyphen. All fields must be specified, and empty fields
+are permitted:
+
+
+
+</p><pre>-fndry-fmly-wght-slant-swdth-adstyl-pxlsz
+-ptsz-resx-resy-spc-avgwdth-rgstry-encdng
+</pre>
+
+<p>
+The preceding line was split because of its length, but X font names are
+always given on one line.
+
+
+</p><p>
+The following table describes the meaning of each field.
+
+
+<table border="0" cellpadding="4" align="center">
+
+<tbody><tr bgcolor="#eeeeee"><td>FIELD</td>
+
+<td> DESCRIPTION
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>fndry</code></td>
+
+<td> The type foundry that digitized and supplied the font data.
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>fmly</code></td>
+
+<td> The name of the typographic style (for example, <samp>`courier'</samp>).
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>wght</code></td>
+
+<td> The weight of the font, or its <em>nominal blackness</em>, the degree
+of boldness or thickness of its characters. Values include <samp>`heavy'</samp>,
+<samp>`bold'</samp>, <samp>`medium'</samp>, <samp>`light'</samp>, and <samp>`thin'</samp>.
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>slant</code></td>
+
+<td> The posture of the font, usually <samp>`r'</samp> (for <samp>`roman'</samp>, or
+upright), <samp>`i'</samp> (<samp>`italic'</samp>, slanted upward to the right and
+differing in shape from the roman counterpart), or <samp>`o'</samp>
+(<samp>`oblique'</samp>, slanted but with the shape of the roman counterpart).
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>swdth</code></td>
+
+<td> The <em>proportionate</em> width of the characters in the font, or
+its <em>nominal width</em>, such as <samp>`normal'</samp>, <samp>`condensed'</samp>,
+<samp>`extended'</samp>, <samp>`narrow'</samp>, and <samp>`wide'</samp>.
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>adstyl</code></td>
+
+<td> Any additional style descriptions the particular font takes, such
+as <samp>`serif'</samp> (fonts that have small strokes drawn on the ends of each
+line in the character) or <samp>`sans serif'</samp> (fonts that omit serifs).
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>pxlsz</code></td>
+
+<td> The height, in pixels, of the type.  Also called <em>body size</em>.
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>ptsz</code></td>
+
+<td> The height, in points, of the type.
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>resx</code></td>
+
+<td> The horizontal screen resolution the font was designed for, in dpi
+("dots per inch").
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>resy</code></td>
+
+<td> The vertical screen resolution the font was designed for, in dpi.
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>spc</code></td>
+
+<td> The kind of spacing used by the font (its <em>escapement class</em>);
+either <samp>`p'</samp> (a <em>proportional</em> font containing characters with
+varied spacing), <samp>`m'</samp> (a <em>monospaced</em> font containing characters
+with constant spacing), or <samp>`c'</samp> (a <em>character cell</em> font
+containing characters with constant spacing and constant height).
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>avgwdth</code></td>
+
+<td> The average width of the characters used in the font, in 1/10th
+pixel units.
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>rgstry</code></td>
+
+<td> The international standards body, or <em>registry</em>, that owns the
+encoding.
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>encdng</code></td>
+
+<td> The registered name of this character set, or its <em>encoding</em>.
+</td></tr></tbody></table>
+
+
+</p><ul>
+<li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC314">Xfontsel</a>: Selecting an X font name.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC315">Xlsfonts</a>: Listing available fonts.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC316">Xfd</a>: Viewing a character set in a font.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC317">Xterm Font</a>: Setting the font in an Xterm.
+</li></ul>
+
+
+
+<h3><a name="SEC314" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC314">Selecting an X Font Name</a></h3>
+<p>
+<a name="IDX1396"></a>
+<a name="IDX1397"></a>
+<a name="IDX1398"></a>
+<a name="IDX1399"></a>
+<a name="IDX1400"></a>
+
+
+</p><p>
+X font names can be long and difficult to type; to make it easier, use
+the <code>xfontsel</code> client, an interactive tool for picking X fonts and
+getting their X font names.
+
+
+</p><p>
+When you start <code>xfontsel</code>, it looks like this (the window frame
+will differ depending on your window manager):
+
+
+</p><p>
+<img src="cookbook_20_files/fonts-xfontsel-01.jpg" alt="fonts-xfontsel-01" width="574" height="210">
+
+</p><p>
+The row of buttons are pull-down menus containing options available on
+your system for each field in the X font name. Use the mouse to select
+items from each menu, and the X font you have selected is shown in the
+main window. Above it is written its X font name.
+
+
+
+</p><ul>
+<li>
+
+To make the X font name the X selection, click the mouse on the button
+labeled <code>select</code>.
+</li></ul>
+
+<p>
+This example makes the X font name the X selection, which makes it
+possible to paste the X font name to a command line or into another
+window (see <a href="http://www.dsl.org/cookbook/cookbook_14.html#SEC199">Pasting Text</a>).
+
+
+
+
+</p><h3><a name="SEC315" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC315">Listing Available X Fonts</a></h3>
+<p>
+<a name="IDX1401"></a>
+<a name="IDX1402"></a>
+<a name="IDX1403"></a>
+
+
+</p><p>
+Use <code>xlsfonts</code> to list the X font families, sizes, and weights
+available on your system. Supply a pattern in quotes as an argument, and
+it outputs the names of all X fonts installed on the system that match
+that pattern; by default, it lists all fonts.
+
+
+
+</p><ul>
+<li>
+
+To list all the X fonts on the system, type:
+
+
+<pre>$ <i>xlsfonts [RET]</i>
+</pre>
+
+</li><li>
+
+To list all the X fonts on the system whose name contains the text
+<samp>`rea'</samp>, type: 
+
+
+<pre>$ <i>xlsfonts '*rea*' [RET]</i>
+</pre>
+
+</li><li>
+
+To list all the bold X fonts on the system, type:
+
+
+<pre>$ <i>xlsfonts '*bold*' [RET]</i>
+</pre>
+
+</li></ul>
+
+<p>
+<strong>NOTE:</strong> This is not a way to <em>display</em> the characters in a
+font; for that, use <code>xfd</code>, described next. Furthermore, to
+<em>browse</em> through available X fonts, you want to use
+<code>xfontsel</code>, as in the previous recipe.
+
+
+
+
+</p><h3><a name="SEC316" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC316">Displaying the Characters in an X Font</a></h3>
+<p>
+<a name="IDX1404"></a>
+<a name="IDX1405"></a>
+<a name="IDX1406"></a>
+
+
+</p><p>
+Use the <code>xfd</code> tool ("X font display") to display all of the
+characters in a given X font. Give the X font name you want to display
+in quotes as an argument to the <samp>`-fn'</samp> option.
+
+
+
+</p><ul>
+<li>
+
+To display the characters in a medium Courier X font, type:
+</li></ul>
+
+
+<pre>$ <i>xfd -fn '-*-courier-medium-r-normal--*-100-*-*-*-*-iso8859-1' [RET]</i>
+</pre>
+
+
+
+<h3><a name="SEC317" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC317">Resizing the Xterm Font</a></h3>
+<p>
+<a name="IDX1407"></a>
+<a name="IDX1408"></a>
+<a name="IDX1409"></a>
+<a name="IDX1410"></a>
+
+
+</p><p>
+See <a href="http://www.dsl.org/cookbook/cookbook_6.html#SEC81">Specifying Window Font</a> for how to specify the
+font to use in an <code>xterm</code> window in X. The <code>xterm</code> tool is
+usually used to run a shell while in X, and many people like to specify
+which font is used for this window.
+
+
+</p><p>
+To resize the current font when the <code>xterm</code> is running, press and
+hold [CTRL] and right-click anywhere in the <code>xterm</code> window. A
+menu will appear that gives you the size options, from <code>Unreadable</code>
+and <code>Tiny</code> to <code>Huge</code>. To resize the font to its original size,
+choose <code>Default</code>.
+
+
+
+
+</p><h2><a name="SEC318" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC318">Console Fonts</a></h2>
+<p>
+<a name="IDX1411"></a>
+<a name="IDX1412"></a>
+
+
+</p><p>
+<em>Console fonts</em> are screen fonts for displaying text on the Linux
+console (and not in the X Window System).
+
+
+</p><p>
+Console fonts are stored in the <tt>`/usr/share/consolefonts'</tt> directory
+as compressed files; to install new console fonts, have the system
+administrator make a <tt>`/usr/local/share/consolefonts'</tt> directory and
+put the font files in there.
+
+
+</p><p>
+These recipes show how to set the console font, and how to display a
+table containing all of the characters in the current font.
+
+
+
+</p><ul>
+<li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC319">Consolechars</a>: Setting the console font.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC320">Showcfont</a>: Showing all characters in the console font.
+</li></ul>
+
+
+
+<h3><a name="SEC319" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC319">Setting the Console Font</a></h3>
+<p>
+<a name="IDX1413"></a>
+<a name="IDX1414"></a>
+<a name="IDX1415"></a>
+
+
+</p><p>
+Use <code>consolechars</code> to set the current console font; give the base
+file name of a console font as an argument to the <samp>`-f'</samp> option.
+
+
+
+</p><ul>
+<li>
+
+To set the console font to the <code>scrawl_w</code> font, type:
+
+
+<pre>$ <i>consolechars -f scrawl_w [RET]</i>
+</pre>
+
+</li></ul>
+
+<p>
+Some font files contain more than one height (or size) of the font. If a
+font contains more than one encoding for different heights, give the
+height to use as an argument to the <samp>`-H'</samp> option. (If you try to do
+it without the option anyway, <code>consolechars</code> will output a list of
+available sizes.)
+
+
+</p><p>
+Common console font heights include 8 (for 8x8 fonts), 14 (for 8x14
+fonts), and 16 (for 8x16 fonts).
+
+
+
+</p><ul>
+<li>
+
+To set the console font to the 8x8 size <code>sc</code> font, type:
+
+
+<pre>$ <i>consolechars -H 8 -f sc [RET]</i>
+</pre>
+
+</li></ul>
+
+
+
+<h3><a name="SEC320" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC320">Displaying the Characters in a Console Font</a></h3>
+<p>
+<a name="IDX1416"></a>
+<a name="IDX1417"></a>
+<a name="IDX1418"></a>
+
+
+</p><p>
+Use <code>showcfont</code> to display all of the characters in the current
+console font.
+
+
+
+</p><ul>
+<li>
+
+To list all of the characters in the current console font, type:
+
+
+<pre>$ <i>showcfont [RET]</i>
+</pre>
+
+</li></ul>
+
+
+
+<h2><a name="SEC321" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC321">Text Fonts</a></h2>
+<p>
+<a name="IDX1419"></a>
+<a name="IDX1420"></a>
+<a name="IDX1421"></a>
+
+
+</p><p>
+<em>Text fonts</em> are fonts created from the arrangement of ASCII
+characters on the screen; they are often seen in Usenet articles and
+email messages, included as decorative or title elements in text files,
+and used for printing simple banners or posters on a printer.
+
+
+</p><p>
+The making of "fonts" (and even pictures) from the arrangement of
+ASCII characters is known as <em>ascii art</em>. The following recipes
+describe methods of outputting text in these kind of fonts.
+
+
+
+</p><ul>
+<li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC322">Figlet</a>: Horizontal text fonts.
+</li><li><a href="http://www.dsl.org/cookbook/cookbook_20.html#SEC323">Banner</a>: Making text banners.
+</li></ul>
+
+
+
+<h3><a name="SEC322" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC322">Horizontal Text Fonts</a></h3>
+<p>
+<a name="IDX1422"></a>
+<a name="IDX1423"></a>
+<a name="IDX1424"></a>
+<a name="IDX1425"></a>
+
+
+</p><p>
+The <code>figlet</code> filter outputs text in a given text font. Give the
+text to output as an argument, quoting text containing shell
+metacharacters (see <a href="http://www.dsl.org/cookbook/cookbook_5.html#SEC50">Passing Special Characters to Commands</a>).
+
+
+
+</p><ul>
+<li>
+
+To output the text <samp>`news alert'</samp> in the default <code>figlet</code> font,
+type:
+
+
+<pre>$ <i>figlet news alert [RET]</i>
+</pre>
+
+</li></ul>
+
+<p>
+This command outputs the following:
+
+
+
+</p><pre>                                 _           _   
+ _ __   _____      _____    __ _| | ___ _ __| |_ 
+| '_ \ / _ \ \ /\ / / __|  / _` | |/ _ \ '__| __|
+| | | |  __/\ V  V /\__ \ | (_| | |  __/ |  | |_ 
+|_| |_|\___| \_/\_/ |___/  \__,_|_|\___|_|   \__|
+</pre>
+
+<p>
+Fonts for <code>figlet</code> are kept in the <tt>`/usr/lib/figlet'</tt>
+directory; use the <samp>`-f'</samp> option followed by the base name of the
+font file (without the path or extension) to use that font.
+
+
+</p><p>
+To output the contents of a text file with a <code>figlet</code> font, use
+<code>cat</code> to output the contents of a file and pipe the output to
+<code>figlet</code>. 
+
+
+
+</p><ul>
+<li>
+
+To output the text of the file <tt>`poster'</tt> in the figlet <tt>`bubble'</tt>
+font, type:
+
+
+<pre>$ <i>cat poster | figlet -f bubble [RET]</i>
+</pre>
+
+</li></ul>
+
+<p>
+<strong>NOTE:</strong> The <tt>`bubble'</tt> font is installed at
+<tt>`/usr/lib/figlet/bubble.flf'</tt>. 
+
+
+
+
+</p><h3><a name="SEC323" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC323">Making a Text Banner</a></h3>
+<p>
+<a name="IDX1426"></a>
+<a name="IDX1427"></a>
+<a name="IDX1428"></a>
+<a name="IDX1429"></a>
+
+
+</p><p>
+The easiest way to print a long, vertical banner of text on a Linux
+system is with the old UNIX <code>banner</code> tool.
+
+
+</p><p>
+Quote a text message as an argument, and <code>banner</code> sends a large,
+vertical "banner" of the message to the standard output. The message
+itself is output in a "font" composed of ASCII text characters,
+similar to those used by <code>figlet</code>, except that the message is
+output vertically for printing, and you can't change the font. To send
+the output of <code>banner</code> to the printer, pipe it to <code>lpr</code>.
+
+
+
+</p><ul>
+<li>
+
+To make a banner saying <samp>`Happy Birthday Susan'</samp>, type:
+
+
+<pre>$ <i>banner 'Happy Birthday Susan' [RET]</i>
+</pre>
+
+</li><li>
+
+To print a banner saying <samp>`Happy Birthday Susan'</samp> to the default printer, type:
+
+
+<pre>$ <i>banner 'Happy Birthday Susan' | lpr [RET]</i>
+</pre>
+
+</li></ul>
+
+<p>
+Unfortunately, the breadth of characters that <code>banner</code> understands
+is a bit limited -- the following characters can't be used in a
+<code>banner</code> message:
+
+
+
+</p><pre>&lt; &gt; [ ] \ ^ _ { } | ~
+</pre>
+
+<p>
+To make a banner of the contents of a text file, send its contents to
+<code>banner</code> by redirecting standard input (see <a href="http://www.dsl.org/cookbook/cookbook_5.html#SEC55">Redirecting Input to a File</a>).
+
+
+
+</p><ul>
+To make a banner of the contents of the file <tt>`/etc/hostname'</tt>, type:
+
+
+<pre>$ <i>banner &lt; /etc/hostname [RET]</i>
+</pre>
+
+</ul>
+
+<p>
+The default width of a banner is 132 text columns; you can specify a
+different width by specifying the width to use as an argument to the
+<samp>`-w'</samp> option. If you give the <samp>`-w'</samp> option without a number,
+banner outputs at 80 text columns.
+
+
+
+</p><ul>
+<li>
+
+To make a banner containing the text <samp>`Happy Birthday Susan'</samp> at a
+width of 23 text columns, type:
+
+
+<pre>$ <i>banner -w 23 'Happy Birthday Susan' [RET]</i>
+</pre>
+
+</li><li>
+
+To make a banner containing the text <samp>`Happy Birthday Susan'</samp> at a
+width of 80 text columns, type:
+
+
+<pre>$ <i>banner -w 'Happy Birthday Susan' [RET]</i>
+</pre>
+
+</li></ul>
+
+<p>
+<strong>NOTE:</strong> A method of making a horizontal text banner with
+<code>figlet</code> is described in <a href="http://www.dsl.org/cookbook/cookbook_19.html#SEC293">Outputting Text in Landscape Orientation</a>.
+
+
+
+
+</p><h2><a name="SEC324" href="http://www.dsl.org/cookbook/cookbook_toc.html#TOC324">Other Font Tools</a></h2>
+<p>
+<a name="IDX1430"></a>
+<a name="IDX1431"></a>
+<a name="IDX1432"></a>
+<a name="IDX1433"></a>
+<a name="IDX1434"></a>
+<a name="IDX1435"></a>
+<a name="IDX1436"></a>
+<a name="IDX1437"></a>
+
+
+</p><p>
+The following table describes some of the other font tools available for
+Linux. 
+
+
+<table border="0" cellpadding="4" align="center">
+
+<tbody><tr bgcolor="#eeeeee"><td>TOOL</td>
+
+<td> DESCRIPTION
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>cse</code></td>
+
+<td> The Linux Console Font Editor, <code>cse</code>, is an older console font
+editor.
+
+<br><small>WWW</small>: <a href="http://www.ibiblio.org/pub/Linux/system/keyboards/">http://www.ibiblio.org/pub/Linux/system/keyboards/</a>
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>dtm</code></td>
+
+<td> The Definitive Type Manager is a tool for adding and removing Adobe
+Type 1 fonts to and from your system. 
+
+<br><small>Debian</small>: <tt>`dtm'</tt>
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>fonter</code></td>
+
+<td> Fonter is a console font editor; use it to make and edit console
+fonts.
+
+<br><small>Debian</small>: <tt>`fonter'</tt>
+
+</td></tr><tr bgcolor="#eeeeee"><td><code>gfont</code></td>
+
+<td> The <code>gfont</code> tool creates a GIF image of text rendered in a
+TeX font.
+
+<br><small>Debian</small>: <tt>`gfont'</tt>
+
+<br><small>WWW</small>: <a href="http://www.engelschall.com/sw/gfont/">http://www.engelschall.com/sw/gfont/</a>
+
+</td></tr>
+<tr bgcolor="#bbccee"><td><code>gfontview</code></td>
+
+<td> This is a tool for viewing Adobe Type 1 and TrueType fonts.
+
+<br><small>Debian</small>: <tt>`gfontview'</tt>
+</td></tr></tbody></table>
+
+</p><p></p><hr><p>
+[<a href="http://www.dsl.org/cookbook/cookbook_19.html">&lt;--</a>] [<a href="http://www.dsl.org/cookbook/">Cover</a>] [<a href="http://www.dsl.org/cookbook/cookbook_toc.html">Table of Contents</a>] [<a href="http://www.dsl.org/cookbook/cookbook_45.html">Concept Index</a>] [<a href="http://www.dsl.org/cookbook/cookbook_44.html">Program Index</a>] [<a href="http://www.dsl.org/cookbook/cookbook_21.html">--&gt;</a>]
+</p></body></html>

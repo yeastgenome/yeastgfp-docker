@@ -1,0 +1,43 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>java notes</u></h2></center>
+
+<i>L. Gerke - 1/2003</i><p>
+
+<i>(Successful with Red Hat 7.3).</i><br>
+
+<pre><font size=+1>
+to execute a shell cmd:
+----------------------
+void doCmd(String a) throws Exception{
+	Process p = Runtime.getRuntime().exec(a);
+	InputStream stdOut = p.getInputStream();
+	InputStream stdErr = p.getErrorStream();
+	OutputStream stdIn = p.getOutputStream();
+	p.waitFor();
+
+	stdOut.close();
+	stdErr.close();
+	stdIn.close();
+    }
+////////////////////////////
+
+to run profiler:
+---------------    
+-Xrunhprof:cpu=samples,depth=20
+//////////////////////
+
+to increase heapsize:
+----------------------
+-Xmx1000m (1000megs)
+
+
+</pre></font>
+
+
+
+</body>
+</html>

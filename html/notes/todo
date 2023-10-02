@@ -1,0 +1,9 @@
+setup auto backup...  incremental possible?
+
+scoring
+
+sanity-check of images/sets/projectsximages ( I think this is important )
+
+when I installed that dbi/dbd stuff on pho, I did it from my home dir... I assumed that it would move the binaries to something liek /urs/bin, but it didn't, I don't think... I subsequently removed them from pho.  They might need to be reinstalled...
+
+revisit update locking mechanism;

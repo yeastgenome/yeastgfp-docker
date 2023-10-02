@@ -1,0 +1,190 @@
+<?
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+require("$include_dir/projects_inc.php");
+
+/* WE HAVE USED BDB TABLES THAT, IF SET TO AUTOCOMMIT=0 AUTOMATICALLY
+   ROLLBACK WHEN THE CONNECTION DIES, WHICH HAS BEEN A PROBLEM.
+*/
+$sqlSetAutocommitOff = "SET AUTOCOMMIT=0";
+dbquery($sqlSetAutocommitOff);
+$sqlBegin = "BEGIN";
+dbquery($sqlBegin);
+
+/* TAKES A LONG TIME */
+set_time_limit(1000);
+
+$delimiter1 = unserialize(urldecode($_POST['delimiter1']));
+$delimiter2 = unserialize(urldecode($_POST['delimiter2']));
+$upload_dir = unserialize(urldecode($_POST['upload_dir']));
+
+if ($_POST['btnAssign']) {
+    if (missingstraininfo()) {
+	centermsg("Missing strain information. Go back and reenter.");
+	exit;
+    }
+    /** Recreate sorted hash of directory: keyed by name w/o .tif **/
+    $dirpost = unserialize(urldecode($_POST['dirarray']));
+    $pattern = "";
+    $i = 0;
+	
+    /** Main loop **/
+    foreach ($dirpost as $key => $filefull) {
+	$file = $key;
+
+	/** Grab SETNAME from key **/
+	/* FIX THIS!  THIS REQUIRES THAT EVERYONE KNOW EXACTLY HOW THEY'RE ENCODED */
+	list ($setname) = explode ($delimiter1, $key);
+	assert(preg_match("/(.*)_.*_(.*)/", $key, $matches));
+	$setname = $matches[1]."-".$matches[2];
+	    
+	/** If checkbox unchecked, skip set **/
+	if (!$_POST[$setname]) { continue; }
+
+	/** New set -> create new set **/
+	if ($setname <> $pattern) {
+	    $strainid = $_POST[$setname."-STRAIN"];
+	    $conditionid = $_POST[$setname."-CONDITION"];
+	    $sqlsets = "INSERT INTO sets (strainid, conditionid)
+                            VALUES ($strainid, $conditionid)";
+
+	    /** Write new set to database **/
+	    dbquery($sqlsets);
+		
+	    $sqlretr = "SELECT setid FROM sets WHERE strainid=$strainid AND
+                            conditionid=$conditionid ORDER BY setid DESC";
+	    $resset = mysql_fetch_assoc(dbquery($sqlretr));
+
+	    /** Retrieve setid of just-created set **/
+	    $setid = $resset["setid"];
+	}
+	$moveto = imagesubdir();
+	$dirpath = $moveto . $filefull;
+	////	    print "dirpath is $dirpath<br>";
+	$duplicate = $moveto . $file;
+	$userid = $_SESSION['userid'];
+	$stainid = $_POST[$file."-STAIN"];
+	$descript = $_POST[$file."-DESC"];
+	for($a=0;$a<300;$a++) {
+	    print "please don't timeout!";
+	}
+	//	    print $file."<br>";
+	//	    print $stainid."<br>";
+	//	    print $strainid."<br>";
+
+	/** Move to images directory **/
+	
+	ph();
+	$commandluke = "mv " .$upload_dir .$filefull." ".$dirpath;
+	//$commandluke = "cp " .$upload_dir .$filefull." /home/adam/tmp/test.tif";
+	//if(!exec($commandluke)){
+	//    print "bailing on:".$commandluke."<br>";
+	//    exit;
+	//}
+	passthru($commandluke);
+	print $commandluke;
+	print "NOT BAILING...";
+
+	$commandluke = "/usr/bin/perl utilities/mogDriver.pl -adjustAuto $dirpath";
+		    print $commandluke."<br>";
+
+	passthru($commandluke);
+
+
+
+	//	    exit;
+
+	/****** HACK TO GET THE PNG NAME NEEDS TO BE REDONE ****/
+	$newName = $duplicate.$viewext;
+	printWB("here is:".$newName);    
+
+
+	/** Create png thumbnail **/
+	copy($newName, $duplicate.$thumbext);
+
+	//	    print "<br>making thumb called:".$dirpath." ---> ".$duplicate.$thumbext."<br>";
+
+	
+	$commandluke = $mog_path."mogrify -resize ".$thumb." ".$duplicate.$thumbext;
+	//	    print $commandluke."<br>";
+	exec ($commandluke);
+
+	/** Delete orig TIF **/
+	unlink ($dirpath);
+
+	    
+	$i++;
+	    
+	    
+	    
+	/** Strip image_dir from full path **/
+	$dirtrunc = explode ($image_dir, $newName);
+	//	    print "---------- got dirtrunc: $dirtrunc[1]    out of image_dir: $image_dir   newName: $newName";
+	    
+	    
+	$sqladd = "INSERT INTO images (setid, dirpath, stainid, userid, descript)
+                       VALUES ($setid, '" .$dirtrunc[1] ."', $stainid, $userid,'".
+	    $descript."')";
+	    
+	/** Write image info to database **/
+	dbquery($sqladd);
+	    
+	/** Assign images to project **/
+	    
+	/** Retrieve imageid for writing to projectsximages **/
+	$sqlimage = "SELECT imageid, dirpath FROM images WHERE setid=$setid AND stainid=$stainid AND $userid=$userid ORDER BY imageid DESC";
+	$rsimage = mysql_fetch_assoc(dbquery($sqlimage));
+
+	/** Double check to make sure images match **/
+	assert($rsimage["dirpath"] == $dirtrunc[1]);
+	if ($rsimage["dirpath"] == $dirtrunc[1]) { 
+	    $sqlpxi = "INSERT INTO projectsximages (projectid, imageid)
+			VALUES (".$_SESSION['projectid'] .", ".$rsimage["imageid"].")";
+	    dbquery($sqlpxi);
+	}
+	$pattern = $setname;
+
+	print ".";
+    }
+
+    $sqlDoCommit = "COMMIT";
+    dbquery($sqlDoCommit);
+    $sqlSetAutocommitOn = "SET AUTOCOMMIT=1";
+    dbquery($sqlSetAutocommitOn);
+
+
+
+
+    centermsg("<u>Results</u>:<p>$i images successfully imported<br>and linked to project <i>" .$_SESSION['project'] ."</i>");
+    exit;
+} else {
+    assert(0);
+    centermsg("NAH!");
+}
+
+
+
+function missingstraininfo() {	/** Not needed for auto strain assignment? **/
+    foreach ($_POST as $name => $value) {
+	if (!preg_match("/-STRAIN/", $name)) { continue; }
+	if ($value == "") { 
+	  printWB($name);
+	  return true; }
+    }
+    return false;
+}
+
+
+function imagesubdir() {
+
+    global $image_dir, $maxfiles;
+  return $image_dir."1/";
+}
+?>
+
+
+
+
+
+

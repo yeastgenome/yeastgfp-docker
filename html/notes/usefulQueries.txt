@@ -1,0 +1,1 @@
+"SELECT MIN(sets.setid) FROM projectsximages INNER JOIN images ON projectsximages.imageid = images.imageid INNER JOIN sets ON sets.setid = images.setid WHERE complete = 0 AND projectid = 1"

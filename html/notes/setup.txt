@@ -1,0 +1,13 @@
+you must first add a file called loc.php containing:
+<?php
+	$web_dir = "{}/"
+?>
+
+where {} is the path from the url root to your subdir.  For instance, if you want the web dir to end up at http://ucsf-205-202.ucsf.edu/lcgerke, replace {} with lcgerke.
+------------------------------
+
+
+next, add a symbolic link from html/:
+ln -s /home/gfp/images
+
+-----------------

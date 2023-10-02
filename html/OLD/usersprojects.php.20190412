@@ -1,0 +1,48 @@
+<?
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+
+// Check for sysadmin privileges
+checksysadmin();
+
+$uid = $_SESSION['projuser'];
+//$_SESSION['projuser'] = "";
+
+$sql = "SELECT users.login, users.realname, projects.name, projects.userid,
+		projects.descript, usersxprojects.rights 
+	FROM users, usersxprojects, projects 
+	WHERE (users.userid = $uid 
+		AND users.userid = usersxprojects.userid 
+		AND projects.projectid = usersxprojects.projectid) 
+	ORDER BY projects.name";
+$res = dbquery($sql);
+
+//printheader();
+
+if (dbnumrows($res)) { print "
+<table width=100% border>
+<tr><th>Login</th>
+	<th>Real Name</th>
+	<th>Project</th>
+	<th>Owner</th>
+	<th>Description</th>
+	<th>Project Rights</th></tr>";
+	while ($row = mysql_fetch_assoc($res)) {
+		print "<tr><td align=center>".$row["login"]."</td>
+			<td align=center>".$row["realname"]."</td>
+			<td>&nbsp;".$row["name"]."</td><td align=center>";
+		if ($row["userid"] == $_SESSION['projuser']) {
+			print "&#149;";
+			$rights = "Owner";}
+		else { $rights = array_search($row["rights"], $priv); }
+		print "</td><td>&nbsp;".$row["descript"]."</td>
+			<td align=center>$rights</td></tr>\n";
+	}
+
+	print "</table>";
+}
+else { print "<h2><center>No Projects found for this user.</h2>"; }
+
+printfooter();
+?>

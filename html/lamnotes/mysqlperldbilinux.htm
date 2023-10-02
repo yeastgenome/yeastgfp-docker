@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Installing MySQL, Perl DBI on Linux</title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Installing MySQL, PerlDBI on Linux</u></h2></center>
+<i>F. Lam - 7/9/2002</i><p>
+<i>(Successful on Red Hat 7.3 / MySQL 3.23.49a).</i>
+
+<ol>
+<li>Download the latest MySQL <a href="http://www.mysql.com/downloads/mysql.html">binary package (tar.gz)</a> for Linux Intel gnu-i686.
+
+<li>Official installation instructions for Linux are <a href="http://www.mysql.com/doc/I/n/Installing_binary.html">here for reference</a>.  The following is a quick summary.  Install as root:
+<pre>
+/usr/sbin/groupadd mysql
+/usr/sbin/useradd -g mysql mysql
+cd /usr/local
+gunzip < /path/to/mysql-version-OS.tar.gz | tar xvf -
+ln -s mysql-version-OS/ mysql
+cd mysql
+scripts/mysql_install_db
+chown -R root /usr/local/mysql
+chown -R mysql /usr/local/mysql/data
+chgrp -R mysql /usr/local/mysql
+chown -R root /usr/local/mysql/bin
+bin/safe_mysqld --user=mysql &
+</pre>
+
+<li>Add <b>/usr/local/mysql/bin</b> to your (and root's) PATH in ~/.bash_profile.  <b>Source</b> it to activate the new PATH.
+
+<li>Set up initial MySQL privileges (official instructions <a href="http://www.mysql.com/doc/D/e/Default_privileges.html">here for reference</a>).  Set the mysql root password:
+<pre>
+mysql -u root mysql
+mysql> UPDATE user SET Password=PASSWORD('new_password') WHERE user='root';
+mysql> FLUSH PRIVILEGES;
+</pre>
+
+<li>Give yourself and the UNIX user <i>root</i> global database privileges when connecting from localhost (eg., a UNIX shell):
+<pre>
+mysql -u root mysql
+mysql> GRANT ALL PRIVILEGES ON *.* TO flam@localhost IDENTIFIED BY 'flam_password' WITH GRANT OPTION;
+mysql> GRANT ALL PRIVILEGES ON *.* TO root@localhost IDENTIFIED BY 'root_password' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+</pre>
+
+<ul>
+<li>MySQL user <b>www</b> with password <b>*****</b> is what all the GFP database scripts use.  Creating a separate MySQL user for Apache/PHP activity is good security practice.  Change the include.php script accordingly if you decide to use another MySQL account.  You do <b>NOT</b> want to give user www global database privileges since that is a huge security risk.  Instead (assuming a database named "gfp"):
+<pre><b>
+mysql> GRANT SELECT, INSERT, UPDATE, DELETE, CREATE ON gfp.* TO www@localhost IDENTIFIED BY '****';
+</pre></b>
+
+<li>The <tt>WITH GRANT OPTION</tt> gives the user the ability to grant to other users any privileges the user already has.  So, do not give that ability to a regular user even if that user needs full database access:
+<pre>
+mysql> GRANT ALL PRIVILEGES ON *.* TO someuser@localhost IDENTIFIED BY 'some_password';
+</pre>
+However, keep in mind that you should not grant global ALTER privileges to a normal user.  If you do, the user can try to subvert the privilege system by renaming tables!  You should grant privileges to a normal user on a per-database basis:
+<pre>
+mysql> GRANT ALL ON gfp.* TO joe@localhost IDENTIFIED BY '***';
+</pre>
+where 'gfp' is the name of the database and 'joe' is the UNIX userid of the normal user.<p>
+
+<li>Do not use a blank password simply for convenience!  Remember that anyone can log in as any other person simply as <tt>mysql -u other_user db_name</tt> if <tt>other_user</tt> has no password.<p>
+
+<li>You must explicitly <tt>DELETE</tt> users.  Specifically, <tt>GRANT</tt> may create user table entries, but <tt>REVOKE</tt> will not remove them; you must do that explicitly using <tt>DELETE</tt>:
+<pre>
+mysql> DELETE FROM user WHERE User = "someuser";
+</pre> 
+
+<li>Note that if you are using table or column privileges for even one user, the server examines table and column privileges for all users and this will slow down MySQL a bit.
+</ul><p>
+
+<li>To have MySQL start/stop automatically:
+<pre>
+cd /usr/local/mysql
+cp support-files/mysql.server /etc/rc.d/init.d/
+cd /etc/rc.d/rc3.d <i><b>(Runlevel 3 - Full multi-user mode, start)</i></b>
+ln -s ../init.d/mysql.server S98mysql
+cd /etc/rc.d/rc5.d <i><b>(Runlevel 5 - Full multi-user mode with X-based login, start)</i></b>
+ln -s ../init.d/mysql.server S98mysql
+cd /etc/rc.d/rc0.d <i><b>(Runlevel 0 - Halt, stop)</i></b>
+ln -s ../init.d/mysql.server S98mysql
+cd /etc/rc.d/rc6.d <i><b>(Runlevel 6 - Reboot, stop)</i></b>
+ln -s ../init.d/mysql.server S98mysql
+cd ../init.d
+chmod 755 mysql.server
+</pre>
+
+<li>Get from <a href="http://search.cpan.org">search.cpan.org</a> the latest:
+<ul><li><a href="http://search.cpan.org/search?dist=Data-Dumper">Data-Dumper-2.101</a> (6/2002)
+<li><a href="http://search.cpan.org/search?module=DBI">DBI-1.24</a> (6/2002)
+<li><a href="http://search.cpan.org/search?module=DBD::mysql">DBD-mysql-2.1017</a> (6/2002)
+</ul>
+
+<li>Install Data-Dumper and DBI in that order (as root):
+<pre>
+tar -xzf [Data-Dumper]
+cd [Data-Dumper]
+perl Makefile.PL
+make
+make test
+make install
+</pre>
+
+<li>Make sure mysqld is started and that /usr/local/mysql/bin is active in your PATH.  Install DBD-mysql as above with the following exceptions.
+<pre>
+make (root)
+make test (as flam, because only user flam was set up as a privileged mysql user)
+make install (root)
+</pre>
+</ol>
+</body>
+</html>

@@ -1,0 +1,2 @@
+yORF	gene name	GFP tagged?	GFP visualized?	F2 Seq	R1 Seq	
+YML051W	GAL80	tagged	visualized	CTCCACATTAAACGTTAGCAATATCTCGCATTATAGTTTAggtcgacggatccccgggtt	CGTTCGCTGCACTGGGGGCCAAGCACAGGGCAAGATGCTTtcgatgaattcgagctcgtt	

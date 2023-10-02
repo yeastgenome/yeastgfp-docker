@@ -1,0 +1,305 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>My .emacs</u></h2></center>
+
+<i>L. Gerke - 1/2003</i><p>
+
+<i>(Successful with Red Hat 7.3).</i>
+<p><u>Added to prefab .emacs</u>:
+
+<pre><font size=+1>
+(global-set-key [(control h)] 'delete-backward-char)
+(global-set-key (kbd "<f2>") 'set-mark-command)
+(global-set-key (kbd "<f3>") 'goto-line)
+(global-set-key (kbd "<f4>") 'replace-string)
+'(delete-key-deletes-forward t)
+</pre></font>
+
+<p><u>whole .emacs</u>:
+
+<pre><font size=+1>
+</pre></font>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;
+;;; Bob Lantz's emacs prefs file
+;;;
+;;; Some handy emacs defaults
+;;;
+;;; Much of this is ripped off from the sample .emacs files
+;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                      Basic Customization                         ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(put 'narrow-to-region 'disabled nil)
+(put 'eval-expression 'disabled nil)
+
+;;; Define a variable to indicate whether we're running XEmacs/Lucid Emacs.
+(defvar running-xemacs (string-match "XEmacs\\|Lucid" emacs-version))
+
+;; turn on search highlighting
+
+(cond (window-system
+       (setq search-highlight t)))
+
+;;; add my own load path
+(setq load-path (cons "~/emacs" load-path))
+
+;;; define missing stuff
+
+(define-key esc-map "g" 'goto-line)
+(define-key ctl-x-map "\C-m" 'compile)
+(define-key esc-map "\C-m" 'newline)
+(define-key global-map "\C-m" 'newline-and-indent)
+
+;; C-x-5-0 and C-x-5-2 are painful!! this is slightly better...
+(define-key mode-specific-map "w" 'delete-frame)
+(define-key mode-specific-map "d" 'make-frame)
+
+(defun scroll-up-1 () (interactive) (scroll-up 1))
+(defun scroll-down-1 () (interactive) (scroll-down 1))
+(defun scroll-left-1 () (interactive) (scroll-left 1))
+(defun scroll-right-1 () (interactive) (scroll-right 1))
+
+(define-key global-map [(shift up)] 'scroll-down-1)
+(define-key global-map [(shift down)] 'scroll-up-1)
+(define-key global-map [(shift left)] 'scroll-right-1)
+(define-key global-map [(shift right)] 'scroll-left-1)
+
+;;; stuff for my little browser
+(put 'eval-expression 'disabled nil)
+
+;;; fix some colors to my liking
+
+(cond (window-system
+       (set-face-foreground 'highlight "black")
+       (set-face-background 'highlight "yellow")))
+
+;;; Emacs version-specific setup
+(cond (running-xemacs
+       
+       ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+       ;; XEMACS SPECIFIC SETUP
+       ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+       ;; Function Keys
+
+       (global-set-key 'f1 'help-command)
+       (global-set-key 'f2 'undo)
+       (global-set-key 'f3 'find-file)
+       (global-set-key 'f4 'set-mark-command)
+       (global-set-key 'f5 "\M-w")
+       (global-set-key 'f6 "\C-y")
+       ;; Shift-F4 is "pop mark off of stack"
+       (global-set-key '(shift f4) 
+		       (lambda () (interactive) (set-mark-command t)))
+       (global-set-key 'f7 'save-buffer)
+       (global-set-key 'f8 'start-kbd-macro)
+       (global-set-key 'f9 'end-kbd-macro)
+       (global-set-key 'f10 'call-last-kbd-macro)
+
+       ;; Xemacs doesn't support hilit19 - it only supports font-lock
+       ;; mode. Therefore, if we're running xemacs, run font-lock mode
+
+       ;; If you want the default colors, you could do this:
+       ;; (setq font-lock-use-default-fonts nil)
+       ;; (setq font-lock-use-default-colors t)
+       ;; but I want to specify my own colors, so I turn off all
+       ;; default values.
+       (setq font-lock-use-default-fonts nil)
+       (setq font-lock-use-default-colors nil)
+
+       (require 'font-lock)
+
+       ;; Mess around with the faces a bit.  Note that you have
+       ;; to change the font-lock-use-default-* variables *before*
+       ;; loading font-lock, and wait till *after* loading font-lock
+       ;; to customize the faces.
+
+       (set-face-foreground 'font-lock-string-face "forest green")
+
+       ;; comments are italic and red; doc strings are italic
+       ;;
+       ;; (I use copy-face instead of make-face-italic/make-face-bold
+       ;; because the startup code does intelligent things to the
+       ;; 'italic and 'bold faces to ensure that they are different
+       ;; from the default face.  For example, if the default face
+       ;; is bold, then the 'bold face will be unbold.)
+       (copy-face 'italic 'font-lock-comment-face)
+       
+       ;; not bold, please
+       (make-face-unbold 'font-lock-comment-face)
+     
+       ;; Underling comments looks terrible on tty's
+       (set-face-underline-p 'font-lock-comment-face nil 'global 'tty)
+       (set-face-highlight-p 'font-lock-comment-face t 'global 'tty)
+       (copy-face 'font-lock-comment-face 'font-lock-doc-string-face)
+       (set-face-foreground 'font-lock-comment-face "red")
+
+       ;; function names are bold and blue
+       (copy-face 'bold 'font-lock-function-name-face)
+       (set-face-foreground 'font-lock-function-name-face "blue")
+
+       ;; misc. faces
+       (and (find-face 'font-lock-preprocessor-face) ; 19.13 and above
+            (copy-face 'bold 'font-lock-preprocessor-face))
+       (copy-face 'italic 'font-lock-type-face)
+       (copy-face 'bold 'font-lock-keyword-face)
+
+
+       (add-hook 'emacs-lisp-mode-hook	'turn-on-font-lock)
+       (add-hook 'dired-mode-hook	'turn-on-font-lock)
+       (add-hook 'C-mode-hook		'turn-on-font-lock)
+      (add-hook 'matlab-mode-hook	'turn-on-font-lock))
+    
+
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;; GNU * GNU * GNU *
+      ;; GNU EMACS SPECIFIC CODE 
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      
+      (t 
+	 ;; HILIT19 SPECIFIC INITIALIZATION
+	 ;; (GNU EMACS ONLY)
+
+	 (cond (window-system
+		(set-face-background 'region "grey75")
+		(setq hilit-mode-enable-list  '(not text-mode)
+		      hilit-background-mode   'light
+		      hilit-inhibit-hooks     nil
+		      hilit-inhibit-rebinding nil)
+		
+		(require 'hilit19)
+
+		;; highlight really large files!!
+		(setq hilit-auto-highlight-maxout 200000)
+		
+		(require 'font-lock)
+	   
+		;; initialize program styles
+		(hilit-translate comment 'red)  
+		(hilit-translate include 'purple)
+		(hilit-translate define nil)
+		(hilit-translate defun 'blue-bold)
+		(hilit-translate decl 'blue-bold)
+		(hilit-translate type 'blue-bold)
+		(hilit-translate keyword 'blue-bold)
+		(hilit-translate string 'orange)
+
+;;; defaults from hilit19:
+;;;    (comment    firebrick-italic    moccasin           italic)
+;;;    (include    purple              Plum1              bold-italic)
+;;;    (define     ForestGreen-bold    green              bold)
+;;;    (defun      blue-bold           cyan-bold          bold-italic)
+;;;    (decl       RoyalBlue           cyan               bold)
+;;;    (type       nil                 yellow             nil)
+;;;    (keyword    RoyalBlue           cyan               bold-italic)
+;;;    (label      red-underline       orange-underlined  underline)
+;;;    (string     grey40              orange             underline)
+
+		;; hilit19 information for Verilog code
+
+		(let ((comments     '(("/\\*" "\\*/" comment)))
+		      (c++-comments '(("//.*$" nil comment)
+				      ("^/.*$" nil comment)))
+		      (strings      '((hilit-string-find ?' string)))
+		      (preprocessor '(("^#[ \t]*\\(undef\\|define\\).*$" "[^\\]$" define)
+				      ("^#.*$" nil include))))
+		  (hilit-set-mode-patterns
+		   '(verilog-mode)
+		   (append
+		    c++-comments  strings
+		    '(
+		      ;; function decls  - this doesn't work
+		      ("^\\(\\w\\|[$_]\\)+\\s *\\(\\(\\w\\|[$_]\\)+\\s *((\\|(\\)[^)]*)+"
+		       nil defun)
+		      ;; data types
+		      ("reg\\|wire\\|integer" nil type)
+		      ;; key words
+		      ("[^_]\\<\\(always\\|module\\|endmodule\\|initial\\|begin\\|end\\|assign\\|if\\|else\\|case\\|endcase\\|default\\|do\\|input\\|output\\|inout\\|for\\)\\>[^_]" 1 keyword)
+		      )))))
+
+	       
+
+
+	       )))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;
+;;; BL Specific Verilog and Browser initialization
+;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;; Verilog "mode"
+
+(defun verilog-mode ()
+  "Idiot non-mode for editing verilog code."
+  (setq major-mode 'verilog-mode)
+  (setq mode-name "Verilog"))
+
+;; Automatically start verilog "mode"
+
+(setq auto-mode-alist
+      (append '(("\\.v" . verilog-mode)
+		("\\.def" . verilog-mode)
+		("\\.inc" . verilog-mode)
+		("\\.el" . emacs-lisp-mode)
+		("\\.m" . matlab-mode)
+		) auto-mode-alist))
+
+;; more stupid stuff
+
+
+(require 'inf-lisp)
+(setq inferior-lisp-program "gcl") ;; run gnu common lisp by default
+
+;;; Load my stupid little browser
+
+
+(put 'downcase-region 'disabled nil)
+
+;;; for browsing embra (should this be somewhere else??? )
+
+(defun browse-embra ()
+  (browser "" "~/simulation/cpus/embra/"))
+
+(defun browse-notes ()
+  (browser "" "~/notes/"))
+
+(defun browse-348c ()
+  (browser "" "~/348/proj/"))
+
+(defun browse-examples ()
+  (browser "" "~/348/examples/"))
+
+
+;;; Until I get a new xemacs
+
+
+(defun setfont-any (font)
+  (interactive "sFont: ")
+  (font-menu-set-font font nil nil))
+
+
+(defun setfont-size (font size)
+  (interactive "sFont: \nnSize: ")
+  ;; pixel size -> scaled point size
+  (setq size (* 10 size))
+  (font-menu-set-font font nil size))
+
+(define-key mode-specific-map "f" 'setfont-any)
+
+(setq load-path (cons "path_to_html-helper-mode_directory/" load-path))
+(autoload 'html-helper-mode "html-helper-mode" "Yay HTML" t)
+(setq auto-mode-alist (cons '("\\.html$" . html-helper-mode) auto-mode-alist))
+
+
+</body>
+</html>

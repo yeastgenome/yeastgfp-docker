@@ -1,0 +1,1455 @@
+yORF	gene name	GFP tagged?	GFP visualized?	localization summary	
+YMR137C	PSO2	tagged	visualized	cytoplasm,nucleus	
+YBR123C	TFC1	tagged	visualized	nucleus	
+YGR195W	SKI6	tagged	visualized	nucleolus,nucleus	
+YDR146C	SWI5	tagged	visualized	cytoplasm,nucleus	
+YOL059W	GPD2	tagged	visualized	cytoplasm,nucleus	
+YGR136W	LSB1	tagged	visualized	cytoplasm,nucleus	
+YHR097C		tagged	visualized	cytoplasm,nucleus	
+YPL122C	TFB2	tagged	visualized	nucleus	
+YBR258C	SHG1	tagged	visualized	nucleus	
+YKR025W	RPC37	tagged	visualized	nucleus	
+YPR025C	CCL1	tagged	visualized	nucleus	
+YIL096C		tagged	visualized	nucleolus,nucleus	
+YKL145W	RPT1	tagged	visualized	nucleus	
+YNR009W		tagged	visualized	cytoplasm,nucleus	
+YDR288W		tagged	visualized	cytoplasm,nucleus	
+YOL135C	MED7	tagged	visualized	nucleus	
+YPL031C	PHO85	tagged	visualized	cytoplasm,nucleus	
+YBR017C	KAP104	tagged	visualized	cytoplasm,nucleus	
+YDL236W	PHO13	tagged	visualized	cytoplasm,nucleus	
+YJL191W	RPS14B	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YDR006C	SOK1	tagged	visualized	nucleus	
+YDR193W		tagged	visualized	cytoplasm,nucleus	
+YFL024C	EPL1	tagged	visualized	nucleus	
+YOR174W	MED4	tagged	visualized	nucleus	
+YHR164C	DNA2	tagged	visualized	nucleus	
+YGL122C	NAB2	tagged	visualized	nucleus	
+YML060W	OGG1	tagged	visualized	nucleus	
+YOR342C		tagged	visualized	cytoplasm,nucleus	
+YNL224C		tagged	visualized	cytoplasm,nucleus	
+YLR134W	PDC5	tagged	visualized	cytoplasm,nucleus	
+YFL028C	CAF16	tagged	visualized	cytoplasm,nucleus	
+YKL193C	SDS22	tagged	visualized	cytoplasm,nucleus	
+YLL018C-A	COX19	tagged	visualized	cytoplasm,nucleus	
+YER079W		tagged	visualized	cytoplasm,nucleus	
+YGR151C		tagged	visualized	cytoplasm,nucleus	
+YBR278W	DPB3	tagged	visualized	cytoplasm,nucleus	
+YMR075W	RCO1	tagged	visualized	nucleus	
+YKR077W		tagged	visualized	cytoplasm,nucleus	
+YKL102C		tagged	visualized	cytoplasm,nucleus	
+YDR419W	RAD30	tagged	visualized	cytoplasm,nucleus	
+YOR360C	PDE2	tagged	visualized	cytoplasm,nucleus	
+YML108W		tagged	visualized	cytoplasm,nucleus	
+YIL122W	POG1	tagged	visualized	nucleus	
+YLR363W-A		tagged	visualized	nucleus	
+YLL008W	DRS1	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YAL016W	TPD3	tagged	visualized	cytoplasm,nucleus	
+YDR460W	TFB3	tagged	visualized	nucleus	
+YKR086W	PRP16	tagged	visualized	cytoplasm,nucleus	
+YGR178C	PBP1	tagged	visualized	cytoplasm,nucleus	
+YJR055W	HIT1	tagged	visualized	cytoplasm,nucleus	
+YCR016W		tagged	visualized	nucleolus,nucleus	
+YDR363W	ESC2	tagged	visualized	cytoplasm,nucleus	
+YDL205C	HEM3	tagged	visualized	cytoplasm,nucleus	
+YDR088C	SLU7	tagged	visualized	nucleus	
+YMR114C		tagged	visualized	cytoplasm,nucleus	
+YKL189W	HYM1	tagged	visualized	cytoplasm,nucleus	
+YGL011C	SCL1	tagged	visualized	cytoplasm,nucleus	
+YPL089C	RLM1	tagged	visualized	cytoplasm,nucleus	
+YGR267C	FOL2	tagged	visualized	cytoplasm,nucleus	
+YDR140W	FYV9	tagged	visualized	cytoplasm,nucleus	
+YLR043C	TRX1	tagged	visualized	cytoplasm,nucleus	
+YDR330W		tagged	visualized	cytoplasm,nucleus	
+YDR228C	PCF11	tagged	visualized	nucleus	
+YPL093W	NOG1	tagged	visualized	nucleus	
+YOR258W	HNT3	tagged	visualized	cytoplasm,nucleus	
+YOR323C	PRO2	tagged	visualized	cytoplasm,nucleus	
+YNL133C	FYV6	tagged	visualized	nucleus	
+YOR025W	HST3	tagged	visualized	nucleus	
+YJR135C	MCM22	tagged	visualized	nucleus,spindle pole	
+YGL238W	CSE1	tagged	visualized	cytoplasm,nucleus	
+YPR182W	SMX3	tagged	visualized	nucleus	
+YPL219W	PCL8	tagged	visualized	cytoplasm,nucleus	
+YLR373C	VID22	tagged	visualized	nucleus	
+YBL097W	BRN1	tagged	visualized	nucleus	
+YOR074C	CDC21	tagged	visualized	cytoplasm,nucleus	
+YBR150C	TBS1	tagged	visualized	cytoplasm,nucleus	
+YDL003W	MCD1	tagged	visualized	cytoplasm,nucleus	
+YBR105C	VID24	tagged	visualized	cytoplasm,nucleus	
+YHR178W	STB5	tagged	visualized	cytoplasm,nucleus	
+YDR226W	ADK1	tagged	visualized	cytoplasm,nucleus	
+YCR053W	THR4	tagged	visualized	cytoplasm,nucleus	
+YLR135W	SLX4	tagged	visualized	cytoplasm,nucleus	
+YJR089W	BIR1	tagged	visualized	nucleus,spindle pole,microtubule	
+YDL064W	UBC9	tagged	visualized	cytoplasm,nucleus	
+YLR270W	DCS1	tagged	visualized	cytoplasm,nucleus	
+YJL146W	IDS2	tagged	visualized	cytoplasm,nucleus	
+YDL005C	MED2	tagged	visualized	nucleus	
+YNL261W	ORC5	tagged	visualized	nucleus	
+YPR016C	TIF6	tagged	visualized	nucleolus,nucleus	
+YDL135C	RDI1	tagged	visualized	cytoplasm,nucleus	
+YBR223C	TDP1	tagged	visualized	cytoplasm,nucleus	
+YBL074C	AAR2	tagged	visualized	cytoplasm,nucleus	
+YBR009C	HHF1	tagged	visualized	nucleus	
+YPL138C	SPP1	tagged	visualized	nucleus	
+YDR096W	GIS1	tagged	visualized	nucleus	
+YBR151W	APD1	tagged	visualized	cytoplasm,nucleus	
+YEL025C	SRI1	tagged	visualized	cytoplasm,nucleus	
+YGL254W	FZF1	tagged	visualized	cytoplasm,nucleus	
+YPR019W	CDC54	tagged	visualized	cytoplasm,nucleus	
+YGR104C	SRB5	tagged	visualized	nucleus	
+YJL122W		tagged	visualized	nucleus	
+YBR242W		tagged	visualized	cytoplasm,nucleus	
+YJL115W	ASF1	tagged	visualized	nucleus	
+YLR144C	ACF2	tagged	visualized	cytoplasm,nucleus	
+YOL006C	TOP1	tagged	visualized	nucleolus,nucleus	
+YGL067W	NPY1	tagged	visualized	cytoplasm,nucleus	
+YBR082C	UBC4	tagged	visualized	cytoplasm,nucleus	
+YLR354C	TAL1	tagged	visualized	nucleus	
+YDR404C	RPB7	tagged	visualized	nucleus	
+YBL002W	HTB2	tagged	visualized	nucleus	
+YDR533C		tagged	visualized	cytoplasm,nucleus	
+YJL081C	ARP4	tagged	visualized	nucleus	
+YMR258C		tagged	visualized	cytoplasm,nucleus	
+YLR453C	RIF2	tagged	visualized	cytoplasm,nucleus	
+YER095W	RAD51	tagged	visualized	cytoplasm,nucleus	
+YBR244W	GPX2	tagged	visualized	cytoplasm,nucleus	
+YGL201C	MCM6	tagged	visualized	cytoplasm,nucleus	
+YJR067C	YAE1	tagged	visualized	cytoplasm,nucleus	
+YNL064C	YDJ1	tagged	visualized	cytoplasm,nucleus	
+YIL083C		tagged	visualized	cytoplasm,nucleus	
+YJL176C	SWI3	tagged	visualized	nucleus	
+YOR116C	RPO31	tagged	visualized	nucleus	
+YIL053W	RHR2	tagged	visualized	ambiguous,cytoplasm,nucleus	
+YJL140W	RPB4	tagged	visualized	nucleus	
+YLR424W		tagged	visualized	cytoplasm,nucleus	
+YLR044C	PDC1	tagged	visualized	ambiguous,cytoplasm,nucleus	
+YLR327C		tagged	visualized	cytoplasm,nucleus	
+YMR277W	FCP1	tagged	visualized	nucleus	
+YMR190C	SGS1	tagged	visualized	cytoplasm,nucleus	
+YDR054C	CDC34	tagged	visualized	cytoplasm,nucleus	
+YFR010W	UBP6	tagged	visualized	cytoplasm,nucleus	
+YGL070C	RPB9	tagged	visualized	nucleus	
+YOR095C	RKI1	tagged	visualized	cytoplasm,nucleus	
+YFR013W	IOC3	tagged	visualized	nucleus	
+YFL017W-A	SMX2	tagged	visualized	nucleus	
+YIR012W	SQT1	tagged	visualized	cytoplasm,nucleus	
+YDL020C	RPN4	tagged	visualized	cytoplasm,nucleus	
+YNL312W	RFA2	tagged	visualized	nucleus	
+YKL210W	UBA1	tagged	visualized	cytoplasm,nucleus	
+YER161C	SPT2	tagged	visualized	nucleus	
+YDL129W		tagged	visualized	cytoplasm,nucleus	
+YBR167C	POP7	tagged	visualized	nucleus	
+YPR169W	JIP5	tagged	visualized	nucleolus,nucleus	
+YLL002W	RTT109	tagged	visualized	nucleus	
+YOR026W	BUB3	tagged	visualized	cytoplasm,nucleus	
+YMR291W		tagged	visualized	cytoplasm,nucleus	
+YER172C	BRR2	tagged	visualized	cytoplasm,nucleus	
+YFL010C	WWM1	tagged	visualized	cytoplasm,nucleus	
+YNL221C	POP1	tagged	visualized	cytoplasm,nucleus	
+YER110C	KAP123	tagged	visualized	cytoplasm,nucleus	
+YOL010W	RCL1	tagged	visualized	nucleolus,nucleus	
+YGR269W		tagged	visualized	cytoplasm,nucleus	
+YML001W	YPT7	tagged	visualized	cytoplasm,nucleus	
+YLR420W	URA4	tagged	visualized	cytoplasm,nucleus	
+YPL211W	NIP7	tagged	visualized	nucleolus,nucleus	
+YML112W	CTK3	tagged	visualized	cytoplasm,nucleus	
+YKL028W	TFA1	tagged	visualized	nucleus	
+YNL097C	PHO23	tagged	visualized	nucleus	
+YLR129W	DIP2	tagged	visualized	cytoplasm,nucleus	
+YPL245W		tagged	visualized	cytoplasm,nucleus	
+YJL074C	SMC3	tagged	visualized	nucleus	
+YML032C	RAD52	tagged	visualized	nucleus	
+YDL043C	PRP11	tagged	visualized	nucleus	
+YPL178W	CBC2	tagged	visualized	nucleus	
+YDR165W	TRM82	tagged	visualized	nucleus	
+YGR126W		tagged	visualized	cytoplasm,nucleus	
+YNR034W	SOL1	tagged	visualized	cytoplasm,nucleus	
+YGR180C	RNR4	tagged	visualized	cytoplasm,nucleus	
+YHR040W	BCD1	tagged	visualized	cytoplasm,nucleus	
+YDL144C		tagged	visualized	cytoplasm,nucleus	
+YKL139W	CTK1	tagged	visualized	cytoplasm,nucleus	
+YDR073W	SNF11	tagged	visualized	nucleus	
+YNL042W	BOP3	tagged	visualized	cytoplasm,nucleus	
+YBR215W	HPC2	tagged	visualized	nucleus	
+YHR074W	QNS1	tagged	visualized	cytoplasm,nucleus	
+YJL169W		tagged	visualized	cytoplasm,nucleus	
+YNL007C	SIS1	tagged	visualized	cytoplasm,nucleus	
+YMR001C	CDC5	tagged	visualized	bud neck,nucleus	
+YDR510W	SMT3	tagged	visualized	cytoplasm,nucleus	
+YNL061W	NOP2	tagged	visualized	nucleolus,nucleus	
+YDR372C	VPS74	tagged	visualized	cytoplasm,nucleus	
+YER156C		tagged	visualized	cytoplasm,nucleus	
+YPR144C	NOC4	tagged	visualized	nucleus	
+YOR217W	RFC1	tagged	visualized	nucleus	
+YAL015C	NTG1	tagged	visualized	cytoplasm,nucleus	
+YMR276W	DSK2	tagged	visualized	cytoplasm,nucleus	
+YPR052C	NHP6A	tagged	visualized	nucleus	
+YLR132C		tagged	visualized	cytoplasm,mitochondrion,nucleus	
+YFR031C	SMC2	tagged	visualized	cytoplasm,nucleus	
+YHR030C	SLT2	tagged	visualized	cytoplasm,nucleus	
+YGL112C	TAF6	tagged	visualized	nucleus	
+YDR363W-A	SEM1	tagged	visualized	nucleus	
+YMR178W		tagged	visualized	cytoplasm,nucleus	
+YLR409C	UTP21	tagged	visualized	nucleus	
+YBR107C	IML3	tagged	visualized	nucleus,spindle pole	
+YJR130C	STR2	tagged	visualized	cytoplasm,nucleus	
+YGL091C	NBP35	tagged	visualized	cytoplasm,nucleus	
+YJR070C		tagged	visualized	cytoplasm,nucleus	
+YBR046C	ZTA1	tagged	visualized	cytoplasm,nucleus	
+YDL132W	CDC53	tagged	visualized	cytoplasm,nucleus	
+YMR199W	CLN1	tagged	visualized	cytoplasm,nucleus	
+YGL082W		tagged	visualized	cytoplasm,nucleus	
+YJL203W	PRP21	tagged	visualized	nucleus	
+YPL075W	GCR1	tagged	visualized	cytoplasm,nucleus	
+YDR310C	SUM1	tagged	visualized	nucleus	
+YOR131C		tagged	visualized	cytoplasm,nucleus	
+YBR279W	PAF1	tagged	visualized	nucleus	
+YPL208W		tagged	visualized	cytoplasm,nucleus	
+YML053C		tagged	visualized	cytoplasm,nucleus	
+YER028C	MIG3	tagged	visualized	cytoplasm,nucleus	
+YNL186W	UBP10	tagged	visualized	cytoplasm,nucleus	
+YML051W	GAL80	tagged	visualized	cytoplasm,nucleus	
+YLR106C	MDN1	tagged	visualized	cytoplasm,nucleus	
+YLR117C	CLF1	tagged	visualized	nucleus	
+YDR364C	CDC40	tagged	visualized	cytoplasm,nucleus	
+YJL065C		tagged	visualized	nucleus	
+YDL134C	PPH21	tagged	visualized	cytoplasm,nucleus	
+YGR248W	SOL4	tagged	visualized	cytoplasm,nucleus	
+YIR002C	MPH1	tagged	visualized	cytoplasm,nucleus	
+YMR311C	GLC8	tagged	visualized	cytoplasm,nucleus	
+YGR075C	PRP38	tagged	visualized	nucleus	
+YDL098C	SNU23	tagged	visualized	nucleus	
+YHR201C	PPX1	tagged	visualized	cytoplasm,nucleus	
+YJL143W	TIM17	tagged	visualized	cytoplasm,nucleus	
+YDR161W	TCI1	tagged	visualized	cytoplasm,nucleus	
+YGR203W		tagged	visualized	cytoplasm,nucleus	
+YBR119W	MUD1	tagged	visualized	nucleus	
+YDL170W	UGA3	tagged	visualized	nucleus	
+YPL111W	CAR1	tagged	visualized	cytoplasm,nucleus	
+YDR181C	SAS4	tagged	visualized	ambiguous,cytoplasm,nucleus	
+YOL067C	RTG1	tagged	visualized	cytoplasm,nucleus	
+YBR247C	ENP1	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YDR132C		tagged	visualized	cytoplasm,nucleus	
+YMR179W	SPT21	tagged	visualized	nucleus	
+YOR151C	RPB2	tagged	visualized	cytoplasm,nucleus	
+YIL020C	HIS6	tagged	visualized	cytoplasm,nucleus	
+YOL090W	MSH2	tagged	visualized	nucleus	
+YPR135W	CTF4	tagged	visualized	nucleus	
+YNL062C	GCD10	tagged	visualized	nucleus	
+YMR105C	PGM2	tagged	visualized	cytoplasm,nucleus	
+YBL029W		tagged	visualized	cytoplasm,nucleus	
+YOR179C		tagged	visualized	nucleus	
+YNL307C	MCK1	tagged	visualized	cytoplasm,nucleus	
+YIL046W	MET30	tagged	visualized	cytoplasm,nucleus	
+YBL028C		tagged	visualized	nucleolus,nucleus	
+YNL223W	AUT2	tagged	visualized	cytoplasm,nucleus	
+YIL033C	BCY1	tagged	visualized	cytoplasm,nucleus	
+YPR069C	SPE3	tagged	visualized	cytoplasm,nucleus	
+YNL141W	AAH1	tagged	visualized	cytoplasm,nucleus	
+YBR252W	DUT1	tagged	visualized	cytoplasm,nucleus	
+YGR007W	MUQ1	tagged	visualized	cytoplasm,nucleus	
+YDR257C	RMS1	tagged	visualized	nucleus	
+YBR034C	HMT1	tagged	visualized	cytoplasm,nucleus	
+YER169W	RPH1	tagged	visualized	nucleus	
+YCL016C	DCC1	tagged	visualized	nucleus	
+YPL055C	LGE1	tagged	visualized	nucleus	
+YGL163C	RAD54	tagged	visualized	cytoplasm,nucleus	
+YPL061W	ALD6	tagged	visualized	cytoplasm,nucleus	
+YLR265C	NEJ1	tagged	visualized	cytoplasm,nucleus	
+YLR298C	YHC1	tagged	visualized	nucleus	
+YER112W	LSM4	tagged	visualized	cytoplasm,nucleus	
+YJR035W	RAD26	tagged	visualized	cytoplasm,nucleus	
+YJR082C	EAF6	tagged	visualized	nucleus	
+YML098W	TAF13	tagged	visualized	cytoplasm,nucleus	
+YLR109W	AHP1	tagged	visualized	cytoplasm,nucleus	
+YMR318C	ADH6	tagged	visualized	cytoplasm,nucleus	
+YHR194W	MDM31	tagged	visualized	nucleus	
+YJL001W	PRE3	tagged	visualized	nucleus	
+YHR200W	RPN10	tagged	visualized	cytoplasm,nucleus	
+YIL021W	RPB3	tagged	visualized	nucleus	
+YLR052W	IES3	tagged	visualized	nucleus	
+YPR070W	MED1	tagged	visualized	nucleus	
+YOR346W	REV1	tagged	visualized	cytoplasm,nucleus	
+YDR443C	SSN2	tagged	visualized	cytoplasm,nucleus	
+YIL104C	SHQ1	tagged	visualized	nucleus	
+YGL040C	HEM2	tagged	visualized	cytoplasm,nucleus	
+YJR127C	ZMS1	tagged	visualized	nucleus	
+YDR461W	MFA1	tagged	visualized	cytoplasm,nucleus	
+YDL233W		tagged	visualized	cytoplasm,nucleus	
+YER063W	THO1	tagged	visualized	nucleus	
+YPR161C	SGV1	tagged	visualized	nucleus	
+YER167W	BCK2	tagged	visualized	cytoplasm,nucleus	
+YAL011W	SWC1	tagged	visualized	nucleus	
+YER013W	PRP22	tagged	visualized	cytoplasm,nucleus	
+YDL002C	NHP10	tagged	visualized	nucleus	
+YJR056C		tagged	visualized	cytoplasm,nucleus	
+YGL058W	RAD6	tagged	visualized	cytoplasm,nucleus	
+YDL021W	GPM2	tagged	visualized	cytoplasm,nucleus	
+YFL013C	IES1	tagged	visualized	nucleus	
+YBR236C	ABD1	tagged	visualized	nucleus	
+YER031C	YPT31	tagged	visualized	cytoplasm,nucleus	
+YER092W	IES5	tagged	visualized	nucleus	
+YDR184C	ATC1	tagged	visualized	cytoplasm,nucleus	
+YFR037C	RSC8	tagged	visualized	nucleus	
+YJR146W		tagged	visualized	cytoplasm,nucleus	
+YLR401C	DUS3	tagged	visualized	cytoplasm,nucleus	
+YGR010W	NMA2	tagged	visualized	cytoplasm,nucleus	
+YJL168C	SET2	tagged	visualized	nucleus	
+YAL027W		tagged	visualized	nucleus	
+YNL108C		tagged	visualized	cytoplasm,nucleus	
+YBR111C	YSA1	tagged	visualized	cytoplasm,nucleus	
+YLL022C	HIF1	tagged	visualized	nucleus	
+YHR197W	RIX1	tagged	visualized	nucleus	
+YIR023W	DAL81	tagged	visualized	nucleus	
+YCR033W	SNT1	tagged	visualized	nucleus	
+YGR008C	STF2	tagged	visualized	cytoplasm,nucleus	
+YPL024W	NCE4	tagged	visualized	cytoplasm,nucleus	
+YOL030W	GAS5	tagged	visualized	ER,nucleus	
+YER163C		tagged	visualized	cytoplasm,nucleus	
+YJR068W	RFC2	tagged	visualized	nucleus	
+YJR025C	BNA1	tagged	visualized	cytoplasm,nucleus	
+YNL155W		tagged	visualized	cytoplasm,nucleus	
+YML095C	RAD10	tagged	visualized	cytoplasm,nucleus	
+YPR178W	PRP4	tagged	visualized	cytoplasm,nucleus	
+YGL155W	CDC43	tagged	visualized	cytoplasm,nucleus	
+YHR047C	AAP1'	tagged	visualized	cytoplasm,nucleus	
+YIL153W	RRD1	tagged	visualized	cytoplasm,nucleus	
+YKL112W	ABF1	tagged	visualized	nucleus	
+YHR179W	OYE2	tagged	visualized	cytoplasm,nucleus	
+YPR172W		tagged	visualized	cytoplasm,nucleus	
+YBL019W	APN2	tagged	visualized	cytoplasm,nucleus	
+YKR074W		tagged	visualized	ambiguous,cytoplasm,nucleus	
+YDR097C	MSH6	tagged	visualized	nucleus	
+YGL166W	CUP2	tagged	visualized	cytoplasm,nucleus	
+YOR162C	YRR1	tagged	visualized	cytoplasm,nucleus	
+YOL077C	BRX1	tagged	visualized	nucleolus,nucleus	
+YOR191W	RIS1	tagged	visualized	nucleus	
+YDR305C	HNT2	tagged	visualized	cytoplasm,mitochondrion,nucleus	
+YER116C	SLX8	tagged	visualized	cytoplasm,nucleus	
+YNR024W		tagged	visualized	nucleus	
+YKR014C	YPT52	tagged	visualized	cytoplasm,nucleus	
+YGR192C	TDH3	tagged	visualized	cytoplasm,nucleus	
+YOR319W	HSH49	tagged	visualized	nucleus	
+YKR008W	RSC4	tagged	visualized	nucleus	
+YBR055C	PRP6	tagged	visualized	cytoplasm,nucleus	
+YEL044W	IES6	tagged	visualized	nucleus	
+YMR027W	HRT2	tagged	visualized	cytoplasm,nucleus	
+YOR052C		tagged	visualized	nucleus	
+YKL032C	IXR1	tagged	visualized	nucleus	
+YHR058C	MED6	tagged	visualized	cytoplasm,nucleus	
+YDR191W	HST4	tagged	visualized	cytoplasm,nucleus	
+YPR141C	KAR3	tagged	visualized	nucleus,spindle pole,microtubule	
+YDR427W	RPN9	tagged	visualized	nucleus	
+YDR059C	UBC5	tagged	visualized	cytoplasm,nucleus	
+YNL157W		tagged	visualized	cytoplasm,nucleus	
+YFR027W	ECO1	tagged	visualized	cytoplasm,nucleus	
+YOR213C	SAS5	tagged	visualized	cytoplasm,nucleus	
+YJR132W	NMD5	tagged	visualized	cytoplasm,nucleus	
+YGL130W	CEG1	tagged	visualized	cytoplasm,nucleus	
+YNL290W	RFC3	tagged	visualized	nucleus	
+YNL172W	APC1	tagged	visualized	cytoplasm,nucleus,spindle pole	
+YHR156C	LIN1	tagged	visualized	nucleus	
+YNL072W	RNH35	tagged	visualized	cytoplasm,nucleus	
+YDL188C	PPH22	tagged	visualized	cytoplasm,nucleus	
+YBR112C	CYC8	tagged	visualized	nucleus	
+YDL164C	CDC9	tagged	visualized	mitochondrion,nucleus	
+YER064C		tagged	visualized	nucleus	
+YPR017C	DSS4	tagged	visualized	cytoplasm,nucleus	
+YBR253W	SRB6	tagged	visualized	nucleus	
+YJL035C	TAD2	tagged	visualized	cytoplasm,nucleus	
+YER021W	RPN3	tagged	visualized	cytoplasm,nucleus	
+YPR118W		tagged	visualized	cytoplasm,nucleus	
+YPL014W		tagged	visualized	cytoplasm,nucleus	
+YDR087C	RRP1	tagged	visualized	nucleolus,nucleus	
+YFR001W	LOC1	tagged	visualized	nucleolus,nucleus	
+YDL139C	SCM3	tagged	visualized	cytoplasm,nucleus	
+YOR370C	MRS6	tagged	visualized	cytoplasm,nucleus	
+YKL074C	MUD2	tagged	visualized	cytoplasm,nucleus	
+YBR090C		tagged	visualized	cytoplasm,nucleus	
+YOR230W	WTM1	tagged	visualized	nucleus	
+YGL029W	CGR1	tagged	visualized	nucleus	
+YDL036C		tagged	visualized	cytoplasm,nucleus	
+YDR523C	SPS1	tagged	visualized	cytoplasm,nucleus	
+YOL094C	RFC4	tagged	visualized	nucleus	
+YLR094C	GIS3	tagged	visualized	cytoplasm,nucleus	
+YOR160W	MTR10	tagged	visualized	cytoplasm,nucleus	
+YGR129W	SYF2	tagged	visualized	nucleus	
+YBR156C	SLI15	tagged	visualized	nucleus,microtubule	
+YMR239C	RNT1	tagged	visualized	nucleolus,nucleus	
+YLR131C	ACE2	tagged	visualized	cytoplasm,nucleus,bud	
+YJL056C	ZAP1	tagged	visualized	cytoplasm,nucleus	
+YDR280W	RRP45	tagged	visualized	nucleolus,nucleus	
+YEL038W	UTR4	tagged	visualized	cytoplasm,nucleus	
+YNL230C	ELA1	tagged	visualized	nucleus	
+YNL218W	MGS1	tagged	visualized	cytoplasm,nucleus	
+YOR006C		tagged	visualized	cytoplasm,nucleus	
+YDR044W	HEM13	tagged	visualized	cytoplasm,nucleus	
+YPL117C	IDI1	tagged	visualized	cytoplasm,nucleus	
+YLR058C	SHM2	tagged	visualized	cytoplasm,nucleus	
+YGL227W	VID30	tagged	visualized	cytoplasm,nucleus	
+YER164W	CHD1	tagged	visualized	nucleus	
+YJR096W		tagged	visualized	cytoplasm,nucleus	
+YGL111W	NSA1	tagged	visualized	nucleolus,nucleus	
+YCL026C-A	FRM2	tagged	visualized	cytoplasm,nucleus	
+YIR011C	STS1	tagged	visualized	cytoplasm,nucleus	
+YGR081C		tagged	visualized	nucleolus,nucleus	
+YBR275C	RIF1	tagged	visualized	nucleus	
+YPL212C	PUS1	tagged	visualized	nucleus	
+YHR043C	DOG2	tagged	visualized	cytoplasm,nucleus	
+YMR049C	ERB1	tagged	visualized	nucleolus,nucleus	
+YLR275W	SMD2	tagged	visualized	nucleus	
+YHR034C		tagged	visualized	cytoplasm,nucleus	
+YDL126C	CDC48	tagged	visualized	cytoplasm,nucleus	
+YDL182W	LYS20	tagged	visualized	nucleus	
+YML127W	RSC9	tagged	visualized	nucleus	
+YJR049C	UTR1	tagged	visualized	cytoplasm,nucleus	
+YHR027C	RPN1	tagged	visualized	cytoplasm,nucleus	
+YGR253C	PUP2	tagged	visualized	cytoplasm,nucleus	
+YIL019W		tagged	visualized	cytoplasm,nucleus	
+YDR469W	SDC1	tagged	visualized	nucleus	
+YPR046W	MCM16	tagged	visualized	nucleus	
+YBR103W	SIF2	tagged	visualized	nucleus	
+YML082W		tagged	visualized	cytoplasm,nucleus	
+YLL034C		tagged	visualized	nucleolus,nucleus	
+YHR049W	FSH1	tagged	visualized	cytoplasm,nucleus	
+YDR399W	HPT1	tagged	visualized	cytoplasm,nucleus	
+YPL161C	BEM4	tagged	visualized	cytoplasm,nucleus	
+YKL049C	CSE4	tagged	visualized	nucleus,spindle pole	
+YHR137W	ARO9	tagged	visualized	cytoplasm,nucleus	
+YPL139C	UME1	tagged	visualized	cytoplasm,nucleus	
+YAL009W	SPO7	tagged	visualized	nucleus	
+YOR261C	RPN8	tagged	visualized	cytoplasm,nucleus	
+YOR363C	PIP2	tagged	visualized	cytoplasm,nucleus	
+YOR243C	PUS7	tagged	visualized	nucleus	
+YEL011W	GLC3	tagged	visualized	cytoplasm,nucleus,punctate composite	
+YDR099W	BMH2	tagged	visualized	cytoplasm,nucleus	
+YPL194W	DDC1	tagged	visualized	cytoplasm,nucleus	
+YIL008W	URM1	tagged	visualized	cytoplasm,nucleus	
+YDR312W	SSF2	tagged	visualized	nucleolus,nucleus	
+YHR207C	SET5	tagged	visualized	cytoplasm,nucleus	
+YHR031C	RRM3	tagged	visualized	cytoplasm,nucleus	
+YFR046C		tagged	visualized	nucleus	
+YHR104W	GRE3	tagged	visualized	cytoplasm,nucleus	
+YLR245C	CDD1	tagged	visualized	cytoplasm,nucleus	
+YML126C	ERG13	tagged	visualized	nucleus	
+YLR017W	MEU1	tagged	visualized	cytoplasm,nucleus	
+YMR131C	RRB1	tagged	visualized	nucleolus,nucleus	
+YGL090W	LIF1	tagged	visualized	cytoplasm,nucleus	
+YLR375W	STP3	tagged	visualized	nucleus	
+YBR194W	SOY1	tagged	visualized	nucleus	
+YKR022C		tagged	visualized	ER,cytoplasm,nucleus	
+YPR175W	DPB2	tagged	visualized	cytoplasm,nucleus	
+YOL115W	TRF4	tagged	visualized	nucleus	
+YPL190C	NAB3	tagged	visualized	nucleus	
+YOR206W	NOC2	tagged	visualized	nucleolus,nucleus	
+YGL209W	MIG2	tagged	visualized	nucleus	
+YPR190C	RPC82	tagged	visualized	cytoplasm,nucleus	
+YMR104C	YPK2	tagged	visualized	cytoplasm,nucleus	
+YLR082C	SRL2	tagged	visualized	cytoplasm,nucleus	
+YBL052C	SAS3	tagged	visualized	nucleus	
+YHR086W	NAM8	tagged	visualized	cytoplasm,nucleus	
+YDR392W	SPT3	tagged	visualized	nucleus	
+YJR043C	POL32	tagged	visualized	cytoplasm,nucleus	
+YBR030W		tagged	visualized	nucleus	
+YIL119C	RPI1	tagged	visualized	cytoplasm,nucleus	
+YFR047C	BNA6	tagged	visualized	cytoplasm,nucleus	
+YGR209C	TRX2	tagged	visualized	cytoplasm,nucleus	
+YBR281C		tagged	visualized	cytoplasm,nucleus	
+YHR084W	STE12	tagged	visualized	nucleus	
+YBL023C	MCM2	tagged	visualized	cytoplasm,nucleus	
+YLR055C	SPT8	tagged	visualized	nucleus	
+YKR024C	DBP7	tagged	visualized	nucleolus,nucleus	
+YGL240W	DOC1	tagged	visualized	cytoplasm,nucleus	
+YPL127C	HHO1	tagged	visualized	nucleus	
+YCL055W	KAR4	tagged	visualized	cytoplasm,nucleus	
+YPR031W	NTO1	tagged	visualized	cytoplasm,nucleus	
+YDR473C	PRP3	tagged	visualized	nucleus	
+YDR391C		tagged	visualized	cytoplasm,nucleus	
+YMR182C	RGM1	tagged	visualized	nucleus	
+YBR085C-A		tagged	visualized	cytoplasm,nucleus	
+YNR046W		tagged	visualized	cytoplasm,nucleus	
+YBR058C	UBP14	tagged	visualized	cytoplasm,nucleus	
+YBR231C	AOR1	tagged	visualized	nucleus	
+YML124C	TUB3	tagged	visualized	cytoplasm,nucleus,spindle pole	
+YJL013C	MAD3	tagged	visualized	cytoplasm,nucleus	
+YDR076W	RAD55	tagged	visualized	cytoplasm,nucleus	
+YGL009C	LEU1	tagged	visualized	cytoplasm,nucleus	
+YNL124W	NAF1	tagged	visualized	nucleus	
+YOL143C	RIB4	tagged	visualized	cytoplasm,nucleus	
+YDR416W	SYF1	tagged	visualized	nucleus	
+YCR020W-B	HTL1	tagged	visualized	nucleus	
+YBR081C	SPT7	tagged	visualized	nucleus	
+YKL164C	PIR1	tagged	visualized	cytoplasm,nucleus	
+YMR043W	MCM1	tagged	visualized	nucleus	
+YKL125W	RRN3	tagged	visualized	nucleolus,nucleus	
+YBL084C	CDC27	tagged	visualized	cytoplasm,nucleus	
+YCR092C	MSH3	tagged	visualized	cytoplasm,nucleus	
+YDL156W		tagged	visualized	cytoplasm,nucleus	
+YKL149C	DBR1	tagged	visualized	cytoplasm,nucleus	
+YNR012W	URK1	tagged	visualized	cytoplasm,nucleus	
+YDL087C	LUC7	tagged	visualized	nucleus	
+YNL015W	PBI2	tagged	visualized	cytoplasm,nucleus	
+YDR173C	ARG82	tagged	visualized	cytoplasm,nucleus	
+YGR186W	TFG1	tagged	visualized	nucleus	
+YDR243C	PRP28	tagged	visualized	cytoplasm,nucleus	
+YNL216W	RAP1	tagged	visualized	nucleus	
+YGR063C	SPT4	tagged	visualized	nucleus	
+YGL250W		tagged	visualized	cytoplasm,nucleus	
+YKR079C		tagged	visualized	cytoplasm,nucleus	
+YKR075C		tagged	visualized	cytoplasm,nucleus	
+YHR069C	RRP4	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YOR386W	PHR1	tagged	visualized	cytoplasm,nucleus	
+YKR060W	UTP30	tagged	visualized	nucleolus,nucleus	
+YPL082C	MOT1	tagged	visualized	nucleus	
+YOR224C	RPB8	tagged	visualized	nucleus	
+YBR158W	AMN1	tagged	visualized	cytoplasm,nucleus	
+YCL039W	GID7	tagged	visualized	cytoplasm,nucleus	
+YER029C	SMB1	tagged	visualized	nucleus	
+YHR169W	DBP8	tagged	visualized	nucleolus,nucleus	
+YDR021W	FAL1	tagged	visualized	nucleolus,nucleus	
+YOR038C	HIR2	tagged	visualized	nucleus	
+YPL011C	TAF3	tagged	visualized	nucleus	
+YOR274W	MOD5	tagged	visualized	cytoplasm,nucleus	
+YEL046C	GLY1	tagged	visualized	cytoplasm,nucleus	
+YDR514C		tagged	visualized	mitochondrion,nucleus	
+YLR403W	SFP1	tagged	visualized	cytoplasm,nucleus	
+YOR089C	VPS21	tagged	visualized	cytoplasm,nucleus	
+YKL038W	RGT1	tagged	visualized	cytoplasm,nucleus	
+YBR197C		tagged	visualized	cytoplasm,nucleus	
+YNL273W	TOF1	tagged	visualized	nucleus	
+YOR117W	RPT5	tagged	visualized	nucleus	
+YMR170C	ALD2	tagged	visualized	cytoplasm,nucleus	
+YIR018W	YAP5	tagged	visualized	cytoplasm,nucleus	
+YML106W	URA5	tagged	visualized	cytoplasm,nucleus	
+YML079W		tagged	visualized	cytoplasm,nucleus	
+YER049W		tagged	visualized	nucleus	
+YDL111C	RRP42	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YJL173C	RFA3	tagged	visualized	nucleus	
+YPL213W	LEA1	tagged	visualized	nucleus	
+YJL162C		tagged	visualized	cytoplasm,nucleus	
+YPR107C	YTH1	tagged	visualized	nucleus	
+YFR052W	RPN12	tagged	visualized	nucleus	
+YBL093C	ROX3	tagged	visualized	nucleus	
+YMR047C	NUP116	tagged	visualized	cytoplasm,nucleus	
+YGR204W	ADE3	tagged	visualized	cytoplasm,nucleus	
+YLR228C	ECM22	tagged	visualized	cytoplasm,nucleus	
+YKL173W	SNU114	tagged	visualized	nucleus	
+YPL008W	CHL1	tagged	visualized	cytoplasm,nucleus	
+YDL197C	ASF2	tagged	visualized	nucleus	
+YNL143C		tagged	visualized	cytoplasm,nucleus	
+YCL031C	RRP7	tagged	visualized	nucleolus,nucleus	
+YOR229W	WTM2	tagged	visualized	nucleus	
+YIL075C	RPN2	tagged	visualized	cytoplasm,nucleus	
+YOR252W		tagged	visualized	nucleus	
+YKL043W	PHD1	tagged	visualized	nucleus	
+YIL145C	PAN6	tagged	visualized	cytoplasm,nucleus	
+YOR061W	CKA2	tagged	visualized	cytoplasm,nucleus	
+YFL017C	GNA1	tagged	visualized	cytoplasm,nucleus	
+YDR487C	RIB3	tagged	visualized	cytoplasm,nucleus	
+YDL201W	TRM8	tagged	visualized	nucleus	
+YGL232W		tagged	visualized	cytoplasm,nucleus	
+YPL028W	ERG10	tagged	visualized	nucleus	
+YBL024W	NCL1	tagged	visualized	nucleus	
+YDL108W	KIN28	tagged	visualized	nucleus	
+YGR095C	RRP46	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YPL146C		tagged	visualized	nucleus	
+YBL035C	POL12	tagged	visualized	nucleus	
+YFL049W		tagged	visualized	nucleus	
+YDR101C	ARX1	tagged	visualized	nucleus	
+YIR034C	LYS1	tagged	visualized	cytoplasm,nucleus	
+YBR170C	NPL4	tagged	visualized	cytoplasm,nucleus	
+YPL022W	RAD1	tagged	visualized	nucleus	
+YKR002W	PAP1	tagged	visualized	nucleus	
+YHR163W	SOL3	tagged	visualized	cytoplasm,nucleus	
+YGL141W	HUL5	tagged	visualized	cytoplasm,nucleus	
+YAL019W	FUN30	tagged	visualized	nucleus	
+YDL074C	BRE1	tagged	visualized	nucleus	
+YOL001W	PHO80	tagged	visualized	cytoplasm,nucleus	
+YDR478W	SNM1	tagged	visualized	nucleus	
+YER030W		tagged	visualized	nucleus	
+YKL214C	YRA2	tagged	visualized	cytoplasm,nucleus	
+YJR147W	HMS2	tagged	visualized	cytoplasm,nucleus	
+YDL106C	PHO2	tagged	visualized	nucleus	
+YGR108W	CLB1	tagged	visualized	nucleus	
+YGR274C	TAF1	tagged	visualized	nucleus	
+YNL292W	PUS4	tagged	visualized	cytoplasm,nucleus	
+YPL064C	CWC27	tagged	visualized	cytoplasm,nucleus	
+YDR031W		tagged	visualized	cytoplasm,nucleus	
+YJL055W		tagged	visualized	cytoplasm,nucleus	
+YOL148C	SPT20	tagged	visualized	nucleus	
+YJR140C	HIR3	tagged	visualized	nucleus	
+YEL071W	DLD3	tagged	visualized	cytoplasm,nucleus	
+YER035W	EDC2	tagged	visualized	cytoplasm,nucleus	
+YOR144C	ELG1	tagged	visualized	cytoplasm,nucleus	
+YOL142W	RRP40	tagged	visualized	nucleolus,nucleus	
+YCR042C	TAF2	tagged	visualized	nucleus	
+YIL056W		tagged	visualized	cytoplasm,nucleus	
+YGL194C	HOS2	tagged	visualized	cytoplasm,nucleus	
+YLR438W	CAR2	tagged	visualized	cytoplasm,nucleus	
+YOR302W		tagged	visualized	cytoplasm,nucleus	
+YDR335W	MSN5	tagged	visualized	cytoplasm,nuclear periphery,nucleus	
+YDR448W	ADA2	tagged	visualized	nucleus	
+YDR079C-A		tagged	visualized	nucleus	
+YJR139C	HOM6	tagged	visualized	cytoplasm,nucleus	
+YLR179C		tagged	visualized	cytoplasm,nucleus	
+YPR154W	PIN3	tagged	visualized	cytoplasm,nucleus	
+YPR110C	RPC40	tagged	visualized	nucleolus,nucleus	
+YPL181W	CTI6	tagged	visualized	nucleus	
+YBR010W	HHT1	tagged	visualized	nucleus	
+YHR055C	CUP1-2	tagged	visualized	cytoplasm,nucleus	
+YDR301W	CFT1	tagged	visualized	nucleus	
+YML011C		tagged	visualized	nucleus	
+YGR211W	ZPR1	tagged	visualized	cytoplasm,nucleus	
+YOL054W	PSH1	tagged	visualized	nucleus	
+YNL136W		tagged	visualized	nucleus	
+YDR381W	YRA1	tagged	visualized	nucleus	
+YGL157W		tagged	visualized	cytoplasm,nucleus	
+YIL130W	GIN1	tagged	visualized	nucleus	
+YDL047W	SIT4	tagged	visualized	cytoplasm,nucleus	
+YDR308C	SRB7	tagged	visualized	nucleus	
+YPL256C	CLN2	tagged	visualized	cytoplasm,nucleus	
+YLR003C		tagged	visualized	nucleus	
+YGR098C	ESP1	tagged	visualized	cytoplasm,nucleus	
+YDL070W	BDF2	tagged	visualized	cytoplasm,nucleus	
+YFL002C	SPB4	tagged	visualized	nucleolus,nucleus	
+YPL038W	MET31	tagged	visualized	cytoplasm,nucleus	
+YCL061C	MRC1	tagged	visualized	nucleus	
+YOR023C	AHC1	tagged	visualized	cytoplasm,nucleus	
+YLR022C		tagged	visualized	cytoplasm,nucleus	
+YLR323C	CWC24	tagged	visualized	nucleus	
+YCR035C	RRP43	tagged	visualized	nucleolus,nucleus	
+YLR102C	APC9	tagged	visualized	cytoplasm,nucleus	
+YHR062C	RPP1	tagged	visualized	nucleus	
+YNL330C	RPD3	tagged	visualized	cytoplasm,nucleus	
+YDR253C	MET32	tagged	visualized	cytoplasm,nucleus	
+YDL085C-A		tagged	visualized	cytoplasm,nucleus	
+YDL103C	QRI1	tagged	visualized	cytoplasm,nucleus	
+YDR024W	FYV1	tagged	visualized	cytoplasm,nucleus	
+YDR130C	FIN1	tagged	visualized	cytoplasm,nucleus,spindle pole	
+YMR227C	TAF7	tagged	visualized	cytoplasm,nucleus	
+YBL103C	RTG3	tagged	visualized	cytoplasm,nucleus	
+YER171W	RAD3	tagged	visualized	cytoplasm,nucleus	
+YLR115W	CFT2	tagged	visualized	nucleus	
+YER022W	SRB4	tagged	visualized	nucleus	
+YDR421W	ARO80	tagged	visualized	nucleus	
+YGR270W	YTA7	tagged	visualized	nucleus	
+YGL207W	SPT16	tagged	visualized	nucleus	
+YJR048W	CYC1	tagged	visualized	cytoplasm,nucleus	
+YIL112W	HOS4	tagged	visualized	nucleus	
+YOL064C	MET22	tagged	visualized	cytoplasm,nucleus	
+YOL136C	PFK27	tagged	visualized	cytoplasm,nucleus	
+YIR017C	MET28	tagged	visualized	cytoplasm,nucleus	
+YNL251C	NRD1	tagged	visualized	nucleus	
+YAR003W	SWD1	tagged	visualized	nucleus	
+YHL025W	SNF6	tagged	visualized	nucleus	
+YOL151W	GRE2	tagged	visualized	cytoplasm,nucleus	
+YDR464W	SPP41	tagged	visualized	nucleus	
+YEL007W	TOS9	tagged	visualized	cytoplasm,nucleus	
+YAL043C	PTA1	tagged	visualized	nucleus	
+YDL076C	RXT3	tagged	visualized	nucleus	
+YER133W	GLC7	tagged	visualized	cytoplasm,nucleus,punctate composite	
+YPL012W	RRP12	tagged	visualized	cytoplasm,nucleus	
+YBR100W		tagged	visualized	cytoplasm,nucleus	
+YER059W	PCL6	tagged	visualized	cytoplasm,nucleus	
+YGR002C	GOD1	tagged	visualized	nucleus	
+YER006W	NUG1	tagged	visualized	nucleolus,nucleus	
+YER088C	DOT6	tagged	visualized	cytoplasm,nucleus	
+YNL025C	SSN8	tagged	visualized	nucleus	
+YLR234W	TOP3	tagged	visualized	cytoplasm,nucleus	
+YOL125W		tagged	visualized	cytoplasm,nucleus	
+YDR272W	GLO2	tagged	visualized	cytoplasm,nucleus	
+YGR091W	PRP31	tagged	visualized	cytoplasm,nucleus	
+YER038C	KRE29	tagged	visualized	cytoplasm,nucleus	
+YFR005C	SAD1	tagged	visualized	cytoplasm,nucleus	
+YOR101W	RAS1	tagged	visualized	cytoplasm,nucleus	
+YHR046C	INM1	tagged	visualized	cytoplasm,nucleus	
+YPL193W	RSA1	tagged	visualized	cytoplasm,nucleus	
+YER003C	PMI40	tagged	visualized	cytoplasm,nucleus	
+YNL059C	ARP5	tagged	visualized	cytoplasm,nucleus	
+YDL063C		tagged	visualized	cytoplasm,nucleus	
+YMR036C	MIH1	tagged	visualized	cytoplasm,nucleus	
+YOL145C	CTR9	tagged	visualized	nucleus	
+YLR449W	FPR4	tagged	visualized	nucleolus,nucleus	
+YMR310C		tagged	visualized	nucleus	
+YOR060C		tagged	visualized	nucleus,spindle pole	
+YML027W	YOX1	tagged	visualized	cytoplasm,nucleus	
+YKL006C-A	SFT1	tagged	visualized	cytoplasm,nucleus	
+YCR082W		tagged	visualized	cytoplasm,nucleus	
+YFL001W	DEG1	tagged	visualized	nucleus	
+YOR259C	RPT4	tagged	visualized	nucleus	
+YDL017W	CDC7	tagged	visualized	cytoplasm,nucleus	
+YDR052C	DBF4	tagged	visualized	cytoplasm,nucleus	
+YKL160W	ELF1	tagged	visualized	nucleus	
+YIL143C	SSL2	tagged	visualized	nucleus	
+YDR480W	DIG2	tagged	visualized	cytoplasm,nucleus	
+YKL213C	DOA1	tagged	visualized	cytoplasm,nucleus	
+YBR149W	ARA1	tagged	visualized	cytoplasm,nucleus	
+YMR288W	HSH155	tagged	visualized	cytoplasm,nucleus	
+YCR047C	BUD23	tagged	visualized	cytoplasm,nucleus	
+YPR119W	CLB2	tagged	visualized	ambiguous,nucleus	
+YPR179C	PLO1	tagged	visualized	nucleus	
+YMR167W	MLH1	tagged	visualized	cytoplasm,nucleus	
+YJL050W	MTR4	tagged	visualized	nucleolus,nucleus	
+YJL011C	RPC17	tagged	visualized	nucleus	
+YDL152W		tagged	visualized	nucleus	
+YGL019W	CKB1	tagged	visualized	cytoplasm,nucleus	
+YLR376C	PSY3	tagged	visualized	cytoplasm,nucleus	
+YER148W	SPT15	tagged	visualized	nucleus	
+YNL082W	PMS1	tagged	visualized	cytoplasm,nucleus	
+YEL009C	GCN4	tagged	visualized	cytoplasm,nucleus	
+YER147C	SCC4	tagged	visualized	cytoplasm,nucleus	
+YGL087C	MMS2	tagged	visualized	cytoplasm,nucleus	
+YDL227C	HO	tagged	visualized	nucleus	
+YLR178C	TFS1	tagged	visualized	cytoplasm,nucleus	
+YNL236W	SIN4	tagged	visualized	nucleus	
+YGR074W	SMD1	tagged	visualized	nucleus	
+YLR033W	RSC58	tagged	visualized	nucleus	
+YDR120C	TRM1	tagged	visualized	nuclear periphery,nucleus	
+YNL309W	STB1	tagged	visualized	cytoplasm,nucleus	
+YOR163W	DDP1	tagged	visualized	cytoplasm,nucleus	
+YGL101W		tagged	visualized	cytoplasm,nucleus	
+YGR093W		tagged	visualized	nucleus	
+YLR272C	YCS4	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YJL082W	IML2	tagged	visualized	cytoplasm,nucleus	
+YOR290C	SNF2	tagged	visualized	nucleus	
+YKL169C		tagged	visualized	cytoplasm,nucleus	
+YML081W		tagged	visualized	nucleus	
+YBL087C	RPL23A	tagged	visualized	nucleus	
+YGL150C	INO80	tagged	visualized	nucleus	
+YKR103W		tagged	visualized	cytoplasm,nucleus	
+YDR369C	XRS2	tagged	visualized	cytoplasm,nucleus	
+YLR016C		tagged	visualized	cytoplasm,nucleus	
+YDR190C	RVB1	tagged	visualized	nucleus	
+YLR098C	CHA4	tagged	visualized	cytoplasm,nucleus	
+YHR135C	YCK1	tagged	visualized	cytoplasm,nucleus	
+YDR311W	TFB1	tagged	visualized	nucleus	
+YBR289W	SNF5	tagged	visualized	nucleus	
+YKR099W	BAS1	tagged	visualized	nucleus	
+YAR007C	RFA1	tagged	visualized	nucleus	
+YLR035C	MLH2	tagged	visualized	cytoplasm,nucleus	
+YOR344C	TYE7	tagged	visualized	cytoplasm,nucleus	
+YPL129W	TAF14	tagged	visualized	nucleus	
+YDR368W	YPR1	tagged	visualized	cytoplasm,nucleus	
+YDR354W	TRP4	tagged	visualized	cytoplasm,nucleus	
+YCR059C	YIH1	tagged	visualized	cytoplasm,nucleus	
+YNL103W	MET4	tagged	visualized	nucleus	
+YBL005W	PDR3	tagged	visualized	cytoplasm,nucleus	
+YDR390C	UBA2	tagged	visualized	nucleus	
+YKR018C		tagged	visualized	cytoplasm,nucleus	
+YKL183W	LOT5	tagged	visualized	cytoplasm,nucleus	
+YNL010W		tagged	visualized	cytoplasm,nucleus	
+YER134C		tagged	visualized	cytoplasm,nucleus	
+YDR485C	VPS72	tagged	visualized	nucleus	
+YOR033C	EXO1	tagged	visualized	nucleus	
+YMR127C	SAS2	tagged	visualized	cytoplasm,nucleus	
+YBL056W	PTC3	tagged	visualized	cytoplasm,nucleus	
+YOR048C	RAT1	tagged	visualized	nucleus	
+YLR435W	TSR2	tagged	visualized	cytoplasm,nucleus	
+YOL080C	REX4	tagged	visualized	nucleolus,nucleus	
+YMR308C	PSE1	tagged	visualized	cytoplasm,nucleus	
+YGR233C	PHO81	tagged	visualized	cytoplasm,nucleus	
+YJL125C	GCD14	tagged	visualized	nucleus	
+YDL101C	DUN1	tagged	visualized	nucleus	
+YGL113W	SLD3	tagged	visualized	cytoplasm,nucleus	
+YDR035W	ARO3	tagged	visualized	cytoplasm,nucleus	
+YHR090C	YNG2	tagged	visualized	nucleus	
+YBR073W	RDH54	tagged	visualized	nucleus	
+YEL029C	BUD16	tagged	visualized	cytoplasm,nucleus	
+YGL073W	HSF1	tagged	visualized	nucleus	
+YNL102W	POL1	tagged	visualized	nucleus	
+YER142C	MAG1	tagged	visualized	cytoplasm,nucleus	
+YML007W	YAP1	tagged	visualized	cytoplasm,nucleus	
+YIL101C	XBP1	tagged	visualized	nucleus	
+YER104W	RTT105	tagged	visualized	cytoplasm,nucleus	
+YPR086W	SUA7	tagged	visualized	nucleus	
+YBR198C	TAF5	tagged	visualized	nucleus	
+YJR084W	CSN12	tagged	visualized	cytoplasm,nucleus	
+YIR005W	IST3	tagged	visualized	cytoplasm,nucleus	
+YLR421C	RPN13	tagged	visualized	cytoplasm,nucleus	
+YER159C	BUR6	tagged	visualized	nucleus	
+YOL034W	SMC5	tagged	visualized	cytoplasm,nucleus	
+YOL021C	DIS3	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YCL011C	GBP2	tagged	visualized	nucleus	
+YMR112C	MED11	tagged	visualized	nucleus	
+YDR240C	SNU56	tagged	visualized	nucleus	
+YLR183C	TOS4	tagged	visualized	cytoplasm,nucleus	
+YGL174W	BUD13	tagged	visualized	cytoplasm,nucleus	
+YAL033W	POP5	tagged	visualized	cytoplasm,nucleus	
+YKL067W	YNK1	tagged	visualized	cytoplasm,nucleus	
+YCL010C	SGF29	tagged	visualized	nucleus	
+YKL091C		tagged	visualized	cytoplasm,nucleus	
+YMR106C	YKU80	tagged	visualized	nucleus	
+YPR187W	RPO26	tagged	visualized	cytoplasm,nucleus	
+YBR049C	REB1	tagged	visualized	nucleus	
+YHR087W		tagged	visualized	cytoplasm,nucleus	
+YBR095C	RXT2	tagged	visualized	nucleus	
+YOR279C	RFM1	tagged	visualized	cytoplasm,nucleus	
+YHR009C		tagged	visualized	cytoplasm,nucleus	
+YOR362C	PRE10	tagged	visualized	cytoplasm,nucleus	
+YMR213W	CEF1	tagged	visualized	cytoplasm,nucleus	
+YOR315W		tagged	visualized	cytoplasm,nucleus	
+YPL016W	SWI1	tagged	visualized	nucleus	
+YBL036C		tagged	visualized	cytoplasm,nucleus	
+YLR182W	SWI6	tagged	visualized	nucleus	
+YHR152W	SPO12	tagged	visualized	nucleus	
+YDL209C	CWC2	tagged	visualized	nucleus	
+YDR361C	BCP1	tagged	visualized	cytoplasm,nucleus	
+YLR244C	MAP1	tagged	visualized	cytoplasm,nucleus	
+YPL151C	PRP46	tagged	visualized	cytoplasm,nucleus	
+YAL001C	TFC3	tagged	visualized	cytoplasm,nucleus	
+YNL281W	HCH1	tagged	visualized	cytoplasm,nucleus	
+YMR284W	YKU70	tagged	visualized	cytoplasm,nucleus	
+YPL128C	TBF1	tagged	visualized	nucleus	
+YGR040W	KSS1	tagged	visualized	cytoplasm,nucleus	
+YDR328C	SKP1	tagged	visualized	cytoplasm,nucleus	
+YDR279W	RNH202	tagged	visualized	nucleus	
+YDR020C		tagged	visualized	cytoplasm,nucleus	
+YIL017C	VID28	tagged	visualized	cytoplasm,nucleus	
+YMR061W	RNA14	tagged	visualized	nucleus	
+YMR201C	RAD14	tagged	visualized	cytoplasm,nucleus	
+YIL150C	MCM10	tagged	visualized	cytoplasm,nucleus	
+YBL008W	HIR1	tagged	visualized	cytoplasm,nucleus	
+YBR145W	ADH5	tagged	visualized	cytoplasm,nucleus	
+YMR172W	HOT1	tagged	visualized	nucleus	
+YDR353W	TRR1	tagged	visualized	cytoplasm,nucleus	
+YGL013C	PDR1	tagged	visualized	nucleus	
+YGR205W		tagged	visualized	cytoplasm,nucleus	
+YJR148W	BAT2	tagged	visualized	cytoplasm,nucleus	
+YDL220C	CDC13	tagged	visualized	cytoplasm,nucleus	
+YBR117C	TKL2	tagged	visualized	cytoplasm,nucleus	
+YFR036W	CDC26	tagged	visualized	nucleus	
+YJR008W		tagged	visualized	cytoplasm,nucleus	
+YGR044C	RME1	tagged	visualized	cytoplasm,nucleus	
+YDR432W	NPL3	tagged	visualized	nucleus	
+YHL009C	YAP3	tagged	visualized	cytoplasm,nucleus	
+YNL110C	NOP15	tagged	visualized	nucleolus,nucleus	
+YNL274C		tagged	visualized	cytoplasm,nucleus	
+YKR055W	RHO4	tagged	visualized	cytoplasm,nucleus	
+YPR040W	TIP41	tagged	visualized	cytoplasm,nucleus	
+YOL052C	SPE2	tagged	visualized	cytoplasm,nucleus	
+YPL049C	DIG1	tagged	visualized	nucleus	
+YNR032W	PPG1	tagged	visualized	cytoplasm,nucleus	
+YOR208W	PTP2	tagged	visualized	cytoplasm,nucleus	
+YNL134C		tagged	visualized	cytoplasm,nucleus	
+YGL175C	SAE2	tagged	visualized	cytoplasm,nucleus	
+YPR104C	FHL1	tagged	visualized	nucleus	
+YLR226W	BUR2	tagged	visualized	nucleus	
+YDR520C		tagged	visualized	cytoplasm,nucleus	
+YOL032W		tagged	visualized	cytoplasm,nucleus	
+YNL068C	FKH2	tagged	visualized	nucleus	
+YBR248C	HIS7	tagged	visualized	cytoplasm,nucleus	
+YGR140W	CBF2	tagged	visualized	nucleus,spindle pole,microtubule	
+YGR024C		tagged	visualized	cytoplasm,nucleus	
+YMR135C	GID8	tagged	visualized	cytoplasm,nucleus	
+YOL108C	INO4	tagged	visualized	cytoplasm,nucleus	
+YNL180C	RHO5	tagged	visualized	cytoplasm,nucleus	
+YMR315W		tagged	visualized	cytoplasm,nucleus	
+YNL107W	YAF9	tagged	visualized	cytoplasm,nucleus	
+YLR385C		tagged	visualized	nucleus	
+YKR011C	TOS5	tagged	visualized	nucleus	
+YGL246C	RAI1	tagged	visualized	nucleus	
+YDR334W	SWR1	tagged	visualized	nucleus	
+YGR188C	BUB1	tagged	visualized	nucleus,spindle pole,microtubule	
+YPR034W	ARP7	tagged	visualized	nucleus	
+YOR123C	LEO1	tagged	visualized	nucleus	
+YIL063C	YRB2	tagged	visualized	nucleus	
+YBL059C-A		tagged	visualized	cytoplasm,nucleus	
+YCL026C-B		tagged	visualized	cytoplasm,nucleus	
+YMR240C	CUS1	tagged	visualized	nucleus	
+YCR090C		tagged	visualized	cytoplasm,nucleus	
+YHR127W	HSN1	tagged	visualized	nucleus	
+YPR057W	BRR1	tagged	visualized	nucleus	
+YGR251W		tagged	visualized	nucleolus,nucleus	
+YPR060C	ARO7	tagged	visualized	cytoplasm,nucleus	
+YNL030W	HHF2	tagged	visualized	nucleus	
+YOL068C	HST1	tagged	visualized	cytoplasm,nucleus	
+YLR271W		tagged	visualized	cytoplasm,nucleus	
+YGL237C	HAP2	tagged	visualized	nucleus	
+YNL246W	VPS75	tagged	visualized	nucleus	
+YPL043W	NOP4	tagged	visualized	nucleolus,nucleus	
+YDR158W	HOM2	tagged	visualized	cytoplasm,nucleus	
+YKL117W	SBA1	tagged	visualized	cytoplasm,nucleus	
+YNL039W	BDP1	tagged	visualized	nucleus	
+YIL092W		tagged	visualized	cytoplasm,nucleus	
+YDL059C	RAD59	tagged	visualized	cytoplasm,nucleus	
+YIL132C	CSM2	tagged	visualized	cytoplasm,nucleus	
+YKL012W	PRP40	tagged	visualized	nucleus	
+YNR011C	PRP2	tagged	visualized	cytoplasm,nucleus	
+YFL006W		tagged	visualized	cytoplasm,nucleus	
+YGL184C	STR3	tagged	visualized	cytoplasm,nucleus	
+YDL105W	QRI2	tagged	visualized	nucleus	
+YJL092W	HPR5	tagged	visualized	nucleus	
+YJR104C	SOD1	tagged	visualized	ambiguous,cytoplasm,nucleus	
+YLR153C	ACS2	tagged	visualized	nucleus	
+YDR224C	HTB1	tagged	visualized	nucleus	
+YPR103W	PRE2	tagged	visualized	cytoplasm,nucleus	
+YDR063W		tagged	visualized	cytoplasm,nucleus	
+YLR301W		tagged	visualized	cytoplasm,nucleus	
+YDR138W	HPR1	tagged	visualized	nucleus	
+YML076C	WAR1	tagged	visualized	nucleus	
+YHL030W	ECM29	tagged	visualized	cytoplasm,nucleus	
+YKR043C		tagged	visualized	cytoplasm,nucleus	
+YGL066W	SGF73	tagged	visualized	nucleus	
+YER174C	GRX4	tagged	visualized	cytoplasm,nucleus	
+YBR066C	NRG2	tagged	visualized	cytoplasm,nucleus	
+YOR057W	SGT1	tagged	visualized	cytoplasm,nucleus,bud	
+YMR039C	SUB1	tagged	visualized	nucleus	
+YJR052W	RAD7	tagged	visualized	cytoplasm,nucleus	
+YGR258C	RAD2	tagged	visualized	cytoplasm,nucleus	
+YDR423C	CAD1	tagged	visualized	cytoplasm,nucleus	
+YDR005C	MAF1	tagged	visualized	cytoplasm,nucleus	
+YMR244C-A		tagged	visualized	cytoplasm,nucleus	
+YBR239C		tagged	visualized	cytoplasm,nucleus	
+YGR252W	GCN5	tagged	visualized	nucleus	
+YML114C	TAF8	tagged	visualized	nucleus	
+YDR047W	HEM12	tagged	visualized	cytoplasm,nucleus	
+YLR451W	LEU3	tagged	visualized	nucleus	
+YCR084C	TUP1	tagged	visualized	nucleus	
+YFL008W	SMC1	tagged	visualized	cytoplasm,nucleus	
+YDR440W	DOT1	tagged	visualized	cytoplasm,nucleus	
+YOR110W	TFC7	tagged	visualized	cytoplasm,nucleus	
+YEL018W	EAF5	tagged	visualized	nucleus	
+YLR108C		tagged	visualized	nucleus	
+YBR160W	CDC28	tagged	visualized	cytoplasm,nucleus	
+YJL127C	SPT10	tagged	visualized	cytoplasm,nucleus	
+YOR210W	RPB10	tagged	visualized	nucleolus,nucleus	
+YBR202W	CDC47	tagged	visualized	cytoplasm,nucleus	
+YOL134C		tagged	visualized	cytoplasm,nucleus	
+YOR293W	RPS10A	tagged	visualized	nucleolus,nucleus	
+YPR023C	EAF3	tagged	visualized	nucleus	
+YDR454C	GUK1	tagged	visualized	cytoplasm,nucleus	
+YBR083W	TEC1	tagged	visualized	cytoplasm,nucleus	
+YOR140W	SFL1	tagged	visualized	nucleus	
+YDL110C		tagged	visualized	cytoplasm,nucleus	
+YPR074C	TKL1	tagged	visualized	cytoplasm,nucleus	
+YGR037C	ACB1	tagged	visualized	cytoplasm,nucleus	
+YGR158C	MTR3	tagged	visualized	cytoplasm,nucleus	
+YDR540C		tagged	visualized	cytoplasm,nucleus	
+YNL286W	CUS2	tagged	visualized	nucleus	
+YJL197W	UBP12	tagged	visualized	cytoplasm,nucleus	
+YOR078W	BUD21	tagged	visualized	nucleolus,nucleus	
+YMR278W		tagged	visualized	cytoplasm,nucleus	
+YPL007C	TFC8	tagged	visualized	nucleus	
+YKR062W	TFA2	tagged	visualized	nucleus	
+YBR065C	ECM2	tagged	visualized	nucleus	
+YNL139C	RLR1	tagged	visualized	nucleus	
+YOR156C	NFI1	tagged	visualized	cytoplasm,nucleus	
+YNL215W	IES2	tagged	visualized	nucleus	
+YBL071W-A	KTI11	tagged	visualized	cytoplasm,nucleus	
+YMR125W	STO1	tagged	visualized	nucleus	
+YBL021C	HAP3	tagged	visualized	cytoplasm,nucleus	
+YOR014W	RTS1	tagged	visualized	cytoplasm,nucleus	
+YDR513W	TTR1	tagged	visualized	nucleus	
+YER089C	PTC2	tagged	visualized	cytoplasm,nucleus	
+YGR052W		tagged	visualized	cytoplasm,nucleus	
+YGL128C	CWC23	tagged	visualized	cytoplasm,nucleus	
+YOR122C	PFY1	tagged	visualized	cytoplasm,nucleus	
+YOR120W	GCY1	tagged	visualized	cytoplasm,nucleus	
+YGR090W	UTP22	tagged	visualized	nucleolus,nucleus	
+YGR208W	SER2	tagged	visualized	cytoplasm,nucleus	
+YDL102W	CDC2	tagged	visualized	nucleus	
+YML102W	CAC2	tagged	visualized	nucleus	
+YBL058W	SHP1	tagged	visualized	cytoplasm,nucleus	
+YEL055C	POL5	tagged	visualized	nucleolus,nucleus	
+YNL282W	POP3	tagged	visualized	nucleus	
+YDR123C	INO2	tagged	visualized	nucleus	
+YER042W	MXR1	tagged	visualized	cytoplasm,nucleus	
+YOL093W	TRM10	tagged	visualized	cytoplasm,nucleus	
+YLR127C	APC2	tagged	visualized	cytoplasm,nucleus	
+YMR121C	RPL15B	tagged	visualized	nucleolus,nucleus	
+YMR111C		tagged	visualized	nucleus	
+YDL097C	RPN6	tagged	visualized	cytoplasm,nucleus	
+YBR245C	ISW1	tagged	visualized	nucleus	
+YAL059W	ECM1	tagged	visualized	nucleus	
+YDR195W	REF2	tagged	visualized	nucleus	
+YOR189W	IES4	tagged	visualized	nucleus	
+YMR144W		tagged	visualized	nucleus	
+YPL254W	HFI1	tagged	visualized	nucleus	
+YLR011W	LOT6	tagged	visualized	cytoplasm,nucleus	
+YLR262C-A		tagged	visualized	cytoplasm,nucleus	
+YFL044C		tagged	visualized	cytoplasm,nucleus	
+YDR531W		tagged	visualized	cytoplasm,nucleus	
+YGL210W	YPT32	tagged	visualized	cytoplasm,nucleus	
+YNL317W	PFS2	tagged	visualized	nucleus	
+YMR224C	MRE11	tagged	visualized	cytoplasm,nucleus	
+YGR218W	CRM1	tagged	visualized	nucleus	
+YMR076C	PDS5	tagged	visualized	nucleus	
+YGR232W	NAS6	tagged	visualized	cytoplasm,nucleus	
+YCR012W	PGK1	tagged	visualized	cytoplasm,nucleus	
+YLR086W	SMC4	tagged	visualized	nucleus	
+YPR022C		tagged	visualized	cytoplasm,nucleus	
+YOR269W	PAC1	tagged	visualized	cytoplasm,nucleus	
+YOR172W	YRM1	tagged	visualized	cytoplasm,nucleus	
+YAR015W	ADE1	tagged	visualized	cytoplasm,nucleus	
+YHR118C	ORC6	tagged	visualized	cytoplasm,nucleus	
+YLR002C	NOC3	tagged	visualized	nucleolus,nucleus	
+YJR097W		tagged	visualized	cytoplasm,nucleus	
+YKL108W	SLD2	tagged	visualized	nucleus	
+YGL025C	PGD1	tagged	visualized	nucleus	
+YBL018C	POP8	tagged	visualized	nucleus	
+YHR121W		tagged	visualized	cytoplasm,nucleus	
+YCL034W	LSB5	tagged	visualized	cytoplasm,nucleus	
+YOR062C		tagged	visualized	cytoplasm,nucleus	
+YOR289W		tagged	visualized	cytoplasm,nucleus	
+YDR081C	PDC2	tagged	visualized	nucleus	
+YLR247C		tagged	visualized	nucleus	
+YLR277C	YSH1	tagged	visualized	nucleus	
+YNL021W	HDA1	tagged	visualized	nucleus	
+YOR197W	MCA1	tagged	visualized	cytoplasm,nucleus	
+YLR095C	IOC2	tagged	visualized	nucleus	
+YLR254C		tagged	visualized	cytoplasm,nucleus	
+YDR408C	ADE8	tagged	visualized	cytoplasm,nucleus	
+YIR009W	MSL1	tagged	visualized	cytoplasm,nucleus	
+YMR016C	SOK2	tagged	visualized	nucleus	
+YCL028W	RNQ1	tagged	visualized	cytoplasm,nucleus	
+YDL166C	FAP7	tagged	visualized	cytoplasm,nucleus	
+YOR001W	RRP6	tagged	visualized	nucleolus,nucleus	
+YMR044W	IOC4	tagged	visualized	nucleus	
+YKL009W	MRT4	tagged	visualized	nucleolus,nucleus	
+YLR430W	SEN1	tagged	visualized	nucleus	
+YDL115C	IWR1	tagged	visualized	cytoplasm,nucleus	
+YKL128C	PMU1	tagged	visualized	cytoplasm,nucleus	
+YJL047C	RTT101	tagged	visualized	cytoplasm,nucleus	
+YML099C	ARG81	tagged	visualized	cytoplasm,nucleus	
+YPL091W	GLR1	tagged	visualized	cytoplasm,mitochondrion,nucleus	
+YGL035C	MIG1	tagged	visualized	cytoplasm,nucleus	
+YGL127C	SOH1	tagged	visualized	nucleus	
+YNL088W	TOP2	tagged	visualized	nucleus	
+YDL084W	SUB2	tagged	visualized	nucleus	
+YDR291W		tagged	visualized	nucleus	
+YMR048W	CSM3	tagged	visualized	nucleus	
+YGR278W	CWC22	tagged	visualized	cytoplasm,nucleus	
+YIL026C	IRR1	tagged	visualized	nucleus	
+YDL175C	AIR2	tagged	visualized	nucleus	
+YPR051W	MAK3	tagged	visualized	cytoplasm,nucleus	
+YLR418C	CDC73	tagged	visualized	nucleus	
+YEL058W	PCM1	tagged	visualized	cytoplasm,nucleus	
+YOR064C	YNG1	tagged	visualized	nucleus	
+YBR195C	MSI1	tagged	visualized	cytoplasm,nucleus	
+YLR107W	REX3	tagged	visualized	cytoplasm,nucleus	
+YOR077W	RTS2	tagged	visualized	cytoplasm,nucleus	
+YPR143W		tagged	visualized	nucleolus,nucleus	
+YIL097W	FYV10	tagged	visualized	cytoplasm,nucleus	
+YOL012C	HTZ1	tagged	visualized	nucleus	
+YGL056C	SDS23	tagged	visualized	cytoplasm,nucleus	
+YDL051W	LHP1	tagged	visualized	nucleus	
+YJL052W	TDH1	tagged	visualized	cytoplasm,nucleus	
+YOR028C	CIN5	tagged	visualized	cytoplasm,nucleus	
+YDR295C	PLO2	tagged	visualized	nucleus	
+YDR034C	LYS14	tagged	visualized	cytoplasm,nucleus	
+YML093W	UTP14	tagged	visualized	nucleolus,nucleus	
+YIL079C	AIR1	tagged	visualized	cytoplasm,nucleus	
+YJL010C		tagged	visualized	nucleolus,nucleus	
+YOR141C	ARP8	tagged	visualized	nucleus	
+YLR328W	NMA1	tagged	visualized	cytoplasm,nucleus	
+YOR113W	AZF1	tagged	visualized	nucleus	
+YBL046W		tagged	visualized	nucleus	
+YPL125W	KAP120	tagged	visualized	cytoplasm,nucleus	
+YLR383W	RHC18	tagged	visualized	cytoplasm,nucleus	
+YDR004W	RAD57	tagged	visualized	cytoplasm,nucleus	
+YLR176C	RFX1	tagged	visualized	nucleus	
+YJR022W	LSM8	tagged	visualized	cytoplasm,nucleus	
+YDR103W	STE5	tagged	visualized	cytoplasm,nucleus	
+YGL046W		tagged	visualized	cytoplasm,nucleus	
+YMR009W		tagged	visualized	cytoplasm,nucleus	
+YKR063C	LAS1	tagged	visualized	nucleus	
+YDR177W	UBC1	tagged	visualized	cytoplasm,nucleus	
+YLR196W	PWP1	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YMR074C		tagged	visualized	cytoplasm,nucleus	
+YCL050C	APA1	tagged	visualized	cytoplasm,nucleus	
+YDR043C	NRG1	tagged	visualized	cytoplasm,nucleus	
+YJL090C	DPB11	tagged	visualized	cytoplasm,nucleus	
+YBR173C	UMP1	tagged	visualized	cytoplasm,nucleus	
+YDR014W	RAD61	tagged	visualized	nucleus	
+YMR093W	UTP15	tagged	visualized	nucleolus,nucleus	
+YER034W		tagged	visualized	cytoplasm,nucleus	
+YNL313C		tagged	visualized	cytoplasm,nucleus	
+YGR262C	BUD32	tagged	visualized	cytoplasm,nucleus	
+YGR048W	UFD1	tagged	visualized	cytoplasm,nucleus	
+YOR308C	SNU66	tagged	visualized	nucleus	
+YMR042W	ARG80	tagged	visualized	nucleus	
+YFR004W	RPN11	tagged	visualized	cytoplasm,nucleus	
+YHR085W	IPI1	tagged	visualized	nucleus	
+YCR063W	BUD31	tagged	visualized	nucleus	
+YPR045C		tagged	visualized	nucleus	
+YGR017W		tagged	visualized	cytoplasm,nucleus	
+YHR061C	GIC1	tagged	visualized	cytoplasm,nucleus	
+YDR362C	TFC6	tagged	visualized	nucleus	
+YDR145W	TAF12	tagged	visualized	nucleus	
+YAR014C	BUD14	tagged	visualized	cytoplasm,nucleus	
+YLR015W	BRE2	tagged	visualized	nucleus	
+YDR098C	GRX3	tagged	visualized	cytoplasm,nucleus	
+YDR050C	TPI1	tagged	visualized	cytoplasm,nucleus	
+YGR275W	RTT102	tagged	visualized	nucleus	
+YOR272W	YTM1	tagged	visualized	nucleolus,nucleus	
+YJR069C	HAM1	tagged	visualized	cytoplasm,nucleus	
+YPL047W		tagged	visualized	nucleus	
+YLL039C	UBI4	tagged	visualized	cytoplasm,nucleus	
+YJL006C	CTK2	tagged	visualized	nucleus	
+YPL177C	CUP9	tagged	visualized	cytoplasm,nucleus	
+YNR015W	SMM1	tagged	visualized	cytoplasm,nucleus	
+YGL244W	RTF1	tagged	visualized	nucleus	
+YHR165C	PRP8	tagged	visualized	cytoplasm,nucleus	
+YLR074C	BUD20	tagged	visualized	ER,nucleus	
+YKL086W		tagged	visualized	cytoplasm,nucleus	
+YOR209C	NPT1	tagged	visualized	cytoplasm,nucleus	
+YNL162W-A		tagged	visualized	cytoplasm,nucleus	
+YFL007W	BLM3	tagged	visualized	cytoplasm,nucleus	
+YIL036W	CST6	tagged	visualized	nucleus	
+YOR185C	GSP2	tagged	visualized	cytoplasm,nucleus	
+YKL024C	URA6	tagged	visualized	cytoplasm,nucleus	
+YGR135W	PRE9	tagged	visualized	cytoplasm,nucleus	
+YBR249C	ARO4	tagged	visualized	cytoplasm,nucleus	
+YOR138C		tagged	visualized	cytoplasm,nucleus	
+YMR070W	MOT3	tagged	visualized	nucleus	
+YIL126W	STH1	tagged	visualized	nucleus	
+YDR180W	SCC2	tagged	visualized	nucleus	
+YPL153C	RAD53	tagged	visualized	nucleus	
+YDR325W	YCG1	tagged	visualized	nucleolus,nucleus	
+YOL005C	RPB11	tagged	visualized	nucleus	
+YMR038C	LYS7	tagged	visualized	cytoplasm,nucleus	
+YLR090W	XDJ1	tagged	visualized	mitochondrion,nucleus	
+YCR060W		tagged	visualized	cytoplasm,nucleus	
+YNL004W	HRB1	tagged	visualized	nucleus	
+YPL273W	SAM4	tagged	visualized	cytoplasm,nucleus	
+YBL061C	SKT5	tagged	visualized	bud neck,cytoplasm,nucleus	
+YPR127W		tagged	visualized	cytoplasm,nucleus	
+YFR034C	PHO4	tagged	visualized	cytoplasm,nucleus	
+YMR002W		tagged	visualized	cytoplasm,nucleus	
+YNL123W		tagged	visualized	nucleus	
+YLR032W	RAD5	tagged	visualized	cytoplasm,nucleus	
+YJL157C	FAR1	tagged	visualized	nucleus	
+YMR220W	ERG8	tagged	visualized	cytoplasm,nucleus	
+YNL098C	RAS2	tagged	visualized	cytoplasm,nucleus	
+YNL022C		tagged	visualized	cytoplasm,nucleolus,nucleus	
+YHR052W	CIC1	tagged	visualized	nucleolus,nucleus	
+YMR314W	PRE5	tagged	visualized	cytoplasm,nucleus	
+YOR375C	GDH1	tagged	visualized	cytoplasm,nucleus	
+YGL125W	MET13	tagged	visualized	cytoplasm,nucleus	
+YLR085C	ARP6	tagged	visualized	cytoplasm,nucleus	
+YFR050C	PRE4	tagged	visualized	cytoplasm,nucleus	
+YOR107W	RGS2	tagged	visualized	cytoplasm,nucleus	
+YOR249C	APC5	tagged	visualized	nucleus	
+YKR081C	RPF2	tagged	visualized	nucleolus,nucleus	
+YEL037C	RAD23	tagged	visualized	cytoplasm,nucleus	
+YEL008W		tagged	visualized	cytoplasm,nucleus	
+YMR099C		tagged	visualized	cytoplasm,nucleus	
+YMR037C	MSN2	tagged	visualized	cytoplasm,nucleus	
+YCR051W		tagged	visualized	cytoplasm,nucleus	
+YDR167W	TAF10	tagged	visualized	nucleus	
+YPR056W	TFB4	tagged	visualized	nucleus	
+YDL030W	PRP9	tagged	visualized	nucleus	
+YNL167C	SKO1	tagged	visualized	cytoplasm,nucleus	
+YLR145W		tagged	visualized	cytoplasm,nucleus	
+YGL116W	CDC20	tagged	visualized	cytoplasm,nucleus	
+YNL090W	RHO2	tagged	visualized	cytoplasm,nucleus	
+YGL078C	DBP3	tagged	visualized	nucleolus,nucleus	
+YLR357W	RSC2	tagged	visualized	nucleus	
+YLR103C	CDC45	tagged	visualized	nucleus	
+YJL026W	RNR2	tagged	visualized	cytoplasm,nucleus	
+YMR078C	CTF18	tagged	visualized	cytoplasm,nucleus	
+YDR318W	MCM21	tagged	visualized	nucleus,spindle pole	
+YGL133W	ITC1	tagged	visualized	nucleus	
+YEL012W	UBC8	tagged	visualized	cytoplasm,nucleus	
+YDR235W	PRP42	tagged	visualized	nucleus	
+YFL045C	SEC53	tagged	visualized	cytoplasm,nucleus	
+YBL033C	RIB1	tagged	visualized	cytoplasm,nucleus	
+YPR186C	PZF1	tagged	visualized	cytoplasm,nucleus	
+YDL056W	MBP1	tagged	visualized	nucleus	
+YBL069W	AST1	tagged	visualized	cytoplasm,nucleus	
+YNL250W	RAD50	tagged	visualized	cytoplasm,nucleus	
+YBR135W	CKS1	tagged	visualized	cytoplasm,nucleus	
+YDL131W	LYS21	tagged	visualized	nucleus	
+YIL148W	RPL40A	tagged	visualized	cytoplasm,nucleus	
+YJR060W	CBF1	tagged	visualized	nucleus	
+YPL203W	TPK2	tagged	visualized	nucleus	
+YBR175W	SWD3	tagged	visualized	cytoplasm,nucleus	
+YDR075W	PPH3	tagged	visualized	cytoplasm,nucleus	
+YJR119C		tagged	visualized	cytoplasm,nucleus	
+YBR011C	IPP1	tagged	visualized	cytoplasm,nucleus	
+YNR038W	DBP6	tagged	visualized	nucleolus,nucleus	
+YOL089C	HAL9	tagged	visualized	cytoplasm,nucleus	
+YKR064W		tagged	visualized	cytoplasm,nucleus	
+YGR003W	CUL3	tagged	visualized	cytoplasm,nucleus	
+YKR029C	SET3	tagged	visualized	nucleus	
+YML046W	PRP39	tagged	visualized	nucleus	
+YJL194W	CDC6	tagged	visualized	cytoplasm,nucleus	
+YMR030W		tagged	visualized	cytoplasm,nucleus	
+YHR041C	SRB2	tagged	visualized	cytoplasm,nucleus	
+YKL021C	MAK11	tagged	visualized	nucleolus,nucleus	
+YDL141W	BPL1	tagged	visualized	cytoplasm,nucleus	
+YOR352W		tagged	visualized	cytoplasm,nucleus	
+YPR065W	ROX1	tagged	visualized	nucleus	
+YGL241W	KAP114	tagged	visualized	cytoplasm,nucleus	
+YER111C	SWI4	tagged	visualized	cytoplasm,nucleus	
+YBR060C	ORC2	tagged	visualized	cytoplasm,nucleus	
+YML062C	MFT1	tagged	visualized	nucleus	
+YDR451C	YHP1	tagged	visualized	nucleus	
+YPR168W	NUT2	tagged	visualized	cytoplasm,nucleus	
+YDR155C	CPR1	tagged	visualized	cytoplasm,nucleus	
+YHR154W	RTT107	tagged	visualized	nucleus	
+YOR372C	NDD1	tagged	visualized	cytoplasm,nucleus	
+YAL014C	SYN8	tagged	visualized	cytoplasm,nucleus	
+YBL003C	HTA2	tagged	visualized	nucleus	
+YNL154C	YCK2	tagged	visualized	cytoplasm,nucleus	
+YJR006W	HYS2	tagged	visualized	nucleus	
+YNR053C	NOG2	tagged	visualized	nucleus	
+YGR042W		tagged	visualized	cytoplasm,nucleus	
+YOR355W	GDS1	tagged	visualized	cytoplasm,nucleus	
+YDR395W	SXM1	tagged	visualized	cytoplasm,nucleus	
+YNL206C	RTT106	tagged	visualized	nucleus	
+YGR161C	RTS3	tagged	visualized	cytoplasm,nucleus	
+YNL262W	POL2	tagged	visualized	cytoplasm,nucleus	
+YGR272C		tagged	visualized	cytoplasm,nucleus	
+YEL019C	MMS21	tagged	visualized	cytoplasm,nucleus	
+YDR365C		tagged	visualized	nucleolus,nucleus	
+YGL048C	RPT6	tagged	visualized	nucleus	
+YOR244W	ESA1	tagged	visualized	nucleus	
+YDR412W		tagged	visualized	nucleolus,nucleus	
+YGR071C		tagged	visualized	nucleus	
+YNL135C	FPR1	tagged	visualized	cytoplasm,nucleus	
+YJL088W	ARG3	tagged	visualized	cytoplasm,nucleus	
+YER067W		tagged	visualized	cytoplasm,nucleus	
+YNL036W	NCE103	tagged	visualized	cytoplasm,nucleus	
+YDR499W	LCD1	tagged	visualized	cytoplasm,nucleus	
+YKL095W	YJU2	tagged	visualized	nucleus	
+YLR278C		tagged	visualized	nucleus	
+YML041C	VPS71	tagged	visualized	nucleus	
+YGR047C	TFC4	tagged	visualized	cytoplasm,nucleus	
+YDR207C	UME6	tagged	visualized	nucleus	
+YNR023W	SNF12	tagged	visualized	nucleus	
+YOL038W	PRE6	tagged	visualized	cytoplasm,nucleus	
+YBL001C	ECM15	tagged	visualized	cytoplasm,nucleus	
+YER117W	RPL23B	tagged	visualized	nucleus	
+YKR096W		tagged	visualized	cytoplasm,nucleus	
+YDL155W	CLB3	tagged	visualized	cytoplasm,nucleus	
+YKR080W	MTD1	tagged	visualized	cytoplasm,nucleus	
+YGL162W	SUT1	tagged	visualized	cytoplasm,nucleus	
+YBR152W	SPP381	tagged	visualized	nucleus	
+YFL031W	HAC1	tagged	visualized	cytoplasm,nucleus	
+YKL058W	TOA2	tagged	visualized	nucleus	
+YBL026W	LSM2	tagged	visualized	cytoplasm,nucleus	
+YKL053C-A	MDM35	tagged	visualized	cytoplasm,nucleus	
+YOR039W	CKB2	tagged	visualized	cytoplasm,nucleus	
+YGL026C	TRP5	tagged	visualized	cytoplasm,nucleus	
+YHR070W	TRM5	tagged	visualized	cytoplasm,nucleus	
+YBR142W	MAK5	tagged	visualized	nucleolus,nucleus	
+YMR233W	TRI1	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YNL232W	CSL4	tagged	visualized	cytoplasm,nucleolus,nucleus	
+YGR116W	SPT6	tagged	visualized	nucleus	
+YBR188C	NTC20	tagged	visualized	nucleus	
+YBL091C	MAP2	tagged	visualized	cytoplasm,nucleus	
+YMR263W	SAP30	tagged	visualized	nucleus	
+YLL036C	PRP19	tagged	visualized	nucleus	
+YNL035C		tagged	visualized	nucleus	
+YMR236W	TAF9	tagged	visualized	nucleus	
+YER152C		tagged	visualized	cytoplasm,nucleus	
+YKL022C	CDC16	tagged	visualized	nucleus	
+YML069W	POB3	tagged	visualized	nucleus	
+YJL190C	RPS22A	tagged	visualized	nucleolus,nucleus	
+YIL131C	FKH1	tagged	visualized	nucleus	
+YGR152C	RSR1	tagged	visualized	cytoplasm,nucleus	
+YIL084C	SDS3	tagged	visualized	nucleus	
+YOR275C	RIM20	tagged	visualized	cytoplasm,nucleus	
+YBL054W		tagged	visualized	cytoplasm,nucleus	
+YOL017W	ESC8	tagged	visualized	cytoplasm,nucleus	
+YDR118W	APC4	tagged	visualized	cytoplasm,nucleus	
+YML058W	SML1	tagged	visualized	cytoplasm,nucleus	
+YPR101W	SNT309	tagged	visualized	nucleus	
+YDR346C	SGI1	tagged	visualized	cytoplasm,nucleus	
+YMR208W	ERG12	tagged	visualized	cytoplasm,nucleus	
+YLR154C	RNH203	tagged	visualized	cytoplasm,nucleus	
+YDR083W	RRP8	tagged	visualized	nucleolus,nucleus	
+YIL061C	SNP1	tagged	visualized	cytoplasm,nucleus	
+YGR043C		tagged	visualized	nucleus	
+YOL057W		tagged	visualized	cytoplasm,nucleus	
+YJL121C	RPE1	tagged	visualized	cytoplasm,nucleus	
+YLR438C-A	LSM3	tagged	visualized	cytoplasm,nucleus	
+YPL247C		tagged	visualized	cytoplasm,nucleus	
+YMR268C	PRP24	tagged	visualized	cytoplasm,nucleus	
+YML004C	GLO1	tagged	visualized	cytoplasm,nucleus	
+YKL130C	SHE2	tagged	visualized	cytoplasm,nucleus	
+YFL021W	GAT1	tagged	visualized	cytoplasm,nucleus	
+YJL110C	GZF3	tagged	visualized	cytoplasm,nucleus	
+YHR195W	NVJ1	tagged	visualized	nucleus,spindle pole	
+YOL051W	GAL11	tagged	visualized	nucleus	
+YGR111W		tagged	visualized	cytoplasm,nucleus	
+YOL028C	YAP7	tagged	visualized	nucleus	
+YDR303C	RSC3	tagged	visualized	nucleus	
+YNL175C	NOP13	tagged	visualized	nucleolus,nucleus	
+YHR132W-A		tagged	visualized	cytoplasm,nucleus	
+YNR010W	CSE2	tagged	visualized	nucleus	
+YNL077W	APJ1	tagged	visualized	cytoplasm,nucleus	
+YPL260W		tagged	visualized	cytoplasm,nucleus	
+YLR316C	TAD3	tagged	visualized	cytoplasm,nucleus	
+YLR079W	SIC1	tagged	visualized	cytoplasm,nucleus	
+YLR258W	GSY2	tagged	visualized	cytoplasm,nucleus,punctate composite	
+YER173W	RAD24	tagged	visualized	cytoplasm,nucleus	
+YLR399C	BDF1	tagged	visualized	nucleus	
+YJR050W	ISY1	tagged	visualized	cytoplasm,nucleus	
+YDL060W	TSR1	tagged	visualized	cytoplasm,nucleus	
+YKR038C	KAE1	tagged	visualized	cytoplasm,nucleus	
+YJL030W	MAD2	tagged	visualized	cytoplasm,nucleus	
+YER037W	PHM8	tagged	visualized	cytoplasm,nucleus	
+YML010W	SPT5	tagged	visualized	nucleus	
+YPL204W	HRR25	tagged	visualized	ambiguous,bud neck,cytoplasm,nucleus,bud	
+YPL166W		tagged	visualized	cytoplasm,nucleus,punctate composite	
+YKL113C	RAD27	tagged	visualized	nucleus	
+YLR231C	BNA5	tagged	visualized	cytoplasm,nucleus	
+YGR156W	PTI1	tagged	visualized	nucleus	
+YMR069W	NAT4	tagged	visualized	cytoplasm,nucleus	
+YJR046W	TAH11	tagged	visualized	cytoplasm,nucleus	
+YOR283W		tagged	visualized	cytoplasm,nucleus	
+YDR530C	APA2	tagged	visualized	cytoplasm,nucleus	
+YMR019W	STB4	tagged	visualized	nucleus	
+YLR218C		tagged	visualized	cytoplasm,nucleus	
+YDL125C	HNT1	tagged	visualized	cytoplasm,nucleus	
+YOR073W		tagged	visualized	nucleus,spindle pole	
+YGL043W	DST1	tagged	visualized	nucleus	
+YMR176W	ECM5	tagged	visualized	nucleus	
+YGR268C	HUA1	tagged	visualized	cytoplasm,nucleus	
+YPR180W	AOS1	tagged	visualized	nucleus	
+YKL166C	TPK3	tagged	visualized	cytoplasm,nucleus	
+YGL131C	SNT2	tagged	visualized	cytoplasm,nucleus	
+YKL185W	ASH1	tagged	visualized	nucleus	
+YGL016W	KAP122	tagged	visualized	cytoplasm,nuclear periphery,nucleus	
+YDR051C		tagged	visualized	cytoplasm,nucleus	
+YLR223C	IFH1	tagged	visualized	nucleus	
+YDR111C		tagged	visualized	cytoplasm,nucleus	
+YER062C	HOR2	tagged	visualized	cytoplasm,nucleus	
+YLR441C	RPS1A	tagged	visualized	cytoplasm,nucleus	
+YOL123W	HRP1	tagged	visualized	nucleus	
+YMR021C	MAC1	tagged	visualized	cytoplasm,nucleus	
+YJL164C	TPK1	tagged	visualized	cytoplasm,nucleus	
+YDL147W	RPN5	tagged	visualized	nucleus	
+YAL061W		tagged	visualized	cytoplasm,nucleus	
+YKL114C	APN1	tagged	visualized	mitochondrion,nucleus	
+YPL068C		tagged	visualized	nucleus	
+YMR174C	PAI3	tagged	visualized	cytoplasm,nucleus	
+YLR136C	TIS11	tagged	visualized	cytoplasm,nucleus	
+YMR164C	MSS11	tagged	visualized	cytoplasm,nucleus	
+YPL071C		tagged	visualized	cytoplasm,nucleus	
+YKR041W		tagged	visualized	cytoplasm,nucleus	
+YLR071C	RGR1	tagged	visualized	nucleus	
+YGR219W		tagged	visualized	cytoplasm,nucleus	
+YDL078C	MDH3	tagged	visualized	cytoplasm,nucleus	
+YJR009C	TDH2	tagged	visualized	cytoplasm,nucleus	
+YLR059C	REX2	tagged	visualized	mitochondrion,nucleus	
+YGL151W	NUT1	tagged	visualized	nucleus	
+YNR027W	BUD17	tagged	visualized	cytoplasm,nucleus	
+YLL009C	COX17	tagged	visualized	cytoplasm,nucleus	
+YHR206W	SKN7	tagged	visualized	nucleus	
+YBR087W	RFC5	tagged	visualized	nucleus	
+YOR358W	HAP5	tagged	visualized	cytoplasm,nucleus	
+YOR157C	PUP1	tagged	visualized	cytoplasm,nucleus	
+YBR237W	PRP5	tagged	visualized	nucleus	
+YMR091C	NPL6	tagged	visualized	nucleus	
+YDL235C	YPD1	tagged	visualized	cytoplasm,nucleus	
+YHR066W	SSF1	tagged	visualized	nucleolus,nucleus	
+YDR457W	TOM1	tagged	visualized	nucleolus,nucleus	
+YKL069W		tagged	visualized	cytoplasm,nucleus	
+YOR337W	TEA1	tagged	visualized	cytoplasm,nucleus	
+YCR065W	HCM1	tagged	visualized	cytoplasm,nucleus	
+YDR397C	NCB2	tagged	visualized	nucleus	
+YPR152C		tagged	visualized	nucleus	
+YLR118C		tagged	visualized	cytoplasm,nucleus	
+YIL010W	DOT5	tagged	visualized	nucleus	
+YLR455W		tagged	visualized	nucleus	
+YGR103W	NOP7	tagged	visualized	nucleolus,nucleus	
+YLR068W	FYV7	tagged	visualized	nucleolus,nucleus	
+YGR058W		tagged	visualized	cytoplasm,nucleus	
+YLR266C	PDR8	tagged	visualized	cytoplasm,nucleus	
+YPL228W	CET1	tagged	visualized	nucleus	
+YAL054C	ACS1	tagged	visualized	cytoplasm,nucleus	
+YML021C	UNG1	tagged	visualized	cytoplasm,nucleus	
+YER084W		tagged	visualized	cytoplasm,nucleus	
+YIR015W	RPR2	tagged	visualized	nucleus	
+YMR067C		tagged	visualized	cytoplasm,nucleus	
+YCR036W	RBK1	tagged	visualized	cytoplasm,nucleus	
+YML022W	APT1	tagged	visualized	cytoplasm,nucleus	
+YNL112W	DBP2	tagged	visualized	cytoplasm,nucleus	
+YJR105W	ADO1	tagged	visualized	cytoplasm,nucleus	
+YCR018C-A		tagged	visualized	cytoplasm,nucleus	
+YGR013W	SNU71	tagged	visualized	cytoplasm,nucleus	
+YLL024C	SSA2	tagged	visualized	cytoplasm,nucleus	
+YIL035C	CKA1	tagged	visualized	cytoplasm,nucleus	
+YER002W	NOP16	tagged	visualized	nucleolus,nucleus	
+YDR409W	SIZ1	tagged	visualized	cytoplasm,nucleus	
+YGL071W	RCS1	tagged	visualized	cytoplasm,nucleus	
+YGL097W	SRM1	tagged	visualized	nucleus	
+YLR116W	MSL5	tagged	visualized	nucleus	
+YEL066W	HPA3	tagged	visualized	cytoplasm,nucleus	
+YDR400W	URH1	tagged	visualized	cytoplasm,nucleus	
+YGR030C	POP6	tagged	visualized	nucleus	
+YCL035C	GRX1	tagged	visualized	cytoplasm,nucleus	
+YGR246C	BRF1	tagged	visualized	nucleus	
+YOR051C		tagged	visualized	nucleus	
+YFL014W	HSP12	tagged	visualized	cytoplasm,nucleus	
+YEL047C		tagged	visualized	cytoplasm,nucleus	
+YDR496C	PUF6	tagged	visualized	nucleolus,nucleus	
+YDL124W		tagged	visualized	cytoplasm,nucleus	
+YDR121W	DPB4	tagged	visualized	cytoplasm,nucleus	
+YOR207C	RET1	tagged	visualized	nucleus	
+YDL048C	STP4	tagged	visualized	cytoplasm,mitochondrion,nucleus	
+YDL150W	RPC53	tagged	visualized	nucleus	
+YKL015W	PUT3	tagged	visualized	cytoplasm,nucleus	
+YBR088C	POL30	tagged	visualized	nucleus	
+YAL041W	CDC24	tagged	visualized	cytoplasm,nucleus	
+YNL277W	MET2	tagged	visualized	cytoplasm,nucleus	
+YOR083W	WHI5	tagged	visualized	cytoplasm,nucleus	
+YNL254C		tagged	visualized	cytoplasm,nucleus	
+YMR079W	SEC14	tagged	visualized	cytoplasm,nucleus	
+YDR465C	RMT2	tagged	visualized	cytoplasm,nucleus	
+YPR062W	FCY1	tagged	visualized	cytoplasm,nucleus	
+YNL201C	PSY2	tagged	visualized	nucleus	
+YCR018C	SRD1	tagged	visualized	cytoplasm,nucleus	
+YOR148C	SPP2	tagged	visualized	cytoplasm,nucleus	
+YPR073C	LTP1	tagged	visualized	cytoplasm,nucleus	
+YML113W	DAT1	tagged	visualized	nucleus	
+YDR007W	TRP1	tagged	visualized	cytoplasm,nucleus	
+YDR217C	RAD9	tagged	visualized	cytoplasm,nucleus	
+YHR166C	CDC23	tagged	visualized	nucleus	
+YNL045W		tagged	visualized	cytoplasm,nucleus	
+YNL245C	CWC25	tagged	visualized	nucleus	
+YER040W	GLN3	tagged	visualized	cytoplasm,nucleus	
+YHR119W	SET1	tagged	visualized	ambiguous,nucleus	
+YPL046C	ELC1	tagged	visualized	cytoplasm,nucleus	
+YHR006W	STP2	tagged	visualized	cytoplasm,nucleus	
+YML074C	FPR3	tagged	visualized	nucleolus,nucleus	
+YDR213W	UPC2	tagged	visualized	nucleus	
+YDR314C		tagged	visualized	nucleus	
+YJR017C	ESS1	tagged	visualized	cytoplasm,nucleus	
+YDL053C		tagged	visualized	cytoplasm,nucleus	
+YML080W	DUS1	tagged	visualized	nucleus	
+YLR005W	SSL1	tagged	visualized	nucleus	
+YLR186W	EMG1	tagged	visualized	cytoplasm,nucleus	
+YDL080C	THI3	tagged	visualized	nucleus	
+YMR226C		tagged	visualized	cytoplasm,nucleus	
+YDL190C	UFD2	tagged	visualized	cytoplasm,nucleus	
+YDR463W	STP1	tagged	visualized	nucleus	
+YLR210W	CLB4	tagged	visualized	nucleus,spindle pole	
+YBL016W	FUS3	tagged	visualized	cytoplasm,nucleus	
+YAL032C	PRP45	tagged	visualized	nucleus	
+YML092C	PRE8	tagged	visualized	nucleus	
+YKL059C	MPE1	tagged	visualized	nucleus	
+YDL140C	RPO21	tagged	visualized	nucleus	
+YKL216W	URA1	tagged	visualized	cytoplasm,nucleus	
+YGL220W		tagged	visualized	cytoplasm,nucleus	
+YBR114W	RAD16	tagged	visualized	cytoplasm,nucleus	
+YDR176W	NGG1	tagged	visualized	nucleus	
+YER162C	RAD4	tagged	visualized	cytoplasm,nucleus	
+YLR321C	SFH1	tagged	visualized	nucleus	
+YPR108W	RPN7	tagged	visualized	nucleus	
+YIL091C		tagged	visualized	nucleolus,nucleus	
+YMR280C	CAT8	tagged	visualized	cytoplasm,nucleus	
+YOR304W	ISW2	tagged	visualized	nucleus	
+YKL010C	UFD4	tagged	visualized	cytoplasm,nucleus	
+YMR234W	RNH1	tagged	visualized	cytoplasm,nucleus	
+YBR089C-A	NHP6B	tagged	visualized	nucleus	
+YIL110W		tagged	visualized	cytoplasm,nucleus	
+YDR482C	CWC21	tagged	visualized	cytoplasm,nucleus	
+YHR167W	THP2	tagged	visualized	cytoplasm,nucleus	
+YMR223W	UBP8	tagged	visualized	nucleus	
+YEL050C	RML2	tagged	visualized	cytoplasm,nucleus	

@@ -1,0 +1,2 @@
+yORF	gene name	GFP tagged?	GFP visualized?	F2 Seq	R1 Seq	
+YDR009W	GAL3	tagged	visualized	AGTTTCGAAGCCTGCCTTGGGTACTTGTTTGTACGAACAAggtcgacggatccccgggtt	CTTTTAATATTTAAAGGTTGTTCCAAGAAGGTGTTTAGTGtcgatgaattcgagctcgtt	

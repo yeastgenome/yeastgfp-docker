@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>WU-FTP</title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Configuring wu-ftpd</u></h2></center>
+<i>(Successful on RedHat 7.1).</i>
+
+<ol>
+
+<li>As root, edit <b>/etc/xinetd.d/wu-ftpd</b>.
+
+<li>Switch disable to no.
+
+<li>Restart xinetd with <b>/sbin/service xinetd restart</b>.
+</ol>
+
+(* Remember that ftp is unencrypted and completely unsecure.  The better alternative is to run sshd which has sftp piggybacked onto it.)
+<b><u>Notes</u>:</b>  For anonymous FTP, install the anonftp RPM package.
+
+</body>
+</html>

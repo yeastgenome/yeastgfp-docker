@@ -1,0 +1,33 @@
+yORF	gene name	GFP tagged?	GFP visualized?	
+YJL021C		tagged	visualized	
+YIR003W		tagged	visualized	
+YCR088W	ABP1	tagged	visualized	
+YMR092C	AIP1	tagged	visualized	
+YIL062C	ARC15	tagged	visualized	
+YLR370C	ARC18	tagged	visualized	
+YKL013C	ARC19	tagged	visualized	
+YNR035C	ARC35	tagged	visualized	
+YBR234C	ARC40	tagged	visualized	
+YNL020C	ARK1	tagged	visualized	
+YPR171W	BSP1	tagged	visualized	
+YHR114W	BZZ1	tagged	visualized	
+YKL007W	CAP1	tagged	visualized	
+YIL034C	CAP2	tagged	visualized	
+YLR429W	CRN1	tagged	visualized	
+YDL161W	ENT1	tagged	visualized	
+YLR206W	ENT2	tagged	visualized	
+YGL181W	GTS1	tagged	visualized	
+YNL106C	INP52	tagged	visualized	
+YOR181W	LAS17	tagged	visualized	
+YKL129C	MYO3	tagged	visualized	
+YMR109W	MYO5	tagged	visualized	
+YIL095W	PRK1	tagged	visualized	
+YCR009C	RVS161	tagged	visualized	
+YDR388W	RVS167	tagged	visualized	
+YDR129C	SAC6	tagged	visualized	
+YOR367W	SCP1	tagged	visualized	
+YBL007C	SLA1	tagged	visualized	
+YNL138W	SRV2	tagged	visualized	
+YGR080W	TWF1	tagged	visualized	
+YLR337C	VRP1	tagged	visualized	
+YFR024C	YSC85	tagged	visualized	

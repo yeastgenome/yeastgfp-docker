@@ -1,0 +1,249 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>/etc/sudoers file </u></h2></center>
+
+<i>L. Gerke - 1/2003</i><p>
+
+<i>(Successful with Red Hat 7.3).</i><br>
+
+<pre><font size=+1>
+<p>
+A good barplot example with some added lines:
+datecat <- rbinom(100,1,0.5)
+auth.sum <- rbinom(100,10,0.5)
+bp <- barplot(table(datecat, auth.sum), beside=TRUE,col=c('yellow','red'))
+mean.bp <- apply(bp,2,mean)
+lines(mean.bp,table(auth.sum,datecat)[,1], col="yellow")
+lines(mean.bp,table(auth.sum,datecat)[,2], col="red")
+
+BARPLOT IWTH ERROR BARS:
+"superpose.eb" <- function (x, y, ebl, ebu = ebl, lh = 0.01, ...)
+{
+#function to add error bars to an existing scatterplot
+#written by Anne York, May 2002
+#+++++++++++++++++++++++++++++++++++++++++++++++++++
+#ebu is the length of the upper error bar; assumed to be a vector with same
+# length of x and y
+#ebl is the length of the lower error bar; assumed to be a vector with same
+# length of x and y
+#2*lh is a the length of the tick at the end of the error bar
+#it is assumed that the limits of the axes on the existing plot are
+#sufficiently large to accomodate the error bars.
+
+    segments(x, y + ebu, x, y - ebl, ...)
+    segments(x - lh , y + ebu, x + lh , y + ebu,
+        ...)
+    segments(x - lh, y - ebl, x + lh , y - ebl, ...)
+}
+
+#Examples:
+my.ebl <- 2*abs(rnorm(10))
+plot(1:10,1:10,ylim = c((0-max(ebl)),10+max(ebl)))
+superpose.eb(1:10,1:10,ebl=my.ebl, lh = 0.05)
+
+#Also works with a simple barplot:
+dum <- barplot(1:10,ylim=c(0,12))
+my.ebu <- abs(rnorm(10))
+superpose.eb(dum[,1],1:10,ebl = 0, ebu=my.ebu, lh = 0.1, lwd = 3, col
+="red")
+points(dum[,1],1:10,pch=16, col = "red") # covers up the lower tick mark
+   
+
+
+
+tbarHeight<-c(0.2700797, 0.7149945, 0.922099)
+names(tbarHeight)<-c("A", "B", "C")
+tbars<-barplot(height=tbarHeight,
+axes=T,ylim=c(0,1.2))
+tl<-c(0.4256, 0.8611, 0.9883) #lower whisks
+tu<-c(0.2048, 0.5797, 0.7914) #upper whisks
+segments(x0=tbars, x1=tbars, y0=tl, y1=tu) 
+---------------------------------
+
+examples with some functions/colors
+
+intToHex <- function(x) {
+  y <- as.integer(x)
+  class(y) <- "hexmode"
+  y <- as.character(y)
+  dim(y) <- dim(x)
+  y
+}
+
+as.character.hexmode <- function(x) {
+  hexDigit <- c(0:9, "A", "B", "C", "D", "E", "F")
+  isna <- is.na(x)
+  y <- x[!isna]
+  ans0 <- character(length(y))
+  z <- NULL
+  while (any(y > 0) | is.null(z)) {
+    z <- y%%16
+    y <- floor(y/16)
+    ans0 <- paste(hexDigit[z + 1], ans0, sep = "")
+  }
+  ans <- rep(NA, length(x))
+  ans[!isna] <- ans0
+  ans
+}
+
+rgb256 <- function(r, g, b) {
+  r <- intToHex(r %% 256)
+  g <- intToHex(g %% 256)
+  b <- intToHex(b %% 256)
+  rgb <- cbind(r, g, b)
+  # Pad a zero to all value less than 10.
+  idx <- (nchar(rgb) == 1)
+  rgb[idx] <- paste("0", rgb[idx], sep="")
+  rgb <- apply(rgb, MARGIN=1, FUN=paste, collapse="")
+  paste("#", rgb, sep="")
+}
+
+mirror.matrix <- function(x) {
+  x <- as.data.frame(x)
+  x <- rev(x)
+  as.matrix(x)
+}
+
+rotate270.matrix <- function(x) {
+  mirror.matrix(t(x))
+}
+
+image.matrix <- function(z, ...) {
+  image(rotate270.matrix(z), ...)
+}
+
+imageToPNG <- function(z, colorTable, filename, transparent=NULL) {
+  width <- ncol(z)
+  height <- nrow(z)
+  if (!is.null(transparent))
+    z[z == transparent] <- NA
+  x <- 1:width
+  y <- 1:height
+  png(filename, width=width, height=height, bg="transparent")
+  on.exit(dev.off())
+  par(mar = c(0, 0, 0, 0))
+  image.matrix(x=x, y=y, z=z, col=colorTable, axes=FALSE)
+}
+
+imageToImg <- function(z, colorTable, filename, transparent=NULL) {
+  width <- ncol(z)
+  height <- nrow(z)
+  if (!is.null(transparent))
+    z[z == transparent] <- NA
+  x <- 1:width
+  y <- 1:height
+  par(mar = c(0, 0, 0, 0))
+  image.matrix(x=x, y=y, z=z, col=colorTable, axes=FALSE)
+}
+
+# Create a palette of all nuances of red combined with 256^2 different
+# shades of gray. Was this what you wanted? I don't really get that or
+# if it was just an example. BTW, it is only possible to create 256
+# different red nuances.
+r <- as.vector(matrix(0:255, nrow=256, ncol=256, byrow=TRUE))
+g <- b <- 0:255
+g <- as.vector(matrix(255:0, nrow=256, ncol=256, byrow=TRUE))
+rgb <- rgb256(r,g,b)
+
+r <- as.vector(matrix(0:99, nrow=10, ncol=10, byrow=TRUE))
+g <- b <- 0:99
+rgb <- rgb256(r,g,b)
+
+
+# Create an "image" of 2^16 different color values
+ncolors <- 100
+z <- matrix(0:(ncolors-1), nrow=10, ncol=10)
+
+imageToImg(z, colorTable=rgb, filename="foo.png")
+# Write the "image" to a PNG file
+imageToPNG(z, colorTable=rgb, filename="foo.png")
+
+# Or just red nuances
+imageToPNG(z, colorTable=rgb256(0:255,0,0), filename="bar.png")
+---------------------------------
+
+nice scatterplot:
+data(cars)
+Speed <- cars$speed
+Distance <- cars$dist
+plot(Speed, Distance, panel.first = grid(8,8),
+     pch = 0, cex = 1.2, col = "blue")data(trees)
+## Note that  example(trees)  shows more sensible plots!
+N <- nrow(trees)
+attach(trees)
+## Girth is diameter in inches
+symbols(Height, Volume, circles=Girth/24, inches=FALSE,
+        main="Trees' Girth")# xlab and ylab automatically
+## Colors too:
+palette(rainbow(N, end = 0.9))
+symbols(Height, Volume, circles=Girth/16, inches=FALSE, bg = 1:N,
+        fg="gray30", main="symbols(*, circles=Girth/16, bg = 1:N)")
+palette("default"); detach()
+
+----------------------------------------
+
+drawing circles:
+
+data(trees)
+## Note that  example(trees)  shows more sensible plots!
+N <- nrow(trees)
+attach(trees)
+## Girth is diameter in inches
+symbols(Height, Volume, circles=Girth/24, inches=FALSE,
+        main="Trees' Girth")# xlab and ylab automatically
+## Colors too:
+palette(rainbow(N, end = 0.9))
+symbols(Height, Volume, circles=Girth/16, inches=FALSE, bg = 1:N,
+        fg="gray30", main="symbols(*, circles=Girth/16, bg = 1:N)")
+palette("default"); detach()
+
+
+
+////  mine
+imageToCircles <- function(Zs, colorTable, filename) {
+  width <- ncol(Zs)
+  height <- nrow(Zs)
+  x <- 1:width
+  x <- rep(x,width);
+
+  y <- c();
+  for (i in 1:width) {	
+    tempy <- rep(i, times=width)
+    y <- c(y,tempy)
+  }
+
+  z <- c()
+  for (i in 1:width) {
+    for (j in 1:width) {
+      z <- c(z,Zs[i,j])
+    }
+  }
+
+  diam <- log(z + 0.01) + 5
+  diam <- diam / 20
+  par(mar = c(0, 0, 0, 0))
+  symbols(x, y, circles=diam, inches=FALSE,bg=rgb,fg=0)
+}
+
+
+
+
+
+
+---------------------------
+basic manipulations:
+making a vector repeat:
+s<-rep(x, times=5)
+
+
+
+
+
+   
+</pre></font>
+
+</body>
+</html>

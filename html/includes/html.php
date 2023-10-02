@@ -1,0 +1,701 @@
+<?php
+
+// HTML FORMATTING UTILITIES
+// MAKE AN INDEX....
+
+
+
+function printfooter() {
+	print "\n<!----body end---->\n</BODY></HTML>";
+	closedb();
+}
+
+
+function centermsg($input) {
+//	printheader();
+	print "<link rel=\"stylesheet\" href=\"imagedb.css\">\n
+		<table width=100% height=100%>\n
+		<tr><td valign=middle align=center><h2>$input</h2></td></tr>\n
+		</table>\n";
+	printfooter();
+}
+
+
+function makeTextBoxWithStar($name, $currentVal) {
+  if($currentVal == "") {
+    $currentVal = "*";
+  }
+  $retStr = "<input name=\"$name\" value=\"$currentVal\" STYLE=\"width: 200px\" >";
+  return $retStr;
+}
+
+
+function makeMultipleSelectFromAssocArray($assoc, $name) {
+  return makeSelectFromAssocArray($assoc, $name, $selected, false, true);
+}
+
+
+function makeSelectFromAssocArrayWithStar($assoc, $name, $selected) {
+  return makeSelectFromAssocArray($assoc, $name, $selected, true, false);
+}
+
+
+function makeSelectFromAssocArray($assoc, $name, $selected, $star, $multiple) {
+  $retStr = "<select name=\"$name\" STYLE=\"width: 200px\"";
+  if ($multiple == true) {
+    $retStr .= " MULTIPLE ";
+  }
+  $retStr .= ">\n";
+  if ($star == true) {
+    $retStr .= "\t<option SELECTED value=\"*\">*\n";
+  }
+  foreach($assoc as $key=>$val) {
+    if($key == $selected && $selected != "") {
+      $sel = " SELECTED ";
+    } else {
+      $sel = "";
+    }
+    $retStr .= "\t<option $sel value=\"$key\">$val\n";
+  }
+  $retStr .= "</select>\n";
+  return $retStr;
+}
+
+
+function makeJavaScriptAssociativeArray($name, $phpArray) {
+  $retString = "";
+  $retString .= "var ".$name." = new Array();\n";
+  foreach ($phpArray as $key => $val) {
+    $retString .= $name."[".$key."] = \"".$val."\";\n";
+  }
+  return $retString;
+}
+
+function dumpExampleWindowJsFunctions() {
+
+  print "<script language=\"javascript\">";
+  // CARTOON LEGEND
+  print "function openLegend() {\n";
+  print "  window.open('iconTable.php','tableWindow','location=no,status=no,menubar=no,resizable=no,height=500,width=450');\n";
+  print "}\n";
+  print "\n";
+  // LOCALIZATION DISPLAY EXAMPLE
+  print "function openLocExample() {\n";
+  print "  window.open('graphicLocExample.php','locWindow','location=no,status=no,menubar=no,resizable=no,height=320,width=800');\n";
+  print "}\n";
+  print "\n";
+  // ORF DISPLAY EXAMPLE
+  print "function openOrfExample() {\n";
+  print "  window.open('graphicOrfExample.php','orfWindow','location=no,status=no,menubar=no,resizable=no,height=300,width=600');\n";
+  print "}\n";
+  print "\n";
+  // ABUNDANCE DESCRIPTION EXPLANATION
+  print "function openAbundance() {\n";
+  print "  window.open('abundanceDescription.php','abundanceWindow','location=no,status=no,menubar=no,resizable=no,height=460,width=550');\n";
+  print "}\n";
+  print "\n";
+
+  // COMMENT FUNCTIONS
+  print "function openComment(myOrf) {\n";
+  print "  window.open('http://wiki.yeastgenome.org/index.php/' + myOrf,'commentWindow' + myOrf,'location=no,status=no,menubar=no,resizable-no,height=460,width=460');\n";
+  print "}\n";
+  print "\n";
+  
+  print "function openCommentView(myOrf) {\n";
+  print "  window.open('http://wiki.yeastgenome.org/index.php/' + myOrf,'commentViewWindow' + myOrf,'location=no,status=no,menubar=no,resizable=yes,scrollbars=yes,height=460,width=480');\n";
+  print "}\n";
+  print "\n";
+
+  
+  print "</script>";
+  
+}
+
+function dumpBodyForJsIcons() {
+  
+  // gets all the icon names and generates the list for image preload
+
+  $iconDir = "orfIcons/";
+  
+  $sqlGetIcons = "SELECT subcellid,subcellname,icon FROM subcell";
+  $resGetIcons = dbquery($sqlGetIcons);
+  while ($row = mysqli_fetch_assoc($resGetIcons)) {
+    $icons[$row['subcellid']] = $iconDir . $row['icon'];
+    //    $iconsON[$row['subcellid']] = $iconDir . "ON" . $row['icon'];
+    //    $iconsOVER[$row['subcellid']] = $iconDir . "OVER" . $row['icon'];
+    $subcellNames[$row['subcellid']] = $row['subcellname'];
+  }
+  
+  //  $iconsForPreload = array_merge($icons,$iconsON,$iconsOVER);
+  $iconsForPreload = $icons;
+  $jsIconsForPreload = arrayToList($iconsForPreload,",","'");
+  
+  print "<body onLoad=\"MM_preloadImages($jsIconsForPreload); ";
+  print "return true;\">\n";
+
+  // for popover
+  print "<DIV id=\"popup\" class=\"popover\"></DIV>\n";
+  print "<SCRIPT language=\"JavaScript\" src=\"showPopover.js\"></SCRIPT>\n";
+
+}  
+
+function dumpStyleForHeader () {
+  print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n";
+  print "<link rel=\"stylesheet\" href=\"imagedb.css\">\n";
+}
+
+function dumpStyleForPopover() {
+
+  // for popover
+  print "   <STYLE type='text/css'>
+   DIV.popover {position:absolute;z-index:56;visibility:hidden;overflow:auto;}
+   TABLE.popfground {BACKGROUND-COLOR:#FFFFCC;}
+   TABLE.popborder  {BACKGROUND-COLOR:#000000;}
+   TD.poptext {COLOR:#000000;FONT-FAMILY:verdana;FONT-SIZE:9px;TEXT-ALIGN:center}
+</STYLE>
+";
+  // end for popover  
+
+}
+
+function dumpFunctionForPreload() {
+
+  print "<script language=\"JavaScript\" type=\"text/JavaScript\">\n";
+  print "<!--\n";
+  
+  print "function MM_preloadImages() { //v3.0 \n";
+  print "  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf(\"#\")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+";  
+
+  print "//-->\n";
+  print "</script>";
+  
+}
+
+function dumpOrfDisplayHeaderJs($frame) {
+  
+  // header information from <head> to </head> -- non-inclusive ASC 100103
+
+  if (! $frame) {
+    // only print a title if it's not part of a frame
+    print "<title>GFP Database -- ORF Localization Display</title>\n";
+  }
+
+  dumpStyleForPopover();
+
+  dumpFunctionForPreload();
+  
+  print "<script language=\"JavaScript\" type=\"text/JavaScript\">\n";
+  print "<!--\n";
+
+  print "function MM_findObj(n, d) { //v4.01 \n
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf(\"?\"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+";
+
+ if ($frame == TRUE) {
+   print "function changeAll(a,b,fm,c,d,e,f) { \n
+
+   var obj = eval(\"top.scoring.\" + a);
+   obj.src = b;
+   top.scoring.document.forms[fm][c].value = d;
+   var objE;
+   if (objE = eval(\"top.scoring.\" + e)) {
+     objE.href = f;
+   }
+}
+
+";
+ } else {
+   print "function changeAll(a,b,fm,c,d,e,f) {
+
+  var obj = eval(a);
+  obj.src = b;
+
+  document.forms[fm][c].value = d;
+
+  var objE;
+  if (objE = eval(e)) {
+    objE.href = f;
+  }
+}
+
+";
+ }
+ print "//-->\n";
+ print "</script>";
+ 
+}
+
+function placeCommentView($orfid) {
+
+  // CHECK FOR COMMENTS FOR THE ORF
+  $sql = "select * from comment where orfid=" . $orfid . " and active='T'";
+  $res = dbquery($sql);
+  $commentId = makeArrayFromResColumn($res,"commentid");
+
+  // WRITE "view" LINK IF COMMENTS ARE FOUND
+  if ($commentId[0] != "") {
+    print "<td align=center><a href=\"javascript:openCommentView(".$orfid.")\">view</a></td>";  
+  } else {
+    print "<td align=center>&nbsp;</td>";  
+  }
+}
+
+function displayComments($orfid) {
+  
+  // GET COMMENT DETAILS
+  $sql = "select * from comment where orfid=" . $orfid . " and active='T'";
+  $res = dbquery($sql);
+
+  // CHECK FOR VALID COMMENTS
+  if (mysqli_num_rows($res) == 0) {
+    $msg = "";
+    $msg .= "<table width=400 height=280 border=0 cellspacing=0 cellpadding=0><tr><td align=center valign=middle>";
+    $msg .= "<p><b>No comments are available for this ORF</b>";
+    $msg .= "<p>Please close the window and return to yeastgfp.yeasgenome.org";
+    $msg .= "</td></tr></table>";
+    print $msg;
+    return;
+  }
+
+  // DISPLAY VALID COMMENTS
+  while ($row = mysqli_fetch_assoc($res)) {
+     
+    print "<table border=0 cellspacing=0 cellpadding=2 style=\"border:0.5pt solid black; \">";
+    print "<tr>\n";
+    print "<td align=center>\n";
+    print "<b>name </b>";
+    print "</td>\n";
+    print "<td align=left>\n";
+    print $row['name'];
+  
+    print "</td>\n";
+    print "</tr>\n";
+    print "<tr>\n";
+    print "<td align=center>\n";
+    print "<b>email </b>";
+    print "</td>\n";
+    print "<td align=left>\n";
+    print $row['email'];
+
+    print "</td>\n";
+    print "</tr>\n";
+    print "<tr>\n";
+    print "<td align=center>\n";
+    print "<b>date </b>";
+    print "</td>\n";
+    print "<td align=left>\n";
+    print date("M d Y H:i T",$row['time']);
+
+    print "</td>\n";
+    print "</tr>\n";
+    print "<tr>\n";
+    print "<td align=center valign=middle>\n";
+    print "<b>comments</b>";
+    print "<br>(limit 400 <br>characters)";
+    print "</td>\n";
+    print "<td align=left valign=middle>\n";
+    print "<textarea name=\"comment\" cols=40 rows=10 readOnly=yes>".$row['comment']."</textarea>";
+
+    print "</td>\n";
+    print "</tr>\n";
+    print "<tr>\n";
+    if ($row['pmid'] != "") {
+      print "<td align=center>\n";
+      print "<b>PMID</b>";
+      print "</td>\n";
+      print "<td align=left>\n";
+      print "<a href=\"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=";
+      print $row['pmid'];
+      print "&dopt=Abstract\" target=\"_blank\">";
+      print $row['pmid'];
+      print "</a>";
+    } else {
+      print "<td align=center>\n";
+      print "<b>PMID</b>";
+      print "</td>\n";
+      print "<td align=left>\n";
+      print "not published";
+      print "</td>\n";
+    }
+    
+    //print "<a href=\"http://www.nlm.nih.gov/bsd/pubmed_tutorial/glossary.html#p\" target=\"_blank\">&nbsp;&nbsp;&lt; what's this? &gt;</a>";
+    //print "</td>\n";
+    print "</tr>\n";
+    print "</table>\n";
+
+    print "<br>\n";
+
+  }
+}
+
+
+function dumpOrfInfoTableForComment($orfid) {
+
+  // GET INFO USING ORFID
+  $orfname =  getOneToOneMatch("orfs","orfid",$orfid,"orfname");
+  $orfnumber =  getOneToOneMatch("orfs","orfid",$orfid,"orfnumber");
+
+  // GET TAP INFO
+  $tapStrain = getOneToOneArbConditions("strains","tag='TAP' and orfid=".$orfid,"strainid");
+  $tapVisualized = getOneToOneMatch("tap","strainid",$tapStrain,"visualized");
+  $tapIntensity = getOneToOneMatch("tap","strainid",$tapStrain,"abundance");
+  $tapError = getOneToOneMatch("tap","strainid",$tapStrain,"error");
+  $tapReadout = "";
+
+  // HANDLE TAP INFORMATION
+  if ($tapVisualized == 'F') {
+    $tapReadout = "not visualized";
+  } else {
+    if ($tapIntensity == 0) {
+      $tapReadout = "technical prob.";
+    } else if ($tapIntensity < 0) {
+      $tapReadout = "low signal";      
+    } else {
+      $tapReadout = $tapIntensity;
+      if ($tapError != 0) {
+	$tapReadout .= "&nbsp;&plusmn;".$tapError;
+      }
+    }
+  }
+
+  // GET LIST OF LOCS
+  $subcellids = getOneToMany("bestlocs","orfid",$orfid,"subcellid");
+  $subcellids = array_unique($subcellids);
+  foreach ($subcellids as $id) {    
+    $subcellnames[] = getOneToOneMatch("subcell","subcellid",$id,"subcellname");
+  }
+  $locList = arrayToList($subcellnames,", ","");  
+
+  // PRINT TABLE
+  print "<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=\"99CC99\">";
+  print "<tr align=center>";
+  print "<td width=25%><b>&nbsp;&nbsp;".$orfnumber."</b></td>";
+  if ($orfname != NULL) {
+    print "<td width=25%><b class=\"commentDisp\">".$orfname."</b></td>";
+  } else {
+    print "<td width=25%><b class=\"commentDisp\">unnamed</b></td>";
+  }
+  print "<td width=50%><a target=\"_blank\" href=\"help.php\"> molecules/cell:</a> ".$tapReadout."</td>";
+  print "</tr>";
+  print "<tr>";
+  print "<td colspan=3>localization(s) : ".$locList."</td>";  
+  print "</tr></table>";
+  
+}
+
+function dumpOrfInfoTable($orfid) {
+
+  $orfname =  getOneToOneMatch("orfs","orfid",$orfid,"orfname");
+  $orfnumber =  getOneToOneMatch("orfs","orfid",$orfid,"orfnumber");
+  $tapStrain = getOneToOneArbConditions("strains","tag='TAP' and orfid=".$orfid,"strainid");
+  $tapVisualized = getOneToOneMatch("tap","strainid",$tapStrain,"visualized");
+  $tapIntensity = getOneToOneMatch("tap","strainid",$tapStrain,"abundance");
+  $tapError = getOneToOneMatch("tap","strainid",$tapStrain,"error");
+  $tapReadout = "";
+  
+  if ($tapVisualized == 'F') {
+    $tapReadout = "not visualized";
+  } else {
+    if ($tapIntensity == 0) {
+      $tapReadout = "technical prob.";
+    } else if ($tapIntensity < 0) {
+      $tapReadout = "low signal";
+    } else {
+      $tapReadout = $tapIntensity;
+      if ($tapError != 0) {
+	$tapReadout .= "&nbsp;&plusmn;".$tapError;
+      }
+    }
+  }
+
+  
+  print "<table width=\"330\" border=\"0\" cellpadding=\"0\">";
+  print "<tr>";
+  if ($orfname != NULL) {
+    print "<td width=90 colspan=2><b class=\"searchDisp\">".$orfname."</b></td>";
+  } else {
+    print "<td width=90 colspan=2><font color=\"#CCCCCC\">NONE</font></td>";
+  }
+  print "<td  width=80 align=middle><b><a href=\"https://www.yeastgenome.org/locus/".$orfnumber."\" target=\"_blank\">".$orfnumber."</a></b></td>";
+  print "<td width=80 align=middle>";
+  print "&nbsp";
+  print "</td>";
+  print "<td width=80 align=middle><b>comments</b>";
+  print "</td>";
+  print "</tr>";
+  print "<tr><td colspan=\"4\"><a href=\"javascript: openAbundance();\"> molecules/cell:</a> ".$tapReadout."</td>";
+  print "<td align=center>";
+print "<a href=\"http://wiki.yeastgenome.org/index.php/$orfnumber\">add</a>";
+  print "</td></tr>";
+  print "<tr><td>loc</td><td colspan=\"3\"><input type=\"text\" name=\"n".$orfid."\" value=\"none\"></td>";
+  
+//  placeCommentView($orfid);
+//  print "<a href=\"javascript:openComment(".$orfnumber.")\">add</a>";
+
+  print "</tr>";
+  print "</table>";
+
+}
+
+
+function displayOrfLocs($orf,$arrayInit,$arrayColoc,$arrayFinal) {
+
+  $orfnumber = convertOrfidToOrfnumberOrOrfname($orf);
+  
+  print "\n";
+  print "<form action=\"\" target=\"\" name=\"f".$orf."\">\n";
+  print "<table width=\"542\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#CCCCCC\">\n";
+  
+  print "<tr>\n";
+  print "<td width=\"330\" rowspan=\"2\" colspan=\"2\">";
+
+  dumpOrfInfoTable($orf);
+  
+  print "</td>";
+  print "<td rowspan=\"4\" width=\"2\">&nbsp;</td>";
+  
+  
+  // INITIAL LOCALIZATIONS
+  
+  print "<td width=\"60\" height=\"40\" valign=\"top\">";
+  print "<a href=\"javascript:void(0);\" onclick=\"return false;\" onmouseover=\"popupOpen('initial localizations scored in first pass','INIT');\" onmouseout=\"popupClose();\">";
+  print "<img name=\"INIT\" src=\"orfIcons/initial.jpg\" width=\"60\" height=\"40\" alt=\"\" border=\"0\">";
+  print "</a>";
+  print "</td>\n";
+  
+  $row = 'I';
+  $i = 0;
+  
+  foreach ($arrayInit as $subcellid => $clip) { 
+    
+    $iconHTML = placeIcon($orf,$row,$i,$subcellid,$clip);
+    print $iconHTML;
+    $i++;
+  }
+  
+  while ($i < 6) {
+    
+    $iconHTML = placeIcon($orf,$row,$i,0,0);
+    print $iconHTML;
+    $i++;
+    
+  }
+  
+  print "</tr>\n";
+  
+  // COLOC LOCALIZATIONS
+  
+  print "<tr>\n";
+  print "<td rowspan=\"2\" valign=\"top\">";
+  print "<a href=\"javascript:void(0);\" onclick=\"return false;\" onmouseover=\"popupOpen('colocalizations with RFP-tagged proteins to confirm ambiguous localizations','COLOC');\" onmouseout=\"popupClose();\">";
+  print "<img src=\"orfIcons/coloc.jpg\" alt=\"\" name=\"COLOC\" width=\"60\" height=\"40\" id=\"COLOC\" border=0></a></td>\n";
+  
+  $row = 'C';
+  $i = 0;
+  
+  foreach ($arrayColoc as $subcellid => $clip) { 
+    
+    $iconHTML = placeIcon($orf,$row,$i,$subcellid,$clip);
+    print $iconHTML;
+    $i++;
+  }
+  
+  while ($i < 6) {
+    
+    $iconHTML = placeIcon($orf,$row,$i,0,0);
+    print $iconHTML;
+    $i++;
+    
+  }
+  
+  print "<td height=\"19\"></td>\n";
+  print "</tr>\n";
+  print "<tr>\n";
+
+  if (empty($arrayInit) && empty($arrayColoc) && empty($arrayFinal)) {
+
+    // THEN THERE ARE NO LOCALIZATIONS FOR THIS ORF
+    print "     <td rowspan=\"2\" colspan=\"1\" valign=\"top\"><a href=\"\" onclick=\"return false;\" target=\"_blank\" name=\"locLink".$orf."\"><img name=\"clip".$orf."\" src=\"noLocs.png\" height=\"60\" alt=\"\" border=0></a></td>";
+  } else {
+    // PLACE THE NORMAL STARTING IMAGE
+    print "     <td rowspan=\"2\" colspan=\"1\" width=250 valign=\"top\">";
+
+// originally <a href='#'>
+// hard-coded displayLocImage.php so link will goto large images 
+// a bit of a hack
+
+$orfid = orfidToFinalLocMap($orf);
+
+// need to check if file exists first, 3-9-10 //
+// so far, check is not working //
+
+$imageDirectory = "../imageDir/expSeries/";
+
+ foreach ($orfid as $localizeid) {
+	$rows = getOneToMany('bestlocs2', 'localizeid', $localizeid, 'orfid');
+	if (empty($rows[0])) {
+		next($rows);
+	} else {
+	      $locLinkId = $localizeid;
+		end($rows);
+	}
+ }
+
+if (! $locLinkId) {
+	$locLinkId = $orfid[0];
+}
+
+print "<a href=\"http://yeastgfp.yeastgenome.org/displayLocImage.php?loc=$locLinkId\" target=\"_blank\" name=\"locLink".$orf."\">";
+print "<img name=\"clip".$orf."\" src=\"noClip.png\" height=\"60\" alt=\"\" border=0></a></td>";
+  }
+
+  print "<td rowspan=\"2\" align=\"right\" valign=\"top\">";
+  print "<table width=80 border=0 cellspacing=0 cellpadding=2 align=\"middle\"><tr><td align=middle>";
+  print "<b>order</b><br>";
+  print "</td></tr>";
+  print "<tr><td align=middle>";
+  print "<a href=\"http://clones.invitrogen.com/cloneinfo.php?clone=yeastgfp\" target=\"_blank\">GFP</a>";
+  print "</td></tr>";
+  print "<tr><td align=middle>";
+
+  // need systematic orfnumber with the openbiosystems query
+  // OpenBioSystems NO LONGER has a query - change to just static URL  2014-12-15
+  //$systematicorfnumber = getOneToOneMatch("orfs","orfid",$orf,"orfnumber");
+  //print "<a href=\"http://www.openbiosystems.com/NewQuery/default.aspx?i=0&q=".$systematicorfnumber."\" target=\"_blank\">TAP</a>";
+  print "<a href=\"http://dharmacon.gelifesciences.com/non-mammalian-cdna-and-orf/yeast-tap-tagged-orfs"."\" target=\"_blank\">TAP</a>";   
+  print "</td></tr>";
+  print "</table>";
+  print "</td>";  
+  print "<td height=\"21\"></td>\n";
+  print "</tr>\n";
+  
+  // FINAL LOCALIZATIONS
+  
+  print "<tr>\n"; 
+  print "    <td width=\"60\" height=\"40\" valign=\"top\">";
+  print "<a href=\"javascript:void(0);\" onclick=\"return false;\" onmouseover=\"popupOpen('consensus localization after colocalization','FINAL');\" onmouseout=\"popupClose();\">";
+  print "<img src=\"orfIcons/final.jpg\" alt=\"\" name=\"FINAL\" width=\"60\" height=\"40\" id=\"FINAL\" border=0></a></td>\n";
+  
+  $row = 'F';
+  $i = 0;
+  
+  foreach ($arrayFinal as $subcellid => $clip) { 
+    $iconHTML = placeIcon($orf,$row,$i,$subcellid,$clip);
+    print $iconHTML;
+    $i++;
+  }
+  
+  while ($i < 6) {
+    
+    $iconHTML = placeIcon($orf,$row,$i,0,0);
+    print $iconHTML;
+    $i++;
+    
+  }
+  
+  print "<td></td>\n";
+  print "</tr>\n";
+  print "</table>\n";
+  print "</form>\n";
+  print "";
+  
+} 
+
+
+function placeIcon($orf,$row,$col,$subcellid,$clip) {
+  
+  // handle blank spaces
+  if ($subcellid == 0 || $clip == 0) {
+	
+    $retCell = "";
+    $retCell .= tdForRow($row);
+    $retCell .= "<img src=\"orfIcons/white.jpg\" alt=\"\" name=\"o".$orf.$row.$col."\" width=\"40\" height=\"40\" border=\"0\" onload=\"\">";
+    $retCell .= "</td>\n";
+    
+    return $retCell;
+  }
+      
+  // GET CLIPPATH FROM BESTLOCS
+  $clipPath = getOneToOneArbConditions("bestlocs","localizeid=".$clip." and phase='".$row."'","clipfilename");
+
+  //  map the subcellids to the icons  
+  $icon =  getOneToOneMatch("subcell","subcellid",$subcellid,"icon");
+  $alt = getOneToOneMatch("subcell","subcellid",$subcellid,"subcellname");
+  
+  $retCell = "";
+  $retCell .= tdForRow($row);
+  $retCell .= "<a href=\"javascript: ";
+  //  $retCell .= "alert(eval('top.scoring.document.clip".$orf.".src'));\"";
+  $retCell .= "changeAll('document.clip" . $orf . "','/images/clipsNew/" . $clipPath . "','f".$orf."','n".$orf."','".$alt."','locLink".$orf."','displayLocImage.php?loc=".$clip."');\"";
+  //  $retCell .= "changeImage('document.clip" . $orf . "','/images/clipsNew/" . $clipPath . "'); ";
+  //  $retCell .= "changeText('n".$orf."','".$alt."'); ";
+  //  $retCell .= "changeLink('locLink".$orf."','displayLocImage.php?loc=".$clip."'); \"";
+  $retCell .= " target=\"_top\" ";
+
+  $retCell .= " onMouseOver=\"popupOpen('".$alt."','".$alt."');\" ";  
+  $retCell .= "onMouseOut=\"popupClose();\"";
+  
+  $retCell .= ">\n";
+
+  $retCell .= "<img src=\"orfIcons/" . $icon . "\" alt=\"\" name=\"o".$orf.$row.$col."\" width=\"40\" height=\"40\" border=\"0\" onload=\"\">";
+  $retCell .= "</a>";
+  $retCell .= "</td>\n";
+  
+  return $retCell;
+      
+}
+
+function tdForRow($row) {
+
+  // necessary to get formatting right for individual cells in the table
+  
+  if ($row == 'I') {
+    $retTD = "<td width=40 height=40>";
+  } elseif ($row == 'C') {
+    $retTD = "<td rowspan=2 valign='top'>";	
+  } elseif ($row == 'F') {
+    $retTD = "<td width=40 valign='top'>";
+  } else {}
+  
+  return $retTD;
+}
+
+function displayBestLocs($orfList) {
+
+  foreach($orfList as $orfid) {
+
+    // if a blank orfid is sent -- skip it
+    if ($orfid == "") {
+      continue;
+    }
+    
+    $sql = "select * from bestlocs where orfid=" . $orfid . " and phase='I'";
+    $res = dbquery($sql);
+    $initList = makeAssociativeArrayFromResColumns($res, "subcellid", "localizeid");
+    
+    $sql = "select * from bestlocs where orfid=" . $orfid . " and phase='C'";
+    $res = dbquery($sql);
+    $colocList = makeAssociativeArrayFromResColumns($res, "subcellid", "localizeid");
+    
+    $sql = "select * from bestlocs where orfid=" . $orfid . " and phase='F'";
+    $res = dbquery($sql);
+    $finalList = makeAssociativeArrayFromResColumns($res, "subcellid", "localizeid");
+  
+
+    displayOrfLocs($orfid, $initList, $colocList, $finalList);
+    
+    //      print_r($initList);
+  }
+}
+    
+
+?>

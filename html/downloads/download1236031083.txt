@@ -1,0 +1,296 @@
+yORF	gene name	GFP tagged?	GFP visualized?	abundance	localization summary	ambiguous	mitochondrion	vacuole	spindle pole	cell periphery	punctate composite	vacuolar membrane	ER	nuclear periphery	endosome	bud neck	microtubule	Golgi	late Golgi	peroxisome	actin	nucleolus	cytoplasm	ER to Golgi	early Golgi	lipid particle	nucleus	bud	
+YAL007C	ERP2	tagged	visualized	26300	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YAL023C	PMT2	tagged	visualized	6510	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YAL058W	CNE1	tagged	visualized	4760	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBL011W	SCT1	tagged	visualized	1050	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBL040C	ERD2	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR002C	RER2	tagged	visualized	8970	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR036C	CSG2	tagged	visualized	technical problem	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR058C-A	TSC3	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR067C	TIP1	tagged	visualized	35600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR096W		tagged	visualized	1950	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR106W	PHO88	tagged	visualized	61800	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR110W	ALG1	tagged	visualized	1890	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR132C	AGP2	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR159W		tagged	visualized	41900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR162W-A	YSY6	tagged	visualized	846	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR171W	SEC66	tagged	visualized	7820	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR177C	EHT1	tagged	visualized	2550	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR265W	TSC10	tagged	visualized	7700	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR273C		tagged	visualized	2190	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR283C	SSH1	tagged	visualized	704	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR287W		tagged	visualized	6440	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR290W	BSD2	tagged	visualized	3070	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YBR296C	PHO89	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCL025C	AGP1	tagged	visualized	21100	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCL045C		tagged	visualized	2840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCL052C	PBN1	tagged	visualized	4930	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCR011C	ADP1	tagged	visualized	339	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCR017C	CWH43	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCR034W	FEN1	tagged	visualized	3510	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCR044C	PER1	tagged	visualized	3050	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCR048W	ARE1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YCR067C	SED4	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL015C	TSC13	tagged	visualized	23600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL018C	ERP3	tagged	visualized	3190	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL052C	SLC1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL072C		tagged	visualized	2840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL092W	SRP14	tagged	visualized	8000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL095W	PMT1	tagged	visualized	41500	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL100C	ARR4	tagged	visualized	17300	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL121C		tagged	visualized	3260	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL128W	VCX1	tagged	visualized	7770	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL193W		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL204W	RTN2	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL212W	SHR3	tagged	visualized	6510	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDL232W	OST4	tagged	visualized	2430	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR055W	PST1	tagged	visualized	11700	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR056C		tagged	visualized	1600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR062W	LCB2	tagged	visualized	54500	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR077W	SED1	tagged	visualized	1630	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR086C	SSS1	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR196C		tagged	visualized	1660	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR205W	MSC2	tagged	visualized	1070	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR221W		tagged	visualized	9760	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR233C	RTN1	tagged	visualized	37100	ER,cell periphery	F	F	F	F	T	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR294C	DPL1	tagged	visualized	13100	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR297W	SUR2	tagged	visualized	54300	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR302W	GPI11	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR307W		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR331W	GPI8	tagged	visualized	1560	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR349C	YPS7	tagged	visualized	149	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YDR410C	STE14	tagged	visualized	2690	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR411C		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR424C	DYN2	tagged	visualized	1310	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR434W	GPI17	tagged	visualized	7520	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR437W		tagged	visualized	752	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR476C		tagged	visualized	2120	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR492W		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR498C	SEC20	tagged	visualized	4910	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR508C	GNP1	tagged	visualized	10600	ER,cell periphery	F	F	F	F	T	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YDR519W	FPR2	tagged	visualized	5400	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YEL001C		tagged	visualized	7110	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YEL002C	WBP1	tagged	visualized	14900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YEL027W	CUP5	tagged	visualized	8450	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YEL031W	SPF1	tagged	visualized	1870	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YEL040W	UTR2	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YEL043W		tagged	visualized	149	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER004W		tagged	visualized	1340	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER011W	TIR1	tagged	visualized	623	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER019C-A	SBH2	tagged	visualized	414	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER044C	ERG28	tagged	visualized	377	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER053C-A		tagged	visualized	2360	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER072W	VTC1	tagged	visualized	12100	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER083C	RMD7	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER100W	UBC6	tagged	visualized	1900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YER120W	SCS2	tagged	visualized	3500	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YFL004W	VTC2	tagged	visualized	2910	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YFL025C	BST1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YFR041C		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL001C	ERG26	tagged	visualized	2580	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL010W		tagged	visualized	486	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL012W	ERG4	tagged	visualized	1640	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL020C	MDM39	tagged	visualized	2250	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL022W	STT3	tagged	visualized	3000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL047W		tagged	visualized	1950	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL054C	ERV14	tagged	visualized	7110	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL055W	OLE1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL065C	ALG2	tagged	visualized	1840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL084C	GUP1	tagged	visualized	672	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL126W	SCS3	tagged	visualized	538	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL145W	TIP20	tagged	visualized	6020	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL167C	PMR1	tagged	visualized	6900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL186C	TPN1	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL226C-A	OST5	tagged	visualized	1010	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL231C		tagged	visualized	1320	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGL255W	ZRT1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR036C	CAX4	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR038W	ORM1	tagged	visualized	2800	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR060W	ERG25	tagged	visualized	77100	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR089W	NNF2	tagged	visualized	996	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR157W	CHO2	tagged	visualized	1810	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR175C	ERG1	tagged	visualized	65400	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR177C	ATF2	tagged	visualized	3000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR191W	HIP1	tagged	visualized	688	ER,cell periphery,vacuole,bud	F	F	T	F	T	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	T		
+YGR260W	TNA1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR263C		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR266W		tagged	visualized	3230	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YGR284C	ERV29	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHL003C	LAG1	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR007C	ERG11	tagged	visualized	73200	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR026W	PPA1	tagged	visualized	not visualized	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR036W		tagged	visualized	1280	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR039C	MSC7	tagged	visualized	2500	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR042W	NCP1	tagged	visualized	46600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR045W		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR060W	VMA22	tagged	visualized	752	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR079C	IRE1	tagged	visualized	259	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR101C	BIG1	tagged	visualized	3460	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR110W	ERP5	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR175W	CTR2	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR181W	SVP26	tagged	visualized	1810	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YHR190W	ERG9	tagged	visualized	10800	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL016W	SNL1	tagged	visualized	3350	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL027C	KRE27	tagged	visualized	5240	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL030C	SSM4	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL039W		tagged	visualized	1070	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL040W	APQ12	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL043C	CBR1	tagged	visualized	4820	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL088C	AVT7	tagged	visualized	195	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL090W		tagged	visualized	606	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIL124W	AYR1	tagged	visualized	3670	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIR004W	DJP1	tagged	visualized	8970	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YIR022W	SEC11	tagged	visualized	3150	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL002C	OST1	tagged	visualized	11900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL012C-A		tagged	visualized	8710	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL062W	LAS21	tagged	visualized	259	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL078C	PRY3	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL080C	SCP160	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL091C	GWT1	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL097W		tagged	visualized	technical problem	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL117W	PHO86	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL171C		tagged	visualized	5530	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL192C	SOP4	tagged	visualized	11700	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL196C	ELO1	tagged	visualized	937	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL198W	PHO90	tagged	visualized	3430	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJL212C	OPT1	tagged	visualized	2870	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR010C-A	SPC1	tagged	visualized	5550	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR013W		tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR015W		tagged	visualized	639	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YJR073C	OPI3	tagged	visualized	5890	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR088C		tagged	visualized	5740	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR117W	STE24	tagged	visualized	19600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR118C	ILM1	tagged	visualized	1160	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR131W	MNS1	tagged	visualized	8260	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YJR143C	PMT4	tagged	visualized	1270	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL008C	LAC1	tagged	visualized	2840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL046C	DCW1	tagged	visualized	2580	ER,ambiguous,bud	T	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	T		
+YKL065C	YET1	tagged	visualized	7210	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL094W	YJU3	tagged	visualized	2140	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL096W	CWP1	tagged	visualized	2060	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL096W-A	CWP2	tagged	visualized	1590000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL119C	VPH2	tagged	visualized	2030	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL122C	SRP21	tagged	visualized	3400	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL146W	AVT3	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL154W	SRP102	tagged	visualized	8250	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKL212W	SAC1	tagged	visualized	48000	ER,vacuole	F	F	T	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YKR022C		tagged	visualized	892	ER,cytoplasm,nucleus	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	T	F		
+YKR067W	GPT2	tagged	visualized	3100	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLL014W		tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLL023C		tagged	visualized	1680	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLL028W	TPO1	tagged	visualized	1470	ER,cell periphery,bud	F	F	F	F	T	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	T		
+YLL031C	GPI13	tagged	visualized	300	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLL052C	AQY2	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLL055W		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLL061W	MMP1	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR023C		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR034C	SMF3	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR042C		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR050C		tagged	visualized	358	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR056W	ERG3	tagged	visualized	36200	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR064W		tagged	visualized	2240	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR066W	SPC3	tagged	visualized	6840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR074C	BUD20	tagged	visualized	5630	ER,nucleus	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	T	F		
+YLR088W	GAA1	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR110C	CCW12	tagged	visualized	158000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR120C	YPS1	tagged	visualized	5440	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR130C	ZRT2	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR194C		tagged	visualized	688	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR292C	SEC72	tagged	visualized	5290	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR350W	ORM2	tagged	visualized	5240	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR372W	SUR4	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR378C	SEC61	tagged	visualized	24800	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR390W-A	CCW14	tagged	visualized	42000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YLR440C		tagged	visualized	1840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML012W	ERV25	tagged	visualized	51700	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML013W	SEL1	tagged	visualized	12600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML048W	GSF2	tagged	visualized	21400	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML055W	SPC2	tagged	visualized	4890	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML059C		tagged	visualized	521	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML067C	ERV41	tagged	visualized	3000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML101C	CUE4	tagged	visualized	1850	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML105C	SEC65	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML125C		tagged	visualized	29000	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YML128C	MSC1	tagged	visualized	1070	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR015C	ERG5	tagged	visualized	24700	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR022W	QRI8	tagged	visualized	2100	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR029C	FAR8	tagged	visualized	4010	ER,ambiguous,cytoplasm	T	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YMR052W	FAR3	tagged	visualized	1540	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR058W	FET3	tagged	visualized	1050	ER,cell periphery,bud	F	F	F	F	T	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	T		
+YMR122W-A		tagged	visualized	49500	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YMR123W	PKR1	tagged	visualized	5750	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR134W		tagged	visualized	2950	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR149W	SWP1	tagged	visualized	8450	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR152W	YIM1	tagged	visualized	6540	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR161W	HLJ1	tagged	visualized	1840	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR200W	ROT1	tagged	visualized	2360	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR215W	GAS3	tagged	visualized	16400	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YMR238W	DFG5	tagged	visualized	2950	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR264W	CUE1	tagged	visualized	589	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YMR272C	SCS7	tagged	visualized	3290	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR292W	GOT1	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR296C	LCB1	tagged	visualized	22400	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YMR307W	GAS1	tagged	visualized	12400	ER,mitochondrion,nuclear periphery	F	T	F	F	F	F	F	T	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL046W		tagged	visualized	704	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL048W	ALG11	tagged	visualized	3140	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL095C		tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL111C	CYB5	tagged	visualized	5390	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL125C	ESBP6	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL146W		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL149C		tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL156C	YIG2	tagged	visualized	3390	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL181W		tagged	visualized	13900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL190W		tagged	visualized	1380	ER,cell periphery	F	F	F	F	T	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL219C	ALG9	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL258C	DSL1	tagged	visualized	8970	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL280C	ERG24	tagged	visualized	1600	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL300W	TOS6	tagged	visualized	1480	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL322C	KRE1	tagged	visualized	623	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL323W	LEM3	tagged	visualized	2460	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNL327W	EGT2	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR013C	PHO91	tagged	visualized	4280	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR019W	ARE2	tagged	visualized	279	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR021W		tagged	visualized	34900	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR026C	SEC12	tagged	visualized	6160	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR030W	ECM39	tagged	visualized	3550	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR039C	ZRG17	tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR044W	AGA1	tagged	visualized	not visualized	ER,ambiguous	T	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YNR075W	COS10	tagged	visualized	2370	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOL013C	HRD1	tagged	visualized	2660	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOL030W	GAS5	tagged	visualized	11700	ER,nucleus	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	T	F		
+YOL101C		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR002W	ALG6	tagged	visualized	not visualized	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR016C	ERP4	tagged	visualized	2710	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR044W		tagged	visualized	4280	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR087W	YVC1	tagged	visualized	1310	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YOR092W	ECM3	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR175C		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR198C	BFR1	tagged	visualized	33400	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR214C		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR245C	DGA1	tagged	visualized	907	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YOR254C	SEC63	tagged	visualized	17700	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR285W		tagged	visualized	7470	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR291W		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR307C	SLY41	tagged	visualized	784	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR311C	HSD1	tagged	visualized	784	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR317W	FAA1	tagged	visualized	7470	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR321W	PMT3	tagged	visualized	2720	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YOR377W	ATF1	tagged	visualized	1990	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL076W	GPI2	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL094C	SEC62	tagged	visualized	16500	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL137C		tagged	visualized	656	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YPL170W	DAP1	tagged	visualized	6300	ER,cytoplasm	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	T	F	F	F	F	F		
+YPL192C	PRM3	tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL207W		tagged	visualized	5410	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL210C	SRP72	tagged	visualized	11800	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL227C	ALG5	tagged	visualized	5800	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL234C	TFP3	tagged	visualized	538	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPL274W	SAM3	tagged	visualized	1300	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR003C		tagged	visualized	low signal	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR028W	YOP1	tagged	visualized	1760	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR063C		tagged	visualized	2140	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR071W		tagged	visualized	technical problem	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR091C		tagged	visualized	861	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR113W	PIS1	tagged	visualized	3810	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR114W		tagged	visualized	1920	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		
+YPR183W	DPM1	tagged	visualized	1890	ER	F	F	F	F	F	F	F	T	F	F	F	F	F	F	F	F	F	F	F	F	F	F	F		

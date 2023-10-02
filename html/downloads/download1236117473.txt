@@ -1,0 +1,142 @@
+yORF	gene name	GFP tagged?	GFP visualized?	
+YBR255W		tagged	visualized	
+YAL053W		tagged	visualized	
+YPR148C		tagged	visualized	
+YPL166W		tagged	visualized	
+YDL091C		tagged	visualized	
+YDR367W		tagged	visualized	
+YCL056C		tagged	visualized	
+YDL099W		tagged	visualized	
+YMR163C		tagged	visualized	
+YMR299C		tagged	visualized	
+YLR072W		tagged	visualized	
+YAR009C		tagged	visualized	
+YGR198W		tagged	visualized	
+YDR357C		tagged	visualized	
+YOL047C		tagged	visualized	
+YMR031C		tagged	visualized	
+YDR170W-A		tagged	visualized	
+YPL206C		tagged	visualized	
+YDL222C		tagged	visualized	
+YDR344C		tagged	visualized	
+YBR052C		tagged	visualized	
+YMR010W		tagged	visualized	
+YMR253C		tagged	visualized	
+YLR035C-A		tagged	visualized	
+YDR222W		tagged	visualized	
+YCR061W		tagged	visualized	
+YGR130C		tagged	visualized	
+YER071C		tagged	visualized	
+YNR016C	ACC1	tagged	visualized	
+YGL156W	AMS1	tagged	visualized	
+YGL180W	APG1	tagged	visualized	
+YLR423C	APG17	tagged	visualized	
+YPR029C	APL4	tagged	visualized	
+YGR261C	APL6	tagged	visualized	
+YBR288C	APM3	tagged	visualized	
+YJL024C	APS3	tagged	visualized	
+YDL192W	ARF1	tagged	visualized	
+YBR164C	ARL1	tagged	visualized	
+YDL029W	ARP2	tagged	visualized	
+YER114C	BOI2	tagged	visualized	
+YDR270W	CCC2	tagged	visualized	
+YDR022C	CIS1	tagged	visualized	
+YML071C	COG8	tagged	visualized	
+YGR255C	COQ6	tagged	visualized	
+YNL130C	CPT1	tagged	visualized	
+YOR042W	CUE5	tagged	visualized	
+YOL082W	CVT19	tagged	visualized	
+YPR049C	CVT9	tagged	visualized	
+YOL149W	DCP1	tagged	visualized	
+YNL118C	DCP2	tagged	visualized	
+YHR011W	DIA4	tagged	visualized	
+YLL001W	DNM1	tagged	visualized	
+YDR141C	DOP1	tagged	visualized	
+YEL015W	EDC3	tagged	visualized	
+YBL047C	EDE1	tagged	visualized	
+YGL200C	EMP24	tagged	visualized	
+YNL084C	END3	tagged	visualized	
+YHR123W	EPT1	tagged	visualized	
+YJL178C	ETF1	tagged	visualized	
+YDR373W	FRQ1	tagged	visualized	
+YLR291C	GCD7	tagged	visualized	
+YER054C	GIP2	tagged	visualized	
+YEL011W	GLC3	tagged	visualized	
+YER133W	GLC7	tagged	visualized	
+YCL040W	GLK1	tagged	visualized	
+YDR517W	GRH1	tagged	visualized	
+YFR015C	GSY1	tagged	visualized	
+YLR258W	GSY2	tagged	visualized	
+YHL032C	GUT1	tagged	visualized	
+YOR070C	GYP1	tagged	visualized	
+YOR284W	HUA2	tagged	visualized	
+YOR109W	INP53	tagged	visualized	
+YLR347C	KAP95	tagged	visualized	
+YGL203C	KEX1	tagged	visualized	
+YNL238W	KEX2	tagged	visualized	
+YGR166W	KRE11	tagged	visualized	
+YKL103C	LAP4	tagged	visualized	
+YIL105C	LIT2	tagged	visualized	
+YPL004C	LSP1	tagged	visualized	
+YNL006W	LST8	tagged	visualized	
+YDR027C	LUV1	tagged	visualized	
+YNL173C	MDG1	tagged	visualized	
+YGL219C	MDM34	tagged	visualized	
+YNL085W	MKT1	tagged	visualized	
+YLL006W	MMM1	tagged	visualized	
+YJL186W	MNN5	tagged	visualized	
+YNL297C	MON2	tagged	visualized	
+YMR080C	NAM7	tagged	visualized	
+YPR149W	NCE102	tagged	visualized	
+YHR004C	NEM1	tagged	visualized	
+YDR150W	NUM1	tagged	visualized	
+YAR044W	OSH1	tagged	visualized	
+YDL019C	OSH2	tagged	visualized	
+YIR006C	PAN1	tagged	visualized	
+YBL017C	PEP1	tagged	visualized	
+YLR067C	PET309	tagged	visualized	
+YOL044W	PEX15	tagged	visualized	
+YAL055W	PEX22	tagged	visualized	
+YDR479C	PEX29	tagged	visualized	
+YIL045W	PIG2	tagged	visualized	
+YGR086C	PIL1	tagged	visualized	
+YEL060C	PRB1	tagged	visualized	
+YDR032C	PST2	tagged	visualized	
+YDL189W	RBS1	tagged	visualized	
+YCL001W	RER1	tagged	visualized	
+YPL010W	RET3	tagged	visualized	
+YFL036W	RPO41	tagged	visualized	
+YOR216C	RUD3	tagged	visualized	
+YDR484W	SAC2	tagged	visualized	
+YOR165W	SEY1	tagged	visualized	
+YNL243W	SLA2	tagged	visualized	
+YGR229C	SMI1	tagged	visualized	
+YDR525W-A	SNA2	tagged	visualized	
+YNL126W	SPC98	tagged	visualized	
+YHR136C	SPL2	tagged	visualized	
+YMR183C	SSO2	tagged	visualized	
+YLR250W	SSP120	tagged	visualized	
+YJR086W	STE18	tagged	visualized	
+YML052W	SUR7	tagged	visualized	
+YCR030C	SYP1	tagged	visualized	
+YML064C	TEM1	tagged	visualized	
+YKL140W	TGL1	tagged	visualized	
+YMR313C	TGL3	tagged	visualized	
+YPL214C	THI6	tagged	visualized	
+YOR115C	TRS33	tagged	visualized	
+YML028W	TSA1	tagged	visualized	
+YML085C	TUB1	tagged	visualized	
+YDR084C	TVP23	tagged	visualized	
+YKR088C	TVP38	tagged	visualized	
+YPR066W	UBA3	tagged	visualized	
+YDL058W	USO1	tagged	visualized	
+YEL005C	VAB2	tagged	visualized	
+YKR001C	VPS1	tagged	visualized	
+YKL041W	VPS24	tagged	visualized	
+YPL065W	VPS28	tagged	visualized	
+YDR495C	VPS3	tagged	visualized	
+YJL029C	VPS53	tagged	visualized	
+YKR020W	VPS67	tagged	visualized	
+YGL225W	VRG4	tagged	visualized	
+YLR337C	VRP1	tagged	visualized	
+YCR004C	YCP4	tagged	visualized	

@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Compiling PHP on Linux</title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Compiling PHP 4.1.1 with MySQL Support on Linux</u></h2></center>
+<i>F. Lam - 4/24/2002</i><p>
+<i>(Successful on RedHat 7.1).</i>
+<ol>
+
+<li>Download the latest <a href="http://www.php.net/downloads.php">PHP source code</a>.
+<li>Make sure you have the <b>apache-devel</b> package for your version of Apache installed.  If not (e.g., you did a RedHat Workstation-class install), get the RPM from <a href="http://rpmfind.net">rpmfind.net</a>.  Then do an <b>rpm --install [apache-devel.rpm]</b>.
+<li>Make sure Apache has <b>mod_so</b> enabled: find or slocate the <b>httpd</b> executable and check using <b>httpd -l</b>.  You should see mod_so.c listed as a compiled-in module.
+
+<li>Unpack, configure, and compile:
+
+<pre><font size=+1>tar -xzf [php.tar.gz]
+cd [php directory]
+./configure --with-apxs=/usr/sbin/apxs (as shared Apache module) --with-gd 
+--with-png-dir --with-zlib --with-jpeg-dir --enable-wddx --enable-ftp 
+--prefix=/usr --with-config-file-path=/etc --disable-debug --enable-inline-optimization (memory optimization)
+--with-regex=system --with-gettext --with-gdbm --enable-magic-quotes --enable-safe-mode
+--enable-sockets --enable-sysvsem --enable-sysvshm --enable-yp --enable-shared --with-pic
+--with-mysql --without-oracle (all on one line, of course)
+make
+make install (as root)
+mv php.ini-recommended /etc/php.ini
+</pre></font>
+I don't know what half of those configure options are but they were included in the RedHat 7.1 version of PHP.  Make sure you have no spaces in any of the "with"s or "enable"s.
+
+<li>Locate your <b>httpd.conf</b> file and make sure the PHP4 mime type is there and uncommented.  The line looks like:
+<pre><font size=+1>AddType application/x-httpd-php .php
+</pre></font>
+
+<li>Restart Apache (stop first if necessary):
+<pre><font size=+1>/etc/rc.d/init.d/httpd start
+OR
+apachectl restart
+</pre></font>
+
+<li>Test that PHP is running by dropping the file <b>test.php</b> into your www folder (usually /var/www/html).  The only line embedded in the HTML that matters in test.php is <b>&lt? php phpinfo() ?&gt</b>.
+
+<li>For good measure, add yourself to the apache/www group by editing the <b>/etc/group</b> file.  Then <b>chmod -R 770 (folder)</b> to any www related data folders.
+</ol>
+
+
+</body>
+</html>

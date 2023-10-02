@@ -1,0 +1,49 @@
+<?
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+
+/** Check for upload rights **/
+if ($_SESSION['userid'] <> $sysadminid) {
+	$sql = "SELECT rights FROM usersxprojects
+		WHERE userid =" .$_SESSION['userid']." AND projectid =" .$_SESSION['projectid'];
+	$rs = dbquery($sql);
+	$row = mysqli_fetch_assoc($rs);
+	if (!mysqli_num_rows($rs) OR $row["rights"] < 150) { 
+		centermsg("Sorry.  Insufficient access privileges.");
+		exit; }
+}
+
+$upload_dir = $upload_base .$_SESSION['projectid'] ."/";
+
+if (isset($_FILES['userfile']['tmp_name'])) {
+	if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
+		
+		$destinationName = $_FILES['userfile']['name'];
+		$moveSuccess = move_uploaded_file($_FILES['userfile']['tmp_name'], $upload_dir .$destinationName);
+		if ($moveSuccess == TRUE) {
+			centermsg("File <u>".$_FILES['userfile']['name']."</u> upload successful!");
+			exit;
+		} else {
+			centermsg("Something bad happened.  Please file a bug.");
+		}
+	} else {
+    		centermsg("Possible file upload attack. Filename: ". $_FILES['userfile']['name']);
+	    	exit;
+	}
+    exit;
+}
+
+
+//printheader();
+$projname = $_SESSION['project'];
+
+print "<link rel=\"stylesheet\" href=\"imagedb.css\">";
+
+print "<center><h2>Upload file to the project <i>$projname</i>:</h2><p><p>\n
+	<FORM ENCTYPE='multipart/form-data' METHOD=post ACTION='".$_SERVER['PHP_SELF']."'>
+	Choose file: <input type=file name=userfile><p>
+	<input type=submit value=Send><p>";
+
+printfooter();
+?>

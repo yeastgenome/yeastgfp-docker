@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Red Hat 7 Server Install</title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Linux - Red Hat 7.1 Server Install</u></h2></center>
+
+<i>F. Lam - 3/2002</i><p>
+
+<i>(Successful with Red Hat 7.1 on Compaq PIII 550 Mhz / 128 Mb / 10 Gb HD).</i>
+<p>Server configuration consists of:<ul>
+<li>Linux only (no dualboot)
+<li>No local Gnome or KDE desktop GUI, just a text shell (although it will have...)
+<li>X Windows client support, for logging in remotely from an X server
+<li>SAMBA, for Windows filesharing
+<li>Apache with mod_ssl for encrypted web serving
+</ul>
+<ol>
+
+<p><b><u>Linux Install</u></b>
+
+<li>Boot into the graphical installer from Binary CD 1.
+
+<li>Select the <b>Server</b> configuration, with <b>automatic partitioning (ERASE ALL DATA)</b>.
+
+<li>For Network configuration, <b>broadcast</b> is whatever the installer assigns it.<br>(Old: ...the same as gateway/router: <b>xxx.xxx.xxx.1</b>).
+
+<li>For Firewall configuration, select <b>High</b> security with <b>Custom</b> allows:
+<ul><li><b>disallow</b> <u>eth0</u>
+	<li><u>SSH</u>
+	<li><u>www</u>
+	<li><u>ftp</u>
+	<li>Other ports: <u>443</u> (https)
+</ul>
+
+<li>For Packages, select:
+<ul><li><u>SMB Samba</u> server (Windows file sharing)
+	<li><u>Web</u> server
+	<li><u>X Window System</u> (but not Gnome or KDE)
+</ul>
+Selecting individual packages is not necessary but you can, for example, take out:
+<ul><li>telnet-server (System Environment/Daemons)</ul>
+Or add:<ul>
+<li>gnome-linuxconf (Applications/System)
+<li>apache-devel (Development/Libraries) - needed for installing PHP
+</ul>
+
+<li>Wait for the installation to complete, and reboot.
+
+<p><b><u>Apache, SSL Configure</u></b>
+
+<li>Install self-signed digital certificates (as root):
+<pre><font size=+1>
+cd /etc/httpd/conf
+rm ssl.key/server.key
+rm ssl.crt/server.crt
+/usr/bin/openssl genrsa 1024 > /etc/httpd/conf/ssl.key/server.key
+chmod go-rwx /etc/httpd/conf/ssl.key/server.key
+make testcert
+</pre></font>
+Enter all the requested information, where <b>Common Name</b> is the the server hostname (e.g., oshea.ucsf.edu).  The server key and certificate are in their correct places so you don't have to move them anywhere.
+
+<li>Run the graphical <b>apacheconf</b> (from external X server if you chose text login):<br><u>Main</u> -<ul>
+	<li>Basic Setup Server Name: <b>oshea.ucsf.edu</b> (if known, otherwise leave blank)</ul>
+	<u>Virtual Hosts</u> -<ul>
+	<li>Hit "Edit Default Settings..." button<br>
+		Default Error Page Footer: Show footer<br>
+		Directories -> Default Directory options -> Edit...: Turn off <u>Indexes</u>, <u>ExecCGI</u></ul>
+<p><u><b>Notes</u>:</b>  Do NOT Edit "Default Virtual Host _default_:*"!!!  Do not, for example, enable SSL there since it seems that you might need to.  The SSL virtual host (port 443) is already predefined so that doing so will create a new &lt;IfDefine> section at the end of httpd.conf that will override the already configured mod_ssl directives.  This will then confuse Apache at startup and cause something like a "httpd is dead, subsys lock" error.
+<p>All apacheconf does is output a text httpd.conf file based on your settings.  The reason the Red Hat manuals tell you not to do it manually (if you decide to use apacheconf) is simply that apacheconf will overwrite your manually editted, existing one.  So feel free to edit httpd.conf manually if you need to.
+
+<li>Restart Apache to load and test the new settings (stop first if necessary):
+<pre><font size=+1>
+/etc/rc.d/init.d/httpd restart
+</pre></font>
+<p><u><b>Notes</u>:</b>  If accessing the server via <b>https://</b> does not seem to be working, it is possible that the kernel firewall <b>ipchains</b> is set up to block port 443 (if, for example, you had forgotten to explicitly include 443 in the firewall configuration during installation).  If this is the case, simply edit <b>/etc/sysconfig/ipchains</b> and add a line for allowing packets thru port <b>443</b>.
+
+<p><b><u>MySQL, PHP Install</u></b>
+
+<li><a href=file://localhost/Users/flam/lamnotes/phpcompile.htm>Get, compile, install PHP</a>.
+
+<li><a href=file://localhost/Users/flam/lamnotes/mysqlperldbilinux.htm>Get, compile, install MySQL, PerlDBI</a>.
+
+<li>Red Hat 7.1 comes with an old version of ImageMagick.  Get the <b>source</b> from www.imagemagick.org and compile manually (configure, make, make install).  The necessary jpeg and tiff libraries should already be installed by Red Hat.
+</ol>
+
+
+</body>
+</html>

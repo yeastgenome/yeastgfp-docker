@@ -1,0 +1,27 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Installing ImageMagick on Linux</u></h2></center>
+<i>F. Lam - 6/5/2002</i><p>
+<i>(Successful on Red Hat 7.3).</i>
+<ol>
+
+<li>Download the latest ImageMagick <a href="http://imagemagick.sourceforge.net/http/">source</a> (tar.gz).
+
+<li>As root:
+<pre><font size=+1>
+tar -xzf [ImageMagick]
+cd [ImageMagick]
+./configure | less (examine output to make sure everything is ok)
+make
+make install
+</pre></font>
+The necessary JPEG and TIFF libraries should already be installed by Red Hat.
+</ol>
+
+<h3>Using ImageMagick</h3>
+Check out the <a href="osximagemagick.htm">Mac OS X instructions</a> for ImageMagick commands.
+</body>
+</html>

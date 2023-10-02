@@ -1,0 +1,78 @@
+<?php
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+require("$include_dir/projects_inc.php");
+
+
+$sql = "CREATE TABLE qualwestern (
+          qualwesternid mediumint(9) NOT NULL auto_increment,
+          strainid mediumint(9) NOT NULL,
+          qualwesternscore mediumint(9) NOT NULL,
+          PRIMARY KEY (qualwesternid),
+          KEY strainid (strainid)
+        ) TYPE=InnoDB";
+dbquery($sql);
+	
+	
+	
+	
+	
+$fd = fopen ("imports/qualitativeWestern.txt", "r");
+while (!feof ($fd)) {
+  $buffer = fgets($fd, 4096);
+  printWB($buffer);
+  assert(preg_match("/^(Y.*),(\w*),(\w+),(\S+)$/", $buffer, $match));
+  $sqlGetOrfID = "SELECT * FROM orfs WHERE orfnumber='".$match[1]."'";
+  $res = dbquery($sqlGetOrfID);
+  
+  assert(mysqli_num_rows($res) == 1);
+  $row= mysqli_fetch_assoc($res);
+  $orfid = $row['orfid'];
+  $blotScore = $match[4];
+  $tagSuccess = "T";
+  if($match[4] == -1) {
+    $blotScore = 0;
+    $tagSuccess = "F";
+  } 
+
+    
+  printWB("name: ".$match[1]." orf: ".$orfid." blotscore: ".$blotScore." tagsuccess: ".$tagSuccess);
+  
+  $strainName = sprintf("SPY%04d", $orfid);
+  
+  
+  $sql = "SELECT * FROM strains WHERE strainname='".$strainName."'";
+  $res = dbquery($sql);
+  assert(mysqli_num_rows($res) == 0);
+    
+  $sql = "INSERT INTO strains (strainname, orfid, library, tag, tag_success) VALUES ('".$strainName."',".$orfid.", 'A', 'TAP', '".$tagSuccess."')";
+  dbquery($sql);
+  
+  $sql = "SELECT * FROM strains WHERE strainname='".$strainName."'";
+  $res = dbquery($sql);
+  $row= mysqli_fetch_assoc($res);
+    
+
+    
+  $sql = "INSERT INTO qualwestern (strainid, qualwesternscore) VALUES (".$row['strainid'].",".$blotScore.")";
+
+  printWB($sql);
+  dbquery($sql);
+  
+}
+
+fclose ($fd);
+
+$orfArray = getAllOrfs();
+foreach ($orfArray as $orfid) {
+  $sqlCheck = "SELECT * FROM dotblot WHERE orfid = ".$orfid;
+  $resCheck = dbquery($sqlCheck);
+  if (mysqli_num_rows($resCheck) == 0) {
+    print "<br> bailed at ".$orfid."<br>";
+  } else {
+    print ".";
+  }
+}
+
+?>

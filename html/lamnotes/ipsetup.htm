@@ -1,0 +1,35 @@
+<html>
+<head>
+<title></title>
+</head>
+<body background=background.jpg>
+<center><h2><u>Manual IP Setup</u></h2></center>
+
+<i>L. Gerke - 1/2003</i><p>
+
+<i>(Successful with Red Hat 7.3).</i><br>
+
+<pre><font size=+1>
+<p>The pertinent files are in:
+<p>/etc/sysconfig/network-scripts/ifcfg-eth0 reads
+DEVICE=eth0
+BOOTPROTO=static
+BROADCAST=169.230.13.255
+IPADDR=169.230.13.64
+NETMASK=255.255.255.0
+NETWORK=169.230.13.0
+ONBOOT=yes
+
+<p>/etc/sysconfig/network reads:
+NETWORKING=yes
+HOSTNAME=gerke-oshea
+GATEWAY=169.230.13.1
+
+<p>/etc/resolv.conf reads:
+nameserver 169.230.18.10
+nameserver 169.230.18.20
+
+</pre></font>
+
+</body>
+</html>

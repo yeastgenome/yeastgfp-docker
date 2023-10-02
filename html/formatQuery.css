@@ -1,0 +1,25 @@
+.locTableHeaderLabel {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        color: #CC0000;
+        text-decoration: underline;
+}
+.locTableBodyLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #CC0000;
+}
+.layerQuery {
+	background-color: #336633;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.titleText {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        color: #CCCCCC;
+	background-color: #333333;
+        text-decoration: underline;
+}

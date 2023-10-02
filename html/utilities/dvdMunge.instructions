@@ -1,0 +1,5 @@
+to demunge, just do:
+find . -type f | grep [0-6][0-9][AB] | xargs -i perl dvdMunge.pl -renameunmunge {}
+
+That's it...  to remunge do something similar with -renamemunge.
+

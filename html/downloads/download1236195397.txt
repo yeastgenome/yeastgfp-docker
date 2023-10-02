@@ -1,0 +1,7 @@
+yORF	gene name	GFP tagged?	GFP visualized?	
+YLR208W	SEC13	tagged	visualized	
+YPL085W	SEC16	tagged	visualized	
+YIL109C	SEC24	tagged	visualized	
+YDL195W	SEC31	tagged	visualized	
+YNL049C	SFB2	tagged	visualized	
+YHR098C	SFB3	tagged	visualized	

@@ -1,0 +1,72 @@
+yORF	gene name	GFP tagged?	GFP visualized?	
+YHR149C		tagged	visualized	
+YAL053W		tagged	visualized	
+YLR187W		tagged	visualized	
+YMR163C		tagged	visualized	
+YMR124W		tagged	visualized	
+YLR414C		tagged	visualized	
+YMR295C		tagged	visualized	
+YKR100C		tagged	visualized	
+YFR016C		tagged	visualized	
+YOR304C-A		tagged	visualized	
+YDL146W		tagged	visualized	
+YMR192W	APP2	tagged	visualized	
+YIL140W	AXL2	tagged	visualized	
+YBR200W	BEM1	tagged	visualized	
+YNL166C	BNI5	tagged	visualized	
+YBL085W	BOI1	tagged	visualized	
+YER114C	BOI2	tagged	visualized	
+YLR353W	BUD8	tagged	visualized	
+YGR041W	BUD9	tagged	visualized	
+YNL278W	CAF120	tagged	visualized	
+YHR142W	CHS7	tagged	visualized	
+YNL298W	CLA4	tagged	visualized	
+YBR109C	CMD1	tagged	visualized	
+YPR124W	CTR1	tagged	visualized	
+YKL046C	DCW1	tagged	visualized	
+YDR093W	DNF2	tagged	visualized	
+YJL085W	EXO70	tagged	visualized	
+YBR102C	EXO84	tagged	visualized	
+YMR058W	FET3	tagged	visualized	
+YBL042C	FUI1	tagged	visualized	
+YDR309C	GIC2	tagged	visualized	
+YDR507C	GIN4	tagged	visualized	
+YPL249C	GYP5	tagged	visualized	
+YGR191W	HIP1	tagged	visualized	
+YGL077C	HNM1	tagged	visualized	
+YPL204W	HRR25	tagged	visualized	
+YCL024W	KCC4	tagged	visualized	
+YHR158C	KEL1	tagged	visualized	
+YGR238C	KEL2	tagged	visualized	
+YDR033W	MRH1	tagged	visualized	
+YOL112W	MSB4	tagged	visualized	
+YNR049C	MSO1	tagged	visualized	
+YOR326W	MYO2	tagged	visualized	
+YAL029C	MYO4	tagged	visualized	
+YDR251W	PAM1	tagged	visualized	
+YER149C	PEA2	tagged	visualized	
+YBL105C	PKC1	tagged	visualized	
+YKR090W	PXL1	tagged	visualized	
+YBR260C	RGD1	tagged	visualized	
+YLR371W	ROM2	tagged	visualized	
+YDR164C	SEC1	tagged	visualized	
+YLR166C	SEC10	tagged	visualized	
+YNL272C	SEC2	tagged	visualized	
+YER008C	SEC3	tagged	visualized	
+YDR166C	SEC5	tagged	visualized	
+YIL068C	SEC6	tagged	visualized	
+YPR055W	SEC8	tagged	visualized	
+YOR057W	SGT1	tagged	visualized	
+YBR130C	SHE3	tagged	visualized	
+YOR008C	SLG1	tagged	visualized	
+YKL079W	SMY1	tagged	visualized	
+YLR313C	SPH1	tagged	visualized	
+YPR032W	SRO7	tagged	visualized	
+YPL032C	SVL3	tagged	visualized	
+YBR069C	TAT1	tagged	visualized	
+YLL028W	TPO1	tagged	visualized	
+YOR273C	TPO4	tagged	visualized	
+YGR065C	VHT1	tagged	visualized	
+YHR161C	YAP1801	tagged	visualized	
+YGR241C	YAP1802	tagged	visualized	
+YBR054W	YRO2	tagged	visualized	

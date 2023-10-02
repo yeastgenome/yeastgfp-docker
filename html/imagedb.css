@@ -1,0 +1,44 @@
+p {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #000000}
+blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #000000}
+li {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #000000}
+ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #000000}
+h5 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: bolder; color: #CC6633}
+td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; color: #000000 }
+th { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; line-height: normal; font-weight: 900; color: #000000 }
+.tdLookalike { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; color: #000000 }
+.title {font-size: 12px; font-style: bold; font-weight: 900; color: #FFFFFF}
+.subtitle {font-size: 11px; font-style: italic; font-weight: 900; color: #000000}
+.menu {font-size: 12px; font-style: bold; font-weight: 900; color: #000000}
+.login {font-size: 10px; font-style: bold; font-weight: 900; color: #000000}
+b.name {font-size: 10px; font-style: bold; font-weight: 900; color: #000000}
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; line-height: normal; text-decoration: none; color: #333366}
+h2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bolder; line-height: normal; color: #000000}
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: italic; line-height: normal; font-weight: bolder; color: #000000}
+h3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; line-height: normal; color: #000000}
+h4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; line-height: normal; color: #FFFFFF}
+.titleLuke {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	color: #CC0000;
+	text-decoration: underline;
+}
+b.searchDisp { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: 900; color: #339933 }
+b.orfNumber { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: 900; color: #339933 }
+b.search { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: bold; font-weight: 900; color: #000000 }
+b.menuSection { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: bold; font-weight: 900; color: #000000; background-color: #aaaaaa; background-padding: 10px }
+b.menuInfo { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: bold; font-weight: 900; color: #000000 }
+b.menuValue { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: bold; font-weight: 900; color: #FFFFFF }
+b.menuLink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: italic; font-weight: 900; color: #FFFFFF }
+
+b.commentDisp { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: 900; color: #336699 }
+b.error { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: bold; font-weight: 900; color: #FF0000 }
+
+
+
+a.menuAll { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: bold; font-weight: 900; color: #FFFFFF }
+a.splash {  font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; line-height: normal; text-decoration: none; color: #CC6633}
+
+.splashWhite { color: #FFFFFF }
+
+.question { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: 900; line-height: normal; color: #000000 }

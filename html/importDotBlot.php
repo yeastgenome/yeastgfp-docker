@@ -1,0 +1,85 @@
+<?php
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+require("$include_dir/projects_inc.php");
+
+
+$sql = "CREATE TABLE dotblot (
+          dotblotid mediumint(9) NOT NULL auto_increment,
+          strainid mediumint(9) NOT NULL,
+          dotblotscore mediumint(9) NOT NULL,
+          PRIMARY KEY (dotblotid),
+          KEY strainid (strainid)
+        ) TYPE=InnoDB";
+		dbquery($sql);
+	
+	
+	
+	
+	
+	$fd = fopen ("imports/DBscore.txt", "r");
+while (!feof ($fd)) {
+    $buffer = fgets($fd, 4096);
+    printWB($buffer);
+    assert(preg_match("/^(Y.*)\t(\w)$/", $buffer, $match));
+    //    preg_match("/^(Y.*)\t(\w)$/", $buffer, $match);
+    $sqlGetOrfID = "SELECT * FROM orfs WHERE orfnumber='".$match[1]."'";
+    $res = dbquery($sqlGetOrfID);
+
+    assert(mysqli_num_rows($res) == 1);
+    $row= mysqli_fetch_assoc($res);
+    $orfid = $row['orfid'];
+    $blotScore = $match[2];
+    $tagSuccess = "T";
+    if($match[2] == "N") {
+      $blotScore = 0;
+      $tagSuccess = "F";
+    } 
+
+    
+    printWB("name: ".$match[1]." orf: ".$orfid." blotscore: ".$blotScore." tagsuccess: ".$tagSuccess);
+
+    $strainName = sprintf("SPY%04d", $orfid);
+
+    
+    $sql = "SELECT * FROM strains WHERE strainname='".$strainName."'";
+    $res = dbquery($sql);
+    assert(mysqli_num_rows($res) == 0);
+    
+    $sql = "INSERT INTO strains (strainname, orfid, library, tag, tag_success) VALUES ('".$strainName."',".$orfid.", 'A', 'TAP', '".$tagSuccess."')";
+    dbquery($sql);
+
+    $sql = "SELECT * FROM strains WHERE strainname='".$strainName."'";
+    $res = dbquery($sql);
+    $row= mysqli_fetch_assoc($res);
+    
+
+    
+    $sql = "INSERT INTO dotblot (strainid, dotblotscore) VALUES (".$row['strainid'].",".$blotScore.")";
+
+    printWB($sql);
+    dbquery($sql);
+
+
+
+
+//$match[1]."hello");
+    //    printWB($match[2]);
+	   
+    //    printWB($buffer);
+}
+fclose ($fd);
+
+$orfArray = getAllOrfs();
+foreach ($orfArray as $orfid) {
+  $sqlCheck = "SELECT * FROM dotblot WHERE orfid = ".$orfid;
+  $resCheck = dbquery($sqlCheck);
+  if (mysqli_num_rows($resCheck) == 0) {
+    print "<br> bailed at ".$orfid."<br>";
+  } else {
+    print ".";
+  }
+}
+
+?>

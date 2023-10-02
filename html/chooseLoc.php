@@ -1,0 +1,277 @@
+<?php
+require("locInclude.php");
+require("$include_dir/include.php");
+require("$include_dir/secure.php");
+require("$include_dir/projects_inc.php");
+require("$include_dir/javascript.php");
+
+// pass($priv['Superuser']);
+
+///////////////// PROCESS THE INCOMING FORM
+// print(getAllPostVarsString());
+
+if(isset($_POST['orfid'])) {
+  $orfid = $_POST['orfid'];
+  $subcellid = $_POST['subcellid'];
+  $phase = $_POST['phase'];
+  $isColoc = $_POST['locColoc'];
+  $gfpMogrifyLevel = $_POST['gfpMogrifyLevel'];
+  $rfpMogrifyLevel = $_POST['rfpMogrifyLevel'];
+  $localizeid = $_POST['locid'];
+  $clipContainingDir = $_POST['clipContainingDir'];
+  $clipFileName = $_POST['clipFileName'];
+  
+  /* FIRST REMOVE THEM FROM THE TODO LIST */
+  $sql = "delete from todo where orfid=".$orfid." and subcellid=".$subcellid." and phase=";
+  if($phase == "F") {
+    $doThis = $sql."'F'";
+    dbquery($doThis);
+    if($isColoc == "T") {
+      //      printWB("this is a coloc, so using this clip for coloc as well.");
+      $doThis = $sql."'C'";
+      dbquery($doThis);
+    } else {
+      //      printWB("this is not a coloc, so using this clip for INIT as well.");
+      $doThis = $sql."'I'";
+      dbquery($doThis);
+    }
+  } else {
+
+    // THIS SECTION SHOULD BE ONLY INITS....
+    
+    dbquery($sql."'".$phase."'");
+  }
+
+  /* NOW SAVE OFF THE INFORMATION INTO BESTLOCS */
+  $sql = "insert into bestlocs (orfid,subcellid,localizeid,gfpmogrifylevel,rfpmogrifylevel,clipcontainingdir,clipfilename,phase) values (".$orfid.",".$subcellid.",".$localizeid.",".$gfpMogrifyLevel.",".$rfpMogrifyLevel.",'".$clipContainingDir."','".$clipFileName."',";
+  
+
+  if($phase == "F") {
+    $doThis = $sql."'F')";
+    dbquery($doThis);
+
+    if($isColoc == "T") {
+      $doThis = $sql."'C')";
+      dbquery($doThis);
+    } else {
+      //      printWB("this is not a coloc, so using this clip for INIT as well.");
+      $doThis = $sql."'I')";
+      dbquery($doThis);
+    }
+  } else {
+    
+    // THIS SECTION SHOULD BE ONLY INITS....
+    
+    dbquery($sql."'".$phase."')");
+  }
+  
+}
+
+/* WE DO THEM IN ORDER FINAL COLOC INIT SO THAT THE FINAL DECISIONS CAN DOUBLE
+AS COLOC OR INIT DECISIONS, ALSO
+*/
+
+$phaseList = array('F','C','I');
+foreach($phaseList as $phase) {
+  $sql = "select * from todo where phase='".$phase."'";
+  $res3 = dbquery($sql);
+
+  // IF THIS PHASE IS DONE...CONTINUE
+  if(mysqli_num_rows($res3) == 0) {
+    printWB("THERE APPEAR TO BE NO MORE SELECTIONS TO BE MADE FROM PHASE: ".$phase);
+    continue;
+  }
+
+
+  // JUST GET THE FIRST ONE
+  $row = mysqli_fetch_assoc($res3);
+  $todoid = $row['todoid'];
+  
+  // ORF AND SUBCELL INFO FOR USER
+  $orfid = getOneToOneMatch("todo", "todoid", $todoid, "orfid");
+  printWB("orf == ".convertOrfidToOrfnumberOrOrfname($orfid));
+  $subcellid = getOneToOneMatch("todo", "todoid", $todoid, "subcellid");
+  printWB("subcell== ".getOneToOneMatch("subcell", "subcellid", $subcellid, "subcellname"));
+
+  // GET ALL THE MOST FINAL LOCS FOR THIS ORF, THAT ARE NOT SUPERCEDED
+  if($phase == "F") {
+    $sql = "select * from localization inner join sets on sets.setid=localization.setid inner join strains on strains.strainid=sets.strainid where strains.orfid=".$orfid." and subcellid=".$subcellid." and most_final='T' and localization.superceded_by_derived_locid is null";
+    $res = dbquery($sql);
+    $locList = makeArrayFromResColumn($res, "localizeid");
+
+    // figure out if there's a coloc that backs up the subcell localization
+    $colocExists = FALSE;
+    foreach($locList as $locid) {
+      if(isLocColoc($locid)) {
+	$colocExists = TRUE;
+      }
+    }
+    // IF THERE ARE COLOCS, JUST ADD THOSE TO THE DISPLAY
+    $displayList = array();
+    if($colocExists) {
+      foreach($locList as $locid) {
+	if(isLocColoc($locid)) {
+	  // printWB($locid);
+	  $displayList[] = $locid;
+	}
+      }
+    } else {
+      $displayList = $locList; // OTHERWISE, USE EVERYTHING (NON-COLOCS)
+    }
+
+    // CHECK IF ANY COLOCS WERE NOT HANDLED, DIE IF SO
+  } else if($phase == "C") {
+    printWB("The colocs should have been handled in the final phase");
+    assert(0);
+
+    // NOW GO THROUGH THE INIT PHASE
+  } else {
+    $sql = "select * from localization inner join sets on sets.setid=localization.setid inner join strains on strains.strainid=sets.strainid where strains.orfid=".$orfid." and subcellid=".$subcellid." and superceded_by_derived_locid is null";
+    $res = dbquery($sql);
+    $locList = makeArrayFromResColumn($res, "localizeid");
+    
+    $displayList = $locList;
+  }
+
+  /*  // figure out if there's a coloc that backs up the subcell localization
+  $colocExists = FALSE;
+  foreach($locList as $locid) {
+    if(isLocColoc($locid)) {
+      $colocExists = TRUE;
+    }
+  }
+
+  $displayList = array();
+  if($colocExists) {
+    foreach($locList as $locid) {
+      if(isLocColoc($locid)) {
+	$displayList[] = $locid;
+      }
+    }
+  } else {
+    $displayList = $locList;
+  }
+
+  */
+  
+  if($colocExists) {
+
+    // MAKE TABLE FOR APPROPRIATE IMAGES AND EXPOSURE SETTINGS
+    
+    $expList = array(0,1,2);
+    print("<table>");
+    foreach($expList as $exposureGFP) {
+      foreach($expList as $exposureRFP) {
+	print("<tr>\n");
+	foreach($displayList as $locid) {
+	  
+	  $clipFileName = $locid."_clipPlus".$exposureGFP."GFPPlus".$exposureRFP."RFP.png";
+	  $clipContainingDir = "/images/clipsNew/";
+	  $locColoc = isLocColoc($locid);
+
+	  if($exposureGFP == 0) {
+	    $gfpMogrifyLevel = 65535; /* 65535? */
+	  } else if($exposureGFP == 1) {
+	    $gfpMogrifyLevel = 41400;
+	  } else if($exposureGFP == 2) {
+	    $gfpMogrifyLevel = 21120;
+	  } else {
+	    assert(0);
+	  }
+      
+
+	  if($exposureRFP == 0) {
+	    $rfpMogrifyLevel = 65535; /* 65535? */
+	  } else if($exposureRFP == 1) {
+	    $rfpMogrifyLevel = 41400;
+	  } else if($exposureRFP == 2) {
+	    $rfpMogrifyLevel = 21120;
+	  } else {
+	    assert(0);
+	  }
+      
+
+	  
+	  print("<td>");
+	  //      printWB($exposure . "  " . $locid);
+	  print("<form name=\"beerkeg\" method=post action='");
+	  print($_SERVER['PHP_SELF']."'>");
+	  print("<input type=image src=".$clipContainingDir.$clipFileName.">");
+	  print("<input type=hidden name='orfid' value=".$orfid.">");
+	  print("<input type=hidden name='subcellid' value=".$subcellid.">");
+	  print("<input type=hidden name='clipContainingDir' value=".
+		$clipContainingDir.">");
+	  print("<input type=hidden name='clipFileName' value=".$clipFileName.">\n");
+	  print("<input type=hidden name='gfpMogrifyLevel' value=".$gfpMogrifyLevel.">\n");
+	  print("<input type=hidden name='rfpMogrifyLevel' value=".$rfpMogrifyLevel.">\n");
+	  //	  print("<input type=hidden name='rfpMogrifyLevel' value=0>\n");
+	  print("<input type=hidden name='locid' value=".$locid.">\n");
+	  print("<input type=hidden name='phase' value='".$phase."'>\n");
+	  print("<input type=hidden name='locColoc' value='T'>\n");
+	  print("</form>");
+	  print("</td>\n");
+	}
+      }
+      print("</tr>\n");
+    }
+    print("</table>");
+    //    print_r($displayList);
+
+
+  } else {
+
+    // MAKE TABLE FOR NON-COLOC IMAGES EXPOSURE SERIES
+    
+    $expList = array(0,1,2);
+    print("<table>");
+    foreach($expList as $exposure) {
+      print("<tr>\n");
+      foreach($displayList as $locid) {
+
+	if($exposure == 0) {
+	  $mogrifyLevel = 65535; /* 65535? */
+	} else if($exposure == 1) {
+	  $mogrifyLevel = 41400;
+	} else if($exposure == 2) {
+	  $mogrifyLevel = 21120;
+	} else {
+	  assert(0);
+	}
+      
+	$clipFileName = $locid."_clipPlus".$exposure.".png";
+	$clipContainingDir = "/images/clipsNew/";
+	$locColoc = isLocColoc($locid);
+      
+	print("<td>");
+	print("<form name=\"beerkeg\" method=post action='");
+	print($_SERVER['PHP_SELF']."'>");
+	print("<input type=image src=".$clipContainingDir.$clipFileName.">\n");
+	print("<input type=hidden name='orfid' value=".$orfid.">");
+	print("<input type=hidden name='subcellid' value=".$subcellid.">");
+	print("<input type=hidden name='clipContainingDir' value=".
+	      $clipContainingDir.">");
+	print("<input type=hidden name='clipFileName' value=".$clipFileName.">\n");
+	print("<input type=hidden name='gfpMogrifyLevel' value=".$mogrifyLevel.">\n");
+	print("<input type=hidden name='rfpMogrifyLevel' value=0>\n");
+	print("<input type=hidden name='locid' value=".$locid.">\n");
+	print("<input type=hidden name='phase' value='".$phase."'>\n");
+	if($locColoc) {
+	  print("<input type=hidden name='locColoc' value='T'>\n");
+	} else {
+	  print("<input type=hidden name='locColoc' value='F'>\n");
+	}
+	print("</form>");
+	print("</td>\n");
+      }
+      print("</tr>\n");
+    }
+    print("</table>");
+  }
+
+  break;
+
+}
+
+print "If things are messed up, please click <a href=".$_SERVER['PHP_SELF'].">here</a>\n";
+
+?>
