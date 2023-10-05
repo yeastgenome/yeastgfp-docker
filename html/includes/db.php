@@ -14,7 +14,8 @@ $dbpwd		= getenv['DBPWD'];
 //		Use mysql_connect instead of mysql_pconnect because persistent
 //		connections may quickly saturate MySQL's connection limit
 function opendb() {
-  global $dbserver, $dbname, $dbuser, $dbpwd, $dbconn;
+  // global $dbserver, $dbname, $dbuser, $dbpwd, $dbconn;
+  global $dbconn;
   $dbconn = mysqli_connect($dbserver, $dbuser, $dbpwd, $dbname);
   if (!$dbconn) { die("<p><b>ERROR! Cannot connect to MySQL.</b><p>"); }
 }
