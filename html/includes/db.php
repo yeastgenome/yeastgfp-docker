@@ -14,8 +14,8 @@ $dbpwd		= getenv('DBPWD');
 //		Use mysql_connect instead of mysql_pconnect because persistent
 //		connections may quickly saturate MySQL's connection limit
 function opendb() {
-  // global $dbserver, $dbname, $dbuser, $dbpwd, $dbconn;
-  global $dbconn;
+  global $dbserver, $dbname, $dbuser, $dbpwd, $dbconn;
+  // global $dbconn;
 
   print("<p<DEBUG: dbserver is $dbserver</p>");
   print("<p>DEBUG: dbname is $dbname</p>");
