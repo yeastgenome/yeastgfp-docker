@@ -16,6 +16,12 @@ $dbpwd		= getenv('DBPWD');
 function opendb() {
   // global $dbserver, $dbname, $dbuser, $dbpwd, $dbconn;
   global $dbconn;
+
+  print("<p<DEBUG: dbserver is $dbserver</p>");
+  print("<p>DEBUG: dbname is $dbname</p>");
+  print("<p>DEBUG: dbuser is $dbuser</p>");
+  print("<p>DEBUG: dbpwd is $dbpwd</p>");	
+
   $dbconn = mysqli_connect($dbserver, $dbuser, $dbpwd, $dbname);
   if (!$dbconn) { die("<p><b>ERROR! Cannot connect to MySQL.</b><p>"); }
 }
