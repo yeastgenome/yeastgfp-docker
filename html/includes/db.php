@@ -5,10 +5,10 @@
 // MAKE AN INDEX.....
 
 // MySQL connection parameters
-$dbserver	= getenv['DBSERVER'];
-$dbname		= getenv['DBNAME'];
-$dbuser		= getenv['DBUSER'];
-$dbpwd		= getenv['DBPWD'];
+$dbserver	= getenv('DBSERVER');
+$dbname		= getenv('DBNAME');
+$dbuser		= getenv('DBUSER');
+$dbpwd		= getenv('DBPWD');
 
 // Open MySQL connection, connect to gfp database
 //		Use mysql_connect instead of mysql_pconnect because persistent
